@@ -1,0 +1,26 @@
+// .home & .hero styles to vertically center the content
+.home {
+  display: grid;
+  height: 100vh;
+}
+
+.hero {
+  margin: auto;
+}
+
+// hide site name from hero & navbar
+.site-name,
+#main-title {
+  display: none;
+}
+
+// equal width buttons in hero
+.home .hero .action-button {
+  min-width: 150px;
+}
+
+// horizontal line
+hr {
+  margin: 10rem 0 !important;
+  border-top: 10px solid rgb(59, 59, 59) !important;
+}

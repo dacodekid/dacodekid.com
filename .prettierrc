@@ -1,0 +1,14 @@
+{
+  "pluginSearchDirs": [],
+  "printWidth": 120,
+  "bracketSameLine": true,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
