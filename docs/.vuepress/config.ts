@@ -21,22 +21,39 @@ export default defineUserConfig({
     },
   }),
 
+  // theme and its config
   theme: defaultTheme({
-    // default theme options here
+    logo: '/img/logo.svg',
+    logoDark: '/img/logo-dark.svg',
+    repo: 'dacodekid/',
+    editLink: false,
+    contributors: false,
+    lastUpdated: false,
+    navbar: [
+      { text: 'snippet', link: '/snippet/' },
+      { text: 'gist', link: '/gist/' },
+    ],
+    sidebarDepth: 0,
+
     sidebar: {
-      '/guide/': [
+      '/snippet/': [
         {
-          text: 'Arcade',
+          text: 'Code Signal',
           children: [
             {
-              text: 'Intro',
+              text: 'Arcade',
               children: [
                 {
-                  text: 'Journey',
+                  text: 'Intro',
                   children: [
-                    '/guide/arcade/intro/one/index.md',
-                    '/guide/arcade/intro/two/index.md',
-                    '/guide/arcade/intro/three/index.md',
+                    {
+                      text: 'The Journey Begins',
+                      children: [
+                        '/snippet/code-signal/arcade/intro/the-journey-begins/add/index.md',
+                        '/snippet/code-signal/arcade/intro/the-journey-begins/century-from-year/index.md',
+                        '/snippet/code-signal/arcade/intro/the-journey-begins/check-palindrome/index.md',
+                      ],
+                    },
                   ],
                 },
               ],
