@@ -49,9 +49,20 @@ export default defineUserConfig({
                     {
                       text: 'The Journey Begins',
                       children: [
-                        '/snippet/code-signal/arcade/intro/the-journey-begins/add/index.md',
-                        '/snippet/code-signal/arcade/intro/the-journey-begins/century-from-year/index.md',
-                        '/snippet/code-signal/arcade/intro/the-journey-begins/check-palindrome/index.md',
+                        '/snippet/code-signal/arcade/intro/the-journey-begins/add/',
+                        '/snippet/code-signal/arcade/intro/the-journey-begins/century-from-year/',
+                        '/snippet/code-signal/arcade/intro/the-journey-begins/check-palindrome/',
+                      ],
+                    },
+                    {
+                      text: 'Edge of the Ocean',
+                      collapsible: false,
+                      children: [
+                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/adjacent-elements-product/',
+                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/shape-area/',
+                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/make-array-consecutive/',
+                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/almost-increasing-sequence/',
+                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/matrix-elements-sum/',
                       ],
                     },
                   ],
