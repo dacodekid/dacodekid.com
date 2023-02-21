@@ -1,6 +1,16 @@
+import fs from 'fs';
 import mdSub from 'markdown-it-sub';
 import mdSup from 'markdown-it-sup';
 import { defaultTheme, defineUserConfig, viteBundler } from 'vuepress';
+
+const readJson = (file, key) => {
+  try {
+    return JSON.parse(fs.readFileSync(`docs/.vuepress/data/${file}`, 'utf8'))[key];
+  } catch (e) {
+    console.error(`Error reading file: ${file}: ${e}`);
+    return {};
+  }
+};
 
 export default defineUserConfig({
   // site config
@@ -36,42 +46,7 @@ export default defineUserConfig({
     sidebarDepth: 0,
 
     sidebar: {
-      '/snippet/': [
-        {
-          text: 'Code Signal',
-          children: [
-            {
-              text: 'Arcade',
-              children: [
-                {
-                  text: 'Intro',
-                  children: [
-                    {
-                      text: 'The Journey Begins',
-                      children: [
-                        '/snippet/code-signal/arcade/intro/the-journey-begins/add/',
-                        '/snippet/code-signal/arcade/intro/the-journey-begins/century-from-year/',
-                        '/snippet/code-signal/arcade/intro/the-journey-begins/check-palindrome/',
-                      ],
-                    },
-                    {
-                      text: 'Edge of the Ocean',
-                      collapsible: false,
-                      children: [
-                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/adjacent-elements-product/',
-                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/shape-area/',
-                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/make-array-consecutive/',
-                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/almost-increasing-sequence/',
-                        '/snippet/code-signal/arcade/intro/edge-of-the-ocean/matrix-elements-sum/',
-                      ],
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-      ],
+      '/snippet/': readJson('snippet.json', 'snippet'),
     },
   }),
 

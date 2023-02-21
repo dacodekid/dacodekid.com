@@ -1,0 +1,242 @@
+{
+  "snippet": [
+    {
+      "text": "Code Signal",
+      "collapsible": true,
+      "children": [
+        {
+          "text": "Arcade",
+          "collapsible": false,
+          "children": [
+            {
+              "text": "Intro",
+              "collapsible": false,
+              "children": [
+                {
+                  "text": "The Journey Begins",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/the-journey-begins/add/",
+                    "/snippet/code-signal/arcade/intro/the-journey-begins/century-from-year/",
+                    "/snippet/code-signal/arcade/intro/the-journey-begins/check-palindrome/"
+                  ]
+                },
+                {
+                  "text": "Edge of the Ocean",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/edge-of-the-ocean/adjacent-elements-product/",
+                    "/snippet/code-signal/arcade/intro/edge-of-the-ocean/shape-area/",
+                    "/snippet/code-signal/arcade/intro/edge-of-the-ocean/make-array-consecutive/",
+                    "/snippet/code-signal/arcade/intro/edge-of-the-ocean/almost-increasing-sequence/",
+                    "/snippet/code-signal/arcade/intro/edge-of-the-ocean/matrix-elements-sum/"
+                  ]
+                },
+                {
+                  "text": "Smooth Sailing",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/smooth-sailing/all-longest-strings/",
+                    "/snippet/code-signal/arcade/intro/smooth-sailing/common-character-count/",
+                    "/snippet/code-signal/arcade/intro/smooth-sailing/is-lucky/",
+                    "/snippet/code-signal/arcade/intro/smooth-sailing/sort-by-height/",
+                    "/snippet/code-signal/arcade/intro/smooth-sailing/reverse-in-parentheses/"
+                  ]
+                },
+                {
+                  "text": "Exploring the Water",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/exploring-the-water/alternating-sums/",
+                    "/snippet/code-signal/arcade/intro/exploring-the-water/add-border/",
+                    "/snippet/code-signal/arcade/intro/exploring-the-water/are-similar/",
+                    "/snippet/code-signal/arcade/intro/exploring-the-water/array-change/",
+                    "/snippet/code-signal/arcade/intro/exploring-the-water/palindrome-rearranging/"
+                  ]
+                },
+                {
+                  "text": "Island of Knowledge",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/island-of-knowledge/are-equally-strong/",
+                    "/snippet/code-signal/arcade/intro/island-of-knowledge/array-maximal-adjacent-difference/",
+                    "/snippet/code-signal/arcade/intro/island-of-knowledge/is-ipv4-address/",
+                    "/snippet/code-signal/arcade/intro/island-of-knowledge/avoid-obstacles/",
+                    "/snippet/code-signal/arcade/intro/island-of-knowledge/box-blur/",
+                    "/snippet/code-signal/arcade/intro/island-of-knowledge/minesweeper/"
+                  ]
+                },
+                {
+                  "text": "Rains of Reason",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/rains-of-reason/array-replace/",
+                    "/snippet/code-signal/arcade/intro/rains-of-reason/even-digits-only/",
+                    "/snippet/code-signal/arcade/intro/rains-of-reason/variable-name/",
+                    "/snippet/code-signal/arcade/intro/rains-of-reason/alphabetic-shift/",
+                    "/snippet/code-signal/arcade/intro/rains-of-reason/chess-board-cell-color/"
+                  ]
+                },
+                {
+                  "text": "Through the Fog",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/through-the-fog/circle-of-numbers/",
+                    "/snippet/code-signal/arcade/intro/through-the-fog/deposit-profit/",
+                    "/snippet/code-signal/arcade/intro/through-the-fog/absolute-values-sum-minimization/",
+                    "/snippet/code-signal/arcade/intro/through-the-fog/strings-rearrangement/"
+                  ]
+                },
+                {
+                  "text": "Diving Deeper",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/diving-deeper/extracteach-kth/",
+                    "/snippet/code-signal/arcade/intro/diving-deeper/first-digit/",
+                    "/snippet/code-signal/arcade/intro/diving-deeper/different-symbols-naive/",
+                    "/snippet/code-signal/arcade/intro/diving-deeper/array-max-consecutive-sum/"
+                  ]
+                },
+                {
+                  "text": "Dark Wilderness",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/dark-wilderness/growing-plant/",
+                    "/snippet/code-signal/arcade/intro/dark-wilderness/knapsack-light/",
+                    "/snippet/code-signal/arcade/intro/dark-wilderness/longest-digits-prefix/",
+                    "/snippet/code-signal/arcade/intro/dark-wilderness/digit-degree/",
+                    "/snippet/code-signal/arcade/intro/dark-wilderness/bishop-and-pawn/"
+                  ]
+                },
+                {
+                  "text": "Eruption of Light",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/eruption-of-light/is-beautiful-string/",
+                    "/snippet/code-signal/arcade/intro/eruption-of-light/find-email-domain/",
+                    "/snippet/code-signal/arcade/intro/eruption-of-light/build-palindrome/",
+                    "/snippet/code-signal/arcade/intro/eruption-of-light/elections-winners/",
+                    "/snippet/code-signal/arcade/intro/eruption-of-light/is-mac48-address/"
+                  ]
+                },
+                {
+                  "text": "Rainbow of Clarity",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/rainbow-of-clarity/is-digit/",
+                    "/snippet/code-signal/arcade/intro/rainbow-of-clarity/line-encoding/",
+                    "/snippet/code-signal/arcade/intro/rainbow-of-clarity/chess-knight/",
+                    "/snippet/code-signal/arcade/intro/rainbow-of-clarity/delete-digit/"
+                  ]
+                },
+                {
+                  "text": "Land of Logic",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/intro/land-of-logic/longest-word/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/valid-time/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/sum-up-numbers/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/different-squares/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/digits-product/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/file-naming/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/message-from-binary-code/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/spiral-numbers/",
+                    "/snippet/code-signal/arcade/intro/land-of-logic/sudoku/"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "The Core",
+              "collapsible": false,
+              "children": [
+                {
+                  "text": "Intro Gates",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/the-core/intro-gates/add-two-digits/",
+                    "/snippet/code-signal/arcade/the-core/intro-gates/largest-number/",
+                    "/snippet/code-signal/arcade/the-core/intro-gates/candies/",
+                    "/snippet/code-signal/arcade/the-core/intro-gates/seats-in-theater/",
+                    "/snippet/code-signal/arcade/the-core/intro-gates/max-multiple/",
+                    "/snippet/code-signal/arcade/the-core/intro-gates/circle-of-numbers/",
+                    "/snippet/code-signal/arcade/the-core/intro-gates/late-ride/",
+                    "/snippet/code-signal/arcade/the-core/intro-gates/phone-call/"
+                  ]
+                },
+                {
+                  "text": "At the Crossroads",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/reach-next-level/",
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/knapsack-light/",
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/extra-number/",
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/is-infinite-process/",
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/arithmetic-expression/",
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/tennis-set/",
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/will-you/",
+                    "/snippet/code-signal/arcade/the-core/at-the-crossroads/metro-card/"
+                  ]
+                },
+                {
+                  "text": "Corner of 0s and 1s",
+                  "collapsible": false,
+                  "children": [
+                    "/snippet/code-signal/arcade/the-core/corner-of-0s-and-1s/kill-k-th-bit/",
+                    "/snippet/code-signal/arcade/the-core/corner-of-0s-and-1s/array-packing/"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Codewars",
+      "collapsible": true,
+      "children": [
+        {
+          "text": "8 Kyū",
+          "collapsible": false,
+          "children": [
+            "/snippet/codewars/8-kyu/floating-point-comparison/",
+            "/snippet/codewars/8-kyu/gravity-flip/",
+            "/snippet/codewars/8-kyu/is-the-date-today/"
+          ]
+        },
+        {
+          "text": "7 Kyū",
+          "collapsible": false,
+          "children": [
+            "/snippet/codewars/7-kyu/highest-and-lowest/",
+            "/snippet/codewars/7-kyu/sum-of-all-arguments/",
+            "/snippet/codewars/7-kyu/growth-of-a-population/",
+            "/snippet/codewars/7-kyu/number-pairs/",
+            "/snippet/codewars/7-kyu/battle-of-the-characters-easy/"
+          ]
+        },
+        {
+          "text": "6 Kyū",
+          "collapsible": false,
+          "children": [
+            "/snippet/codewars/6-kyu/narcissistic-number/",
+            "/snippet/codewars/6-kyu/persistent-bugger/",
+            "/snippet/codewars/6-kyu/is-a-number-prime/",
+            "/snippet/codewars/6-kyu/stop-gninnips-my-sdrow/",
+            "/snippet/codewars/6-kyu/find-the-missing-letter/",
+            "/snippet/codewars/6-kyu/take-a-ten-minute-walk/",
+            "/snippet/codewars/6-kyu/which-are-in/",
+            "/snippet/codewars/6-kyu/find-the-parity-outlier/",
+            "/snippet/codewars/6-kyu/count-the-smiley-faces/"
+          ]
+        },
+        {
+          "text": "5 Kyū",
+          "collapsible": false,
+          "children": ["/snippet/codewars/5-kyu/rgb-to-hex-conversion/"]
+        }
+      ]
+    }
+  ]
+}
