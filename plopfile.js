@@ -1,7 +1,7 @@
 const fs = require('fs');
 const fuzzy = require('inquirer-fuzzy-path');
 
-const articleTypes = ['Snippet', 'Blog'];
+const articleTypes = ['Snippet', 'Gist'];
 const rootPath = 'docs';
 const vuePath = `${rootPath}/.vuepress`;
 const templatePath = `${vuePath}/templates`;
@@ -103,7 +103,7 @@ module.exports = (plop) => {
 
       // if reached the end of the menu & the fullPath not found in the children array, add it
       if (index === headers.length - 1 && !pointer.some((node) => node === newMenu[0])) {
-        pointer.push(newMenu[0] + '/');
+        pointer.push(newMenu[0]);
       }
     }
     writeJson(sidebarFile, type, srcMenu);
@@ -161,7 +161,7 @@ module.exports = (plop) => {
       const modified = {
         title: kebabCase(title),
         fullPath: [rootPath, type, ...headers, title].map(kebabCase).join('/'),
-        link: ['/', type, ...headers, title].map(kebabCase).join('/'),
+        link: ['/', type, ...headers, title, '/'].map(kebabCase).join('/'),
       };
 
       answers.modified = modified;
