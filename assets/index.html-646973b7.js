@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-f76b3b12","path":"/snippet/codewars/8-kyu/is-the-date-today/","title":"Is the Date Today","lang":"en-US","frontmatter":{"title":"Is the Date Today"},"headers":[{"level":2,"title":"Solution","slug":"solution","link":"#solution","children":[]}],"git":{},"filePathRelative":"snippet/codewars/8-kyu/is-the-date-today/index.md"}');export{t as data};
