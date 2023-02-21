@@ -45,7 +45,6 @@ export default defineUserConfig({
       { text: 'gist', link: '/gist/' },
     ],
     sidebarDepth: 0,
-
     sidebar: {
       '/snippet/': readJson('snippet.json', 'snippet'),
     },
