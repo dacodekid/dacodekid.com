@@ -1,6 +1,7 @@
 import fs from 'fs';
 import mdSub from 'markdown-it-sub';
 import mdSup from 'markdown-it-sup';
+import { searchPlugin } from '@vuepress/plugin-search';
 import { defaultTheme, defineUserConfig, viteBundler } from 'vuepress';
 
 const readJson = (file, key) => {
@@ -55,4 +56,11 @@ export default defineUserConfig({
     md.use(mdSub);
     md.use(mdSup);
   },
+
+  plugins: [
+    searchPlugin({
+      // exclude the homepage
+      isSearchable: (page) => page.path !== '/',
+    }),
+  ],
 });

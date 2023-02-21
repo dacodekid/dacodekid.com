@@ -127,10 +127,13 @@
   --search-bg-color: var(--c-bg);
   --search-accent-color: var(--c-brand);
   --search-text-color: var(--c-text);
-  --search-border-color: var(--c-border);
+  --search-border-color: var(--c-border-dark);
 
   --search-item-text-color: var(--c-text-lighter);
   --search-item-focus-bg-color: var(--c-bg-light);
+
+  --search-input-width: 8rem;
+  --search-result-width: 20rem;
 }
 
 // https://github.com/vuepress/vuepress-next/blob/main/packages/%40vuepress/theme-default/src/client/styles/vars-dark.scss

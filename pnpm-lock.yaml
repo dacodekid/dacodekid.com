@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.60
+  '@vuepress/plugin-search': 2.0.0-beta.60
   gh-pages: ^5.0.0
   inquirer: ^9.1.4
   inquirer-fuzzy-path: github:dacodekid/inquirer-fuzzy-path
@@ -16,6 +17,7 @@ specifiers:
 
 devDependencies:
   '@vuepress/client': 2.0.0-beta.60
+  '@vuepress/plugin-search': 2.0.0-beta.60
   gh-pages: 5.0.0
   inquirer: 9.1.4
   inquirer-fuzzy-path: github.com/dacodekid/inquirer-fuzzy-path/be42aab436000d395f595a7ddf0884b36f695405
@@ -705,6 +707,20 @@ packages:
     dependencies:
       '@vuepress/core': 2.0.0-beta.60
       prismjs: 1.29.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/plugin-search/2.0.0-beta.60:
+    resolution: {integrity: sha512-9ENqni4H35/L6vab5DpQfy92DcKPL+36xxoOj1EqZfjU/IlIOFKz4TK8JwhaX+reswokF8NriPFcWol4xIa5IA==}
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.60
+      '@vuepress/core': 2.0.0-beta.60
+      '@vuepress/shared': 2.0.0-beta.60
+      '@vuepress/utils': 2.0.0-beta.60
+      chokidar: 3.5.3
+      vue: 3.2.47
+      vue-router: 4.1.6_vue@3.2.47
     transitivePeerDependencies:
       - supports-color
     dev: true

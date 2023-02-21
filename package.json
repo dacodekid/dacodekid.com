@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.60",
+    "@vuepress/plugin-search": "2.0.0-beta.60",
     "gh-pages": "^5.0.0",
     "inquirer": "^9.1.4",
     "inquirer-fuzzy-path": "github:dacodekid/inquirer-fuzzy-path",
