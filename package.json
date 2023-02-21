@@ -1,15 +1,28 @@
 {
+  "config": {
+    "prettier_extn": "**/*.{js,ts,json,md,scss}"
+  },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "clean": "rm -fr docs/.vuepress/{dist,.temp,.cache}",
+    "format": "prettier --write $npm_package_config_prettier_extn",
+    "build": "vuepress build docs",
+    "watch:format": "onchange $npm_package_config_prettier_extn -- prettier --write {{changed}}",
+    "watch:dev": "vuepress dev docs",
+    "start-with-format": "npm-run-all --serial format --parallel watch:**",
+    "start": "npm-run-all --serial watch:dev",
+    "deploy": "gh-pages -d content/.vuepress/dist",
+    "release": "npm-run-all --serial clean build deploy",
     "plop": "plop"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.60",
+    "gh-pages": "^5.0.0",
     "inquirer": "^9.1.4",
     "inquirer-fuzzy-path": "github:dacodekid/inquirer-fuzzy-path",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
     "plop": "^3.1.2",
     "prettier": "^2.8.4",
     "vue": "^3.2.47",
