@@ -10,7 +10,7 @@
     "watch:dev": "vuepress dev docs",
     "start-with-format": "npm-run-all --serial format --parallel watch:**",
     "start": "npm-run-all --serial watch:dev",
-    "deploy": "gh-pages -d content/.vuepress/dist",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
     "release": "npm-run-all --serial clean build deploy",
     "plop": "plop"
   },
