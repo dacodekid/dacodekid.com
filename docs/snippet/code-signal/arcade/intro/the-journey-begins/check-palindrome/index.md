@@ -34,4 +34,10 @@ Given the string, check if it is a [palindrome](keyword://palindrome).
 @[code](./check-palindrome.py)
 
 :::
+
+::: code-group-item JAVASCRIPT
+
+@[code](./check-palindrome.js)
+
+:::
 ::::

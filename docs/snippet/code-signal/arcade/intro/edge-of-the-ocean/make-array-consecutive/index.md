@@ -24,4 +24,10 @@ Ratiorg needs statues of sizes `4`, `5` and `7`.
 @[code](./make-array-consecutive.py)
 
 :::
+
+::: code-group-item JAVASCRIPT
+
+@[code](./make-array-consecutive.js)
+
+:::
 ::::

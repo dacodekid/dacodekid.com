@@ -34,4 +34,9 @@ A `1`\-interesting polygon is just a square with a side of length `1`. An `n`\-i
 @[code](./shape-area.py)
 
 :::
+::: code-group-item JAVASCRIPT
+
+@[code](./shape-area.js)
+
+:::
 ::::

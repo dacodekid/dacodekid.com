@@ -24,4 +24,10 @@ adjacent_elements_product(inputArray) = 21
 @[code](./adjacent-elements-product.py)
 
 :::
+
+::: code-group-item JAVASCRIPT
+
+@[code](./adjacent-elements-product.js)
+
+:::
 ::::

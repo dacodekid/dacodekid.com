@@ -1,20 +1,4 @@
 def make_array_consecutive(sequence):
-    droppped = False
-    last = prev = min(sequence) - 1
-    for elm in sequence:
-        print(elm, prev, last)
-        if elm <= last:
-            if droppped:
-                return False
-            else:
-                droppped = True
-            if elm <= prev:
-                prev = last
-            elif elm >= prev:
-                prev = last = elm
-        else:
-            prev, last = last, elm
-    return True
-
+    return max(sequence) - min(sequence) - len(sequence) + 1
 
 print(make_array_consecutive([6, 2, 3, 8]))

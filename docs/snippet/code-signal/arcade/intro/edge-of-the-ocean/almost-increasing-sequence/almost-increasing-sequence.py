@@ -14,6 +14,3 @@ def almost_increasing_sequence(sequence):
         else:
             prev, last = last, elm
     return True
-
-
-print(almost_increasing_sequence([1, 3, 2]))

@@ -32,4 +32,10 @@ There is no one element in this array that can be removed in order to get a stri
 @[code](./almost-increasing-sequence.py)
 
 :::
+
+::: code-group-item JAVASCRIPT
+
+@[code](./almost-increasing-sequence.js)
+
+:::
 ::::

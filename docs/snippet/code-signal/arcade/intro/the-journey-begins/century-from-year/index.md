@@ -28,4 +28,10 @@ Given a year, return the century it is in. The first century spans from the year
 @[code](./century-from-year.py)
 
 :::
+
+::: code-group-item JAVASCRIPT
+
+@[code](./century-from-year.js)
+
+:::
 ::::

@@ -22,4 +22,10 @@ add(param1, param2) = answer
 @[code](./add.py)
 
 :::
+
+::: code-group-item JAVASCRIPT
+
+@[code](./add.js)
+
+:::
 ::::
