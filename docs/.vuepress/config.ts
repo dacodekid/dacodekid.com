@@ -1,8 +1,8 @@
 import fs from 'fs';
 import mdSub from 'markdown-it-sub';
 import mdSup from 'markdown-it-sup';
-// import { searchPlugin } from '@vuepress/plugin-search';
-import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { searchPlugin } from '@vuepress/plugin-search';
+// import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 import { defaultTheme, defineUserConfig, viteBundler } from 'vuepress';
 
 const readJson = (file, key) => {
@@ -58,15 +58,15 @@ export default defineUserConfig({
   },
 
   plugins: [
-    // searchPlugin({
-    //   // exclude the homepage
-    //   isSearchable: (page) => page.path !== '/',
-    // }),
-
-    docsearchPlugin({
-      appId: 'W2WVO85U8E',
-      apiKey: '674b6052ad8a0245ea461d58855d050f',
-      indexName: 'dacodekid',
+    searchPlugin({
+      // exclude the homepage
+      isSearchable: (page) => page.path !== '/',
     }),
+
+    // docsearchPlugin({
+    //   appId: 'W2WVO85U8E',
+    //   apiKey: '674b6052ad8a0245ea461d58855d050f',
+    //   indexName: 'dacodekid',
+    // }),
   ],
 });
