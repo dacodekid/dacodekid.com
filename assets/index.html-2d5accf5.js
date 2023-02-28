@@ -1,0 +1,1 @@
+import{_ as t,p as s,q as c,R as e}from"./framework-5866ffd3.js";const o={},n=e("div",{class:"custom-container tip"},[e("p",{class:"custom-container-title"},"Hello There..."),e("p",null,"Here you can find my gists, recipes, blog posts, etc")],-1),i=[n];function l(r,a){return s(),c("div",null,i)}const d=t(o,[["render",l],["__file","index.html.vue"]]);export{d as default};
