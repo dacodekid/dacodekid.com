@@ -59,8 +59,7 @@ export default defineUserConfig({
 
   plugins: [
     searchPlugin({
-      // exclude the homepage
-      isSearchable: (page) => page.path !== '/',
+      isSearchable: (page) => page.path !== '/', // exclude the homepage
     }),
 
     // docsearchPlugin({
