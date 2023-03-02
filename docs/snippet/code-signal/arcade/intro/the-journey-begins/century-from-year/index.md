@@ -34,4 +34,16 @@ Given a year, return the century it is in. The first century spans from the year
 @[code](./century-from-year.js)
 
 :::
+
+::: code-group-item TYPESCRIPT
+
+@[code](./century-from-year.ts)
+
+:::
+
+::: code-group-item C#
+
+@[code](./century-from-year.cs)
+
+:::
 ::::

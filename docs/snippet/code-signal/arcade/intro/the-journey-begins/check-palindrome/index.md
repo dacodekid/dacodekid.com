@@ -40,4 +40,16 @@ Given the string, check if it is a [palindrome](keyword://palindrome).
 @[code](./check-palindrome.js)
 
 :::
+
+::: code-group-item TYPESCRIPT
+
+@[code](./check-palindrome.ts)
+
+:::
+
+::: code-group-item C#
+
+@[code](./check-palindrome.cs)
+
+:::
 ::::

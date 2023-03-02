@@ -28,4 +28,16 @@ add(param1, param2) = answer
 @[code](./add.js)
 
 :::
+
+::: code-group-item TYPESCRIPT
+
+@[code](./add.ts)
+
+:::
+
+::: code-group-item C#
+
+@[code](./add.cs)
+
+:::
 ::::
