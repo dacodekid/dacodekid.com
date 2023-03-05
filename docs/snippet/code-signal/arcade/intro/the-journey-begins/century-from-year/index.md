@@ -20,6 +20,18 @@ Given a year, return the century it is in. The first century spans from the year
   century_from_year(year) = 17
   ```
 
+## Chart
+
+```mermaid
+flowchart
+  start([Start])
+  input[/"Input YEAR"/]
+  calculate["Add 99 to YEAR. <br/> Then Divide it by 100<br/> and get quotient"]
+  stop([Stop])
+
+  start --> input --> calculate --> stop
+```
+
 ## Solution
 
 :::: code-group

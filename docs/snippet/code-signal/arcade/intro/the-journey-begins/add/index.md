@@ -14,6 +14,20 @@ For `param1 = 1` and `param2 = 2`, the output should be
 add(param1, param2) = answer
 ```
 
+## Chart
+
+```mermaid
+flowchart LR
+  start([Start])
+  input[/"Input A, B"/]
+  add[Add A, B]
+  stop([Stop])
+
+  start --> input --> add --> stop
+
+
+```
+
 ## Solution
 
 :::: code-group

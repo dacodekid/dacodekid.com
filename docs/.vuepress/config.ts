@@ -2,6 +2,7 @@ import fs from 'fs';
 import mdSub from 'markdown-it-sub';
 import mdSup from 'markdown-it-sup';
 import { searchPlugin } from '@vuepress/plugin-search';
+import mermaidPlugin from './plugins/mermaid/node/';
 import { defaultTheme, defineUserConfig, viteBundler } from 'vuepress';
 
 const readJson = (file, key) => {
@@ -59,6 +60,10 @@ export default defineUserConfig({
   plugins: [
     searchPlugin({
       isSearchable: (page) => page.path !== '/', // exclude the homepage
+    }),
+    mermaidPlugin({
+      token: 'mermaid',
+      theme: 'dark',
     }),
   ],
 });
