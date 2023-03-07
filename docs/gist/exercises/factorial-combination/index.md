@@ -38,7 +38,7 @@ If their names are `A`, `B`, `C`, `D` then the combinations are
 
 ::: code-group-item C#
 
-@[code](./factorial-combination.js)
+@[code](./factorial-combination.cs)
 
 :::
 ::::

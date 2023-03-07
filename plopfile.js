@@ -182,7 +182,7 @@ module.exports = (plop) => {
         templateFile: `${templatePath}/${type}.article.md.hbs`,
       });
 
-      if (type === 'snippet') {
+      if (type === 'snippet' || type === 'gist') {
         actions.push({
           type: 'add',
           skipIfExists: true,

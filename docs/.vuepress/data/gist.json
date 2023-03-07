@@ -4,7 +4,8 @@
       "text": "Exercises",
       "collapsible": false,
       "children": [
-        "/gist/exercises/factorial-combination/"
+        "/gist/exercises/factorial-combination/",
+        "/gist/exercises/closest-to-zero/"
       ]
     }
   ]
