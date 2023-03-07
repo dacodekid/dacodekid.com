@@ -1,3 +1,11 @@
 {
-  "gist": []
+  "gist": [
+    {
+      "text": "Exercises",
+      "collapsible": false,
+      "children": [
+        "/gist/exercises/factorial-combination/"
+      ]
+    }
+  ]
 }
