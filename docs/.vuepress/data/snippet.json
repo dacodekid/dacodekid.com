@@ -2,7 +2,7 @@
   "snippet": [
     {
       "text": "Code Signal",
-      "collapsible": true,
+      "collapsible": false,
       "children": [
         {
           "text": "Arcade",
@@ -194,7 +194,7 @@
     },
     {
       "text": "Codewars",
-      "collapsible": true,
+      "collapsible": false,
       "children": [
         {
           "text": "8 Kyū",
