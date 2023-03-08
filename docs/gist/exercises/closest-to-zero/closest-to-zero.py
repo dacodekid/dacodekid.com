@@ -1,13 +1,19 @@
-def closest_to_zero(num):
-    if len(num) < 1:
+def closest_to_zero(nums):
+    if len(nums) < 1:
         return 0
 
-    n = num[0]
+    smallest_num = nums[0]
 
-    for element in num:
-        if element != 0 and abs(n) > abs(element):
-            n = element
-    return n
+    for current_num in nums:
+        if current_num == 0:
+            continue
+
+        if abs(smallest_num) == abs(current_num):
+            smallest_num = abs(current_num)
+        elif smallest_num > current_num:
+            smallest_num = current_num
+
+    return smallest_num
 
 
-print(closest_to_zero([5, -5, 0, 1, 12]))
+print(closest_to_zero([6, -5, 0, 11, 12]))

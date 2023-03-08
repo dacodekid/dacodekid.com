@@ -1,26 +1,34 @@
 using Internal;
 using static System.Math;
 
-static int closetToZero(int[] num)
+static int closetToZero(int[] nums)
 {
-  int n;
+  int smallestNum;
 
-  if (num.Length < 1)
+  if (nums.Length < 1)
   {
     return 0;
   }
 
-  n = num[0];
+  smallestNum = nums[0];
 
-  foreach (int item in num)
+  for (int i = 1; i < nums.Length; i++)
   {
-    if ((item != 0) && (Math.Abs(n) > Math.Abs(item)))
+    if (nums[i] == 0) continue;
+
+    if (Math.Abs(smallestNum) == Math.Abs(nums[i]))
     {
-      n = item;
+      smallestNum = Math.Abs(smallestNum);
+    }
+    else if (Math.Abs(smallestNum) > Math.Abs(nums[i]))
+    {
+      smallestNum = nums[i];
     }
   }
-  return n;
+
+  return smallestNum;
+
 }
 
-int[] nums = { 5, -5, 2, 0, 11, 4 };
+int[] nums = { -5, 5, 12, 0, 11, 14 };
 Console.WriteLine($"{closetToZero(nums)}");

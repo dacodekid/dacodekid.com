@@ -1,16 +1,21 @@
-function closestToZero(num) {
-  let n;
+function closestToZero(nums) {
+  let smallestNum;
 
-  if (num.length < 1) return 0;
+  if (nums.length < 1) return 0;
 
-  n = num[0];
+  smallestNum = nums[0];
 
-  num.forEach((element) => {
-    if (element != 0 && Math.abs(n) > Math.abs(element)) {
-      n = element;
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] === 0) continue;
+
+    if (Math.abs(smallestNum) === Math.abs(nums[i])) {
+      smallestNum = Math.abs(smallestNum);
+    } else if (smallestNum > nums[i]) {
+      smallestNum = nums[i];
     }
-  });
-  return n;
+  }
+
+  return smallestNum;
 }
 
-console.log(closestToZero([5, -5, 0, 15, 12]));
+console.log(closestToZero([-5, 5, 0, 15, 12]));
