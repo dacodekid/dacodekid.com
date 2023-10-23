@@ -1,3 +1,6 @@
+import mdSub from 'markdown-it-sub';
+import mdSup from 'markdown-it-sup';
+import mdPlantUML from 'markdown-it-plantuml';
 import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
@@ -60,6 +63,13 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     math: true,
-    config: (md) => {},
+    config: (md) => {
+      md.use(mdSub);
+      md.use(mdSup);
+      md.use(mdPlantUML, {
+        openMarker: '```plantuml',
+        closeMarker: '```',
+      });
+    },
   },
 });
