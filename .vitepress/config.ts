@@ -1,5 +1,6 @@
 import mdSub from 'markdown-it-sub';
 import mdSup from 'markdown-it-sup';
+import mdMark from 'markdown-it-mark';
 import mdPlantUML from 'markdown-it-plantuml';
 import { defineConfig } from 'vitepress';
 
@@ -11,6 +12,10 @@ const gistMenu = [
       {
         text: 'Introduction',
         link: '/content/gist/business-analysis/',
+      },
+      {
+        text: 'Glossary',
+        link: '/content/gist/business-analysis/glossary.md',
       },
     ],
   },
@@ -76,6 +81,7 @@ export default defineConfig({
     config: (md) => {
       md.use(mdSub);
       md.use(mdSup);
+      md.use(mdMark);
       md.use(mdPlantUML, {
         openMarker: '```plantuml',
         closeMarker: '```',
