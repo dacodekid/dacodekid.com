@@ -11,9 +11,9 @@ hero:
     dark: /img/logo-dark.svg
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: gist
+      link: /content/gist/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: snippet
+      link: /content/snippet/
 ---

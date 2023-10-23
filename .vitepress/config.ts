@@ -3,6 +3,17 @@ import mdSup from 'markdown-it-sup';
 import mdPlantUML from 'markdown-it-plantuml';
 import { defineConfig } from 'vitepress';
 
+const gistMenu = [
+  {
+    text: 'Gist',
+    link: '/gist/',
+  },
+  {
+    text: 'Gist 2',
+    link: '/gist2/',
+  },
+];
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',
@@ -22,19 +33,13 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'gist', link: '/content/gist/' },
+      { text: 'snippet', link: '/content/snippet/' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
-      },
-    ],
+    sidebar: {
+      '/content/gist/': gistMenu,
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dacodekid' },
