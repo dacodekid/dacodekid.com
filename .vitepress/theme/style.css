@@ -43,7 +43,7 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
- :root {
+:root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -92,17 +92,9 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
   --vp-home-hero-image-filter: blur(40px);
 }
 
@@ -137,3 +129,92 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * ************************************************************
+ * Custom styling
+ * ************************************************************
+ * -------------------------------------------------------------------------- */
+
+/**
+  * override default home page hero styling
+  * -------------------------------------------------------------------------- */
+
+/* Remove the default background image */
+:root {
+  --vp-home-hero-image-background-image: none;
+}
+
+/* Base styles for the VPHero container */
+.VPHomeHero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Default to center */
+  height: 40vh;
+}
+
+/* Styling for the main content */
+.VPHomeHero .main {
+  order: 2; /* Order the main content to be below the image */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: none !important;
+  margin: 0 !important;
+  flex: 0 0 auto !important;
+}
+
+/* Styling for the image */
+.VPHomeHero .image {
+  order: 1; /* Order the image to be on top of the main content */
+  display: flex;
+  align-items: flex-end; /* Align the image to the bottom */
+  justify-content: center; /* Center the image horizontally */
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 0 0 auto !important;
+}
+
+/* Image container styling */
+.VPHomeHero .image-container {
+  position: relative;
+  width: 192px;
+  height: 192px;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Media query for larger screens */
+@media (min-width: 960px) {
+  .VPHomeHero .container {
+    justify-content: space-between !important;
+  }
+}
+
+/**
+ * override default layout width
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-layout-max-width: 100% !important; /* 100% of the viewport width */
+  --vp-sidebar-width: 400px !important; /* increase sidebar width from default 272px */
+}
+
+/* target a div with class .content-container that has attribute starts with data-v */
+.content-container {
+  max-width: 95% !important; /* 888px is the default max-width */
+}
+
+/**
+  * change default dark theme background colors
+  * -------------------------------------------------------------------------- */
+
+.dark {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-alt: #0c1526; /* A slightly lighter shade for variation */
+  --vp-c-bg-elv: #1b2137; /* A shade with more contrast to create elevation effect */
+  --vp-c-bg-soft: #1b2137; /* A similar shade for soft background elements */
+}

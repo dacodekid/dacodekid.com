@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "void"
-  text: "!master of all trades"
-  tagline: My great project tagline
+  name: false
+  text: false
+  tagline: '!master of all trades'
+  image:
+    light: /img/logo.svg
+    dark: /img/logo-dark.svg
   actions:
     - theme: brand
       text: Markdown Examples
@@ -13,13 +16,4 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
