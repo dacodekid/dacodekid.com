@@ -1,0 +1,3 @@
+::: tip Hello There...
+In here, I'm writing about [Business Analysis](/content/gist/business-analysis/), Project Management, and other things that I'm interested in.
+:::

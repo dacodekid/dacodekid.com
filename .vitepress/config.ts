@@ -5,14 +5,18 @@ import { defineConfig } from 'vitepress';
 
 const gistMenu = [
   {
-    text: 'Gist',
-    link: '/gist/',
-  },
-  {
-    text: 'Gist 2',
-    link: '/gist2/',
+    text: 'Business Analysis',
+    collapse: false,
+    items: [
+      {
+        text: 'Introduction',
+        link: '/content/gist/business-analysis/',
+      },
+    ],
   },
 ];
+
+const snippetMenu = [];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -39,6 +43,7 @@ export default defineConfig({
 
     sidebar: {
       '/content/gist/': gistMenu,
+      '/content/snippet/': snippetMenu,
     },
 
     socialLinks: [
