@@ -24,7 +24,7 @@ The adaptive life cycle, also known as change-driven or agile methods, is a proj
 
 ### Affinity Diagram
 
-An affinity diagram is a visual tool used for organizing large amounts of data into related groups or themes. It is often used during brainstorming sessions and is particularly useful in the categorization and prioritization of ideas, issues, or requirements. In business analysis, affinity diagrams can help in requirements elicitation, stakeholder analysis, and root cause analysis.
+An affinity diagram is a visual tool used for ==organizing large amounts of data into related groups or themes==. It is often ==used during brainstorming sessions== and is particularly useful in the ==categorization and prioritization== of ideas, issues, or requirements. In business analysis, affinity diagrams can help in requirements elicitation, stakeholder analysis, and root cause analysis.
 
 ### Agile Methodology
 
@@ -60,25 +60,25 @@ An artifact is a tangible by-product produced during the project lifecycle, used
 
 ### As-Is Process
 
-The As-Is Process represents the current state of a business process, before any changes or improvements are made. This process is often modeled to understand its inefficiencies, bottlenecks, or risks, providing a baseline against which the effectiveness of a proposed solution can be measured.
+The As-Is Process ==represents the current state== of a business process, before any changes or improvements are made. This process is often modeled to understand its inefficiencies, bottlenecks, or risks, providing a baseline against which the effectiveness of a proposed solution can be measured.
 
 ### Assumption
 
-An assumption is a statement that is considered to be true for planning purposes but has not been confirmed. Assumptions influence all aspects of project planning and may affect project outcomes if proven incorrect. In business analysis, assumptions are often identified during requirements elicitation and need to be validated as the project progresses.
+An assumption is a ==statement that is considered to be true== for planning purposes but has not been confirmed. Assumptions influence all aspects of project planning and may affect project outcomes if proven incorrect. In business analysis, assumptions are often identified during requirements elicitation and need to be validated as the project progresses.
 
 ## B
 
 ### Backlog
 
-The backlog is an ordered list of features, user stories, or tasks that the project team needs to work on. In Agile methodologies, the backlog is continuously updated and prioritized to reflect the changing needs of stakeholders. In business analysis, the backlog could include requirements or issues that need to be addressed.
+The backlog is ==an ordered list of features, user stories, or tasks== that the project team needs to work on. In Agile methodologies, the backlog is continuously updated and prioritized to reflect the changing needs of stakeholders. In business analysis, the backlog could include requirements or issues that need to be addressed.
 
 ### Baseline
 
-A baseline is a fixed point of reference that is used for comparison purposes throughout the project's life cycle. Baselines are established for scope, schedule, and cost after they are formally approved. In business analysis, a requirements baseline is used as a basis for change control and measuring project performance.
+A baseline is a ==fixed point of reference== that is used for comparison purposes throughout the project's life cycle. Baselines are established for scope, schedule, and cost after they are formally approved. In business analysis, a requirements baseline is used as a basis for change control and measuring project performance.
 
 ### Benchmarking
 
-Benchmarking is the process of comparing an organization's performance metrics to industry best practices or competitors. This can be a valuable exercise in business analysis for identifying performance gaps and areas for improvement. Benchmarking is often done during the Enterprise Analysis phase to better understand the business environment and to set achievable targets.
+Benchmarking is the process of comparing an organization's performance metrics to industry best practices or competitors. This can be a valuable exercise in business analysis for identifying performance gaps and areas for improvement. Benchmarking is often ==done during the Enterprise Analysis phase== to better understand the business environment and to set achievable targets.
 
 ### Behavior-Driven Development (BDD)
 
@@ -86,17 +86,17 @@ Behavior-Driven Development (BDD) is an Agile software development approach that
 
 ### Benefits Realization
 
-Benefits Realization is the practice of ensuring that the benefits of a project or initiative are measured, analyzed, and realized over its lifecycle and beyond. In business analysis, this involves defining key performance indicators (KPIs) and monitoring them to assess the effectiveness and ROI of a solution. Benefits Realization is an essential aspect of the Solution Evaluation phase, where the value delivered by the project is quantified and communicated to stakeholders.
+Benefits Realization is the practice of ensuring that the benefits of a project or initiative are ==measured, analyzed, and realized over its lifecycle and beyond==. In business analysis, this involves defining key performance indicators (KPIs) and monitoring them to assess the effectiveness and ROI of a solution. Benefits Realization is an essential aspect of the Solution Evaluation phase, where the value delivered by the project is quantified and communicated to stakeholders.
 
 ### Bottom-Up Estimating
 
-Bottom-Up Estimating is an estimating technique that involves estimating the cost and duration of individual work packages or tasks and then aggregating the estimates to compute the total project estimates. This method is often more accurate but is also more time-consuming than top-down estimating methods. In business analysis, bottom-up estimating can be used for calculating the time and resources needed for requirements elicitation and documentation.
+Bottom-Up Estimating is an estimating technique that involves estimating the cost and duration of individual work packages or tasks and then aggregating the estimates to compute the total project estimates. This method is ==often more accurate but is also more time-consuming== than top-down estimating methods. In business analysis, bottom-up estimating can be used for calculating the time and resources needed for requirements elicitation and documentation.
 
 ### Brainstorming
 
 Brainstorming is a creative problem-solving technique used to generate a large number of ideas or solutions for a specific issue or challenge. It is often employed in business analysis during the Requirements Elicitation phase to explore different angles and perspectives from stakeholders, aiming to capture as many requirements or identify as many potential solutions as possible.
 
-### Burndown
+### Burndown Chart
 
 A Burndown Chart is a graphical representation used to show the amount of work remaining in a project or a specific phase over time. It is commonly used in Agile methodologies to track the completion of user stories, features, or requirements in the backlog. The chart helps in understanding the project's progress and provides a quick overview of the work that still needs to be completed.
 
@@ -130,7 +130,7 @@ Business Intelligence (BI) is the technology-driven process of collecting, integ
 
 ### Business Process Modeling (BPM)
 
-Business Process Modeling involves the graphical representation of business processes to understand, analyze, and optimize them. BPM uses various notations like Business Process Model and Notation (BPMN) to depict the sequence of activities, roles, and flow of data. In business analysis, BPM is an essential tool for documenting As-Is and To-Be processes, enabling gap analysis and solution design.
+Business Process Modeling involves the graphical representation of business processes to understand, analyze, and optimize them. BPM uses various notations like ==Business Process Model and Notation (BPMN)== to depict the sequence of activities, roles, and flow of data. In business analysis, BPM is an ==essential tool for documenting As-Is and To-Be processes, enabling gap analysis and solution design==.
 
 ### Business Requirement
 
@@ -164,11 +164,11 @@ A Capability Table is a matrix that outlines the various capabilities that a sys
 
 ### Cardinality
 
-Cardinality refers to the numerical relationship between entities in a data model, specifying how many instances of one entity relate to instances of another entity. In business analysis, understanding cardinality is crucial when modeling database relationships, such as one-to-one, one-to-many, or many-to-many, during the Requirements Analysis and Design Definition phase.
+Cardinality refers to the ==numerical relationship between entities in a data model==, specifying how many instances of one entity relate to instances of another entity. In business analysis, understanding cardinality is crucial when modeling database relationships, such as ==one-to-one, one-to-many, or many-to-many==, during the Requirements Analysis and Design Definition phase.
 
 ### Cause and Effect Diagram
 
-A Cause and Effect Diagram, also known as a Fishbone Diagram or Ishikawa Diagram, is a graphical tool used to identify and organize possible causes for a specific problem or effect. It is commonly used in root cause analysis to categorize contributing factors, making it easier to identify areas for improvement. This tool is especially useful during the Requirements Analysis and Design Definition phase.
+A Cause and Effect Diagram, ==also known as a Fishbone Diagram or Ishikawa Diagram==, is a graphical tool used to identify and organize possible causes for a specific problem or effect. It is commonly used in root cause analysis to categorize contributing factors, making it easier to identify areas for improvement. This tool is especially useful during the Requirements Analysis and Design Definition phase.
 
 ### Change Agent
 
@@ -176,7 +176,7 @@ A Change Agent is an individual or entity responsible for facilitating and imple
 
 ### Change Control
 
-Change Control is the formal process used to ensure that any modifications to a project’s deliverables, artifacts, or milestones are introduced and approved in a systematic and coordinated manner. It involves the identification, documentation, and evaluation of changes, usually through a Change Control Board (CCB). It is particularly crucial during the Requirements Management and Communication phase.
+Change Control is the formal process used to ensure that any modifications to a project’s deliverables, artifacts, or milestones are introduced and approved in a systematic and coordinated manner. It involves the identification, documentation, and evaluation of changes, usually through a **Change Control Board (CCB)**. It is particularly crucial during the Requirements Management and Communication phase.
 
 ### Change Management
 
@@ -188,11 +188,11 @@ A Change Request is a formal proposal for an alteration to some aspect of a proj
 
 ### Charter
 
-A Charter is a formal document that officially authorizes the existence of a project and provides the project manager with the authority to apply organizational resources to project activities. In business analysis, the charter often includes a high-level project description, business case, key stakeholders, objectives, and constraints.
+A Charter is a formal document that officially authorizes the existence of a project and provides the project manager with the authority to apply organizational resources to project activities. In business analysis, the charter often ==includes a high-level project description, business case, key stakeholders, objectives, and constraints.==
 
 ### Collaborative Games
 
-Collaborative Games are activities designed to engage stakeholders in a fun, interactive manner to achieve specific objectives like problem-solving, requirements elicitation, or decision-making. Examples include "Buy a Feature," "Product Box," or "User Story Mapping." They are effective tools for gaining stakeholder engagement and facilitating communication.
+Collaborative Games are activities designed to engage stakeholders in a fun, interactive manner to achieve specific objectives like problem-solving, requirements elicitation, or decision-making. Examples include "[Buy a Feature](#buy-a-feature)," "[Product Box](#product-box)," or "[User Story Mapping](#user-story-mapping)". They are effective tools for gaining stakeholder engagement and facilitating communication.
 
 ### Communication Plan
 
@@ -578,13 +578,25 @@ Just-In-Time (JIT) is a management strategy aimed at reducing in-process invento
 
 Kaizen is a Japanese term meaning "change for better," commonly interpreted as "continuous improvement." In business analysis, a kaizen approach might influence the elicitation of requirements aimed at incremental improvements, rather than radical changes.
 
-### Kanban
+### Kanban Board
 
-Kanban is a visual management tool that helps manage workflow and optimize efficiency. It is often used in Agile environments. In business analysis, Kanban boards can be used to track requirements, tasks, or project stages, promoting transparency and real-time communication.
+A Kanban Board is a visual management tool that helps in managing work and workflow in a system, often employed in Agile and Lean methodologies. The board is divided into different columns, each representing a stage of the workflow. Work items are represented as cards that move from one column to another as they progress through stages, from "To Do" to "Done" or any other customized stages. In business analysis, a Kanban Board serves as a dynamic artifact that provides a real-time snapshot of work status, helping to identify bottlenecks, manage work-in-progress limits, and improve flow efficiency. It can be physical, using a whiteboard and sticky notes, or digital, using various software tools designed for the purpose.
+
+### Kano Analysis
+
+Kano Analysis is a theory and tool in business analysis and product development for understanding customer needs and preferences. This method classifies product attributes or features into five categories. The goal is to prioritize features based on how they are perceived by customers and how they impact customer satisfaction.
+
+- **Basic Needs**: Essential features that customers expect. Failure to meet these needs results in dissatisfaction.
+- **Performance Needs**: Features that are directly correlated with customer satisfaction; the better the performance, the more satisfied the customer.
+- **Excitement Needs**: Unexpected features that delight customers but whose absence doesn't cause dissatisfaction.
+- **Indifferent Needs**: Features that do not significantly affect customer satisfaction.
+- **Reverse Needs**: Features that satisfy one segment of customers but dissatisfy another.
+
+Kano Analysis is usually conducted through surveys and is visually represented in a two-dimensional grid to aid in feature prioritization and product development strategy.
 
 ### Key Performance Indicator (KPI)
 
-Key Performance Indicators (KPIs) are quantifiable measures used to evaluate the success of an organization, project, or product. In business analysis, KPIs are often used to assess the effectiveness and business value of implemented solutions.
+Key Performance Indicators (KPIs) are quantifiable measures used to evaluate the success of an organization, project, or product. In business analysis, KPIs are often used to ==assess the effectiveness and business value of implemented solutions==.
 
 ### Knowledge Base
 
@@ -602,7 +614,7 @@ Lateral Thinking is the ability to think creatively or "outside the box," to sol
 
 ### Lean Process
 
-A Lean Process focuses on maximizing value while minimizing waste. In business analysis, Lean thinking can influence the way requirements are gathered and prioritized, focusing on features that add the most value for the customer or business.
+A Lean Process focuses on ==maximizing value while minimizing waste==. In business analysis, Lean thinking can influence the way requirements are gathered and prioritized, focusing on features that add the most value for the customer or business.
 
 ### Lifecycle
 
@@ -728,6 +740,10 @@ Ownership Structure refers to the arrangement of ownership and control over a co
 
 ## P
 
+### Parametric Estimation
+
+Parametric Estimation involves the use of statistical modeling to make predictions based on historical data and certain variables. In business analysis, this technique is often used for cost and time estimation by using the relationship between variables to calculate the cost or duration.
+
 ### Pareto Analysis
 
 Pareto Analysis is a decision-making technique based on the Pareto Principle, which states that approximately 80% of effects come from 20% of causes. In business analysis, it can be used to prioritize issues or requirements that will have the most significant impact.
@@ -755,6 +771,10 @@ Process Improvement involves the systematic approach of identifying, analyzing, 
 ### Product Backlog
 
 The Product Backlog is an ordered list of everything that is known to be needed in the product. In Agile frameworks, the backlog is a living document and the single source of requirements for any changes to be made to the product. In business analysis, maintaining and refining the backlog are key responsibilities.
+
+### Product Box
+
+Product Box is a technique often used in Agile methodologies where stakeholders imagine the product is packaged in a box, and they design this box to represent the product’s features, advantages, and selling points. This is used in business analysis to better understand stakeholders' perceptions and expectations of the product.
 
 ### Product Lifecycle
 
@@ -866,7 +886,7 @@ Risk Management encompasses the activities involved in identifying, analyzing, a
 
 ### Risk Register
 
-The Risk Register is a document where all identified risks are recorded, along with their characteristics, impacts, and mitigation plans. In business analysis, maintaining an updated risk register is key to proactive risk management.
+A Risk Register is a tool commonly used in project management and business analysis for identifying, assessing, and managing risks. The Risk Register often includes information such as the description of the risk, its cause, its probability and impact, risk score, mitigation strategies, and contingency plans. It serves as a central repository for all risk-related information and is frequently updated throughout the project lifecycle to reflect new risks and changes to existing risks. It aids in risk management by providing a structured way to capture risks and track actions taken to mitigate them.
 
 ### Risk Spike
 
@@ -874,11 +894,11 @@ A Risk Spike is a time-boxed period used to explore a significant risk or uncert
 
 ### Rolling Wave Planning
 
-Rolling Wave Planning is a form of progressive elaboration where planning and documentation are performed in waves as the project progresses. In business analysis, this allows for adapting to changes and clarifications in requirements and priorities.
+Rolling Wave Planning is a project planning technique where the work to be accomplished in the near term is planned in detail, while the work in the future is planned at a higher level. As the project progresses and more details become available, the next level of work is planned in detail. This technique is often used in environments where the project scope, requirements, and deliverables are difficult to define in advance. In business analysis, this approach allows for flexibility in accommodating changes and refinements to requirements as more information becomes available.
 
 ### Root Cause Analysis
 
-Root Cause Analysis is a method of problem-solving used to identify the fundamental cause(s) of issues or defects. In business analysis, it is employed to understand the underlying reasons behind a problem or risk, thus enabling effective problem-solving and decision-making.
+Root Cause Analysis (RCA) is a method of problem-solving aimed at identifying the underlying reasons for specific issues or problems. This technique is widely used in business analysis to diagnose problems and to formulate solutions that tackle the problem at its source, rather than treating the symptoms. Various tools and methodologies like [Fishbone Diagrams](#fishbone-diagram), the 5 Whys, and Fault Tree Analysis may be used as part of RCA.
 
 ### Role-Based Access Control (RBAC)
 
@@ -892,7 +912,7 @@ Scope refers to the boundaries of a project, including what is and is not includ
 
 ### Scope Creep
 
-Scope Creep is the uncontrolled expansion of project scope without proper adjustment to time, cost, and resources. In business analysis, scope creep is generally seen as a risk that must be managed carefully through effective requirements management and stakeholder communication.
+Scope Creep refers to the uncontrolled changes or continuous growth in a project’s scope, often occurring when the scope of a project is not accurately defined, documented, or controlled. It is generally considered harmful as it can result in project delays, cost overruns, and may lead to failure in meeting the project’s objectives. In business analysis, managing scope creep involves clear documentation of requirements, a structured change control process, and regular communication among stakeholders.
 
 ### Scrum
 
@@ -916,15 +936,15 @@ A Situation in business analysis refers to a set of circumstances or a context w
 
 ### Situation Statement
 
-A Situation Statement is a clear and concise description of a problem or opportunity, often including the impact, root cause, and other contextual factors. In business analysis, a situation statement is generally part of the problem definition and helps guide the direction of the analysis.
+A Situation Statement is a clear and concise description of a problem or issue that needs to be addressed. It usually ==outlines the current state, the desired future state, and any gaps or barriers between them==. In business analysis, a well-crafted Situation Statement serves as a foundational element to guide the requirements gathering process and subsequent solution development. It aids in aligning stakeholders by providing a shared understanding of the problem or opportunity at hand.
 
 ### Speedboat
 
-Speedboat is an innovation game used to identify obstacles and hindrances that prevent a team or organization from reaching its objectives. In business analysis, this technique helps in gathering negative feedback in a constructive way, which is critical for requirements elicitation and process improvement.
+Speedboat is an innovation game used to identify obstacles and hindrances that prevent a team or organization from reaching its objectives. In business analysis, this technique helps in ==gathering negative feedback in a constructive way==, which is critical for requirements elicitation and process improvement.
 
 ### Spider Web
 
-A Spider Web diagram is a visual tool used to represent complex relationships in a centralized, web-like design. In business analysis, it is commonly used to show the connections between different aspects or variables affecting a problem or system.
+In the context of business analysis, a Spider Web diagram is often used as a visual tool to evaluate multiple aspects of a project, product, or process against set criteria. It provides a way to represent multi-dimensional data in a two-dimensional plot, where each axis represents a different dimension or attribute. The spider web shape is formed by plotting points for each attribute and connecting them, allowing for easy visualization of areas of strength and weakness. This tool can be particularly useful for gap analysis, portfolio management, and stakeholder decision-making.
 
 ### Sponsor
 
@@ -948,19 +968,19 @@ A Stakeholder Map is a visual representation that outlines the relationship of s
 
 ### Stakeholder Matrix
 
-A Stakeholder Matrix is a table or grid used to analyze stakeholders based on specific criteria such as influence, interest, or power. In business analysis, it is used to develop stakeholder communication plans and management strategies.
+The Stakeholder Matrix is a visual representation used in stakeholder analysis to categorize stakeholders based on their level of influence and interest in the project. This two-dimensional grid is divided into quadrants, each representing a different stakeholder engagement strategy. Typically, the axes represent "Power" or "Influence" and "Interest" or "Impact." Stakeholders are plotted on this grid, enabling the project team and business analysts to prioritize and tailor their engagement efforts. Strategies for engagement can range from closely managing stakeholders with high influence and high interest to merely monitoring those with low influence and low interest.
 
 ### Stakeholder Register
 
-The Stakeholder Register is a project document that includes information about identified stakeholders. It contains details such as contact information, role in the project, and specific requirements or expectations. In business analysis, the stakeholder register is essential for effective stakeholder management.
+The Stakeholder Register is a project management and business analysis document that contains information about the project’s stakeholders. It is a key component in stakeholder management and often includes details such as stakeholder identification, role in the project, contact information, expectations, and influence level. The Stakeholder Register serves as a central repository for all stakeholder-related information and is used as a basis for stakeholder analysis, communication planning, and engagement strategies. It is regularly updated throughout the project lifecycle to reflect any changes in stakeholder information or project dynamics.
 
 ### Storyboarding
 
-Storyboarding is a technique for visually representing the sequence of actions or tasks needed to achieve a specific outcome. In business analysis, it is often used in requirements elicitation and presentation to visualize user interactions with a system or process flow.
+Storyboarding is a technique used in both project management and business analysis for visually representing the sequence of activities, events, or steps to develop a feature, implement a process, or describe user interactions. It consists of a series of "boards" or "panels," much like a comic strip, that capture the significant actions or events in a sequential manner. This technique is often used in requirements elicitation and validation, as well as in solution design to provide stakeholders with a clear, visual representation of what to expect. It is particularly effective for clarifying complex scenarios or for projects where visual context is important, such as software development or process redesign.
 
 ### Story Mapping
 
-Story Mapping is a visual exercise used to arrange user stories to create a more holistic view of how they fit into the overall user experience. In business analysis, this technique helps in prioritizing requirements and understanding user needs and workflows.
+Story Mapping is a collaborative planning method that provides a visual representation of the product backlog. In this method, user stories are arranged in a two-dimensional grid to represent the sequence and hierarchy of the product’s functionalities. The top row typically represents the "user journey," describing the overarching steps a user takes to complete a specific goal. Underneath each of these steps, more detailed user stories are placed to define the tasks needed to achieve each step. In business analysis, this technique is used for requirements elicitation, prioritization, and release planning. It helps in understanding the flow, features, and scope of the product from the user's perspective.
 
 ### Structured Query Language (SQL)
 
@@ -976,7 +996,7 @@ A Subject Matter Expert (SME) is an individual with extensive knowledge or skill
 
 ### SWOT Analysis
 
-SWOT Analysis is a strategic planning tool that stands for Strengths, Weaknesses, Opportunities, and Threats. In business analysis, it is used to evaluate these four aspects of a project, process, or business case.
+SWOT Analysis is a strategic planning tool used to evaluate the Strengths, Weaknesses, Opportunities, and Threats involved in a project, business venture, or any decision-making situation. In the context of business analysis, SWOT Analysis provides a structured approach to assess both internal and external factors that may affect the outcome of a project or solution. Strengths and Weaknesses are generally internal factors, while Opportunities and Threats are external. The aim is to identify the key factors in each category to formulate strategies that capitalize on strengths, address weaknesses, exploit opportunities, and mitigate threats.
 
 ### System Integration
 
@@ -1010,7 +1030,7 @@ Time-bound refers to the specific period within which activities or objectives m
 
 ### Timeboxing
 
-Timeboxing is the practice of allocating a fixed time period, known as a timebox, to each planned activity. Often used in Agile methodologies, timeboxing is a tool for managing scope and ensuring that time is allocated efficiently.
+Timeboxing is a time management technique commonly used in Agile methodologies but applicable in various project management and business analysis contexts. In this approach, a fixed time period, known as a "timebox," is allocated to each activity or task. The objective is to complete the defined work within the set time frame, without allowing it to extend. If the work is not completed within the timebox, it is either moved to the next timebox or re-evaluated to understand the reasons for the delay. Timeboxing is effective for maintaining schedule discipline, limiting scope creep, and ensuring that high-priority items receive focused attention.
 
 ### Time Management
 
@@ -1028,7 +1048,7 @@ Trend Analysis is the practice of collecting data and analyzing trends over time
 
 ### Use Case
 
-A Use Case is a list of actions or event steps typically defining the interactions between a role and a system to achieve a goal. In business analysis, use cases are employed for defining system functionality and user interaction.
+A Use Case is a formalized description that captures the ways a system interacts with external elements, known as "actors," to achieve a specific goal. Use Cases are employed in both business analysis and software engineering to define and analyze functional requirements. A Use Case typically includes a set of scenarios, where each scenario outlines a specific sequence of steps the system and actors take to accomplish a particular objective. Use Cases can be represented textually or through visual modeling techniques like Use Case diagrams. They are valuable for identifying system functionalities, understanding user interactions, and setting the groundwork for test cases in the validation phase.
 
 ### User Acceptance Testing (UAT)
 
@@ -1048,7 +1068,11 @@ The User Journey maps the sequence of touchpoints that users go through when int
 
 ### User Stories
 
-User Stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability. In Agile methodologies, user stories are often used for capturing business or system requirements.
+User Stories are a requirements specification technique commonly used in Agile methodologies to capture product functionalities from an end-user perspective. A User Story typically follows a simple format: "As a [type of user], I want [an action] so that [benefit/value]." They are designed to encourage simple, clear communication of ideas and focus on delivering value to the end-user. In business analysis, User Stories serve as a tool for requirements elicitation and are often documented in a product backlog for prioritization and iteration planning. They are usually accompanied by acceptance criteria to provide context and facilitate validation.
+
+### User Story Mapping
+
+User Story Mapping is an Agile technique used for product backlog refinement and release planning. It involves arranging user stories into a useful model to understand the functionalities of the system, identify holes and omissions, and effectively plan holistic releases that deliver value to users and business with each release.
 
 ## V
 
@@ -1138,9 +1162,9 @@ The Wide-Band Delphi Technique is an estimation technique that seeks to find the
 
 A Wireframe is a visual representation of a user interface, stripped of any visual design or branding elements. It is used in business analysis and UX design for defining the hierarchy of items on a screen and the overall navigation.
 
-### Work Breakdown Structure (WBS)
+### Wide-Band Delphi Technique
 
-The Work Breakdown Structure (WBS) is a hierarchical decomposition of the total scope of work to be carried out by the project team. In business analysis, the WBS is used to define the detailed scope of work and is often a critical tool for controlling a project’s scope.
+The Wide-Band Delphi Technique is a consensus-building and estimation method often used in project management and business analysis for gathering expert opinions. The process involves multiple rounds of anonymous estimation or forecasting by a panel of experts. After each round, the aggregated results are shared with the panel, allowing them to adjust their estimates in subsequent rounds. The method aims to converge the diverse opinions into a collective best estimate. The "wide-band" term indicates the incorporation of a broader range of communication methods, not just questionnaires, but also discussions and feedback loops, to ensure a more accurate and reliable outcome. This technique is particularly useful for complex projects where uncertainty is high and expert judgment is needed.
 
 ### Workflow
 
