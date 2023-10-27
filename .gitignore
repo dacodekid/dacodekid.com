@@ -1,6 +1,8 @@
 node_modules/
 cache/
 dist/
+_exclude/
 
 .DS_Store
 bun.lockb
+*workspace

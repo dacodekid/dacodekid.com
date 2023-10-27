@@ -1,0 +1,51 @@
+Acceptance Criteria
+Actual Acceptance Results
+Analysis Approach
+Analysis Models
+Approved Requirements
+Assessment Of Business Value
+Business Analysis Organizational Standards
+Business Analysis Performance Assessment
+Business Analysis Performance Metrics And Measurements
+Business Analysis Plan
+Business Analysis Work Products
+Business Case
+Business Goals And Objectives
+Business Need
+Change Requests
+Charter
+Compliance Or Regulatory Standards
+Configuration Management Standards
+Confirmed Elicitation Results
+Current State Assessment
+Elicitation Approach
+Elicitation Preparation Materials
+Elicitation Results (Unconfirmed/ Confirmed)
+Enterprise And Business Architectures
+Enterprise Environmental Factors
+Evaluated Acceptance Results
+Feasibility Study Results
+Metrics And Kpis
+Organizational Goals And Objectives
+Performance Data
+Planning Approaches From All Other Knowledge Areas
+Prioritized Requirements And Other Product Information
+Product Risk Analysis
+Product Roadmap
+Product Scope
+Readiness Assessment
+Recommended Solution Option
+Relationships And Dependencies
+Required Capabilities And Features
+Requirements And Other Product Information
+Situation Statement
+Solution Design
+Solution Evaluation Approach
+Stakeholder Engagement And Communication Approach
+Stakeholder Register
+Traceability And Monitoring Approach
+Transition Plan
+Unconfirmed Elicitation Results
+Updated Stakeholder Register
+Validated Requirements And Other Product Information
+Verified Requirements And Other Product Information
