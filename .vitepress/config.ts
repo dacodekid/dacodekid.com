@@ -25,6 +25,10 @@ const gistMenu = [
         text: 'Outputs',
         link: '/content/gist/business-analysis/outputs.md',
       },
+      {
+        text: 'Tools & Techniques',
+        link: '/content/gist/business-analysis/tools-techniques.md',
+      },
     ],
   },
 ];

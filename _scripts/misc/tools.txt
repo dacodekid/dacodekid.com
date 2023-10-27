@@ -1,0 +1,111 @@
+Configuration Management System (CMS)
+Version Control System (VCS)
+Brainstorming
+Collaborative Games
+Document Analysis
+Evolutionary Prototyping
+Facilitated Workshops
+Focus Groups
+Interviews
+Observation
+Product Box
+Prototyping
+Questionnaires And Surveys
+Speedboat
+Spider Web
+Storyboarding
+Wireframes
+Affinity Estimating
+Bottom-Up Estimating
+Delphi
+Estimation Poker
+Relative Estimation
+Wide-Band Delphi
+Force Field Analysis
+CRUD Matrix
+Interaction Matrix
+Traceability Matrix
+Inspection
+Peer Desk Check
+Walkthroughs
+Product Backlog
+Rolling Wave Planning
+Story Mapping
+Work Breakdown Structure (WBS)
+Buy A Feature
+Minimum Viable Product (MVP)
+MoSCoW
+Multivoting
+Purpose Alignment Model
+Timeboxing
+Weighted Ranking
+Weighted Shortest Job First (WSJF)
+Fishbone/Ishikawa Diagram
+Five-Whys
+Interrelationship Diagrams
+Onion Diagram
+Stakeholder Matrix
+Affinity Diagram
+Backlog Management
+Behavior-Driven Development (BDD)
+Benchmarking
+Burndown Charts
+Business Architecture Techniques
+Business Capability Analysis
+Business Rules Catalog
+Capability Framework
+Capability Table
+Change Control Tools
+Competitive Analysis
+Context Diagram
+Cost-Benefit Analysis
+Data Dictionary
+Data Flow Diagram
+Decision Tree And Decision Table
+Decomposition Model
+Definition Of Done (DoD)
+Definition Of Ready
+Display-Action-Response Model
+Ecosystem Map
+Entity Relationship Diagram (ERD)
+Event List
+Feature Injection
+Feature Model
+Gap Analysis
+Glossary
+Goal Model And Business Objectives Model
+Impact Analysis
+INVEST
+Iteration Planning
+Job Analysis
+Kanban Board
+Kano Analysis
+Market Analysis
+Organizational Chart
+Pareto Diagrams
+Persona Analysis
+Process Flows
+Product Portfolio Matrix
+Product Visioning
+RACI Model
+Real Options
+Report Table
+Requirements Management Tool
+Retrospectives And Lessons Learned
+Risk Register
+Solution Capability Matrix
+State Table And State Diagram
+Story Elaboration
+Story Slicing
+Swot Analysis
+System Interface Tables
+Use Case
+Use Case Diagram
+User Interface Flow
+User Story
+Variance Analysis
+Vendor Assessment
+Internal Rate Of Return (IRR)
+Net Present Value (NPV)
+Payback Period (PBP)
+Return On Investment (ROI)
