@@ -17,6 +17,14 @@ const gistMenu = [
         text: 'Glossary',
         link: '/content/gist/business-analysis/glossary.md',
       },
+      {
+        text: 'Inputs',
+        link: '/content/gist/business-analysis/inputs.md',
+      },
+      {
+        text: 'Outputs',
+        link: '/content/gist/business-analysis/outputs.md',
+      },
     ],
   },
 ];

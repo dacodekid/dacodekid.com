@@ -1,8 +1,3 @@
----
-title: Introduction
-date: 2023-10-12
----
-
 # Introduction
 
 ## What is Business Analysis?
