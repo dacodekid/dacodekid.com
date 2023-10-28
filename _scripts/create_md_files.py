@@ -63,7 +63,8 @@ try:
                 md_file.write("prev: false\n")
                 md_file.write("next: false\n")
                 md_file.write("---\n")
-                # md_file.write(f"# {name}\n") # Uncomment this line to add a heading
+                md_file.write("\n")
+                md_file.write(f"# {name}\n")
 
 except FileNotFoundError:
     print(f"File {args.textfile} not found.")

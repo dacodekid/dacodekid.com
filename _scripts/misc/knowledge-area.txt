@@ -1,0 +1,45 @@
+Needs Assessment
+  Identify Problem or Opportunity
+  Assess Current State of the Organization
+  Determine the Future state
+  Determine the viable option and provide recommendation
+  Facilitate product  roadmap development
+  Assemble the Business Case
+
+Stakeholder Engagement 
+  Identify Stakeholders
+  Conduct Stakeholder Analysis
+  Determine Stakeholder Engagement and Communication Approach
+  Conduct Business Analysis Planning 
+  Prepare Transition to Future State
+  Manage Stakeholder Engagement and Communication
+  Assess Business Analysis Perfoemance
+
+Elicitation
+  Determine Elicitation Approach
+  Prepare for Elicitation
+  Conduct Elicitation
+  Confirm Elicitation Result 
+
+Analysis
+  Determine Analysis Approach
+  Determine and Analyze Models
+  Define and Elaborate Requirements
+  Define Acceptance Criteria
+  Verify Requirements
+  Validate Requirements
+  Prioritize Requirements and other product information
+  Identify and Analyze Product Risks
+  Assess Product Design Options
+
+Traceability and Monitoring
+  Determine Traceability and Monitoring Approach
+  Establish Relationships and Dependencies
+  Select and Approve requirements
+  Manage Changes to requirement and other product information
+
+Solution Evaluation
+  Evaluate Solution Performance
+  Determine Solution Evaluation Approach
+  Evaluate Acceptance Result and Address Defects
+  Obtain Solution Acceptance for Release
