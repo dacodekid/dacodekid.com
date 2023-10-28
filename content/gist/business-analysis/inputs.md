@@ -56,7 +56,11 @@ Business Need is a statement that describes a specific problem, opportunity, or 
 
 ### [Change Requests](/content/gist/business-analysis/input-output/change-requests.md)
 
-Change Requests are formal proposals for modifications to a product, system, or process. These are usually submitted by stakeholders and undergo a review and approval process to assess the impact, costs, and benefits of the proposed change.- [Charter](/content/gist/business-analysis/input-output/charter.md)
+Change Requests are formal proposals for modifications to a product, system, or process. These are usually submitted by stakeholders and undergo a review and approval process to assess the impact, costs, and benefits of the proposed change.
+
+### [Charter](/content/gist/business-analysis/input-output/charter.md)
+
+A Charter is a formal document that authorizes the initiation of a portfolio component, program, or project. The Charter serves as a key output that follows the approval of the Business Case. It delineates the scope, objectives, constraints, assumptions, and key stakeholders of the initiative, effectively setting the stage for all future activities. The Charter is vital for giving the project or program manager the authority to commit organizational resources for the initiative. It serves as a point of reference for all stakeholders involved, ensuring alignment with organizational strategy, goals, and objectives. In essence, the Charter acts as a contract between the sponsoring organization and the team, defining what the project is expected to achieve, how it fits into the larger organizational goals, and the boundaries within which it must operate.
 
 ### [Compliance Or Regulatory Standards](/content/gist/business-analysis/input-output/compliance-or-regulatory-standards.md)
 
