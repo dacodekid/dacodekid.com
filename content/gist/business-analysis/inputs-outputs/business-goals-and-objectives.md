@@ -18,9 +18,13 @@ In contrast, Business Objectives are specific, measurable, achievable, relevant,
 ### Differences
 
 1. **Level of Specificity**: Goals are general directives, while Objectives are specific and quantifiable.
+
 2. **Measurability**: Objectives are measurable and time-bound, whereas Goals are more qualitative and may not be strictly measurable.
+
 3. **Time Frame**: Goals are usually long-term, while Objectives are short- to medium-term achievements that contribute to reaching the Goal.
+
 4. **Detail Orientation**: Objectives are detailed, outlining specific tasks or activities needed to achieve them. Goals are more abstract.
+
 5. **Role in Business Case**: Goals provide the broad rationale behind an initiative, while Objectives might be used to define KPIs and specific deliverables.
 
 6. **Alignment**: Objectives are always aligned with a Goal but a Goal can exist without predefined Objectives.

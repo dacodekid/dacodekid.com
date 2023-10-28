@@ -10,6 +10,7 @@ It serves as a roadmap for how the process of Elicitation will be conducted with
 ### What It Describes
 
 1. **What Information to Elicit**: Specifies the kind of data or requirements that need to be gathered. This could range from functional requirements to business rules, or any other information critical to the project's success.
+
 2. **Where to Find Information**: Identifies the sources from which this data will be gathered. These sources could be documentation, stakeholders, or systems.
 
 3. **How to Obtain the Information**: Lays out the techniques that will be used for elicitation. This could include interviews, document analysis, surveys, etc.

@@ -20,7 +20,9 @@ In adaptive approaches like Agile or Scrum, the process for handling change requ
 ### Key Points
 
 1. **Origin**: Change requests can arise from various factors such as new regulations, internal or external constraints, missed requirements, or stakeholder recommendations.
+
 2. **Prioritization**: Change requests are prioritized against existing work and may sometimes supersede them in importance.
+
 3. **Impact Analysis**: An essential step in dealing with change requests, especially in traditional approaches, is to perform an impact analysis to evaluate how the change affects various project aspects.
 
 4. **Role of Business Analysis**: If a change request impacts product requirements, business analysis is required to assess the full scope and implications of the change.

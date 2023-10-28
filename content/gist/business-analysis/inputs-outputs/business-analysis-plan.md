@@ -10,6 +10,7 @@ A Business Analysis Plan ==serves as a roadmap== for business analysis activitie
 ### Components of Business Analysis Plan
 
 1. **Business Analysis Approach**: It details the methodology and approach that will be followed for business analysis activities.
+
 2. **Stakeholder Engagement**: The plan outlines how stakeholders will be involved and the level of their engagement throughout the business analysis process.
 
 3. **Requirements Management**: While the business analysis plan is broader in scope, it still includes decisions about how requirements will be managed. This is not to be confused with a Requirements Management Plan, which exclusively focuses on requirements-related activities.

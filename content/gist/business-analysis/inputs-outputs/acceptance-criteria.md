@@ -24,6 +24,7 @@ The "definition of done" is included as a part of the acceptance criteria. This 
 Acceptance criteria can be defined at various levels such as:
 
 - **Requirement Level**: Specific to a single requirement.
+
 - **Iteration Level**: Pertaining to an iteration in the project.
 
 - **Release Level**: Concerning the entire release.
