@@ -75,6 +75,8 @@ export default defineConfig({
     footer: {
       message: "my thoughts are neither my employer's nor my wife's",
     },
+
+    outline: 'deep',
   },
 
   vite: {
