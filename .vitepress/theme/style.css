@@ -284,3 +284,51 @@ mark {
 .vp-doc h6 {
   font-size: var(--font-size-h6) !important;
 } */
+
+/** 
+  * align plantuml diagrams to center
+  * -------------------------------------------------------------------------- */
+img[src^="https://www.plantuml.com"]
+{
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/** 
+    * align mermaid diagrams to center
+    * -------------------------------------------------------------------------- */
+.mermaid svg {
+  overflow: visible !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/** 
+    * set table width to 100%
+    * -------------------------------------------------------------------------- */
+.content-container table {
+  width: 100% !important;
+  display: table !important; /* this overrides the default display: block from .theme-default-content to stretch the table to full width */
+}
+
+/**
+  * override default anchor styles
+  * -------------------------------------------------------------------------- */
+.vp-doc a {
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+.vp-doc a:hover {
+  text-decoration: underline !important;
+}
+
+/**
+  * create a custom container for the "raw" block
+  * -------------------------------------------------------------------------- */
+.vp-doc .vp-raw {
+  background-color: var(--vp-c-default-soft);
+  border-radius: 1rem;
+  padding: 0.1rem 1rem !important;
+  margin: 1rem 0;
+}
