@@ -2,6 +2,7 @@ import mdSub from 'markdown-it-sub';
 import mdSup from 'markdown-it-sup';
 import mdMark from 'markdown-it-mark';
 import mdPlantUML from 'markdown-it-plantuml';
+import { mermaid } from './theme/plugins/mermaid';
 import { defineConfig } from 'vitepress';
 
 const gistMenu = [
@@ -100,6 +101,7 @@ export default defineConfig({
         openMarker: '```plantuml',
         closeMarker: '```',
       });
+      md.use(mermaid);
     },
   },
 });

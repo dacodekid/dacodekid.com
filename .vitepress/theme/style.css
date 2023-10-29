@@ -295,17 +295,17 @@ img[src^="https://www.plantuml.com"]
 }
 
 /** 
-    * align mermaid diagrams to center
-    * -------------------------------------------------------------------------- */
-.mermaid svg {
+  * align mermaid diagrams to center
+  * -------------------------------------------------------------------------- */
+[id^='mermaid_'] {
   overflow: visible !important;
   display: block !important;
   margin: 0 auto !important;
 }
 
 /** 
-    * set table width to 100%
-    * -------------------------------------------------------------------------- */
+  * set table width to 100%
+  * -------------------------------------------------------------------------- */
 .content-container table {
   width: 100% !important;
   display: table !important; /* this overrides the default display: block from .theme-default-content to stretch the table to full width */

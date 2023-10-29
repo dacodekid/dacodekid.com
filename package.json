@@ -6,11 +6,17 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@vue-kakuyaku/core": "^0.4.3",
+    "@vueuse/core": "^10.5.0",
+    "hasha": "^5.2.2",
+    "markdown-it": "^13.0.2",
     "markdown-it-mark": "^3.0.1",
     "markdown-it-mathjax3": "^4.3.2",
     "markdown-it-plantuml": "^1.4.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
+    "mermaid": "^10.6.0",
     "vitepress": "^1.0.0-rc.23",
     "vue": "^3.3.6"
   }
