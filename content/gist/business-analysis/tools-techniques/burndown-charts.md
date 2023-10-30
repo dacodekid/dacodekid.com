@@ -28,4 +28,8 @@ For instance, a slowdown in the rate at which PBIs are being completed ('team ve
 
 - **Requirement Volatility**: Observing how often new requirements or PBIs are added, which could indicate changes in project scope or understanding.
 
+### Diagram
+
+![Burndown Chart](/img/business-analysis/tools-techniques/burn-down-chart.png)
+
 By utilizing Burndown Charts effectively, business analysts can not only track project progress but also diagnose potential issues, thereby contributing to the successful adaptation and completion of the project.

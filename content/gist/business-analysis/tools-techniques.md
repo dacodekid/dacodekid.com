@@ -4,6 +4,8 @@ outline: [2, 4]
 
 ## Change Control Tools
 
+Change Control Tools are used to manage and track changes to project requirements, designs, or deliverables. They ensure that changes are documented, evaluated, approved, and implemented consistently, minimizing project disruptions.
+
 ### [Configuration Management System (CMS)](/content/gist/business-analysis/tools-techniques/configuration-management-system-cms.md)
 
 Configuration Management System (CMS) is a set of processes and tools that manage and control the versions of project artifacts, ensuring that all elements are consistent and aligned.
@@ -18,9 +20,9 @@ Version Control System (VCS) is a software system that helps to manage changes t
 
 Brainstorming is an ideation technique involving a group of people who try to find a solution for a specific problem by gathering a list of spontaneously contributed ideas.
 
-### [Collaborative Games](/content/gist/business-analysis/tools-techniques/collaborative-games.md)
+### Collaborative Games
 
-Collaborative Games are structured activities that engage stakeholders in problem-solving or decision-making processes, often designed to be enjoyable and interactive.
+Collaborative games serve as elicitation techniques designed to encourage teamwork, stimulate creativity, and foster innovation. These games are used to achieve specific goals, such as problem identification, solution generation, decision making, and team building. The nature of the games encourages active participation, making them particularly effective in environments where team engagement is essential.
 
 #### [Product Box](/content/gist/business-analysis/tools-techniques/product-box.md)
 
@@ -259,10 +261,6 @@ A Capability Framework provides a structured representation of the organizationa
 ### [Capability Table](/content/gist/business-analysis/tools-techniques/capability-table.md)
 
 A Capability Table is a tabular representation of an organization's capabilities, detailing each capability's description, its ownership, associated processes, and supporting technology. It provides a consolidated view of the capabilities across the organization.
-
-### [Change Control Tools](/content/gist/business-analysis/tools-techniques/change-control-tools.md)
-
-Change Control Tools are used to manage and track changes to project requirements, designs, or deliverables. They ensure that changes are documented, evaluated, approved, and implemented consistently, minimizing project disruptions.
 
 ### [Competitive Analysis](/content/gist/business-analysis/tools-techniques/competitive-analysis.md)
 
