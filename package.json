@@ -1,14 +1,22 @@
 {
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "clean": "rm -fr .vitepress/{cache,dist}",
+    "format": "prettier --write $npm_package_config_prettier_extn",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "watch:format": "onchange $npm_package_config_prettier_extn -- prettier --write {{changed}}",
+    "watch:dev": "vitepress dev",
+    "start-with-format": "npm-run-all --serial format --parallel watch:**",
+    "start": "npm-run-all --serial watch:dev",
+    "deploy": "gh-pages -d .vitepress/dist",
+    "release": "npm-run-all --serial clean build deploy"
   },
   "devDependencies": {
     "@types/node": "^20.8.9",
     "@vue-kakuyaku/core": "^0.4.3",
     "@vueuse/core": "^10.5.0",
+    "gh-pages": "^6.0.0",
     "hasha": "^5.2.2",
     "markdown-it": "^13.0.2",
     "markdown-it-mark": "^3.0.1",
@@ -17,6 +25,9 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "mermaid": "^10.6.0",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "prettier": "^3.0.3",
     "vitepress": "^1.0.0-rc.23",
     "vue": "^3.3.6"
   }

@@ -70,7 +70,7 @@ Feasibility Study Results are the outcomes of an analysis to determine the viabi
 
 Improved Stakeholder Engagement and Communication refers to strategies or initiatives that enhance the involvement and understanding between stakeholders and the project team.
 
-### [Prioritized Requirements And Other Product Information](/content/gist/business-analysis/inputs-outputs/prioritized-requirements-and-other-productinformation.md)
+### [Prioritized Requirements And Other Product Information](/content/gist/business-analysis/inputs-outputs/prioritized-requirements-and-other-product-information.md)
 
 Prioritized Requirements and Other Product Information is a set of requirements and related information arranged according to their importance and relevance for decision-making.
 
