@@ -4,3 +4,37 @@ next: false
 ---
 
 # Interviews
+
+Interviews serve as a fundamental elicitation technique used extensively in business analysis. They can be formal or informal and involve asking questions to individuals or groups of stakeholders, followed by documenting the responses.
+
+### Objectives and Usage
+
+- **Identification of Problem or Opportunity**: Interviews with key stakeholders can significantly contribute to understanding a problem or identifying an opportunity. They are particularly useful in eliciting information that aids in developing the situation statement.
+
+- **Charter Development**: In the context of developing a project or product charter, interviews are used to gather critical information. They can serve to initiate the charter or supplement it by filling in information gaps when other elicitation techniques have been previously employed.
+
+- **Elicitation Preparation**: Preliminary interviews can clarify objectives and set expectations with those who will participate in elicitation activities. They can guide in formulating agendas and determining questions that will be asked in subsequent elicitation activities.
+
+- **Confirmation and Clarification**: Follow-up interviews can be crucial for confirming elicitation results and resolving any discrepancies. They help in refining the details and ensuring accuracy.
+
+### Characteristics
+
+- **Structured or Unstructured**: Interviews can be highly structured, with a predetermined set of questions, or unstructured, allowing for spontaneous questions based on the flow of conversation.
+
+- **Documenting Responses**: One of the key aspects of interviews is the documentation of responses. This can be done through various means, including notes, audio recordings, or even video.
+
+- **Stakeholder Selection**: Interviews are most effective when conducted with stakeholders who have essential information or insights related to the problem, opportunity, or solution under consideration.
+
+### Applications
+
+Interviews are versatile and can be employed at different stages of business analysis for various purposes:
+
+- **Situation Analysis**: To understand the underlying issues or opportunities, thereby contributing to the situation statement.
+
+- **Requirements Elicitation**: To gather detailed information that will be analyzed to identify requirements.
+
+- **Solution Evaluation**: To collect feedback on proposed solutions or implemented changes.
+
+- **Stakeholder Engagement**: To understand stakeholder expectations and preferences, which is crucial for stakeholder management and effective communication.
+
+Interviews are a foundational elicitation technique that offers the flexibility to adapt to various information needs, contexts, and stakeholder groups.

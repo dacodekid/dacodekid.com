@@ -56,9 +56,11 @@ Interviews are one-on-one or group sessions that involve questioning stakeholder
 
 Observation is the technique of viewing and analyzing stakeholder activities and environment to understand a process, identify requirements, or determine problem areas.
 
-### [Prototyping](/content/gist/business-analysis/tools-techniques/prototyping.md)
+### Prototyping
 
-Prototyping involves creating a working model of a proposed solution to test its feasibility and acceptability among stakeholders. It is used for capturing, validating, or deriving functional and non-functional requirements. Prototypes can be low-fidelity (paper sketches) or high-fidelity (interactive digital models).
+Prototyping is an elicitation technique that allows for early feedback on requirements by creating a tangible model or proof of concept (PoC) of the expected solution. Unlike traditional methods that rely on abstract representations of requirements, prototyping offers stakeholders a more concrete, visual way to understand and interact with a proposed solution. This hands-on approach provides a valuable means to validate whether the conceptual solution aligns well with the existing set of requirements and helps to identify any potential gaps.
+
+Prototyping embraces the idea of progressive elaboration, involving iterative cycles of creating mockups, allowing user interaction, gathering feedback, and then refining the prototype. The prototype can be anything from a simple architectural model to an early version of the product itself. Through this iterative process, requirements can be refined and more closely aligned with stakeholder expectations and needs.
 
 #### [Evolutionary Prototyping](/content/gist/business-analysis/tools-techniques/evolutionary-prototyping.md)
 

@@ -332,3 +332,12 @@ img[src^="https://www.plantuml.com"]
   padding: 0.1rem 1rem !important;
   margin: 1rem 0;
 }
+
+/**
+  * custom heading margins / paddings for the tools & techniques page
+  * -------------------------------------------------------------------------- */
+
+._content_gist_business-analysis_tools-techniques h4,
+._content_gist_business-analysis_tools-techniques h4 + p {
+  margin-left: 1em !important;
+}
