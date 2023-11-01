@@ -243,27 +243,14 @@ mark {
   * Override all default heading styles
   * -------------------------------------------------------------------------- */
 
-/* :root {
+:root {
   --base-font-size: 1em;
-  --font-size-h1: calc(var(--base-font-size) * 2.5);
-  --font-size-h2: calc(var(--base-font-size) * 2.25);
-  --font-size-h3: calc(var(--base-font-size) * 2);
-  --font-size-h4: calc(var(--base-font-size) * 1.5);
-  --font-size-h5: calc(var(--base-font-size) * 1.25);
+  --font-size-h1: calc(var(--base-font-size) * 1.5);
+  --font-size-h2: calc(var(--base-font-size) * 1.4);
+  --font-size-h3: calc(var(--base-font-size) * 1.3);
+  --font-size-h4: calc(var(--base-font-size) * 1.2);
+  --font-size-h5: calc(var(--base-font-size) * 1.1);
   --font-size-h6: var(--base-font-size);
-}
-
-.vp-doc h1,
-.vp-doc h2,
-.vp-doc h3,
-.vp-doc h4,
-.vp-doc h5,
-.vp-doc h6 {
-  margin-top: 2em;
-  margin-bottom: 0.5em;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--vp-c-text-1);
 }
 
 .vp-doc h1 {
@@ -283,7 +270,7 @@ mark {
 }
 .vp-doc h6 {
   font-size: var(--font-size-h6) !important;
-} */
+}
 
 /** 
   * align plantuml diagrams to center
@@ -335,9 +322,39 @@ img[src^="https://www.plantuml.com"]
 
 /**
   * custom heading margins / paddings for the tools & techniques page
+  * ps: use rem instead of em to avoid compounding effect
   * -------------------------------------------------------------------------- */
 
-._content_gist_business-analysis_tools-techniques h4,
-._content_gist_business-analysis_tools-techniques h4 + p {
-  margin-left: 1em !important;
+[class*='_content_'] h4,
+[class*='_content_'] h4 + p,
+[class*='_content_'] h4 + ol,
+[class*='_content_'] h4 + p + ol,
+[class*='_content_'] h4 + p + ul {
+  margin-top: 1rem !important;
+  margin-left: 1rem !important;
+  margin-bottom: 0rem !important;
+}
+
+[class*='_content_'] h4 + p {
+  margin-top: 0rem !important;
+  margin-bottom: 2rem !important;
+}
+
+[class*='_content_'] h5,
+[class*='_content_'] h5 + p,
+[class*='_content_'] h5 + ol,
+[class*='_content_'] h4 + p + ol,
+[class*='_content_'] h5 + p + ul {
+  margin-top: var(--base-font-size) !important;
+  margin-left: 2rem !important;
+}
+
+[class*='_content_'] h5 {
+  margin-top: 1rem !important;
+  margin-bottom: 0rem !important;
+}
+
+[class*='_content_'] h5 + p {
+  margin-top: 0rem !important;
+  margin-bottom: 2rem !important;
 }

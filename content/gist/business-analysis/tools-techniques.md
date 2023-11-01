@@ -432,11 +432,11 @@ Story Elaboration involves expanding on a user story to provide more details, en
 
 Story Slicing is the process of breaking down a user story into smaller, more manageable pieces, ensuring that each slice provides value and can be developed within a single iteration.
 
-### [Swot Analysis](/content/gist/business-analysis/tools-techniques/swot-analysis.md)
+### [SWOT Analysis](/content/gist/business-analysis/tools-techniques/swot-analysis.md)
 
 SWOT Analysis evaluates a company's Strengths, Weaknesses, Opportunities, and Threats. It's a strategic tool used for understanding internal and external factors impacting an organization or initiative.
 
-### [System Interface Tables](/content/gist/business-analysis/tools-techniques/system-interface-tables.md)
+### [System Interface Table](/content/gist/business-analysis/tools-techniques/system-interface-table.md)
 
 System Interface Tables document the interactions between different systems, specifying data exchanged, formats, and communication protocols.
 

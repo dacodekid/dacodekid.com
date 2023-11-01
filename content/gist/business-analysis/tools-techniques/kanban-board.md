@@ -10,23 +10,25 @@ The Kanban Board serves as a potent tool in adaptive project approaches, offerin
 ### Example
 
 ```mermaid
-graph TB
-    subgraph Done
-        note6[Task 6]
-        note7[Task 7]
-    end
-    subgraph Review
-        note9[Task 9]
-    end
-    subgraph In Progress
-        note4[Task 4]
-        note5[Task 5]
-    end
-    subgraph To Do
-        note1[Task 1]
-        note2[Task 2]
-        note3[Task 3]
-        note8[Task 8]
+graph LR
+    subgraph "Kanban Board"
+        subgraph To Do
+            note1[Task 1]
+            note2[Task 2]
+            note3[Task 3]
+            note8[Task 8]
+        end
+        subgraph In Progress
+            note4[Task 4]
+            note5[Task 5]
+        end
+        subgraph Review
+            note9[Task 9]
+        end
+        subgraph Done
+            note6[Task 6]
+            note7[Task 7]
+        end
     end
     classDef note fill:#ff0,stroke:#333,stroke-width:2px, color:#000;
     class note1,note2,note3,note4,note5,note6,note7,note8,note9 note;
