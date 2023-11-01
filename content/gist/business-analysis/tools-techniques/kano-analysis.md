@@ -26,3 +26,21 @@ Features are categorized into one of five distinct categories based on customer 
 Over time, customer perceptions of features can shift. What was once a Delighter may become a mere Performance feature as competitors catch up, or customer expectations evolve.
 
 Kano Analysis is valuable for product development, feature prioritization, and strategic planning. It provides actionable insights for aligning a product's feature set with customer needs and expectations, helping in informed decision-making.
+
+### Example
+
+```mermaid
+graph TD
+    A[Basic Features] -->|Expected| B[Indifferent Features]
+    A -->|Unexpected| C[Delighters]
+    B -->|Performance| D[Reverse Features]
+    C -->|Performance| D
+    D -->|Performance| C
+    D -->|Expected| B
+    E[Feature 1] -->|Expected| F[Feature 2]
+    E -->|Unexpected| G[Feature 3]
+    F -->|Performance| H[Feature 4]
+    G -->|Performance| H
+    H -->|Performance| G
+    H -->|Expected| F
+```
