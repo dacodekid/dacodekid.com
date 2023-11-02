@@ -203,7 +203,7 @@
   --vp-sidebar-width: 400px !important; /* increase sidebar width from default 272px */
 }
 
-/* target a div with class .content-container that has attribute starts with data-v */
+/* Target a div with class .content-container that has attribute starts with data-v */
 .content-container {
   max-width: 95% !important; /* 888px is the default max-width */
 }
@@ -220,7 +220,7 @@
 }
 
 /**
-  * style for <mark> element (which is denoted by `==` in markdown)
+  * Style for <mark> element (which is denoted by `==` in markdown)
   * -------------------------------------------------------------------------- */
 /* mark {
   border-radius: 1em 0 1em 0;
@@ -245,8 +245,8 @@ mark {
 
 :root {
   --base-font-size: 1em;
-  --font-size-h1: calc(var(--base-font-size) * 1.5);
-  --font-size-h2: calc(var(--base-font-size) * 1.4);
+  --font-size-h1: calc(var(--base-font-size) * 1.6);
+  --font-size-h2: calc(var(--base-font-size) * 1.5);
   --font-size-h3: calc(var(--base-font-size) * 1.3);
   --font-size-h4: calc(var(--base-font-size) * 1.2);
   --font-size-h5: calc(var(--base-font-size) * 1.1);
@@ -273,7 +273,7 @@ mark {
 }
 
 /** 
-  * align plantuml diagrams to center
+  * Align plantuml diagrams to center
   * -------------------------------------------------------------------------- */
 img[src^="https://www.plantuml.com"]
 {
@@ -282,7 +282,7 @@ img[src^="https://www.plantuml.com"]
 }
 
 /** 
-  * align mermaid diagrams to center
+  * Align mermaid diagrams to center
   * -------------------------------------------------------------------------- */
 [id^='mermaid_'] {
   overflow: visible !important;
@@ -291,7 +291,7 @@ img[src^="https://www.plantuml.com"]
 }
 
 /** 
-  * set table width to 100%
+  * Set table width to 100%
   * -------------------------------------------------------------------------- */
 .content-container table {
   width: 100% !important;
@@ -299,7 +299,7 @@ img[src^="https://www.plantuml.com"]
 }
 
 /**
-  * override default anchor styles
+  * Override default anchor styles
   * -------------------------------------------------------------------------- */
 .vp-doc a {
   text-decoration: none !important;
@@ -311,7 +311,7 @@ img[src^="https://www.plantuml.com"]
 }
 
 /**
-  * create a custom container for the "raw" block
+  * Create a custom container for the "raw" block
   * -------------------------------------------------------------------------- */
 .vp-doc .vp-raw {
   background-color: var(--vp-c-default-soft);
@@ -321,7 +321,7 @@ img[src^="https://www.plantuml.com"]
 }
 
 /**
-  * custom heading margins / paddings for the tools & techniques page
+  * Custom heading margins / paddings for the tools & techniques page
   * ps: use rem instead of em to avoid compounding effect
   * -------------------------------------------------------------------------- */
 
@@ -357,4 +357,11 @@ img[src^="https://www.plantuml.com"]
 [class*='_content_'] h5 + p {
   margin-top: 0rem !important;
   margin-bottom: 2rem !important;
+}
+
+/**
+  * Remove default top border for h2
+  * -------------------------------------------------------------------------- */
+.vp-doc h2 {
+  border-top: none !important;
 }

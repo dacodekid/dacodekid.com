@@ -2,21 +2,22 @@ Identify Problem or Opportunity
 Assess Current State of the Organization
 Determine the Future state
 Determine the viable option and provide recommendation
-Facilitate product roadmap development
-Assemble the Business Case
+Facilitate product  roadmap development
+Assemble Business Case
+Support Charter Development
 Identify Stakeholders
 Conduct Stakeholder Analysis
 Determine Stakeholder Engagement and Communication Approach
-Conduct Business Analysis Planning
+Conduct Business Analysis Planning 
 Prepare Transition to Future State
 Manage Stakeholder Engagement and Communication
 Assess Business Analysis Perfoemance
 Determine Elicitation Approach
 Prepare for Elicitation
 Conduct Elicitation
-Confirm Elicitation Result
+Confirm Elicitation Results 
 Determine Analysis Approach
-Determine and Analyze Models
+Create and Analyze Models
 Define and Elaborate Requirements
 Define Acceptance Criteria
 Verify Requirements

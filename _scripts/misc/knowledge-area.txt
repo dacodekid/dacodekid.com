@@ -4,7 +4,8 @@ Needs Assessment
   Determine the Future state
   Determine the viable option and provide recommendation
   Facilitate product  roadmap development
-  Assemble the Business Case
+  Assemble Business Case
+  Support Charter Development
 
 Stakeholder Engagement 
   Identify Stakeholders
@@ -19,11 +20,11 @@ Elicitation
   Determine Elicitation Approach
   Prepare for Elicitation
   Conduct Elicitation
-  Confirm Elicitation Result 
+  Confirm Elicitation Results 
 
 Analysis
   Determine Analysis Approach
-  Determine and Analyze Models
+  Create and Analyze Models
   Define and Elaborate Requirements
   Define Acceptance Criteria
   Verify Requirements

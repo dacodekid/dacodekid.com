@@ -30,6 +30,10 @@ const gistMenu = [
         text: 'Tools & Techniques',
         link: '/content/gist/business-analysis/tools-techniques.md',
       },
+      {
+        text: 'Processes',
+        link: '/content/gist/business-analysis/processes.md',
+      },
     ],
   },
 ];
