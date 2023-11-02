@@ -15,7 +15,9 @@ Stakeholder analysis delves deep into a systematic examination of both quantitat
 
 An iterative approach is adopted for stakeholder analysis, ensuring it remains relevant and updated throughout the project. As stakeholders' attributes or relationships undergo change or new stakeholders come into the picture, revisiting the analysis becomes crucial. Tweaks in the product scope can lead to the inclusion or exclusion of stakeholders. Although the preliminary planning phase results in an initial list of stakeholders, continuous identification ensures its upkeep. If a vast number of stakeholders emerge, the analysis might lean towards classifying them based on shared characteristics, making the analysis more efficient.
 
-Various characteristics can be scrutinized during the stakeholder analysis to gain more profound insights about them:
+### Characteristics
+
+Various can be scrutinized during the stakeholder analysis to gain more profound insights about them:
 
 - **Attitude**: It determines who is supportive, interested, or inclined to back the task and endorse the proposed solution.
 

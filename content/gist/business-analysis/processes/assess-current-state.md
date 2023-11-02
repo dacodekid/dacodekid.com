@@ -5,19 +5,35 @@ next: false
 
 ## Assess Current State
 
-Assess Current State is a pivotal process in business analysis aimed at scrutinizing the existing organizational landscape. This process serves as the foundation for understanding the inherent complexities and nuances of the environment, thereby enabling effective decision-making for what needs to change to reach the future state. The knowledge gained through this assessment ==provides the necessary context for determining the changes that should be implemented and what should remain as is==.
+The "Assess Current State" process aims to delve deep into the current environment being analyzed. The primary objective is to comprehend both internal and external factors that might be either the root cause or a driving factor for a specific problem or opportunity.
 
-The scope of analysis can extend to various dimensions within the organization. Whether it's a project, program, or portfolio, or perhaps a particular department, product, or even the competitive market landscape, the assessment endeavors to dissect multiple facets. These facets can range from the organizational structure to existing capabilities, culture, processes, policies, as well as internal and external influencing factors like enterprise architecture and market conditions.
+### Key Benefit
 
-This process offers a more detailed insight than merely identifying the problem or opportunity, as it includes ongoing elicitation activities. Conduct Elicitation is often performed in parallel to further enrich the data and information reservoir.
+The main advantage of this process is to equip stakeholders with a thorough understanding of the present condition of the organization. This understanding is pivotal in determining the elements that will remain constant, versus those that require modification, thus painting a clearer picture of the desired future state.
 
-One of the ==key aspects of this process is the evaluation of the organization’s current capabilities==. In business analysis terminology, a capability is essentially a skill set or proficiency the organization possesses, which can be a function, process, or service. Understanding these capabilities allows the organization to gauge what is required to either initiate or mature these capabilities to address the identified business need effectively.
+### Areas of Analysis
 
-==Additionally, this process involves identifying any constraints or limiting factors==, along with their root causes, that may be hampering the organization's ability to address the problem or opportunity. This ensures that these limiting factors are not overlooked when defining the future state.
+The scope of analysis is vast, ranging from a specific project or a program to an entire department or business unit. Other potential areas of investigation include the competitive landscape, specific products, and many more. Factors to be inspected can be as intrinsic as organizational culture, processes, and structure or as extensive as external elements, enterprise architectures, capacities like human resources, and capital resources.
 
-Various tools and techniques like document analysis, interviews, observation, and surveys are leveraged during this process to collect a broad spectrum of information. Care is taken to ensure that the focus remains on relevant areas that contribute to defining the situation statement, thus avoiding overextension into areas that may not be beneficial or are outside the scope of the issue at hand.
+### Depth of Analysis
 
-It's important to note that, in some instances, if a recent and thorough assessment of the current state exists, it may negate the need for a redundant exercise. Furthermore, it's possible that different teams within the organization may handle various analytical aspects, depending on the complexity and requirements of the project.
+The information gathered during this process is often denser and more detailed than the initial data accumulated while identifying the problem or opportunity. The reason for this is the continuous elicitation activities that further nurture the available information. This process often goes hand-in-hand with the "Conduct Elicitation" section.
+
+### Evaluation of Current Capabilities
+
+One of the principal areas of concentration during the current state assessment is evaluating the organization's existing capabilities. Here, capability refers to the organization's proficiency, whether it's a service, process, or any other function. These capabilities act as the catalyst enabling the organization to realize its strategy. The root cause analysis of an issue lets the organization pinpoint the necessary capabilities or those needing further maturation to cater to the business needs. Any potential limitations and the respective root causes are also identified, and the required capabilities to address these are taken into account.
+
+### Objective
+
+The primary goal of the current state assessments isn't to dive deep into a comprehensive analysis of requirements. Instead, it's to gain ample knowledge about the problem or opportunity, ensuring that stakeholders have a robust grasp of the situation.
+
+### Elicitation Methods
+
+To obtain information regarding the current state, various elicitation techniques are employed. These methods range from scrutinizing documents, conducting interviews, observing real-time scenarios, to distributing surveys.
+
+### Focus of Business Analysis Activities
+
+While conducting the analysis, it's imperative to zero in on areas that aid in defining the situation statement. A potential pitfall to avoid is straying into areas that might be irrelevant or not beneficial for defining the future state. It's noteworthy that in instances where a recent detailed assessment of the current state exists, this knowledge can serve as a foundation for the future state without redoing the current state assessment. Also, depending on organizational practices, the team analyzing the current state might differ from the one conducting business analysis for the subsequent project.
 
 ---
 

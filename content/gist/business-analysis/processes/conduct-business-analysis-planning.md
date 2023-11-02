@@ -9,7 +9,7 @@ Conduct Business Analysis Planning refers to the process carried out to reach a 
 
 The outcome of this process culminates in a business analysis plan. This plan can either be formally documented and approved or less structured, depending on the team's modus operandi. Regardless of the documentation style, the outcomes from all planning processes should be taken into account in the overarching strategy. Not making planning decisions can potentially lead to suboptimal results during business analysis. A major advantage of this process is the establishment of expectations, which is done by promoting discussions and consensus on the execution of business analysis. This ensures there is no ambiguity concerning roles and responsibilities when tasks are being executed.
 
-**Objectives of Conducting Business Analysis Planning**
+### Objectives
 
 1. **Integration of Knowledge Areas:** The process combines all Knowledge Area methods into a unified set of agreements and decisions about the conduct of business analysis.
 

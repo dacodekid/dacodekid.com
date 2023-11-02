@@ -7,22 +7,28 @@ next: false
 
 Confirming elicitation results is an essential process in business analysis as it ensures that the information gathered during elicitation is accurate, complete, and understood correctly. This step is pivotal for maintaining the integrity and validity of the information collected, which subsequently influences decision-making and the direction of the project.
 
-**Nature of Elicitation Results**
+### Nature of Elicitation Results
 
 Elicitation involves gathering information from various stakeholders. This information can be captured using various means like whiteboards, flipcharts, meeting notes, and recording devices. However, raw elicitation results might contain inaccuracies, redundancies, and may lack organization. Hence, it's crucial to:
 
 1. **Refine and Correct:** Eliminate any irrelevant or extraneous information that doesn't contribute to the project's objectives.
+
 2. **Organize and Categorize:** Structure the information in a manner that's easy to understand and analyze.
+
 3. **Consolidation:** Combine similar pieces of information to avoid redundancy.
+
 4. **Comparison:** Elicitation results should be compared with previously gathered information to identify any discrepancies. Any inconsistencies should be addressed in subsequent elicitation sessions.
+
 5. **Conversion to Formality:** Based on the stakeholders' requirements, the information may need to be presented in a more formal or informal manner.
+
 6. **Packaging:** Prepare the elicitation results in a manner suitable for distribution among stakeholders.
 
-**Methods of Confirming Elicitation Results**
+### Methods of Confirming Elicitation Results
 
 There are various ways to confirm the accuracy of elicitation results:
 
 1. **Direct Distribution:** Elicitation results can be sent back to the participants who provided the initial information. This allows them to review and confirm the accuracy of the details.
+
 2. **Concurrent Confirmation:** In some scenarios, it's feasible to confirm information during the elicitation process itself. This method, where elicitation and confirmation happen simultaneously, is prevalent in adaptive life cycles.
 
 **Choosing the Right Approach**
@@ -30,6 +36,7 @@ There are various ways to confirm the accuracy of elicitation results:
 The effectiveness of the method chosen to confirm elicitation results can vary based on the situation. For instance:
 
 - When key stakeholders send representatives instead of attending themselves, it might not be effective to confirm results during the elicitation process itself. The delegates might not have the authority or complete knowledge to validate the information.
+
 - On the other hand, a separate review and confirmation cycle could be inefficient if stakeholders are unwilling to allocate time post-elicitation for review and approval.
 
 It's essential for the team to discuss and reach a consensus on the method to review and confirm elicitation results. The decision should align with the project's needs and the stakeholders' preferences.

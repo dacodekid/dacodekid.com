@@ -5,24 +5,24 @@ next: false
 
 ## Determine the Future state
 
-Determine Future State refers to the process aimed at identifying gaps in current capabilities and outlining the necessary proposed changes to achieve a desired future condition. This condition is intended to address the existing problem or take advantage of an opportunity under analysis. The primary advantage of this process is that it results in identifying the capabilities an organization requires to make the transition from its current state to the desired future state, thereby fulfilling the business need.
+Determine Future State is focused on identifying gaps in the present capabilities and proposing the necessary changes to achieve a desired future state that addresses either a problem or an opportunity. This process aids in pinpointing the necessary capabilities an organization needs to transition from its present state to its desired future state, meeting the business requirements.
 
-In the process of determining the future state, further elicitation and analysis are essential. This is to define the changes required to meet the business need and ascertain which existing capabilities need to be retained or what new capabilities are to be introduced. In some scenarios, merely suggesting process changes might suffice without the need to add new capabilities or additional resources. However, in intricate situations, such as those spanning multiple departments or involving sophisticated products, the future state might necessitate adding an array of new capabilities. This could range from introducing process modifications, procuring new machinery, hiring highly skilled personnel, acquiring physical facilities, initiating new training programs, upgrading IT systems, or even completely overhauling a product. Furthermore, there's a need to integrate these newly added elements seamlessly with the current capabilities.
+### Process Details
 
-The envisioned future state could encompass:
+To determine the future state, further elicitation and analysis are required to outline the changes needed to address the business need. This entails deciding which current capabilities should be retained and which new ones should be introduced. In certain situations, only recommending process alterations might be sufficient without the need for new capabilities. However, more intricate situations, especially those crossing various departments or involving complex products, might necessitate a mix of new capabilities. This could range from process alterations, novel machinery, proficient staff, physical infrastructures, training programs, enhanced IT systems, to a fully redesigned product. It's also essential to understand how to incorporate these new elements with the current capabilities.
 
-- Initiating new tasks for the organization.
-- Outsourcing to secure capabilities that are beyond the organization's internal reach.
-- Repurposing current resources in novel ways.
-- Merging improved, new, or externally sourced capabilities.
+The future state might entail:
 
-The task of business analysis is conducted to pinpoint the combination of capabilities that would most effectively address the identified problem or opportunity. This involves the product team engaging in detailed discussions, drawing on the information acquired during the analysis of the current state concerning the situation and the organization's capabilities. The end goal is to formulate a clear depiction of what the future state should resemble. This includes detailing the capabilities and features that will empower the organization to make the transition from its existing state to the proposed future state. While these capabilities and features are illustrative of what is necessary, they don't hint at a specific solution. A more in-depth analysis is mandatory to discern how these capabilities and features will be implemented. An integral component of this analytical phase is gaining profound insights into users' or customers' value definitions.
+- Undertaking new work by the organization.
+- Outsourcing to acquire capabilities which the organization can't achieve independently.
+- Redirecting current resources in a new way.
+- A blend of enhanced, novel, or obtained capabilities.
 
-Upon achieving clarity about the future state, business goals and objectives are formulated. These articulate the expectations of the business regarding what a portfolio, program, or project should deliver. It's vital to distinguish these business goals and objectives from the broader organizational goals and objectives that were scrutinized during the current state analysis. Even though the business goals and objectives resonate with the overarching organizational goals and objectives, they are more specific, pinpointing the exact outcomes the business intends to realize. The term "business" in this context refers to the sector of the organization grappling with a problem or seeking to capitalize on an opportunity. This sector embodies the organization's segment that recognizes the need for change and is prepared to champion it.
+To decide which mix of capabilities will optimally address the given problem or opportunity, business analysis is executed. The product team, equipped with the knowledge from the current state analysis, engages in discussions to shape a precise description of the future state. This encompasses the identification of necessary capabilities and features that will allow the organization to move from its present state to the proposed future. It's important to note that while these capabilities and features highlight what is essential, they don't suggest a definite solution. More analysis is needed to ascertain how these capabilities and features will be executed. A segment of this analysis is about grasping how users or consumers perceive value.
+
+After comprehending the future state, business goals and objectives are crafted to convey succinctly what the business expects a portfolio, program, or project to accomplish. It's crucial to differentiate between business goals and organizational goals, the latter having been examined during the current state analysis. While the business goals are aligned with organizational goals, they are more specific as they outline precise targets the business aims to achieve. In this context, "business" denotes the organizational segment that is grappling with an issue or aiming for an opportunity. This segment shows readiness and eagerness to back the need for change.
 
 ---
-
-### Determine Future State
 
 ### Inputs
 

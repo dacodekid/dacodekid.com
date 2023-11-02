@@ -7,21 +7,26 @@ next: false
 
 Support Charter Development is a significant process in PMI's approach to business analysis. Let's delve into the main aspects of this process:
 
-**1. Purpose and Overview:**
+### Purpose and Overview
+
 Support Charter Development revolves around collaborating with stakeholders and sponsors. It's aimed at bridging the gap between the needs assessment, business case development, and the actual charter formulation. The primary advantage is the smooth transition it ensures from business case development to charter development. This transition equips stakeholders with a foundational comprehension of the objectives, including the product scope and requirements.
 
-**2. Definition and Role of the Charter:**
+### Definition and Role of the Charter
 
 - **Portfolio Charter:** Ties the portfolio to the organization's strategic objectives. It spells out the portfolio structure.
+
 - **Program Charter:** Connects the program to the organization's strategic goals and provides authorization to utilize organizational resources for the program.
+
 - **Project Charter:** Formally acknowledges a project's existence and gives the project manager the mandate to allocate organizational resources to the project activities.
 
 The charter is more than a document; it’s a pact between the business and the product development team. It establishes scope boundaries and serves as an official record of initiation. It facilitates communication, agreement, and commitment at senior management levels. Moreover, the charter development process helps to clarify the objectives, elucidate roles, responsibilities, delegate authority, and align team expectations.
 
-**3. Collaborative Development:**
+### Collaborative Development
+
 The charter's creation is a group effort, pulling in resources like the product development team, sponsor, customers, and other stakeholders. Those who were involved in the Needs Assessment, especially those behind the business case, should back the charter development. The initiator or sponsor, crucially, should have the authority to secure funds and assign resources.
 
-**4. Content and Depth of the Charter:**
+### Content and Depth of the Charter
+
 While the charter provides high-level information, it offers more detail than what is typically included in the solution recommendation phase. The charter leans towards tactical discussions on execution, detailing required elements for the chosen solution. Some key components of a charter are:
 
 - Purpose and description
@@ -34,13 +39,15 @@ While the charter provides high-level information, it offers more detail than wh
 
 The charter's size and depth depend on the complexity of the project and the known information. Regardless of its size, it should, at the least, provide a comprehensive overview of the solution to facilitate the development of detailed requirements.
 
-**5. Formality and Variations of the Charter:**
+### Formality and Variations of the Charter
+
 The nature of the charter can differ based on the organization and its requirements. In bigger or strictly regulated entities, a formal documented charter is the norm. Conversely, in smaller organizations or ones that have a more adaptive approach, the charter might be less formal, possibly even verbal. Regardless, the groundwork established in the Needs Assessment phase remains applicable.
 
-**6. Importance of the Charter:**
+### Importance of the Charter
+
 The charter serves as a validation tool, ensuring that projects align with the organization's strategy and ongoing tasks. Depending on the organization, the charter can range from a comprehensive document needing sign-offs to a more streamlined verbal approval. If a formal charter isn't produced, analogous information should be sourced or formulated as the basis for the detailed project scope statement. Some organizations may even draft a charter before deciding on the project life cycle approach, be it predictive or adaptive.
 
-In summary, the Support Charter Development process is crucial in setting the stage for a project, program, or portfolio. It's a comprehensive approach to ensuring alignment, understanding, and commitment across all stakeholders, laying a solid foundation for the subsequent phases of the initiative.
+The Support Charter Development process is crucial in setting the stage for a project, program, or portfolio. It's a comprehensive approach to ensuring alignment, understanding, and commitment across all stakeholders, laying a solid foundation for the subsequent phases of the initiative.
 
 ---
 

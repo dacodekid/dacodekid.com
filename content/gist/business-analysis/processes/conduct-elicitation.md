@@ -5,15 +5,15 @@ next: false
 
 ## Conduct Elicitation
 
-**Definition**:
 Conduct Elicitation is a crucial process within business analysis where different elicitation techniques are used to gather information from stakeholders and other relevant sources. The primary aim of this process is to procure the necessary details to adequately define and elaborate on the requirements and other pertinent product information.
 
-**Benefits**:
+### Benefits
 
 - **Information Gathering**: It facilitates the collection of information from the right sources.
+
 - **Requirement Elaboration**: It helps in adequately defining and expanding on the requirements and other essential product details.
 
-**Components of Conduct Elicitation**:
+### Components
 
 1. **Inputs**:
    The sources of information that will be referred to or used during the elicitation process. These could be previously gathered data, documents, or any other relevant resources that would help in the information-gathering process.
@@ -24,12 +24,7 @@ Conduct Elicitation is a crucial process within business analysis where differen
 3. **Outputs**:
    The results or the information gathered after the elicitation process. This could be in the form of detailed requirements, specifications, or any other relevant data that has been derived from the inputs using the tools and techniques.
 
-**Visualization**:
-
-- **Figure 6-7**: Presents a graphical representation that showcases the inputs, tools & techniques, and outputs of the Conduct Elicitation process.
-- **Figure 6-8**: Demonstrates a data flow diagram that elaborates on how different components of the process interact with each other and how the information flows between them.
-
-In essence, the Conduct Elicitation process is about harnessing the right techniques to gather the most accurate and relevant information from stakeholders, which will then inform the requirements and other product details. This ensures that the resulting product or solution meets the actual needs and expectations of its users and stakeholders.
+The Conduct Elicitation process is about harnessing the right techniques to gather the most accurate and relevant information from stakeholders, which will then inform the requirements and other product details. This ensures that the resulting product or solution meets the actual needs and expectations of its users and stakeholders.
 
 ---
 

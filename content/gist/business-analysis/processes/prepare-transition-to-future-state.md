@@ -7,7 +7,7 @@ next: false
 
 The process of "Prepare for Transition to Future State" focuses on determining the readiness of an organization to transition from its current state to a new future state. This transition integrates the solution or a component of the solution into the daily operations of the organization. The ultimate goal is to ensure that the organization can embrace the changes arising from the solution's implementation and that any benefits from the solution can be sustained once it's operational.
 
-**Key Points**:
+### Key Points
 
 1. **Benefits**:
 

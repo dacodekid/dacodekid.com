@@ -11,18 +11,24 @@ The main advantage of this process lies in its ability to offer a chance to modi
 
 The underlying motivation to assess business analysis performance often comes from an organization's commitment to constant improvement in its practices and processes, ensuring they consistently deliver value to stakeholders.
 
-**Purpose and Objectives**
+### Purpose and Objectives
 
 The primary objective of this assessment is to extract learnings and insights from product development experiences. This is done to determine the effectiveness of various business analysis tools and techniques, identifying which ones are successful and which ones encounter challenges.
 
 To provide clarity, here are some example assessment criteria:
 
 1. **Technique Appropriateness:** Were the techniques selected apt for meeting the requirements of the participants and other stakeholders?
+
 2. **Efficiency:** Was the process of elicitation and analysis executed efficiently?
+
 3. **Time Management:** Was adequate time allocated for conducting business analysis?
+
 4. **Stakeholder Engagement:** Was the involvement of stakeholders adequate?
+
 5. **Stakeholder Omission:** Were there stakeholders who were overlooked?
+
 6. **Requirement Clarity:** Were there requirements that were missed or not properly understood?
+
 7. **Product Defects:** Are there any defects in the product that can be directly linked to the quality or comprehensiveness of the business analysis?
 
 For those tools and techniques that are found challenging, the aim is to identify areas of improvement, take corrective actions, or consider substituting them with alternatives that could potentially be more effective. Conversely, for techniques that prove effective, the goal is to evaluate if they can be recommended or expanded for use in other projects.

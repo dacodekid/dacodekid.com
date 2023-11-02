@@ -5,15 +5,13 @@ next: false
 
 ## Determine the viable option and provide recommendation
 
-**Determine Viable Options and Provide Recommendation**
-
 The process of "Determine Viable Options and Provide Recommendation" involves using various analysis techniques to scrutinize potential solutions to meet business objectives and pinpoint the most suitable solution for the organization. This process serves to confirm the practicability of the suggested solutions and offer the optimal path for the leadership to achieve the business targets.
 
 To determine feasible options, dialogues are held with stakeholders and the product team. The aim is to delineate a series of potential solution recommendations that can cater to the business requirement. The options devised are based on the insights gathered from both current and future state analyses. A solution approach is then defined for each option, which gives a broad overview of the considerations and necessary steps to deliver the solution and facilitate the transition from the current to the envisioned future state.
 
 A common oversight by stakeholders is to suggest solutions without a thorough grasp of the situation's intricacies. Demonstrating the outcome of needs analysis to decision-makers and elucidating why certain options are preferred can mitigate the risk of selecting an inappropriate solution.
 
-Key activities within this process include:
+### Key activities
 
 1. **Identifying viable options:** Drawing from the current and future state analyses to discern the most fitting solution choices for the business.
 

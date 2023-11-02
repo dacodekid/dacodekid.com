@@ -24,8 +24,11 @@ This process entails:
 7. **Essential Components:** Every business case should at least encompass:
 
    - **Problem/Opportunity Statement:** Defines the impetus behind the action. It should articulate the business issue or prospect that necessitates a solution.
+
    - **Situational Analysis:** Describes how the solution aligns with business objectives. This should cover the root causes and back the analysis with relevant data.
+
    - **Recommendation:** Provides a feasibility analysis for each option, emphasizing constraints, risks, and assumptions. A ranking system for alternatives and a detailed cost-benefit analysis is also essential.
+
    - **Evaluation Plan:** Highlights a strategy for gauging benefits realization, which typically comprises metrics that assess how the solution caters to the business objectives.
 
 8. **Living Document:** Post its creation, the business case serves as a continuous reference throughout the initiative's lifespan. Periodic reviews and updates might be needed, based on the evolving nature of the project.

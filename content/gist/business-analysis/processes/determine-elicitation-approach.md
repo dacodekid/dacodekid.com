@@ -7,7 +7,7 @@ next: false
 
 Determining the elicitation approach is pivotal in laying out a structured path for gathering requirements. Elicitation in the context of the PMI Guide to Business Analysis refers to the act of drawing out or extracting information, often in the form of requirements, from stakeholders or other sources. It is a planned process that involves selecting and applying techniques to capture pertinent data.
 
-**Purpose and Key Benefits**
+### Purpose and Key Benefits
 
 The primary purpose of determining the elicitation approach is to streamline and enhance the process of collecting requirements. This is achieved by considering various factors such as the stakeholders involved, the elicitation techniques to be used, and the sequence of activities.
 
@@ -19,7 +19,7 @@ Benefits include:
 
 - **Organized Elicitation**: An organized approach ensures that every aspect of the elicitation process is well-defined, reducing confusion and ensuring clarity.
 
-**Elements of Elicitation Approach**
+### Elements
 
 The elicitation approach consists of several components:
 
@@ -31,11 +31,12 @@ The elicitation approach consists of several components:
 
 4. **Elicitation Sequence and Timing**: Deciding on the order of elicitation activities and their scheduling is crucial for smooth execution.
 
-**Benefits of a Structured Elicitation Approach**
+### Benefits
 
 Having a systematic method for elicitation leads to:
 
 - A **clear understanding** of the information essential for defining a problem or devising a solution.
+
 - **Reduced unnecessary activities**. This means avoiding redundant sessions or repetitive tasks.
 
 - Ensuring that each elicitation activity yields **valuable results**.

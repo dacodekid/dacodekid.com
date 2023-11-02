@@ -7,7 +7,7 @@ next: false
 
 The process of "Identify Stakeholders" revolves around pinpointing the individuals, groups, or organizations that have a potential impact, are impacted, or even think they might be impacted by the area being assessed. This process is essential because it pinpoints whose concerns and inputs must be considered throughout all business analysis activities.
 
-**Definition of a Stakeholder in PMBOK® Guide and Business Analysis**
+### Definition
 
 - **PMBOK® Guide Definition**: The PMBOK® Guide describes a stakeholder as any individual, group, or organization that could influence, be influenced by, or think they might be influenced by a decision, activity, or result of a portfolio, program, or project.
 
@@ -15,7 +15,7 @@ The process of "Identify Stakeholders" revolves around pinpointing the individua
 
 Product stakeholders are actively involved in identifying requirements. They provide crucial inputs during requirements elicitation by delivering business analysis data. This data then forms the foundation for shaping product requirements. It's important to note that stakeholder identification is fluid. An individual or group that identifies or perceives themselves as a product stakeholder at the beginning might see their role or perception change as more details about the situation and product requirements unfold. As the solution progresses, product teams utilize the defined product scope and results from analysis to make necessary modifications to the list of stakeholders. In the context of this standard and guide, whenever the term "stakeholder" is used, it's referring to those influenced by the solution, implying the term "product stakeholder".
 
-**Collaboration is Key**
+### Collaboration is Key
 
 The act of identifying stakeholders isn't exclusive to business analysis. It's also an integral part of portfolio, program, and project management. Given this overlap, there's a significant chance of redundant or overlapping efforts. Hence, collaboration becomes crucial. By collaborating, business analysis and portfolio, program, and project management can ensure that their efforts are streamlined and complementary, with no redundancy or gaps. Such a collaborative approach not only optimizes efforts but also paves the way for better outcomes.
 
