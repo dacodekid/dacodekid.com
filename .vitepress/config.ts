@@ -15,6 +15,36 @@ const gistMenu = [
         link: '/content/gist/business-analysis/',
       },
       {
+        text: 'Knowledge Areas',
+        collapsed: false,
+        items: [
+          {
+            text: 'Needs Assessment',
+            link: '/content/gist/business-analysis/knowledge-areas/needs-assessment.md',
+          },
+          {
+            text: 'Stakeholder Engagement',
+            link: '/content/gist/business-analysis/knowledge-areas/stakeholder-engagement.md',
+          },
+          {
+            text: 'Elicitation',
+            link: '/content/gist/business-analysis/knowledge-areas/elicitation.md',
+          },
+          {
+            text: 'Analysis',
+            link: '/content/gist/business-analysis/knowledge-areas/analysis.md',
+          },
+          {
+            text: 'Traceability & Monitoring',
+            link: '/content/gist/business-analysis/knowledge-areas/traceability-and-monitoring.md',
+          },
+          {
+            text: 'Solution Evaluation',
+            link: '/content/gist/business-analysis/knowledge-areas/solution-evaluation.md',
+          },
+        ],
+      },
+      {
         text: 'Glossary',
         link: '/content/gist/business-analysis/glossary.md',
       },

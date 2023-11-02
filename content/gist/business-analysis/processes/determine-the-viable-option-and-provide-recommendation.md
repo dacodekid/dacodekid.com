@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Determine the viable option and provide recommendation
+## Determine the Viable Option and Provide Recommendation
 
 The process of "Determine Viable Options and Provide Recommendation" involves using various analysis techniques to scrutinize potential solutions to meet business objectives and pinpoint the most suitable solution for the organization. This process serves to confirm the practicability of the suggested solutions and offer the optimal path for the leadership to achieve the business targets.
 

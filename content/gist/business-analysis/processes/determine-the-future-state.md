@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Determine the Future state
+## Determine the Future State
 
 Determine Future State is focused on identifying gaps in the present capabilities and proposing the necessary changes to achieve a desired future state that addresses either a problem or an opportunity. This process aids in pinpointing the necessary capabilities an organization needs to transition from its present state to its desired future state, meeting the business requirements.
 

@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Prioritize Requirements and other product information
+## Prioritize Requirements and Other Product Information
 
 This process focuses on grasping how each fragment of product data meets the stakeholder's goals. Using this comprehension, along with other agreed-upon prioritization elements, the requirements and work are ranked. The primary advantages include aligning all involved parties on how the requirements achieve objectives and deciding the distribution of requirements across iterations or releases.
 

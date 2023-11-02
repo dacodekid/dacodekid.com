@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# Create and Analyze Models
+## Create and Analyze Models
 
 Create and Analyze Models is a process that centers on crafting structured representations of product information. These representations can be diagrams, tables, or structured text. One of the primary advantages of this process is the ability to convey information in a structured, clear manner, ensuring both correctness and completeness.
 

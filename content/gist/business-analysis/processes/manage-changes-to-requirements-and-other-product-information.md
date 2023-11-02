@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Manage Changes to requirement and other product information
+## Manage Changes to Requirement and Other Product Information
 
 Managing changes to requirements and product information is an essential process in business analysis. It ensures that any modifications or defects arising during a project are scrutinized for their value and potential impact. This process ensures that only valuable changes, which support prioritization and subsequent product development, are integrated. This facilitates the addition of vital solution modifications while also curbing unnecessary alterations. By doing so, the stakeholders gain a clearer understanding of the effects of the changes on the final product.
 

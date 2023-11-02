@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# Establish Relationships and Dependencies
+## Establish Relationships and Dependencies
 
 Establishing Relationships and Dependencies is vital for creating a clear pathway between different requirements and product information. This process aids in ensuring that the product scope remains accurate and all components are interlinked effectively.
 

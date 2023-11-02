@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Select and Approve requirements
+## Select and Approve Requirements
 
 Selecting and approving requirements is pivotal in ensuring that stakeholders have a mutual understanding and agreement on what the product team will build. This process guides decisions about the construction or modification of a product.
 

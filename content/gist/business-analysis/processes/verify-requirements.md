@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# Verify Requirements
+## Verify Requirements
 
 The "Verify Requirements" process emphasizes checking that the quality of requirements aligns with the defined standards of the organization. Meeting these standards aids in efficient communication of the requirements to all stakeholders and ensures that the final product meets the desired quality.
 

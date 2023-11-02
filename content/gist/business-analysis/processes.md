@@ -149,7 +149,7 @@ Every requirement doesn't exist in isolation. They often have interdependencies 
 
 Not all identified requirements will be implemented, especially when constraints like budget, time, or resources come into play. In this process, requirements are prioritized, selected, and then approved for implementation. Various criteria such as business value, stakeholder needs, and technical feasibility are taken into account when prioritizing. Once the critical requirements are selected, they are then formally approved, usually by key stakeholders or a designated approval authority, to move on to the subsequent stages of the project.
 
-#### [Manage Changes to requirement and other product information](/content/gist/business-analysis/processes/manage-changes-to-requirement-and-other-product-information.md)
+#### [Manage Changes to requirements and other product information](/content/gist/business-analysis/processes/manage-changes-to-requirements-and-other-product-information.md)
 
 As projects progress, there may arise situations where requirements need to be changed, added, or removed. This process ensures that any change to the requirements or related product information is evaluated for its impact, documented, and communicated to relevant stakeholders. It involves assessing the implications of the change, getting the necessary approvals, and ensuring that the updated requirements are clearly understood by all involved parties. Techniques such as a change request system or impact analysis might be used to effectively manage these changes.
 
@@ -167,7 +167,7 @@ This process focuses on the actual performance of the solution in real-world sce
 
 Before evaluating a solution's effectiveness, it's essential to establish a robust and coherent approach. This process involves choosing appropriate methodologies, tools, and techniques to evaluate the solution comprehensively. It sets the groundwork for how the solution's performance will be assessed. Decisions made during this phase include determining the evaluation criteria, identifying the necessary resources, setting timelines, and specifying any other particulars that will shape the evaluation journey.
 
-#### [Evaluate Acceptance Result and Address Defects](/content/gist/business-analysis/processes/evaluate-acceptance-result-and-address-defects.md)
+#### [Evaluate Acceptance Results and Address Defects](/content/gist/business-analysis/processes/evaluate-acceptance-results-and-address-defects.md)
 
 After a solution has been implemented, it's crucial to evaluate its acceptance in its intended environment. This process focuses on gauging the solution's alignment with user needs, operational requirements, and other predefined acceptance criteria. If discrepancies or defects arise during this assessment, they are promptly identified and addressed. The goal is to ensure that the solution is seamlessly integrated into its operational environment and any hitches or glitches are swiftly rectified.
 

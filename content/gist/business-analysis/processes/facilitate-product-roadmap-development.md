@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Facilitate product roadmap development
+## Facilitate Product Roadmap Development
 
 Facilitate Product Roadmap Development pertains to the assistance in formulating a product roadmap. This roadmap elucidates, from an overarching perspective, which components of a product are slated for delivery across a portfolio, program, or multiple project phases or releases. Furthermore, it describes the plausible order of delivery for these components. A principal advantage of this process is its ability to foster mutual expectations among stakeholders concerning the deliverables and their likely sequence of delivery.
 

@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# Assess Business Analysis Perfoemance
+## Assess Business Analysis Perfoemance
 
 The process of "Assess Business Analysis Performance" revolves around evaluating the efficiency and effectiveness of the business analysis practices applied within an organization. This assessment usually takes place in relation to the outcomes and deliverables of specific portfolio components, programs, or projects. Once certain practices prove to be effective on a project level, they may be promoted as best practices or standards, which can then be employed across other future projects.
 
