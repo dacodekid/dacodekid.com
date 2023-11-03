@@ -2,6 +2,7 @@ import mdSub from 'markdown-it-sub';
 import mdSup from 'markdown-it-sup';
 import mdMark from 'markdown-it-mark';
 import mdPlantUML from 'markdown-it-plantuml';
+import mdMultimdTable from 'markdown-it-multimd-table';
 import { mermaid } from './theme/plugins/mermaid';
 import { defineConfig } from 'vitepress';
 
@@ -93,6 +94,10 @@ const gistMenu = [
       {
         text: 'Processes',
         link: '/content/gist/business-analysis/processes.md',
+      },
+      {
+        text: 'Process Groups vs Knowledge Areas',
+        link: '/content/gist/business-analysis/process-groups-vs-knowledge-areas.md',
       },
     ],
   },
@@ -693,6 +698,13 @@ export default defineConfig({
       md.use(mdPlantUML, {
         openMarker: '```plantuml',
         closeMarker: '```',
+      });
+      md.use(mdMultimdTable, {
+        multiline: true,
+        rowspan: true,
+        headerless: true,
+        multibody: false,
+        autolabel: true,
       });
       md.use(mermaid);
     },

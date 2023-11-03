@@ -21,6 +21,7 @@
     "markdown-it": "^13.0.2",
     "markdown-it-mark": "^3.0.1",
     "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-multimd-table": "^4.2.3",
     "markdown-it-plantuml": "^1.4.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
