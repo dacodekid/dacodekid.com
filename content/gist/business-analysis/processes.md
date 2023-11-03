@@ -17,7 +17,7 @@ Following the identification of a problem or opportunity, the next step is to "A
 
 After the current state has been thoroughly assessed, the process moves to "Determine the Future State." This involves envisioning what the organization should look like after addressing the identified problem or seizing the opportunity. It also entails setting future objectives, and defining criteria and key performance indicators (KPIs) that would indicate the successful achievement of this envisioned future. Techniques like to-be process modeling, benchmarking, and balanced scorecards are often employed during this stage.
 
-#### [Determine Viable Option and Provide Recommendation](/content/gist/business-analysis/processes/determine-viable-option-and-provide-recommendation.md)
+#### [Determine Viable Options and Provide Recommendation](/content/gist/business-analysis/processes/determine-viable-options-and-provide-recommendation.md)
 
 "Determining the Viable Option and Providing Recommendation" is a critical decision-making stage. Multiple alternatives to reach the future state may exist, and each comes with its own sets of costs, benefits, risks, and impacts. Business analysts evaluate these options using techniques like decision analysis, feasibility studies, and cost-benefit analysis. A recommendation is then made, which provides the best course of action to take, given the organization's constraints and objectives.
 
