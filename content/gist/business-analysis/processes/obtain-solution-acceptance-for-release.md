@@ -44,8 +44,6 @@ The process of obtaining a release decision might require sign-off. The nature o
 
 The process of obtaining solution acceptance for release ensures that all stakeholders are in agreement, and the solution meets the organizational requirements before it's delivered into a production environment.
 
----
-
 ### Inputs
 
 #### [Product Scope](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

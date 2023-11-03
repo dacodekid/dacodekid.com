@@ -27,8 +27,6 @@ Creating linkages among various components of product information serves multipl
 
 The process of establishing relationships and dependencies is paramount for maintaining a coherent and effective product scope. It ensures that every component of product information aligns with the business goals, is relevant, and that potential changes are managed efficiently.
 
----
-
 ### Inputs
 
 #### [Product Scope](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

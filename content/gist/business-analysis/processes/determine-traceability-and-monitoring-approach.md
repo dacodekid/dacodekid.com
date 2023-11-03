@@ -52,8 +52,6 @@ This approach demarcates the requirements blueprint used to relate requirements,
 
 This process lays out how alterations to product data are managed throughout the project's duration. Depending on the project's life cycle, the requirements change procedure can differ. For instance, a project with a predictive life cycle might employ a structured change management method, while an adaptive life cycle project may not, given the inherent expectation of evolving requirements in the latter. For comprehensive guidelines on structuring requirements change procedures, one can refer to Section 3.4.14 in "Business Analysis for Practitioners: A Practice Guide".
 
----
-
 ### Inputs
 
 #### [Analysis Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

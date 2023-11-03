@@ -28,8 +28,6 @@ These sources are elaborated upon in Section 6.5.3 of the Business Analysis for 
 
 In adaptive methodologies, acceptance criteria commonly adopt a behavior-driven development format. However, the format is not set in stone and can vary based on consensus between stakeholders and developers.
 
----
-
 ### Inputs
 
 #### [Analysis Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

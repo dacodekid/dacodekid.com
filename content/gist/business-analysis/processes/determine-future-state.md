@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Determine the Future State
+## Determine Future State
 
 Determine Future State is focused on identifying gaps in the present capabilities and proposing the necessary changes to achieve a desired future state that addresses either a problem or an opportunity. This process aids in pinpointing the necessary capabilities an organization needs to transition from its present state to its desired future state, meeting the business requirements.
 
@@ -21,8 +21,6 @@ The future state might entail:
 To decide which mix of capabilities will optimally address the given problem or opportunity, business analysis is executed. The product team, equipped with the knowledge from the current state analysis, engages in discussions to shape a precise description of the future state. This encompasses the identification of necessary capabilities and features that will allow the organization to move from its present state to the proposed future. It's important to note that while these capabilities and features highlight what is essential, they don't suggest a definite solution. More analysis is needed to ascertain how these capabilities and features will be executed. A segment of this analysis is about grasping how users or consumers perceive value.
 
 After comprehending the future state, business goals and objectives are crafted to convey succinctly what the business expects a portfolio, program, or project to accomplish. It's crucial to differentiate between business goals and organizational goals, the latter having been examined during the current state analysis. While the business goals are aligned with organizational goals, they are more specific as they outline precise targets the business aims to achieve. In this context, "business" denotes the organizational segment that is grappling with an issue or aiming for an opportunity. This segment shows readiness and eagerness to back the need for change.
-
----
 
 ### Inputs
 

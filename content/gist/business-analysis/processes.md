@@ -13,15 +13,15 @@ The process of "Identify Problem or Opportunity" is often the triggering point o
 
 Following the identification of a problem or opportunity, the next step is to "Assess the Current State of the Organization." During this stage, the business analyst captures a 'snapshot' of the organization's present condition by examining various elements such as processes, systems, capabilities, and stakeholder relationships. Techniques like MOST analysis (Mission, Objectives, Strategies, Tactics), as-is process modeling, and gap analysis could be used. This provides a foundational understanding upon which future changes can be mapped.
 
-#### [Determine the Future state](/content/gist/business-analysis/processes/determine-the-future-state.md)
+#### [Determine Future State](/content/gist/business-analysis/processes/determine-future-state.md)
 
 After the current state has been thoroughly assessed, the process moves to "Determine the Future State." This involves envisioning what the organization should look like after addressing the identified problem or seizing the opportunity. It also entails setting future objectives, and defining criteria and key performance indicators (KPIs) that would indicate the successful achievement of this envisioned future. Techniques like to-be process modeling, benchmarking, and balanced scorecards are often employed during this stage.
 
-#### [Determine the viable option and provide recommendation](/content/gist/business-analysis/processes/determine-the-viable-option-and-provide-recommendation.md)
+#### [Determine Viable Option and Provide Recommendation](/content/gist/business-analysis/processes/determine-viable-option-and-provide-recommendation.md)
 
 "Determining the Viable Option and Providing Recommendation" is a critical decision-making stage. Multiple alternatives to reach the future state may exist, and each comes with its own sets of costs, benefits, risks, and impacts. Business analysts evaluate these options using techniques like decision analysis, feasibility studies, and cost-benefit analysis. A recommendation is then made, which provides the best course of action to take, given the organization's constraints and objectives.
 
-#### [Facilitate product roadmap development](/content/gist/business-analysis/processes/facilitate-product-roadmap-development.md)
+#### [Facilitate Product Roadmap Development](/content/gist/business-analysis/processes/facilitate-product-roadmap-development.md)
 
 In projects specifically focused on product development or enhancements, the "Facilitate Product Roadmap Development" process comes into play. The business analyst collaborates with product owners, stakeholders, and development teams to create a strategic plan that outlines the trajectory of the product's development. Techniques such as feature prioritization, MoSCoW method (Must-haves, Should-haves, Could-haves, and Won't-haves), and roadmapping are typically employed. This roadmap aligns with the organization's strategic objectives and offers a step-by-step guide for achieving the desired future state of the product.
 
@@ -119,7 +119,7 @@ Verification ensures that the defined requirements are of high quality, clear, f
 
 While verification checks the quality of requirements, validation ensures that these requirements represent the real needs of the stakeholders. This involves confirming with stakeholders that the captured requirements accurately reflect their needs and expectations.
 
-#### [Prioritize Requirements and other product information](/content/gist/business-analysis/processes/prioritize-requirements-and-other-product-information.md)
+#### [Prioritize Requirements and Other Product Information](/content/gist/business-analysis/processes/prioritize-requirements-and-other-product-information.md)
 
 Given limited resources and time constraints, not all requirements can be addressed simultaneously. This process helps determine the order in which requirements should be tackled based on factors like stakeholder value, risk, cost, and dependencies.
 
@@ -145,11 +145,11 @@ In this process, the approach for how requirements and other product information
 
 Every requirement doesn't exist in isolation. They often have interdependencies and relationships with other requirements or elements of a project. In this process, these relationships and dependencies are identified and documented. This aids in understanding how a change in one requirement might impact others. It also helps in sequencing tasks, prioritizing requirements, and ensuring that no requirement is overlooked. Tools such as dependency matrices or relationship diagrams might be employed in this phase.
 
-#### [Select and Approve requirements](/content/gist/business-analysis/processes/select-and-approve-requirements.md)
+#### [Select and Approve Requirements](/content/gist/business-analysis/processes/select-and-approve-requirements.md)
 
 Not all identified requirements will be implemented, especially when constraints like budget, time, or resources come into play. In this process, requirements are prioritized, selected, and then approved for implementation. Various criteria such as business value, stakeholder needs, and technical feasibility are taken into account when prioritizing. Once the critical requirements are selected, they are then formally approved, usually by key stakeholders or a designated approval authority, to move on to the subsequent stages of the project.
 
-#### [Manage Changes to requirements and other product information](/content/gist/business-analysis/processes/manage-changes-to-requirements-and-other-product-information.md)
+#### [Manage Changes to Requirements and Other Product Information](/content/gist/business-analysis/processes/manage-changes-to-requirements-and-other-product-information.md)
 
 As projects progress, there may arise situations where requirements need to be changed, added, or removed. This process ensures that any change to the requirements or related product information is evaluated for its impact, documented, and communicated to relevant stakeholders. It involves assessing the implications of the change, getting the necessary approvals, and ensuring that the updated requirements are clearly understood by all involved parties. Techniques such as a change request system or impact analysis might be used to effectively manage these changes.
 

@@ -43,8 +43,6 @@ Engaging and communicating with stakeholders can range from being highly formal 
 
 Regardless of the formality level, the thought process behind this engagement and communication is paramount for effective product development. If overlooked, stakeholder involvement might become irregular, risking insufficient engagement for elicitation, analysis, decision-making, and potential misrepresentation of stakeholder interests. Additionally, if stakeholder communication preferences aren't regarded, it can negatively influence solution choices and their development.
 
----
-
 ### Inputs
 
 #### [Situation Statement](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

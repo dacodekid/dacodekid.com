@@ -35,8 +35,6 @@ To obtain information regarding the current state, various elicitation technique
 
 While conducting the analysis, it's imperative to zero in on areas that aid in defining the situation statement. A potential pitfall to avoid is straying into areas that might be irrelevant or not beneficial for defining the future state. It's noteworthy that in instances where a recent detailed assessment of the current state exists, this knowledge can serve as a foundation for the future state without redoing the current state assessment. Also, depending on organizational practices, the team analyzing the current state might differ from the one conducting business analysis for the subsequent project.
 
----
-
 ### Inputs
 
 #### [Enterprise and Business Architectures](/content/gist/business-analysis/inputs-outputs/enterprise-and-business-architectures.md)

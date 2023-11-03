@@ -29,8 +29,6 @@ Those who undertake business analysis within project teams have a special role w
 
 In some organizational settings, the approach to stakeholder engagement and communication is captured in formal documentation. This is advantageous as it provides a clear roadmap and guidelines for engagement. However, it's also dynamic. There are times when concerns related to engagement and communication arise. Addressing and resolving these concerns might require revisiting and updating the established stakeholder engagement and communication approach. This iterative nature ensures that the approach remains relevant and effective in the face of changing circumstances.
 
----
-
 ### Inputs
 
 #### [Business Case](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

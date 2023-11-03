@@ -38,8 +38,6 @@ The process of evaluation encompasses pinpointing the core cause of any disparit
 
 Typically, the evaluation and addressing of defects transpire whenever there's a need for a go/no-go or release decision regarding a solution component. However, it can also take place when addressing product flaws detected post solution deployment.
 
----
-
 ### Inputs
 
 #### [Acceptance Criteria](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

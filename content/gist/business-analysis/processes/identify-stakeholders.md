@@ -19,8 +19,6 @@ Product stakeholders are actively involved in identifying requirements. They pro
 
 The act of identifying stakeholders isn't exclusive to business analysis. It's also an integral part of portfolio, program, and project management. Given this overlap, there's a significant chance of redundant or overlapping efforts. Hence, collaboration becomes crucial. By collaborating, business analysis and portfolio, program, and project management can ensure that their efforts are streamlined and complementary, with no redundancy or gaps. Such a collaborative approach not only optimizes efforts but also paves the way for better outcomes.
 
----
-
 ### Inputs:
 
 #### [Elicitation Results (Unconfirmed/Confirmed)](/content/gist/business-analysis/inputs-outputs/elicitation-results-unconfirmed-confirmed.md)

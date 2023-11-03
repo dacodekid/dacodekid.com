@@ -37,8 +37,6 @@ While product roadmaps can be articulated as textual documents, they might also 
 
 Though primarily utilized internally, product roadmaps also furnish invaluable insights to external entities like customers and vendors. Tailoring the data and its granularity might be requisite based on the audience. For instance, external customers might not require details on a product's alignment with organizational strategy. Confidential aspects might need exclusion from external perusal. Additionally, release dates shared externally might be generic, representing a range rather than specific dates, ensuring reliability and preventing any potential dismay due to date shifts. Conversely, internal stakeholders like product managers would seek intricate details about the product.
 
----
-
 ### Inputs
 
 #### [Business Goals and Objectives](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

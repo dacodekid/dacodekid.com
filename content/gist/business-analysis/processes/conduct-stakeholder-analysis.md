@@ -29,8 +29,6 @@ Various can be scrutinized during the stakeholder analysis to gain more profound
 
 While a plethora of characteristics can be evaluated, it is the responsibility of the product team to decide which ones are imperative to consider. For an in-depth discussion on stakeholder analysis and their characteristics, refer to Section 3.3 of Business Analysis for Practitioners: A Practice Guide.
 
----
-
 ### Inputs
 
 #### [Elicitation Results (Unconfirmed/Confirmed)](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

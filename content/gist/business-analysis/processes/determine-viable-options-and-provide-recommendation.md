@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Determine the Viable Option and Provide Recommendation
+## Determine Viable Options and Provide Recommendation
 
 The process of "Determine Viable Options and Provide Recommendation" involves using various analysis techniques to scrutinize potential solutions to meet business objectives and pinpoint the most suitable solution for the organization. This process serves to confirm the practicability of the suggested solutions and offer the optimal path for the leadership to achieve the business targets.
 
@@ -37,8 +37,6 @@ A common oversight by stakeholders is to suggest solutions without a thorough gr
 5. **Recommending the most viable option:** If multiple options remain post-feasibility analysis, one is chosen as the most viable. This is accompanied by a rationale, highlighting the reasons for its selection over other options.
 
 If post-analysis only one option emerges as feasible, it's typically recommended. If no options are feasible, a recommendation might be to take no action. If there are multiple viable options, they can be ranked based on their alignment with the business need. Weighted ranking can be an effective technique for this analysis.
-
----
 
 ### Inputs
 

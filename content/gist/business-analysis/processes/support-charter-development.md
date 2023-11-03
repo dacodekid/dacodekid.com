@@ -49,8 +49,6 @@ The charter serves as a validation tool, ensuring that projects align with the o
 
 The Support Charter Development process is crucial in setting the stage for a project, program, or portfolio. It's a comprehensive approach to ensuring alignment, understanding, and commitment across all stakeholders, laying a solid foundation for the subsequent phases of the initiative.
 
----
-
 ### Inputs
 
 #### [Business Case](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

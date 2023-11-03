@@ -60,8 +60,6 @@ Business analysis aids the processes of portfolio, program, or project risk mana
 
 Transforming assumptions, constraints, dependencies, or yet-to-be-resolved issues into risks enables product teams to manage these elements more proactively. This is because risks typically undergo analysis at more regular intervals.
 
----
-
 ### Inputs
 
 #### [Analysis Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

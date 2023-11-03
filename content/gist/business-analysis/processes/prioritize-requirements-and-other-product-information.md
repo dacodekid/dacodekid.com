@@ -47,8 +47,6 @@ Generally, prioritization involves two main steps:
 
 It's worth noting that prioritization outcomes aren't set in stone. As the project unfolds, the importance of requirements can shift. Factors that influence prioritization can evolve, and requirements can be modified. The project's life cycle provides guidance on managing these priority shifts. Changes in priority, or the introduction of new requirements, are meticulously tracked and communicated to relevant stakeholders. Typically, validation precedes prioritization, but both processes can occur simultaneously. Different approaches have varying sequences. In adaptive methodologies, high-level features might be initially prioritized, followed by user stories. Conversely, in predictive methodologies, the entire set of requirements is likely finalized and validated prior to prioritization.
 
----
-
 ### Inputs
 
 #### [Elicitation Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

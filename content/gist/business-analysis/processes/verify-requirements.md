@@ -31,8 +31,6 @@ The "Verify Requirements" process emphasizes checking that the quality of requir
 
 By diligently following the "Verify Requirements" process, organizations can ensure that their requirements are clear, comprehensive, and in alignment with organizational standards, leading to successful project outcomes.
 
----
-
 ### Inputs
 
 #### [Product Scope](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

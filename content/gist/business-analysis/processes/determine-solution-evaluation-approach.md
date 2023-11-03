@@ -40,8 +40,6 @@ The foundational knowledge about the problem or opportunity the solution intends
 
 It's paramount to define the solution evaluation approach early in the product development life cycle. An early definition can preempt potential challenges, especially concerning metrics that might need additional data beyond the product's innate requirements. Delayed definitions could lead to escalated costs or the infeasibility of data acquisition. In cases where proposed metrics prove to be exorbitantly costly or time-intensive, more cost-effective alternatives might be explored.
 
----
-
 ### Inputs
 
 #### [Metrics and KPIs](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

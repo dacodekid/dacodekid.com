@@ -29,8 +29,6 @@ For an adaptive life cycle method, during a planning session at the release leve
 
 Despite the distinctions in approaches, business analysis planning remains an integral part of product development, regardless of the life cycle model adopted. The act of planning for business analysis must always transpire.
 
----
-
 ### Inputs
 
 #### [Business Analysis Performance Assessment](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

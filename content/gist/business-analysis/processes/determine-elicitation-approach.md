@@ -47,8 +47,6 @@ Having a systematic method for elicitation leads to:
 
 In essence, determining the elicitation approach, as outlined in the PMI Guide to Business Analysis, is integral for an organized, efficient, and effective elicitation process. This approach not only ensures that all necessary information is captured but also that it is done in a way that maximizes stakeholder collaboration and minimizes wasted effort.
 
----
-
 ### Inputs
 
 #### [Product Scope](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

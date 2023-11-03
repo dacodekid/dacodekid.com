@@ -29,8 +29,6 @@ Once there is a comprehensive understanding of the problem or opportunity, ==a s
 
 The "Identify Problem or Opportunity" process is a foundational step in Needs Assessment. It employs a rigorous methodology to ensure that the problem or opportunity is clearly understood, thereby setting the stage for the organization to pursue a solution that genuinely addresses the business need.
 
----
-
 ### Inputs
 
 #### [Assessment of Business Value](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

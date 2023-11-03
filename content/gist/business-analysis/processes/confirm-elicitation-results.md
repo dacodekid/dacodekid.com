@@ -41,8 +41,6 @@ The effectiveness of the method chosen to confirm elicitation results can vary b
 
 It's essential for the team to discuss and reach a consensus on the method to review and confirm elicitation results. The decision should align with the project's needs and the stakeholders' preferences.
 
----
-
 ### Inputs
 
 #### [Elicitation Preparation Materials](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

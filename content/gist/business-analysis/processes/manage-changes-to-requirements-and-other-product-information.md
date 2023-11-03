@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-## Manage Changes to Requirement and Other Product Information
+## Manage Changes to Requirements and Other Product Information
 
 Managing changes to requirements and product information is an essential process in business analysis. It ensures that any modifications or defects arising during a project are scrutinized for their value and potential impact. This process ensures that only valuable changes, which support prioritization and subsequent product development, are integrated. This facilitates the addition of vital solution modifications while also curbing unnecessary alterations. By doing so, the stakeholders gain a clearer understanding of the effects of the changes on the final product.
 
@@ -26,8 +26,6 @@ Once a proposed change is assessed, there are four potential outcomes:
 4. **More Information Required**: Sometimes, the impact assessment might not be exhaustive, prompting the Change Control Board (CCB) or the approving team to seek additional details. This necessitates another round of data gathering and analysis, followed by an updated impact assessment and another review by the decision-making entity. In adaptive projects, items in the backlog are detailed sufficiently for prioritization, and if chosen, they are further expanded upon to gather details essential for development. The need for more details for a change is expected as this elaboration is integral to the methodology.
 
 Finally, the intensity of change management implemented hinges on various factors like the domain of application, organizational culture, available organizational process assets, project complexity, contractual stipulations, the project lifecycle, and the environment in which the project operates. The level of formality and the extent of documentation needed for managing changes are determined by organizational protocols, processes, or external mandates.
-
----
 
 ### Inputs
 

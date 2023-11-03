@@ -26,8 +26,6 @@ Conduct Elicitation is a crucial process within business analysis where differen
 
 The Conduct Elicitation process is about harnessing the right techniques to gather the most accurate and relevant information from stakeholders, which will then inform the requirements and other product details. This ensures that the resulting product or solution meets the actual needs and expectations of its users and stakeholders.
 
----
-
 ### Inputs
 
 #### [Product Scope](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

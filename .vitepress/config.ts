@@ -45,6 +45,36 @@ const gistMenu = [
         ],
       },
       {
+        text: 'Process Groups',
+        collapsed: false,
+        items: [
+          {
+            text: 'Defining & Aligning',
+            link: '/content/gist/business-analysis/process-groups/defining-and-aligning.md',
+          },
+          {
+            text: 'Initiating',
+            link: '/content/gist/business-analysis/process-groups/initiating.md',
+          },
+          {
+            text: 'Planning',
+            link: '/content/gist/business-analysis/process-groups/planning.md',
+          },
+          {
+            text: 'Executing',
+            link: '/content/gist/business-analysis/process-groups/executing.md',
+          },
+          {
+            text: 'Monitoring & Controlling',
+            link: '/content/gist/business-analysis/process-groups/monitoring-and-controlling.md',
+          },
+          {
+            text: 'Releasing',
+            link: '/content/gist/business-analysis/process-groups/releasing.md',
+          },
+        ],
+      },
+      {
         text: 'Glossary',
         link: '/content/gist/business-analysis/glossary.md',
       },

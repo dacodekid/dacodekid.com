@@ -34,8 +34,6 @@ To ascertain if value has been delivered, various elements like relevant busines
 
 The evaluation of a product's performance acts as a recommendation for ameliorating the long-term efficacy of the solutions. It is also vital for portfolio and program management choices regarding further enhancements to the product, decisions pertaining to the introduction of new products, and decisions on replacing or discontinuing existing products.
 
----
-
 ### Inputs
 
 #### [Business Case](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

@@ -31,8 +31,6 @@ The analysis approach clarifies:
 
 In essence, while it's not mandatory to finalize all techniques before initiating the analysis, forward planning ensures that business analysts are better equipped to deploy a range of techniques. Some analysis might remain unplanned until the actual execution phase. In certain scenarios, the pre-established analysis approach may just be revised as per evolving needs.
 
----
-
 ### Inputs
 
 #### [Elicitation Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

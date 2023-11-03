@@ -35,8 +35,6 @@ Given the importance of the requirements, it's imperative that authorized stakeh
 
 Tracking approvals is essential, and in scenarios where stakeholders exhibit reluctance to give their approval, it's crucial to delve into their reservations and address them. The green light for further work largely depends on the requirement's endorsement. If a mutual consensus is elusive within the team, then the stipulations laid out in the stakeholder engagement approach, which details the hierarchical authority concerning requirement approval, come into play.
 
----
-
 ### Inputs
 
 #### [Product Scope](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

@@ -36,8 +36,6 @@ Prepare for Elicitation refers to the systematic process of organizing and plann
 
 The process of preparing for elicitation ensures that all activities are streamlined, participants are well-informed, and the necessary tools and materials are in place. This results in an effective and value-driven elicitation process.
 
----
-
 ### Inputs
 
 #### [Elicitation Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

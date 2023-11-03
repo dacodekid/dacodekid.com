@@ -39,8 +39,6 @@ This activity encompasses defining all sorts of product data, and not just the r
 
 Collectively, all these product details make up what's termed a 'requirements package.' This package isn't necessarily a formal document. It could be evolving user stories in a backlog or details in a requirements management tool. The requirements package's formality and detail are guided by the project life cycle and stakeholder needs, both of which are established during planning activities.
 
----
-
 ### Inputs
 
 #### [Analysis Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

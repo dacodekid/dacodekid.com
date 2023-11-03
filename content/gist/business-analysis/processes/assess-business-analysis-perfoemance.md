@@ -35,8 +35,6 @@ For those tools and techniques that are found challenging, the aim is to identif
 
 If there are significant discrepancies in the expected effort levels or in adhering to schedules and delivery commitments, it becomes essential to explore if refining business analysis practices could remedy the root causes of such discrepancies. Additionally, as part of this assessment, if there are concerns related to the expertise of those involved in business analysis, these can be addressed through measures like training, coaching, or even by assigning a different individual with a stronger focus on business analysis.
 
----
-
 ### Inputs
 
 #### [Business Analysis Plan](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

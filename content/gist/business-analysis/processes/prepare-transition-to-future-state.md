@@ -56,8 +56,6 @@ The process of "Prepare for Transition to Future State" focuses on determining t
 
 In summary, preparing for a transition to the future state is a meticulous process that demands thorough planning and collaboration. It's about assessing and ensuring that an organization is not only ready to adopt a new solution but also capable of sustaining its benefits in the long run. Whether through a one-time cutover or a staged approach, the transition must be managed with precision to ensure long-term success.
 
----
-
 ### Inputs
 
 #### [Business Case](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

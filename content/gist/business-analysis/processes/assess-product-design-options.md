@@ -21,8 +21,6 @@ Product-centric teams aren't bound to defer their product design evaluations unt
 
 Design ideologies and analyses aren't confined solely to projects. They also permeate portfolios and programs. While designs attain their pinnacle of intricacy at the project level, serving as the bedrock for the solution's complete or partial realization, portfolios and programs also undergo design analysis. However, at these levels, the granularity is attuned just enough to guarantee uniformity across diverse solution releases or components.
 
----
-
 ### Inputs
 
 #### [Analysis Approach](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)

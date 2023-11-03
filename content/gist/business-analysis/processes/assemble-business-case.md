@@ -41,8 +41,6 @@ This process entails:
 
 Understanding the Assemble Business Case process is paramount as it forms the crux of decision-making in organizations, ensuring that resources are directed towards the most fruitful ventures.
 
----
-
 ### Inputs
 
 #### [Business Goals and Objectives](/content/gist/business-analysis/inputs-outputs/assessment-of-business-value.md)
