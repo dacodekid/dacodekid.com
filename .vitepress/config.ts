@@ -650,6 +650,7 @@ export default defineConfig({
     logo: {
       light: '/img/logo.svg',
       dark: '/img/logo-dark.svg',
+      alt: 'void',
     },
 
     nav: [
