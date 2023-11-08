@@ -2,7 +2,7 @@
 import { App, h } from 'vue';
 import Theme from 'vitepress/theme';
 import './style.css';
-import MermaidRenderWrap from './components/Mermaid/MermaidRenderWrap.vue';
+import MermaidJS from './components/MermaidJS.vue';
 import ChartJS from './components/ChartJS.vue';
 
 export default {
@@ -13,7 +13,7 @@ export default {
     });
   },
   enhanceApp({ app }: { app: App }): void {
-    app.component('MermaidRenderWrap', MermaidRenderWrap);
+    app.component('MermaidJS', MermaidJS);
     app.component('ChartJS', ChartJS);
   },
 };

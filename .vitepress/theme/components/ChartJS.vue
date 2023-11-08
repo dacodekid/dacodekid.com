@@ -7,7 +7,7 @@
 
 <script lang="ts" setup>
 // Import necessary Vue and Chart.js libraries
-import { ref, onMounted, onUnmounted, watch, defineProps, nextTick } from 'vue';
+import { ref, onMounted, onUnmounted, watch, nextTick } from 'vue';
 import Chart from 'chart.js/auto';
 
 // Define props for this component

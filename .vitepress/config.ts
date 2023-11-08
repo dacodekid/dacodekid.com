@@ -3,8 +3,7 @@ import mdSup from 'markdown-it-sup';
 import mdMark from 'markdown-it-mark';
 import mdPlantUML from 'markdown-it-plantuml';
 import mdMultimdTable from 'markdown-it-multimd-table';
-import { mermaid } from './theme/plugins/mermaid';
-import { chart } from './theme/plugins/chart';
+import { chart, mermaid } from './theme/plugins';
 import { defineConfig } from 'vitepress';
 
 const gistMenu = [

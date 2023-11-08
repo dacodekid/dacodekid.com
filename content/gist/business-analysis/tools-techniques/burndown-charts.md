@@ -30,6 +30,48 @@ For instance, a slowdown in the rate at which PBIs are being completed ('team ve
 
 ### Diagram
 
-![Burndown Chart](/img/business-analysis/tools-techniques/burn-down-chart.png)
+```chart
+{
+  "type": "line",
+  "data": {
+    "labels": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
+    "datasets": [
+      {
+        "label": "Ideal",
+        "backgroundColor": "rgba(255, 99, 132, 0.5)",
+        "borderColor": "rgb(255, 99, 132)",
+        "borderWidth": 1,
+        "data": [200, 180, 160, 140, 120, 100, 80, 60, 40, 20, 0]
+      },
+      {
+        "label": "Actual",
+        "backgroundColor": "rgba(54, 162, 235, 0.5)",
+        "borderColor": "rgb(54, 162, 235)",
+        "borderWidth": 1,
+        "data": [198, 165, 155, 150, 140, 85, 95, 80, 30, 40, 0]
+      }
+    ]
+  },
+  "options": {
+    "responsive": true,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "Sample Burndown Chart"
+      }
+    },
+    "scales": {
+      "y": {
+        "beginAtZero": true,
+        "reverse": false
+      }
+    }
+  }
+}
+
+```
 
 By utilizing Burndown Charts effectively, business analysts can not only track project progress but also diagnose potential issues, thereby contributing to the successful adaptation and completion of the project.
