@@ -4,6 +4,7 @@ import mdMark from 'markdown-it-mark';
 import mdPlantUML from 'markdown-it-plantuml';
 import mdMultimdTable from 'markdown-it-multimd-table';
 import { mermaid } from './theme/plugins/mermaid';
+import { chart } from './theme/plugins/chart';
 import { defineConfig } from 'vitepress';
 
 const gistMenu = [
@@ -708,6 +709,7 @@ export default defineConfig({
         autolabel: true,
       });
       md.use(mermaid);
+      md.use(chart);
     },
   },
 });

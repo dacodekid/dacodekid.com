@@ -3,6 +3,7 @@ import { App, h } from 'vue';
 import Theme from 'vitepress/theme';
 import './style.css';
 import MermaidRenderWrap from './components/Mermaid/MermaidRenderWrap.vue';
+import ChartJS from './components/ChartJS.vue';
 
 export default {
   extends: Theme,
@@ -13,5 +14,6 @@ export default {
   },
   enhanceApp({ app }: { app: App }): void {
     app.component('MermaidRenderWrap', MermaidRenderWrap);
+    app.component('ChartJS', ChartJS);
   },
 };

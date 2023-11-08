@@ -16,6 +16,7 @@
     "@types/node": "^20.8.9",
     "@vue-kakuyaku/core": "^0.4.3",
     "@vueuse/core": "^10.5.0",
+    "chart.js": "^4.4.0",
     "gh-pages": "^6.0.0",
     "hasha": "^5.2.2",
     "markdown-it": "^13.0.2",
