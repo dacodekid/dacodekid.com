@@ -2,7 +2,7 @@
 import { App, h } from 'vue';
 import Theme from 'vitepress/theme';
 import './style.css';
-import MermaidRenderWrap from './components/mermaid/MermaidRenderWrap.vue';
+import MermaidRenderWrap from './components/Mermaid/MermaidRenderWrap.vue';
 
 export default {
   extends: Theme,
