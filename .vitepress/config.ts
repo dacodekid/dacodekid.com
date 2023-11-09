@@ -3,7 +3,8 @@ import mdSup from 'markdown-it-sup';
 import mdMark from 'markdown-it-mark';
 import mdPlantUML from 'markdown-it-plantuml';
 import mdMultimdTable from 'markdown-it-multimd-table';
-import { chart, mermaid } from './theme/plugins';
+import { chart } from './theme/plugins/chartjs';
+import { mermaid } from './theme/plugins/mermaidjs';
 import { defineConfig } from 'vitepress';
 
 const gistMenu = [
@@ -693,9 +694,6 @@ export default defineConfig({
     lineNumbers: true,
     math: true,
     config: (md) => {
-      md.use(mdSub);
-      md.use(mdSup);
-      md.use(mdMark);
       md.use(mdPlantUML, {
         openMarker: '```plantuml',
         closeMarker: '```',
@@ -707,6 +705,9 @@ export default defineConfig({
         multibody: false,
         autolabel: true,
       });
+      md.use(mdSub);
+      md.use(mdSup);
+      md.use(mdMark);
       md.use(mermaid);
       md.use(chart);
     },
