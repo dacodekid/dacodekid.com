@@ -5,6 +5,7 @@ import mdPlantUML from 'markdown-it-plantuml';
 import mdMultimdTable from 'markdown-it-multimd-table';
 import { chart } from './theme/plugins/chartjs';
 import { mermaid } from './theme/plugins/mermaidjs';
+import { quiz } from './theme/plugins/quizjs';
 import { defineConfig } from 'vitepress';
 
 const gistMenu = [
@@ -710,6 +711,7 @@ export default defineConfig({
       md.use(mdMark);
       md.use(mermaid);
       md.use(chart);
+      md.use(quiz);
     },
   },
 });

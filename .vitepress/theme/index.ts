@@ -4,6 +4,7 @@ import Theme from 'vitepress/theme';
 import './style.css';
 import MermaidJS from './components/MermaidJS.vue';
 import ChartJS from './components/ChartJS.vue';
+import QuizJS from './components/QuizJS.vue';
 
 export default {
   extends: Theme,
@@ -15,5 +16,6 @@ export default {
   enhanceApp({ app }: { app: App }): void {
     app.component('MermaidJS', MermaidJS);
     app.component('ChartJS', ChartJS);
+    app.component('QuizJS', QuizJS);
   },
 };
