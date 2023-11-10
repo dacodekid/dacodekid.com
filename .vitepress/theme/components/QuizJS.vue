@@ -1,25 +1,3 @@
-<template>
-  <div class="quiz-container">
-    <div v-if="qas.length > 0" class="quiz-block">
-      <h3 v-html="currentQA.question"></h3>
-      <ul>
-        <li v-for="option in currentQA.options" :key="option.key" v-html="`${option.key}: ${option.text}`"></li>
-      </ul>
-      <details :open="detailsOpen" @toggle="handleToggle($event)">
-        <summary>Answer & Explanation</summary>
-        <p>
-          <span class="answer">{{ currentQA.answer.key }}</span> <span v-html="currentQA.answer.text"></span>
-        </p>
-        <p v-if="currentQA.explanation" v-html="currentQA.explanation"></p>
-      </details>
-      <div class="button-container">
-        <button @click="prevQuestion" :disabled="currentIndex === 0">Prev</button>
-        <button @click="nextQuestion" :disabled="currentIndex === qas.length - 1">Next</button>
-      </div>
-    </div>
-  </div>
-</template>
-
 <script lang="ts">
 import { defineComponent, PropType, ref, computed } from 'vue';
 
@@ -77,19 +55,29 @@ export default defineComponent({
       detailsOpen.value = event.target.open;
     }
 
+    function toggleDetails() {
+      detailsOpen.value = !detailsOpen.value;
+    }
+
     function prevQuestion() {
       if (currentIndex.value > 0) {
         currentIndex.value--;
-        detailsOpen.value = false;
+        // detailsOpen.value = false;
       }
     }
 
     function nextQuestion() {
       if (currentIndex.value < props.qas.length - 1) {
         currentIndex.value++;
-        detailsOpen.value = false;
+        // detailsOpen.value = false;
       }
     }
+
+    const questionIndicator = computed(() => {
+      return `${currentIndex.value + 1}/${props.qas.length}`;
+    });
+
+    const detailsButtonText = computed(() => (detailsOpen.value ? 'Hide' : 'Show'));
 
     return {
       currentIndex,
@@ -98,13 +86,43 @@ export default defineComponent({
       nextQuestion,
       detailsOpen,
       handleToggle,
+      questionIndicator,
+      detailsButtonText,
+      toggleDetails,
     };
   },
 });
 </script>
 
+<template>
+  <div class="quiz-container">
+    <div v-if="qas.length > 0" class="quiz-block">
+      <div class="top-row">
+        <button class="toggle-details-btn" @click="toggleDetails">{{ detailsButtonText }}</button>
+        <div class="quiz-indicator">{{ questionIndicator }}</div>
+      </div>
+      <h3 v-html="currentQA.question"></h3>
+      <ul>
+        <li v-for="option in currentQA.options" :key="option.key" v-html="`${option.key}: ${option.text}`"></li>
+      </ul>
+      <details :open="detailsOpen" @toggle="handleToggle($event)">
+        <summary>Answer & Explanation</summary>
+        <p>
+          <span class="answer">{{ currentQA.answer.key }}</span> <span v-html="currentQA.answer.text"></span>
+        </p>
+        <p v-if="currentQA.explanation" v-html="currentQA.explanation"></p>
+      </details>
+      <div class="button-container">
+        <button @click="prevQuestion" :disabled="currentIndex === 0">Prev</button>
+        <button @click="nextQuestion" :disabled="currentIndex === qas.length - 1">Next</button>
+      </div>
+    </div>
+  </div>
+</template>
+
 <style scoped>
 .quiz-container {
+  position: relative;
   max-width: 90%;
   margin: 2rem auto;
   padding: 1.5rem;
@@ -116,8 +134,36 @@ export default defineComponent({
   transition: all 0.3s ease;
 }
 
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.quiz-indicator {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-1);
+}
+
 .quiz-block {
   margin-bottom: 2rem;
+}
+
+.toggle-details-btn {
+  border-radius: 20px;
+  padding: 0rem 0rem;
+  margin-right: 0rem;
+  background-color: var(--vp-c-gray-3);
+  color: var(--vp-c-brand-1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 50px;
+  font-weight: bold;
+}
+
+.toggle-details-btn:hover {
+  background-color: var(--vp-c-gray-1);
 }
 
 h3 {
@@ -172,7 +218,7 @@ details p {
 details p span.answer {
   font-weight: bold;
   color: white; /* This will be the text color */
-  background-color: green; /* This will be the background color */
+  background-color: var(--vp-c-brand-3); /* This will be the background color */
   padding: 0.2rem 0.6rem; /* Adjust padding to control the size of the 'square' */
   border-radius: 0.25rem; /* This makes the corners rounded, set to 0 for square corners */
   display: inline-block;
@@ -204,6 +250,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
   min-width: 100px; /* Or any other size to make buttons wider */
+  font-weight: bold;
 }
 
 button:hover {
