@@ -1,4 +1,3 @@
-// Export the function for processing 'mermaid' code fences
 export const mermaid = (md) => {
   const fence = md.renderer.rules.fence.bind(md.renderer.rules);
 

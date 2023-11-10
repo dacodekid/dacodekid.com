@@ -7,7 +7,9 @@
       </ul>
       <details :open="detailsOpen" @toggle="handleToggle($event)">
         <summary>Answer & Explanation</summary>
-        <p>Answer: {{ currentQA.answer }}</p>
+        <p>
+          <span class="answer">{{ currentQA.answer.key }}</span> {{ currentQA.answer.text }}
+        </p>
         <p v-if="currentQA.explanation">{{ currentQA.explanation }}</p>
       </details>
       <div class="button-container">
@@ -29,7 +31,7 @@ export default defineComponent({
         Array<{
           question: string;
           options: Array<{ key: string; text: string }>;
-          answer: string;
+          answer: { key: string; text: string };
           explanation: string;
         }>
       >,
@@ -38,7 +40,7 @@ export default defineComponent({
   },
   setup(props) {
     const currentIndex = ref(0);
-    const detailsOpen = ref(false); // Reactive property to track the state of the details element
+    const detailsOpen = ref(false);
 
     const currentQA = computed(() => props.qas[currentIndex.value]);
 
@@ -49,14 +51,14 @@ export default defineComponent({
     function prevQuestion() {
       if (currentIndex.value > 0) {
         currentIndex.value--;
-        detailsOpen.value = false; // Close the details when navigating
+        detailsOpen.value = false;
       }
     }
 
     function nextQuestion() {
       if (currentIndex.value < props.qas.length - 1) {
         currentIndex.value++;
-        detailsOpen.value = false; // Close the details when navigating
+        detailsOpen.value = false;
       }
     }
 
@@ -135,7 +137,21 @@ details summary:hover {
 }
 
 details p {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
+}
+
+details p span.answer {
+  font-weight: bold;
+  color: var(--vp-c-brand-1); /* This will be the text color */
+  background-color: var(--vp-c-bg); /* This will be the background color */
+  padding: 0.2rem 0.6rem; /* Adjust padding to control the size of the 'square' */
+  border-radius: 0.25rem; /* This makes the corners rounded, set to 0 for square corners */
+  display: inline-block;
+  margin-right: 0.5rem; /* Adds some space between the key and the text */
+  text-align: center;
+  min-width: 1.5rem; /* Ensures the span is more 'square' if the content is short */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+  margin-left: -0.2rem; /* Adds some space between the key and the text */
 }
 
 .button-container {

@@ -4,7 +4,6 @@ import { Chart, registerables } from 'chart.js';
 // Register all Chart.js components
 Chart.register(...registerables);
 
-// Export the function for processing 'chart' code fences
 export const chart = (md) => {
   const fence = md.renderer.rules.fence.bind(md.renderer.rules);
 

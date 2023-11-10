@@ -1,13 +1,5 @@
-import MarkdownIt from 'markdown-it';
-import { RenderRule } from 'markdown-it/lib/renderer';
-import { PluginSimple } from 'markdown-it/lib';
-
-export const quiz: PluginSimple = (md: MarkdownIt) => {
-  const defaultRender: RenderRule =
-    md.renderer.rules.fence ||
-    ((tokens, idx, options, env, self) => {
-      return self.renderToken(tokens, idx, options);
-    });
+export const quiz = (md) => {
+  const defaultRender = md.renderer.rules.fence.bind(md.renderer.rules);
 
   md.renderer.rules.fence = (tokens, idx, options, env, self) => {
     const token = tokens[idx];
@@ -21,7 +13,6 @@ export const quiz: PluginSimple = (md: MarkdownIt) => {
         const answerLineIndex = lines.findIndex((line) => line.startsWith('Answer:'));
         const explanationLineIndex = lines.findIndex((line) => line.startsWith('Explanation:'));
 
-        // Extract options, assuming options are the lines before the answer
         const options = lines
           .slice(1, answerLineIndex)
           .map((option) => {
@@ -30,24 +21,27 @@ export const quiz: PluginSimple = (md: MarkdownIt) => {
           })
           .filter(Boolean);
 
-        // Extract the answer and explanation if they exist
-        let answer = '';
+        const answerKey = lines[answerLineIndex].replace('Answer:', '').trim();
+        const answerOption = options.find((option) => option.key.toUpperCase() === answerKey.toUpperCase());
+        const answerText = answerOption ? answerOption.text : 'Answer not found';
+
         let explanation = '';
-        if (answerLineIndex !== -1) {
-          answer = lines[answerLineIndex].replace('Answer:', '').trim();
-        }
         if (explanationLineIndex !== -1) {
-          explanation = lines.slice(explanationLineIndex).join('\n').replace('Explanation:', '').trim();
+          explanation = lines[explanationLineIndex].replace('Explanation:', '').trim();
         }
 
-        return { question, options, answer, explanation };
+        return {
+          question,
+          options,
+          answer: { key: answerKey, text: answerText },
+          explanation,
+        };
       });
 
-      const questionsOptionsAnswersExplanationsProp = JSON.stringify(qas);
-      return `<QuizJS :qas='${questionsOptionsAnswersExplanationsProp}'></QuizJS>`;
+      const qaProp = JSON.stringify(qas);
+      return `<QuizJS :qas='${qaProp}'></QuizJS>`;
     }
 
-    // Call the default renderer for other fences
     return defaultRender(tokens, idx, options, env, self);
   };
 };
