@@ -25,6 +25,7 @@ import { defineComponent, PropType, ref, computed } from 'vue';
 
 export default defineComponent({
   name: 'QuizJS',
+
   props: {
     qas: {
       type: Array as PropType<
@@ -38,11 +39,39 @@ export default defineComponent({
       required: true,
     },
   },
+
   setup(props) {
     const currentIndex = ref(0);
     const detailsOpen = ref(false);
 
-    const currentQA = computed(() => props.qas[currentIndex.value]);
+    function shuffleOptions(options) {
+      const texts = options.map((opt) => opt.text);
+      for (let i = texts.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [texts[i], texts[j]] = [texts[j], texts[i]];
+      }
+      return texts.map((text, index) => {
+        return { key: options[index].key, text };
+      });
+    }
+
+    const currentQA = computed(() => {
+      let qa = { ...props.qas[currentIndex.value] };
+      let shuffledOptions = shuffleOptions(qa.options);
+
+      // Find the new key of the correct answer after shuffling
+      let correctAnswerText = '';
+      if (qa.answer) {
+        correctAnswerText = qa.options.find((option) => option.key === qa.answer.key)?.text || '';
+      }
+      let newAnswerKey = shuffledOptions.find((option) => option.text === correctAnswerText).key;
+
+      return {
+        ...qa,
+        options: shuffledOptions,
+        answer: { key: newAnswerKey, text: correctAnswerText },
+      };
+    });
 
     function handleToggle(event) {
       detailsOpen.value = event.target.open;
