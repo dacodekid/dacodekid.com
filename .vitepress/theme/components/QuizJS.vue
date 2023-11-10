@@ -1,16 +1,16 @@
 <template>
   <div class="quiz-container">
     <div v-if="qas.length > 0" class="quiz-block">
-      <h3>{{ currentQA.question }}</h3>
+      <h3 v-html="currentQA.question"></h3>
       <ul>
-        <li v-for="option in currentQA.options" :key="option.key">{{ option.key }}: {{ option.text }}</li>
+        <li v-for="option in currentQA.options" :key="option.key" v-html="`${option.key}: ${option.text}`"></li>
       </ul>
       <details :open="detailsOpen" @toggle="handleToggle($event)">
         <summary>Answer & Explanation</summary>
         <p>
-          <span class="answer">{{ currentQA.answer.key }}</span> {{ currentQA.answer.text }}
+          <span class="answer">{{ currentQA.answer.key }}</span> <span v-html="currentQA.answer.text"></span>
         </p>
-        <p v-if="currentQA.explanation">{{ currentQA.explanation }}</p>
+        <p v-if="currentQA.explanation" v-html="currentQA.explanation"></p>
       </details>
       <div class="button-container">
         <button @click="prevQuestion" :disabled="currentIndex === 0">Prev</button>
@@ -171,8 +171,8 @@ details p {
 
 details p span.answer {
   font-weight: bold;
-  color: var(--vp-c-brand-1); /* This will be the text color */
-  background-color: var(--vp-c-bg); /* This will be the background color */
+  color: white; /* This will be the text color */
+  background-color: green; /* This will be the background color */
   padding: 0.2rem 0.6rem; /* Adjust padding to control the size of the 'square' */
   border-radius: 0.25rem; /* This makes the corners rounded, set to 0 for square corners */
   display: inline-block;
