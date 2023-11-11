@@ -14,8 +14,6 @@ During project execution, aligning activities to stay attuned to organizational 
 
 Engaging with stakeholders to demystify business challenges and prospects is imperative for all programs and projects. The extent to which a Needs Assessment is formally chronicled is contingent upon organizational ethos, prevailing market conditions, environmental factors, and possibly even regulatory stipulations.
 
----
-
 ## Quiz
 
 ```quiz
