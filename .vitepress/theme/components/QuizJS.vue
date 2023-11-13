@@ -1,5 +1,7 @@
 <script lang="ts">
 import { defineComponent, PropType, ref, computed, watch, onMounted } from 'vue';
+import confetti from 'canvas-confetti';
+import { log } from 'console';
 
 // Define a type for the question structure
 type QuizQuestion = {
@@ -42,6 +44,18 @@ export default defineComponent({
     );
 
     // Functions
+    // celebrate when the quiz is completed with a passing score
+    function triggerCelebration() {
+      if (calculateScore() >= passingScore) {
+        confetti({
+          particleCount: 400,
+          spread: 150,
+          origin: { y: 0.6 },
+        });
+      }
+    }
+
+    // Shuffle the options for each question
     function shuffleOptions(options) {
       for (let i = options.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -50,11 +64,13 @@ export default defineComponent({
       return options;
     }
 
+    // Calculate the score of the quiz
     function calculateScore() {
       let correctCount = calculateCorrectAnswers();
       return (correctCount / props.qas.length) * 100;
     }
 
+    // Calculate the number of correct answers
     function calculateCorrectAnswers() {
       let correctAnswers = 0;
       props.qas.forEach((qa, index) => {
@@ -65,11 +81,13 @@ export default defineComponent({
       return correctAnswers;
     }
 
+    // Check if the selected answer is correct
     function checkAnswer(questionIndex, selectedOptionKey) {
       const correctAnswerKey = shuffledQAs.value[questionIndex].answer.key;
       answerFeedback.value[questionIndex] = selectedOptionKey === correctAnswerKey;
     }
 
+    // Determine the class for the answer feedback
     function feedbackClass(questionIndex) {
       // If the quiz is in review mode, handle unanswered questions
       if (isReviewMode.value) {
@@ -89,18 +107,22 @@ export default defineComponent({
     }
 
     // Event Handlers
+    // Handle the toggle event for the details element
     function handleToggle(event) {
       detailsOpen.value = event.target.open;
     }
 
+    // Toggle the details element
     function toggleDetails() {
       detailsOpen.value = !detailsOpen.value;
     }
 
+    // Move to the previous question
     function prevQuestion() {
       if (currentIndex.value > 0) currentIndex.value--;
     }
 
+    // Move to the next question
     function nextQuestion() {
       if (currentIndex.value < props.qas.length - 1) {
         currentIndex.value++;
@@ -111,10 +133,13 @@ export default defineComponent({
       }
     }
 
+    // Complete the quiz
     function completeQuiz() {
       quizCompleted.value = true;
+      triggerCelebration();
     }
 
+    // Retake the quiz
     function retakeQuiz() {
       currentIndex.value = 0;
       detailsOpen.value = false;
@@ -124,6 +149,7 @@ export default defineComponent({
       reshuffleQuestions();
     }
 
+    // Review the quiz
     function reviewQuiz() {
       currentIndex.value = 0;
       quizCompleted.value = true;
@@ -131,6 +157,7 @@ export default defineComponent({
       detailsOpen.value = true;
     }
 
+    // Reshuffle the questions and options
     function reshuffleQuestions() {
       shuffledQAs.value = props.qas.map((qa) => {
         const shuffledOptions = shuffleOptions([...qa.options]);
@@ -219,9 +246,15 @@ export default defineComponent({
       <!-- Results Section -->
       <div v-else class="result-container">
         <div class="result-content">
-          <h2>Result: {{ calculateScore() >= passingScore ? 'Pass' : 'Fail' }}</h2>
-          <p>Scored: {{ calculateScore().toFixed(2) }}% ({{ calculateCorrectAnswers() }}/{{ qas.length }})</p>
-          <p>Passing Score: 70%</p>
+          <h2>{{ calculateScore() >= passingScore ? 'PASSED' : 'FAILED' }}</h2>
+          <p>
+            <strong>
+              Scored: {{ calculateScore().toFixed(2) }}% ({{ calculateCorrectAnswers() }}/{{ qas.length }})
+            </strong>
+          </p>
+          <p>
+            <strong> Passing Score: 70% </strong>
+          </p>
           <div class="button-container">
             <button @click="retakeQuiz" class="retake-button">Retake</button>
             <button @click="reviewQuiz" class="review-button">Review</button>
