@@ -3,11 +3,12 @@ import DOMPurify from 'isomorphic-dompurify';
 function escapeText(text) {
   return (
     text
-      // .replace(/"/g, '&quot;') // It'll create errors in Vue templates
-      .replace(/'/g, '&#039;')
+      // The order matters.
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
+      .replace(/'/g, '&#039;')
+    // .replace(/"/g, '&quot;') It'll create errors in Vue templates because of the use of double quotes.
   );
 }
 

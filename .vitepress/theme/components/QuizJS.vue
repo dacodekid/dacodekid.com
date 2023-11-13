@@ -48,9 +48,11 @@ export default defineComponent({
     function triggerCelebration() {
       if (calculateScore() >= passingScore) {
         confetti({
-          particleCount: 400,
-          spread: 150,
-          origin: { y: 0.6 },
+          particleCount: Math.floor(Math.random() * 500) + 300, // random number between 300 and 800
+          spread: Math.floor(Math.random() * 90) + 100, // random number between 100 and 190
+          origin: { y: Math.random() * 0.1 + 0.6 }, // random number between 0.9 and 1
+          startVelocity: Math.floor(Math.random() * 50) + 50, // random number between 50 and 100
+          ticks: Math.floor(Math.random() * 200) + 200, // random number between 200 and 400
         });
       }
     }
