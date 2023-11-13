@@ -36,6 +36,10 @@ export default defineComponent({
     const currentQA = computed(() => shuffledQAs.value[currentIndex.value]);
     const questionIndicator = computed(() => `${currentIndex.value + 1}/${props.qas.length}`);
     const detailsButtonText = computed(() => (detailsOpen.value ? 'Hide' : 'Show'));
+    const nextButtonText = computed(() => (currentIndex.value === props.qas.length - 1 ? 'Finish' : 'Next'));
+    const nextButtonClass = computed(() =>
+      currentIndex.value === props.qas.length - 1 ? 'finish-button' : 'next-button'
+    );
 
     // Functions
     function shuffleOptions(options) {
@@ -67,9 +71,20 @@ export default defineComponent({
     }
 
     function feedbackClass(questionIndex) {
+      // If the quiz is in review mode, handle unanswered questions
+      if (isReviewMode.value) {
+        // Treat unanswered questions as incorrect
+        const isSelected = typeof selectedAnswers.value[questionIndex] !== 'undefined';
+        const isCorrect = isSelected && answerFeedback.value[questionIndex];
+
+        return isCorrect ? 'correct-answer' : 'incorrect-answer';
+      }
+
+      // Return empty string if answer feedback is not defined
       if (typeof answerFeedback.value[questionIndex] === 'undefined') {
         return '';
       }
+
       return answerFeedback.value[questionIndex] ? 'correct-answer' : 'incorrect-answer';
     }
 
@@ -102,6 +117,7 @@ export default defineComponent({
 
     function retakeQuiz() {
       currentIndex.value = 0;
+      detailsOpen.value = false;
       selectedAnswers.value = {};
       answerFeedback.value = {};
       quizCompleted.value = false;
@@ -112,6 +128,7 @@ export default defineComponent({
       currentIndex.value = 0;
       quizCompleted.value = true;
       isReviewMode.value = true;
+      detailsOpen.value = true;
     }
 
     function reshuffleQuestions() {
@@ -131,6 +148,8 @@ export default defineComponent({
       currentQA,
       prevQuestion,
       nextQuestion,
+      nextButtonText,
+      nextButtonClass,
       detailsOpen,
       handleToggle,
       questionIndicator,
@@ -154,7 +173,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="quiz-container">
+  <div class="quiz-container" :class="{ 'result-page-border': quizCompleted, 'review-mode': isReviewMode }">
     <!-- Display Loading if quiz data is not ready -->
     <div v-if="!currentQA || !currentQA.question">Loading...</div>
 
@@ -182,7 +201,10 @@ export default defineComponent({
         </ul>
         <details :open="detailsOpen" @toggle="handleToggle($event)">
           <summary>Answer & Explanation</summary>
-          <div v-if="typeof answerFeedback[currentIndex] !== 'undefined'" :class="feedbackClass(currentIndex)">
+          <div
+            v-if="isReviewMode || typeof answerFeedback[currentIndex] !== 'undefined'"
+            :class="feedbackClass(currentIndex)"
+          >
             {{ answerFeedback[currentIndex] ? 'Correct' : 'Incorrect' }}
           </div>
           <p><strong>Answer:</strong> {{ currentQA.answer.text }}</p>
@@ -190,7 +212,7 @@ export default defineComponent({
         </details>
         <div class="button-container">
           <button @click="prevQuestion" :disabled="currentIndex === 0" class="prev-button">Prev</button>
-          <button @click="nextQuestion" class="next-button">Next</button>
+          <button @click="nextQuestion" :class="nextButtonClass">{{ nextButtonText }}</button>
         </div>
       </div>
 
@@ -266,7 +288,8 @@ export default defineComponent({
 .retake-button,
 .review-button,
 .prev-button,
-.next-button {
+.next-button,
+.finish-button {
   border-radius: 20px;
   padding: 10px 20px;
   background-color: var(--vp-c-brand-3);
@@ -280,10 +303,33 @@ export default defineComponent({
 
 .toggle-details-btn:hover,
 .retake-button:hover,
-.review-button:hover,
 .prev-button:hover,
 .next-button:hover {
   background-color: var(--vp-c-brand-2);
+}
+
+.review-button {
+  background-color: var(--vp-c-sponsor);
+}
+
+.review-button:hover {
+  background-color: var(--vp-c-red-1);
+  color: var(--vp-c-white);
+}
+
+.review-mode,
+.result-page-border {
+  border: 5px solid var(--vp-c-sponsor);
+}
+
+.finish-button {
+  background-color: #4caf50; /* Green background for finish button */
+  color: white;
+}
+
+/* Optional: Different hover effect for finish button */
+.finish-button:hover {
+  background-color: #45a049;
 }
 
 .toggle-details-btn {
@@ -320,7 +366,7 @@ ul {
 ul li {
   background-color: var(--vp-c-bg);
   border-bottom: 1px solid var(--vp-c-divider);
-  padding: 0.75rem 1rem;
+  border-radius: 8px;
 }
 
 ul li:hover {
@@ -353,6 +399,8 @@ details div {
   padding: 5px;
   color: white;
   border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .correct-answer {
@@ -376,13 +424,14 @@ input[type='radio'] {
 label {
   cursor: pointer;
   position: relative;
-  padding-left: 30px;
+  display: block;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
 }
 
 label::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
   height: 20px;
@@ -395,7 +444,7 @@ label::before {
 input[type='radio']:checked + label::after {
   content: '';
   position: absolute;
-  left: 2px;
+  left: 12px;
   top: calc(50%);
   transform: translateY(-50%);
   width: 16px;
