@@ -1,7 +1,14 @@
 import DOMPurify from 'isomorphic-dompurify';
 
 function escapeText(text) {
-  return text.replace(/'/g, '&#039;').replace(/&/g, '&amp;');
+  return (
+    text
+      // .replace(/"/g, '&quot;') // It'll create errors in Vue templates
+      .replace(/'/g, '&#039;')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+  );
 }
 
 export const quiz = (md) => {
