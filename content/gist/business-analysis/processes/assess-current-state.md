@@ -5,7 +5,7 @@ next: false
 
 ## Assess Current State
 
-The "Assess Current State" process aims to delve deep into the current environment being analyzed. The primary objective is to comprehend both internal and external factors that might be either the root cause or a driving factor for a specific problem or opportunity.
+The "Assess Current State" process aims to delve deep into the current environment being analyzed. The primary objective is to ==comprehend both internal and external factors== that might be either the root cause or a driving factor for a specific problem or opportunity.
 
 ### Key Benefit
 
@@ -13,11 +13,11 @@ The main advantage of this process is to equip stakeholders with a thorough unde
 
 ### Areas of Analysis
 
-The scope of analysis is vast, ranging from a specific project or a program to an entire department or business unit. Other potential areas of investigation include the competitive landscape, specific products, and many more. Factors to be inspected can be as intrinsic as organizational culture, processes, and structure or as extensive as external elements, enterprise architectures, capacities like human resources, and capital resources.
+The scope of analysis is vast, ranging from a specific project or a program to an entire department or business unit. Other ==potential areas of investigation include the competitive landscape, specific products==, and many more. Factors to be inspected can be as intrinsic as organizational culture, processes, and structure or as extensive as external elements, enterprise architectures, capacities like human resources, and capital resources.
 
 ### Depth of Analysis
 
-The information gathered during this process is often denser and more detailed than the initial data accumulated while identifying the problem or opportunity. The reason for this is the continuous elicitation activities that further nurture the available information. This process often goes hand-in-hand with the "Conduct Elicitation" section.
+The information gathered during this process is often denser and more detailed than the initial data accumulated while identifying the problem or opportunity. The reason for this is the continuous elicitation activities that further nurture the available information. This ==process often goes hand-in-hand with the [Conduct Elicitation](./conduct-elicitation.md) section==.
 
 ### Evaluation of Current Capabilities
 
@@ -29,7 +29,7 @@ The primary goal of the current state assessments isn't to dive deep into a comp
 
 ### Elicitation Methods
 
-To obtain information regarding the current state, various elicitation techniques are employed. These methods range from scrutinizing documents, conducting interviews, observing real-time scenarios, to distributing surveys.
+To obtain information regarding the current state, various elicitation techniques are employed. These methods range from ==scrutinizing documents, conducting interviews, observing real-time scenarios, to distributing surveys==.
 
 ### Focus of Business Analysis Activities
 
@@ -96,3 +96,127 @@ SWOT Analysis is a strategic planning tool used to evaluate Strengths, Weaknesse
 #### [Current State Assessment](/content/gist/business-analysis/inputs-outputs/current-state-assessment.md)
 
 The Current State Assessment is a comprehensive document detailing the existing situation of the organization or project. This assessment captures all the relevant information, findings, and insights garnered during the analysis, providing a foundational understanding upon which future initiatives can be based.
+
+### Quiz
+
+```quiz
+Question: In the "Assess Current State" process, what is the primary focus when evaluating the organization's current environment?
+A: Determining the best elicitation techniques to use
+B: Identifying internal and external factors that might be the root cause or driving factor for a specific problem or opportunity
+C: Establishing a detailed future state vision for the organization
+D: Comparing the organization's current state to its competitors
+Answer: B
+Explanation: The main focus of the "Assess Current State" process is to identify both internal and external factors that could be the root cause or a driving factor for a specific problem or opportunity within the organization.
+
+Question: What is the key benefit of conducting an "Assess Current State" analysis?
+A: Identifying new market opportunities for the organization
+B: Providing stakeholders with a thorough understanding of the organization's present condition
+C: Focusing solely on the organization's financial performance
+D: Determining the exact changes needed for the future state
+Answer: B
+Explanation: The key benefit of the "Assess Current State" process is equipping stakeholders with a comprehensive understanding of the organization's current condition, which is crucial in determining what needs to change and what should remain the same for the desired future state.
+
+Question: What is NOT a primary objective of the "Assess Current State" process?
+A: Conducting a comprehensive analysis of requirements
+B: Gaining enough knowledge about a problem or opportunity to understand the situation
+C: Evaluating the organization's existing capabilities
+D: Understanding the organization's enterprise and business architectures
+Answer: A
+Explanation: The primary goal of the "Assess Current State" process is not to conduct a comprehensive analysis of requirements but to gain sufficient knowledge about the problem or opportunity, ensuring stakeholders have a robust grasp of the situation.
+
+Question: Which of the following is NOT typically an area of analysis in the "Assess Current State" process?
+A: The organization's competitive landscape
+B: The personal goals of the business analysts involved
+C: Organizational culture, processes, and structure
+D: External elements and enterprise architectures
+Answer: B
+Explanation: In the "Assess Current State" process, areas of analysis typically include the organization's culture, processes, structure, external elements, enterprise architectures, and competitive landscape, but not the personal goals of the business analysts.
+
+Question: When might a new "Assess Current State" process be unnecessary?
+A: When the organization does not have a clear future state vision
+B: If a detailed assessment of the current state was recently completed and can be used as a foundation for defining the future state
+C: Whenever the organization is undergoing a major financial crisis
+D: If the stakeholders are not interested in changing the current state
+Answer: B
+Explanation: A new "Assess Current State" process might be unnecessary if a detailed and recent assessment of the current state already exists, providing a sufficient foundation for defining the future state.
+
+Question: Which of the following is NOT a primary input in the "Assess Current State" process?
+A: Enterprise and Business Architectures
+B: Organizational Goals and Objectives
+C: Detailed Financial Audits
+D: Situation Statement
+Answer: C
+Explanation: Detailed Financial Audits are not listed as a primary input in the "Assess Current State" process. The main inputs include Enterprise and Business Architectures, Organizational Goals and Objectives, and the Situation Statement.
+
+Question: How do Enterprise and Business Architectures serve in the "Assess Current State" process?
+A: They offer a structured representation of the organization's business, strategy, information, and technology assets
+B: They primarily focus on the personal development of the business analysts
+C: They are used to determine the marketing strategies of the organization
+D: They provide a financial breakdown of the organization's expenditures
+Answer: A
+Explanation: In the "Assess Current State" process, Enterprise and Business Architectures provide a structured representation of the organization's business, strategy, information, and technology assets, aiding in understanding the organization's interrelations and areas needing attention.
+
+Question: What role does the Situation Statement play in the "Assess Current State" process?
+A: It acts as a detailed financial report
+B: It provides a concise description of the problem or opportunity being addressed
+C: It outlines the organization's marketing strategies
+D: It serves as a comprehensive list of stakeholders involved
+Answer: B
+Explanation: The Situation Statement in the "Assess Current State" process provides a concise description of the problem or opportunity being addressed, acting as a focal point for the assessment.
+
+Question: Which tool or technique is NOT commonly used in the "Assess Current State" process?
+A: Business Capability Analysis
+B: Capability Framework
+C: Trend Forecasting in Market Economics
+D: SWOT Analysis
+Answer: C
+Explanation: Trend Forecasting in Market Economics is not listed as a common tool or technique for the "Assess Current State" process. Common tools and techniques include Business Capability Analysis, Capability Framework, and SWOT Analysis.
+
+Question: What is the primary purpose of using a Capability Table in the "Assess Current State" process?
+A: To list and describe various capabilities of the organization
+B: To outline the personal capabilities of each team member
+C: To track the organization's financial capabilities only
+D: To document the marketing strategies of the organization
+Answer: A
+Explanation: A Capability Table in the "Assess Current State" process is used to list and describe the various capabilities of the organization, acting as a comprehensive repository for capability analysis.
+
+Question: What is the significance of Elicitation Techniques in the "Assess Current State" process?
+A: They are solely used for financial analysis
+B: They help in gathering information from stakeholders and other sources to understand the current state
+C: Their primary use is in recruiting new employees
+D: They are used exclusively for legal documentation purposes
+Answer: B
+Explanation: In the "Assess Current State" process, Elicitation Techniques are employed to gather information from stakeholders, documents, systems, and other sources to gain a comprehensive understanding of the current state.
+
+Question: How does a Pareto Diagram assist in the "Assess Current State" process?
+A: By providing a graphical representation that prioritizes issues based on their significance
+B: By outlining the organization's budget allocation
+C: By charting the personal preferences of each stakeholder
+D: By detailing the organization's sales data
+Answer: A
+Explanation: Pareto Diagrams in the "Assess Current State" process are used to prioritize issues by their significance, helping analysts focus on areas that will have the most substantial impact.
+
+Question: What is the main output of the "Assess Current State" process?
+A: A new marketing strategy for the organization
+B: The Current State Assessment
+C: A detailed financial report
+D: A list of potential new hires
+Answer: B
+Explanation: The main output of the "Assess Current State" process is the Current State Assessment, a comprehensive document detailing the existing situation of the organization or project.
+
+Question: What is the purpose of conducting Root Cause and Opportunity Analysis in the "Assess Current State" process?
+A: To understand the underlying causes of problems or opportunities
+B: To focus on the organization's profit margins
+C: To develop personal skills of the business analysis team
+D: To plan the organization's social events
+Answer: A
+Explanation: Root Cause and Opportunity Analysis in the "Assess Current State" process is used to delve into problems or opportunities to understand their underlying causes, ensuring solutions address fundamental issues.
+
+Question: What is the role of Business Architecture Techniques in the "Assess Current State" process?
+A: They are used for team-building activities
+B: They provide methodologies to capture and represent the business in various formats
+C: Their main role is to audit the organization's financial records
+D: They are used for developing new products
+Answer: B
+Explanation: Business Architecture Techniques in the "Assess Current State" process are methodologies used to capture and represent the business in various formats and structures, providing insights into the organization's operations and identifying improvement areas.
+```

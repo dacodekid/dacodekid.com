@@ -1,7 +1,6 @@
 <script lang="ts">
-import { defineComponent, PropType, ref, computed, watch, onMounted } from 'vue';
+import { defineComponent, PropType, ref, computed, onMounted } from 'vue';
 import confetti from 'canvas-confetti';
-import { log } from 'console';
 
 // Define a type for the question structure
 type QuizQuestion = {
@@ -46,15 +45,15 @@ export default defineComponent({
     // Functions
     // celebrate when the quiz is completed with a passing score
     function triggerCelebration() {
-      if (calculateScore() >= passingScore) {
-        confetti({
-          particleCount: Math.floor(Math.random() * 500) + 300, // random number between 300 and 800
-          spread: Math.floor(Math.random() * 90) + 100, // random number between 100 and 190
-          origin: { y: Math.random() * 0.1 + 0.6 }, // random number between 0.9 and 1
-          startVelocity: Math.floor(Math.random() * 50) + 50, // random number between 50 and 100
-          ticks: Math.floor(Math.random() * 200) + 200, // random number between 200 and 400
-        });
-      }
+      confetti({
+        particleCount: Math.floor(Math.random() * 200) + 100,
+        spread: Math.floor(Math.random() * 300) + 100,
+        startVelocity: Math.floor(Math.random() * 75) + 50,
+        ticks: Math.floor(Math.random() * 200) + 200,
+        angle: Math.floor(Math.random() * 75) + 55,
+        origin: { y: Math.random() * 0.6 + 0.3 },
+        gravity: Math.random() * 0.5 + 0.2,
+      });
     }
 
     // Shuffle the options for each question
@@ -138,7 +137,15 @@ export default defineComponent({
     // Complete the quiz
     function completeQuiz() {
       quizCompleted.value = true;
-      triggerCelebration();
+      if (calculateScore() >= passingScore) {
+        // Define the number of times to run the celebration and the interval in milliseconds
+        const celebrations = 10;
+        const interval = 250;
+
+        for (let i = 0; i < celebrations; i++) {
+          setTimeout(triggerCelebration, i * interval);
+        }
+      }
     }
 
     // Retake the quiz
