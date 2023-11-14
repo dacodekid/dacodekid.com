@@ -101,6 +101,16 @@ const gistMenu = [
         text: 'Process Groups vs Knowledge Areas',
         link: '/content/gist/business-analysis/process-groups-vs-knowledge-areas.md',
       },
+      {
+        text: 'Quizzes',
+        collapsed: false,
+        items: [
+          {
+            text: 'Quiz 01',
+            link: '/content/gist/business-analysis/quizzes/quiz-01.md',
+          },
+        ],
+      },
     ],
   },
 ];

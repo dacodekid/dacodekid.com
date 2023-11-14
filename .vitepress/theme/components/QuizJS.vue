@@ -37,7 +37,7 @@ export default defineComponent({
     const currentQA = computed(() => shuffledQAs.value[currentIndex.value]);
     const questionIndicator = computed(() => `${currentIndex.value + 1}/${props.qas.length}`);
     const detailsButtonText = computed(() => (detailsOpen.value ? 'Hide' : 'Show'));
-    const nextButtonText = computed(() => (currentIndex.value === props.qas.length - 1 ? 'Finish' : 'Next'));
+    const nextButtonText = computed(() => (currentIndex.value === props.qas.length - 1 ? 'Done' : 'Next'));
     const nextButtonClass = computed(() =>
       currentIndex.value === props.qas.length - 1 ? 'finish-button' : 'next-button'
     );
@@ -219,9 +219,15 @@ export default defineComponent({
       <div v-if="!quizCompleted || isReviewMode">
         <div class="top-row">
           <button class="toggle-details-btn" @click="toggleDetails">{{ detailsButtonText }}</button>
+
+          <div class="navigation-buttons-container">
+            <button @click="prevQuestion" :disabled="currentIndex === 0" class="navigation-button">Prev</button>
+            <button @click="nextQuestion" :class="['navigation-button', nextButtonClass]">{{ nextButtonText }}</button>
+          </div>
+
           <div class="quiz-indicator">{{ questionIndicator }}</div>
         </div>
-        <h3>{{ currentQA.question }}</h3>
+        <p>{{ currentQA.question }}</p>
         <ul>
           <li v-for="option in currentQA.options" :key="option.key">
             <input
@@ -246,10 +252,6 @@ export default defineComponent({
           <p><strong>Answer:</strong> {{ currentQA.answer.text }}</p>
           <p v-if="currentQA.explanation"><strong>Explanation:</strong> {{ currentQA.explanation }}</p>
         </details>
-        <div class="button-container">
-          <button @click="prevQuestion" :disabled="currentIndex === 0" class="prev-button">Prev</button>
-          <button @click="nextQuestion" :class="nextButtonClass">{{ nextButtonText }}</button>
-        </div>
       </div>
 
       <!-- Results Section -->
@@ -326,11 +328,23 @@ export default defineComponent({
   margin-top: 1rem; /* Adds space between buttons and the last question/answer */
 }
 
+.navigation-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between buttons */
+}
+
+.navigation-button:hover {
+  background-color: var(--vp-c-brand-2);
+}
+
 .toggle-details-btn,
 .retake-button,
 .review-button,
 .prev-button,
 .next-button,
+.navigation-button,
 .finish-button {
   border-radius: 20px;
   padding: 10px 20px;
@@ -374,7 +388,8 @@ export default defineComponent({
   background-color: #45a049;
 }
 
-.toggle-details-btn {
+.toggle-details-btn,
+.navigation-button {
   padding: 0rem 0rem;
   margin-right: 0rem;
   background-color: var(--vp-c-gray-3);
