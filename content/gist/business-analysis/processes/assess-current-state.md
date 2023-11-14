@@ -17,7 +17,7 @@ The scope of analysis is vast, ranging from a specific project or a program to a
 
 ### Depth of Analysis
 
-The information gathered during this process is often denser and more detailed than the initial data accumulated while identifying the problem or opportunity. The reason for this is the continuous elicitation activities that further nurture the available information. This ==process often goes hand-in-hand with the [Conduct Elicitation](./conduct-elicitation.md) section==.
+The information gathered during this process is often denser and more detailed than the initial data accumulated while identifying the problem or opportunity. The reason for this is the continuous elicitation activities that further nurture the available information. This ==process often goes hand-in-hand with the [Conduct Elicitation](/content/gist/business-analysis/processes/conduct-elicitation.md) section==.
 
 ### Evaluation of Current Capabilities
 
