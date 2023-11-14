@@ -1,5 +1,5 @@
 <script lang="ts">
-import { defineComponent, PropType, ref, computed, onMounted } from 'vue';
+import { defineComponent, PropType, ref, computed, onMounted, watch } from 'vue';
 import confetti from 'canvas-confetti';
 
 // Define a type for the question structure
@@ -29,6 +29,7 @@ export default defineComponent({
     const isReviewMode = ref(false);
     const answerFeedback = ref({});
     const shuffledQAs = ref<Array<QuizQuestion>>([]);
+    const questionInput = ref((currentIndex.value + 1).toString());
 
     // Constants
     const passingScore = 70;
@@ -175,8 +176,26 @@ export default defineComponent({
       });
     }
 
+    // Function to handle input changes
+    function handleQuestionInput() {
+      let newQuestionIndex = parseInt(questionInput.value, 10) - 1; // Convert the string value to a number
+      if (newQuestionIndex >= 0 && newQuestionIndex < props.qas.length) {
+        currentIndex.value = newQuestionIndex;
+      } else if (newQuestionIndex < 0) {
+        currentIndex.value = 0;
+        questionInput.value = '1'; // Update the reactive reference
+      } else {
+        currentIndex.value = props.qas.length - 1;
+        questionInput.value = props.qas.length.toString(); // Convert the number to a string
+      }
+    }
+
     // Lifecycle Hooks
     onMounted(reshuffleQuestions);
+
+    watch(currentIndex, (newIndex) => {
+      questionInput.value = (newIndex + 1).toString();
+    });
 
     // Expose to Template
     return {
@@ -203,6 +222,8 @@ export default defineComponent({
       checkAnswer,
       reviewQuiz,
       isReviewMode,
+      questionInput,
+      handleQuestionInput,
     };
   },
 });
@@ -225,7 +246,20 @@ export default defineComponent({
             <button @click="nextQuestion" :class="['navigation-button', nextButtonClass]">{{ nextButtonText }}</button>
           </div>
 
-          <div class="quiz-indicator">{{ questionIndicator }}</div>
+          <div class="quiz-indicator">
+            <input
+              type="number"
+              inputmode="numeric"
+              pattern="\d*"
+              step="1"
+              min="1"
+              :max="qas.length"
+              v-model="questionInput"
+              @change="handleQuestionInput"
+              class="question-input"
+            />
+            <span>/ {{ qas.length }}</span>
+          </div>
         </div>
         <p>{{ currentQA.question }}</p>
         <ul>
@@ -508,5 +542,15 @@ input[type='radio']:checked + label::after {
   height: 16px;
   background-color: var(--vp-c-brand-3);
   border-radius: 50%;
+}
+
+.question-input {
+  width: 3rem;
+  margin-right: 0.3rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  background-color: var(--vp-c-bg);
+  text-align: center;
+  font-size: 0.9rem;
 }
 </style>
