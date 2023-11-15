@@ -113,6 +113,22 @@ const gistMenu = [
             text: 'Quiz 02',
             link: '/content/gist/business-analysis/quizzes/quiz-02.md',
           },
+          {
+            text: 'Quiz 03',
+            link: '/content/gist/business-analysis/quizzes/quiz-03.md',
+          },
+          {
+            text: 'Quiz 04',
+            link: '/content/gist/business-analysis/quizzes/quiz-04.md',
+          },
+          {
+            text: 'Quiz 05',
+            link: '/content/gist/business-analysis/quizzes/quiz-05.md',
+          },
+          {
+            text: 'Quiz 06',
+            link: '/content/gist/business-analysis/quizzes/quiz-06.md',
+          },
         ],
       },
     ],
