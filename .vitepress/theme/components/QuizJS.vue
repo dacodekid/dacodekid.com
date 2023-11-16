@@ -42,6 +42,9 @@ export default defineComponent({
     const nextButtonClass = computed(() =>
       currentIndex.value === props.qas.length - 1 ? 'finish-button' : 'next-button'
     );
+    const isAnswerSelected = computed(() => {
+      return isReviewMode.value || typeof selectedAnswers.value[currentIndex.value] !== 'undefined';
+    });
 
     // Functions
     // celebrate when the quiz is completed with a passing score
@@ -232,6 +235,7 @@ export default defineComponent({
       isReviewMode,
       questionInput,
       handleQuestionInput,
+      isAnswerSelected,
     };
   },
 });
@@ -283,17 +287,23 @@ export default defineComponent({
             <label :for="option.key">{{ option.text }}</label>
           </li>
         </ul>
-        <details :open="detailsOpen" @toggle="handleToggle($event)">
-          <summary>Answer & Explanation</summary>
-          <div
-            v-if="isReviewMode || typeof answerFeedback[currentIndex] !== 'undefined'"
-            :class="feedbackClass(currentIndex)"
-          >
-            {{ answerFeedback[currentIndex] ? 'Correct' : 'Incorrect' }}
-          </div>
-          <p><strong>Answer:</strong> {{ currentQA.answer.text }}</p>
-          <p v-if="currentQA.explanation"><strong>Explanation:</strong> {{ currentQA.explanation }}</p>
-        </details>
+        <!-- Details Section Visibility -->
+        <div v-if="isAnswerSelected">
+          <details :open="detailsOpen" @toggle="handleToggle($event)">
+            <summary>Answer & Explanation</summary>
+
+            <!-- Feedback Visibility -->
+            <div
+              v-if="isReviewMode || typeof answerFeedback[currentIndex] !== 'undefined'"
+              :class="feedbackClass(currentIndex)"
+            >
+              {{ answerFeedback[currentIndex] ? 'Correct' : 'Incorrect' }}
+            </div>
+
+            <p><strong>Answer:</strong> {{ currentQA.answer.text }}</p>
+            <p v-if="currentQA.explanation"><strong>Explanation:</strong> {{ currentQA.explanation }}</p>
+          </details>
+        </div>
       </div>
 
       <!-- Results Section -->
@@ -370,17 +380,6 @@ export default defineComponent({
   margin-top: 1rem; /* Adds space between buttons and the last question/answer */
 }
 
-.navigation-buttons-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; /* Adjust the gap between buttons */
-}
-
-.navigation-button:hover {
-  background-color: var(--vp-c-brand-2);
-}
-
 .toggle-details-btn,
 .retake-button,
 .review-button,
@@ -399,10 +398,19 @@ export default defineComponent({
   min-width: 100px;
 }
 
+.navigation-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between buttons */
+}
+
+.navigation-button:hover {
+  background-color: var(--vp-c-gray-2);
+}
+
 .toggle-details-btn:hover,
-.retake-button:hover,
-.prev-button:hover,
-.next-button:hover {
+.retake-button:hover {
   background-color: var(--vp-c-brand-2);
 }
 
