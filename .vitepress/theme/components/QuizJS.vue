@@ -169,7 +169,15 @@ export default defineComponent({
 
     // Reshuffle the questions and options
     function reshuffleQuestions() {
-      shuffledQAs.value = props.qas.map((qa) => {
+      // Shuffle the questions array
+      let shuffledQuestions = [...props.qas];
+      for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+      }
+
+      // Shuffle the options for each question
+      shuffledQAs.value = shuffledQuestions.map((qa) => {
         const shuffledOptions = shuffleOptions([...qa.options]);
         const newAnswerKey = shuffledOptions.find((option) => option.text === qa.answer.text).key;
         return { ...qa, options: shuffledOptions, answer: { key: newAnswerKey, text: qa.answer.text } };
