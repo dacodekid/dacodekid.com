@@ -131,8 +131,8 @@ export default defineComponent({
     };
 
     const handleKeyDown = (event) => {
-      if (event.key === 'ArrowLeft') prevQuestion();
-      if (event.key === 'ArrowRight') nextQuestion();
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowDown') prevQuestion();
+      if (event.key === 'ArrowRight' || event.key === 'ArrowUp') nextQuestion();
     };
 
     const handleToggle = (event) => {
@@ -286,11 +286,20 @@ export default defineComponent({
       <div v-if="!quizCompleted || isReviewMode">
         <div class="top-row">
           <div class="timer-container">
-            <!-- Finish Button -->
-            <button class="finish-button" @click="finishQuiz">
-              {{ isReviewMode ? 'Result' : 'Finish' }}
-            </button>
             <span class="timer">{{ formattedTimer }}</span>
+            <div class="quiz-indicator">
+              <input
+                type="number"
+                inputmode="numeric"
+                step="1"
+                min="1"
+                :max="qas.length"
+                v-model="questionInput"
+                @change="handleQuestionInput"
+                class="question-input"
+              />
+              <span>/ {{ qas.length }}</span>
+            </div>
           </div>
 
           <div class="buttons-indicator-container">
@@ -303,20 +312,10 @@ export default defineComponent({
               </button>
             </div>
 
-            <div class="quiz-indicator">
-              <input
-                type="number"
-                inputmode="numeric"
-                pattern="\d*"
-                step="1"
-                min="1"
-                :max="qas.length"
-                v-model="questionInput"
-                @change="handleQuestionInput"
-                class="question-input"
-              />
-              <span>/ {{ qas.length }}</span>
-            </div>
+            <!-- Finish Button -->
+            <button class="finish-button" @click="finishQuiz">
+              {{ isReviewMode ? 'Result' : 'Finish' }}
+            </button>
           </div>
         </div>
         <p>{{ currentQA.question }}</p>
@@ -549,7 +548,7 @@ export default defineComponent({
 
 .timer {
   border-radius: 15px 15px 0 0;
-  padding: 0rem 1.1rem;
+  padding: 0rem 0.5rem;
   background-color: var(--vp-c-gray-1);
   font-weight: bold;
   font-size: 0.7rem;
@@ -666,5 +665,14 @@ details div {
 
 .incorrect-answer {
   background-color: red;
+}
+/* show spin buttons for number textbox on all browswers, including firefox */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  cursor: pointer;
+  margin: 0;
 }
 </style>

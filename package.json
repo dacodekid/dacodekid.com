@@ -6,7 +6,7 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "watch:format": "onchange $npm_package_config_prettier_extn -- prettier --write {{changed}}",
-    "watch:dev": "vitepress dev",
+    "watch:dev": "vitepress dev --host",
     "start-with-format": "npm-run-all --serial format --parallel watch:**",
     "start": "npm-run-all --serial watch:dev",
     "deploy": "gh-pages -d .vitepress/dist",
