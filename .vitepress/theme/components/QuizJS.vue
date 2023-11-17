@@ -45,11 +45,14 @@ export default defineComponent({
       () => isReviewMode.value || typeof selectedAnswers.value[currentIndex.value] !== 'undefined'
     );
     const formattedTimer = computed(() => {
-      const minutes = Math.floor(timer.value / 60)
+      const hours = Math.floor(timer.value / 3600)
+        .toString()
+        .padStart(2, '0');
+      const minutes = Math.floor((timer.value % 3600) / 60)
         .toString()
         .padStart(2, '0');
       const seconds = (timer.value % 60).toString().padStart(2, '0');
-      return `${minutes}:${seconds}`;
+      return `${hours}:${minutes}:${seconds}`;
     });
 
     const calculateScore = () => (calculateCorrectAnswers() / props.qas.length) * 100;
@@ -251,11 +254,11 @@ export default defineComponent({
       <div v-if="!quizCompleted || isReviewMode">
         <div class="top-row">
           <div class="timer-container">
-            <span>{{ formattedTimer }}</span>
             <!-- Finish Button -->
             <button class="finish-button" @click="finishQuiz">
               {{ isReviewMode ? 'Result' : 'Finish' }}
             </button>
+            <span class="timer">{{ formattedTimer }}</span>
           </div>
 
           <div class="buttons-indicator-container">
@@ -400,7 +403,8 @@ export default defineComponent({
 
 .toggle-details-btn,
 .navigation-button,
-.finish-button {
+.finish-button,
+.timer {
   /* background-color: var(--vp-c-brand-3); */
   padding: 0;
   min-width: 50px;
@@ -469,8 +473,14 @@ export default defineComponent({
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+.timer {
+  border-radius: 15px 15px 0 0;
+  padding: 0rem 1rem;
+  background-color: var(--vp-c-gray-1);
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .buttons-indicator-container {
