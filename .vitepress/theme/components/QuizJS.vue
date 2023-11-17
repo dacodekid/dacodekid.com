@@ -1,8 +1,7 @@
 <script lang="ts">
-import { defineComponent, PropType, ref, computed, onMounted, watch } from 'vue';
+import { defineComponent, PropType, ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import confetti from 'canvas-confetti';
 
-// Define a type for the question structure
 type QuizQuestion = {
   question: string;
   options: Array<{ key: string; text: string }>;
@@ -12,16 +11,14 @@ type QuizQuestion = {
 
 export default defineComponent({
   name: 'QuizJS',
-
   props: {
     qas: {
       type: Array as PropType<Array<QuizQuestion>>,
       required: true,
     },
   },
-
   setup(props) {
-    // Reactive Properties
+    // State
     const currentIndex = ref(0);
     const detailsOpen = ref(false);
     const selectedAnswers = ref({});
@@ -30,25 +27,173 @@ export default defineComponent({
     const answerFeedback = ref({});
     const shuffledQAs = ref<Array<QuizQuestion>>([]);
     const questionInput = ref((currentIndex.value + 1).toString());
+    const timer = ref(0);
+    let intervalId: number | undefined = undefined;
 
     // Constants
     const passingScore = 70;
 
-    // Computed Properties
+    // Computed
     const currentQA = computed(() => shuffledQAs.value[currentIndex.value]);
     const questionIndicator = computed(() => `${currentIndex.value + 1}/${props.qas.length}`);
     const detailsButtonText = computed(() => (detailsOpen.value ? 'Hide' : 'Show'));
     const nextButtonText = computed(() => (currentIndex.value === props.qas.length - 1 ? 'Done' : 'Next'));
     const nextButtonClass = computed(() =>
-      currentIndex.value === props.qas.length - 1 ? 'finish-button' : 'next-button'
+      currentIndex.value === props.qas.length - 1 ? 'done-button' : 'next-button'
     );
-    const isAnswerSelected = computed(() => {
-      return isReviewMode.value || typeof selectedAnswers.value[currentIndex.value] !== 'undefined';
+    const isAnswerSelected = computed(
+      () => isReviewMode.value || typeof selectedAnswers.value[currentIndex.value] !== 'undefined'
+    );
+    const formattedTimer = computed(() => {
+      const minutes = Math.floor(timer.value / 60)
+        .toString()
+        .padStart(2, '0');
+      const seconds = (timer.value % 60).toString().padStart(2, '0');
+      return `${minutes}:${seconds}`;
     });
 
-    // Functions
-    // celebrate when the quiz is completed with a passing score
-    function triggerCelebration() {
+    const calculateScore = () => (calculateCorrectAnswers() / props.qas.length) * 100;
+    const calculateCorrectAnswers = () =>
+      props.qas.reduce((count, qa, index) => count + (selectedAnswers.value[index] === qa.answer.key ? 1 : 0), 0);
+
+    // Methods
+    function checkAnswer(questionIndex, selectedOptionKey) {
+      const correctAnswerKey = shuffledQAs.value[questionIndex].answer.key;
+      answerFeedback.value[questionIndex] = selectedOptionKey === correctAnswerKey;
+      if (Object.keys(selectedAnswers.value).length === 1 && intervalId === undefined) {
+        startTimer();
+      }
+    }
+
+    function feedbackClass(questionIndex) {
+      if (isReviewMode.value) {
+        const isSelected = typeof selectedAnswers.value[questionIndex] !== 'undefined';
+        return isSelected && answerFeedback.value[questionIndex] ? 'correct-answer' : 'incorrect-answer';
+      }
+      return answerFeedback.value[questionIndex] ? 'correct-answer' : 'incorrect-answer';
+    }
+
+    const shuffleOptions = (options) => {
+      for (let i = options.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [options[i], options[j]] = [options[j], options[i]];
+      }
+      return options;
+    };
+
+    const reshuffleQuestions = () => {
+      let shuffledQuestions = props.qas.map((qa) => ({ ...qa, options: shuffleOptions([...qa.options]) }));
+      shuffledQAs.value = shuffledQuestions;
+    };
+
+    const startTimer = () => {
+      intervalId = setInterval(() => timer.value++, 1000) as unknown as number;
+    };
+
+    const stopTimer = () => {
+      if (intervalId !== undefined) {
+        clearInterval(intervalId);
+        intervalId = undefined;
+      }
+    };
+
+    const handleKeyDown = (event) => {
+      if (event.key === 'ArrowLeft') prevQuestion();
+      if (event.key === 'ArrowRight') nextQuestion();
+    };
+
+    const handleToggle = (event) => {
+      detailsOpen.value = event.target.open;
+    };
+
+    const toggleDetails = () => {
+      detailsOpen.value = !detailsOpen.value;
+    };
+
+    const handleQuestionInput = () => {
+      let newQuestionIndex = parseInt(questionInput.value, 10) - 1; // Convert the input value to an index
+      if (newQuestionIndex >= 0 && newQuestionIndex < props.qas.length) {
+        currentIndex.value = newQuestionIndex; // Update current index if within valid range
+      } else if (newQuestionIndex < 0) {
+        currentIndex.value = 0; // Set to first question if index is negative
+        questionInput.value = '1'; // Reset input field to 1
+      } else {
+        currentIndex.value = props.qas.length - 1; // Set to last question if index is too high
+        questionInput.value = props.qas.length.toString(); // Reset input field to last question number
+      }
+    };
+
+    // Lifecycle Hooks
+    onMounted(() => {
+      window.addEventListener('keydown', handleKeyDown);
+      reshuffleQuestions();
+    });
+
+    onUnmounted(() => {
+      window.removeEventListener('keydown', handleKeyDown);
+    });
+
+    // Watchers
+    watch(currentIndex, (newIndex) => {
+      questionInput.value = (newIndex + 1).toString();
+    });
+
+    // Button Handlers
+    const prevQuestion = () => {
+      if (currentIndex.value > 0) currentIndex.value--;
+    };
+
+    const nextQuestion = () => {
+      if (currentIndex.value < props.qas.length - 1) currentIndex.value++;
+      else if (isReviewMode.value) isReviewMode.value = false;
+      else completeQuiz();
+    };
+
+    const completeQuiz = () => {
+      quizCompleted.value = true;
+      stopTimer();
+      if (calculateScore() >= passingScore) {
+        const celebrations = 10;
+        for (let i = 0; i < celebrations; i++) {
+          setTimeout(() => triggerCelebration(), i * 250);
+        }
+      }
+    };
+
+    const finishQuiz = () => {
+      if (!isReviewMode.value) {
+        const isConfirmed = window.confirm('Are you sure you want to finish the quiz?');
+        if (!isConfirmed) {
+          return; // Stop if user cancels
+        }
+      } else {
+        isReviewMode.value = false; // Exit review mode if in review mode (so that user can go to results page)
+      }
+
+      quizCompleted.value = true;
+      stopTimer();
+    };
+
+    const retakeQuiz = () => {
+      currentIndex.value = 0;
+      detailsOpen.value = false;
+      selectedAnswers.value = {};
+      answerFeedback.value = {};
+      quizCompleted.value = false;
+      reshuffleQuestions();
+      timer.value = 0;
+      stopTimer();
+    };
+
+    const reviewQuiz = () => {
+      currentIndex.value = 0;
+      quizCompleted.value = true;
+      isReviewMode.value = true;
+      detailsOpen.value = true;
+    };
+
+    // Helper Functions
+    const triggerCelebration = () => {
       confetti({
         particleCount: Math.floor(Math.random() * 200) + 100,
         spread: Math.floor(Math.random() * 300) + 100,
@@ -58,157 +203,8 @@ export default defineComponent({
         origin: { y: Math.random() * 0.6 + 0.3 },
         gravity: Math.random() * 0.5 + 0.2,
       });
-    }
+    };
 
-    // Shuffle the options for each question
-    function shuffleOptions(options) {
-      for (let i = options.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [options[i], options[j]] = [options[j], options[i]];
-      }
-      return options;
-    }
-
-    // Calculate the score of the quiz
-    function calculateScore() {
-      let correctCount = calculateCorrectAnswers();
-      return (correctCount / props.qas.length) * 100;
-    }
-
-    // Calculate the number of correct answers
-    function calculateCorrectAnswers() {
-      let correctAnswers = 0;
-      props.qas.forEach((qa, index) => {
-        if (selectedAnswers.value[index] === qa.answer.key) {
-          correctAnswers++;
-        }
-      });
-      return correctAnswers;
-    }
-
-    // Check if the selected answer is correct
-    function checkAnswer(questionIndex, selectedOptionKey) {
-      const correctAnswerKey = shuffledQAs.value[questionIndex].answer.key;
-      answerFeedback.value[questionIndex] = selectedOptionKey === correctAnswerKey;
-    }
-
-    // Determine the class for the answer feedback
-    function feedbackClass(questionIndex) {
-      // If the quiz is in review mode, handle unanswered questions
-      if (isReviewMode.value) {
-        // Treat unanswered questions as incorrect
-        const isSelected = typeof selectedAnswers.value[questionIndex] !== 'undefined';
-        const isCorrect = isSelected && answerFeedback.value[questionIndex];
-
-        return isCorrect ? 'correct-answer' : 'incorrect-answer';
-      }
-
-      // Return empty string if answer feedback is not defined
-      if (typeof answerFeedback.value[questionIndex] === 'undefined') {
-        return '';
-      }
-
-      return answerFeedback.value[questionIndex] ? 'correct-answer' : 'incorrect-answer';
-    }
-
-    // Event Handlers
-    // Handle the toggle event for the details element
-    function handleToggle(event) {
-      detailsOpen.value = event.target.open;
-    }
-
-    // Toggle the details element
-    function toggleDetails() {
-      detailsOpen.value = !detailsOpen.value;
-    }
-
-    // Move to the previous question
-    function prevQuestion() {
-      if (currentIndex.value > 0) currentIndex.value--;
-    }
-
-    // Move to the next question
-    function nextQuestion() {
-      if (currentIndex.value < props.qas.length - 1) {
-        currentIndex.value++;
-      } else if (isReviewMode.value) {
-        isReviewMode.value = false;
-      } else {
-        completeQuiz();
-      }
-    }
-
-    // Complete the quiz
-    function completeQuiz() {
-      quizCompleted.value = true;
-      if (calculateScore() >= passingScore) {
-        // Define the number of times to run the celebration and the interval in milliseconds
-        const celebrations = 10;
-        const interval = 250;
-
-        for (let i = 0; i < celebrations; i++) {
-          setTimeout(triggerCelebration, i * interval);
-        }
-      }
-    }
-
-    // Retake the quiz
-    function retakeQuiz() {
-      currentIndex.value = 0;
-      detailsOpen.value = false;
-      selectedAnswers.value = {};
-      answerFeedback.value = {};
-      quizCompleted.value = false;
-      reshuffleQuestions();
-    }
-
-    // Review the quiz
-    function reviewQuiz() {
-      currentIndex.value = 0;
-      quizCompleted.value = true;
-      isReviewMode.value = true;
-      detailsOpen.value = true;
-    }
-
-    // Reshuffle the questions and options
-    function reshuffleQuestions() {
-      // Shuffle the questions array
-      let shuffledQuestions = [...props.qas];
-      for (let i = shuffledQuestions.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
-      }
-
-      // Shuffle the options for each question
-      shuffledQAs.value = shuffledQuestions.map((qa) => {
-        const shuffledOptions = shuffleOptions([...qa.options]);
-        const newAnswerKey = shuffledOptions.find((option) => option.text === qa.answer.text).key;
-        return { ...qa, options: shuffledOptions, answer: { key: newAnswerKey, text: qa.answer.text } };
-      });
-    }
-
-    // Function to handle input changes
-    function handleQuestionInput() {
-      let newQuestionIndex = parseInt(questionInput.value, 10) - 1; // Convert the string value to a number
-      if (newQuestionIndex >= 0 && newQuestionIndex < props.qas.length) {
-        currentIndex.value = newQuestionIndex;
-      } else if (newQuestionIndex < 0) {
-        currentIndex.value = 0;
-        questionInput.value = '1'; // Update the reactive reference
-      } else {
-        currentIndex.value = props.qas.length - 1;
-        questionInput.value = props.qas.length.toString(); // Convert the number to a string
-      }
-    }
-
-    // Lifecycle Hooks
-    onMounted(reshuffleQuestions);
-
-    watch(currentIndex, (newIndex) => {
-      questionInput.value = (newIndex + 1).toString();
-    });
-
-    // Expose to Template
     return {
       currentIndex,
       currentQA,
@@ -225,6 +221,7 @@ export default defineComponent({
       quizCompleted,
       calculateScore,
       completeQuiz,
+      finishQuiz,
       passingScore,
       retakeQuiz,
       calculateCorrectAnswers,
@@ -236,6 +233,8 @@ export default defineComponent({
       questionInput,
       handleQuestionInput,
       isAnswerSelected,
+      timer,
+      formattedTimer,
     };
   },
 });
@@ -251,26 +250,38 @@ export default defineComponent({
       <!-- Quiz in Progress or Review Mode -->
       <div v-if="!quizCompleted || isReviewMode">
         <div class="top-row">
-          <button class="toggle-details-btn" @click="toggleDetails">{{ detailsButtonText }}</button>
-
-          <div class="navigation-buttons-container">
-            <button @click="prevQuestion" :disabled="currentIndex === 0" class="navigation-button">Prev</button>
-            <button @click="nextQuestion" :class="['navigation-button', nextButtonClass]">{{ nextButtonText }}</button>
+          <div class="timer-container">
+            <span>{{ formattedTimer }}</span>
+            <!-- Finish Button -->
+            <button class="finish-button" @click="finishQuiz">
+              {{ isReviewMode ? 'Result' : 'Finish' }}
+            </button>
           </div>
 
-          <div class="quiz-indicator">
-            <input
-              type="number"
-              inputmode="numeric"
-              pattern="\d*"
-              step="1"
-              min="1"
-              :max="qas.length"
-              v-model="questionInput"
-              @change="handleQuestionInput"
-              class="question-input"
-            />
-            <span>/ {{ qas.length }}</span>
+          <div class="buttons-indicator-container">
+            <button class="toggle-details-btn" @click="toggleDetails">{{ detailsButtonText }}</button>
+
+            <div class="navigation-buttons-container">
+              <button @click="prevQuestion" :disabled="currentIndex === 0" class="navigation-button">Prev</button>
+              <button @click="nextQuestion" :class="['navigation-button', nextButtonClass]">
+                {{ nextButtonText }}
+              </button>
+            </div>
+
+            <div class="quiz-indicator">
+              <input
+                type="number"
+                inputmode="numeric"
+                pattern="\d*"
+                step="1"
+                min="1"
+                :max="qas.length"
+                v-model="questionInput"
+                @change="handleQuestionInput"
+                class="question-input"
+              />
+              <span>/ {{ qas.length }}</span>
+            </div>
           </div>
         </div>
         <p>{{ currentQA.question }}</p>
@@ -342,13 +353,6 @@ export default defineComponent({
   transition: all 0.3s ease;
 }
 
-.top-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
 .quiz-indicator {
   font-size: 0.9rem;
   color: var(--vp-c-text-1);
@@ -370,14 +374,11 @@ export default defineComponent({
 }
 
 .button-container {
-  width: 100%; /* Full width to align buttons inside it */
+  width: 100%;
   display: flex;
-  justify-content: center; /* Centers the buttons horizontally */
-  gap: 1rem; /* Adds space between buttons */
-  margin-top: 1rem; /* Adds space between buttons and the last question/answer */
-  justify-content: center; /* This centers the buttons horizontally */
-  gap: 1rem; /* Adds space between buttons */
-  margin-top: 1rem; /* Adds space between buttons and the last question/answer */
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
 }
 
 .toggle-details-btn,
@@ -386,36 +387,56 @@ export default defineComponent({
 .prev-button,
 .next-button,
 .navigation-button,
+.done-button,
 .finish-button {
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: var(--vp-c-brand-3);
-  color: var(--vp-c-white);
+  background-color: var(--vp-c-gray-3);
+  color: var(--vp-c-text-1);
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-weight: bold;
-  margin-top: 1rem;
-  min-width: 100px;
 }
 
-.navigation-buttons-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; /* Adjust the gap between buttons */
+.toggle-details-btn,
+.navigation-button,
+.finish-button {
+  /* background-color: var(--vp-c-brand-3); */
+  padding: 0;
+  min-width: 50px;
 }
 
-.navigation-button:hover {
-  background-color: var(--vp-c-gray-2);
+.done-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.done-button:hover {
+  background-color: #45a049 !important;
+}
+
+.finish-button:hover {
+  background-color: var(--vp-c-sponsor);
+  color: white;
 }
 
 .toggle-details-btn:hover,
+.navigation-button:hover {
+  background-color: var(--vp-c-gray-1);
+}
+
+.retake-button {
+  background-color: var(--vp-c-brand-3);
+  color: white;
+}
+
 .retake-button:hover {
   background-color: var(--vp-c-brand-2);
 }
 
 .review-button {
   background-color: var(--vp-c-sponsor);
+  color: white;
 }
 
 .review-button:hover {
@@ -423,45 +444,40 @@ export default defineComponent({
   color: var(--vp-c-white);
 }
 
+.navigation-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .review-mode,
 .result-page-border {
   border: 5px solid var(--vp-c-sponsor);
 }
 
-.finish-button {
-  background-color: #4caf50; /* Green background for finish button */
-  color: white;
-}
-
-/* Optional: Different hover effect for finish button */
-.finish-button:hover {
-  background-color: #45a049;
-}
-
-.toggle-details-btn,
-.navigation-button {
-  padding: 0rem 0rem;
-  margin-right: 0rem;
-  background-color: var(--vp-c-gray-3);
-  color: var(--vp-c-brand-1);
-  min-width: 50px;
-}
-
-.toggle-details-btn:hover {
-  background-color: var(--vp-c-gray-1);
-}
-
-button:disabled {
-  background-color: var(--vp-c-gray-2);
-  color: var(--vp-c-text-2);
-  cursor: not-allowed;
-  border: 1px solid var(--vp-c-divider);
-}
-
-h3 {
-  font-size: 1.1rem;
-  color: var(--vp-c-text-1);
+.top-row {
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+  justify-content: center;
   margin-bottom: 1rem;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.buttons-indicator-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 ul {
@@ -478,44 +494,6 @@ ul li {
 
 ul li:hover {
   background-color: var(--vp-c-gray-soft);
-}
-
-details {
-  padding: 0.75rem 1rem;
-  background-color: var(--vp-c-bg-soft);
-  border-radius: 8px;
-}
-
-details summary {
-  font-weight: bold;
-  cursor: pointer;
-  color: var(--vp-c-text-1);
-}
-
-details summary:hover {
-  color: var(--vp-c-brand-1);
-}
-
-details p,
-details div {
-  margin-left: 1.5rem;
-}
-
-.correct-answer,
-.incorrect-answer {
-  padding: 5px;
-  color: white;
-  border-radius: 5px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.correct-answer {
-  background-color: green;
-}
-
-.incorrect-answer {
-  background-color: red;
 }
 
 input[type='radio'] {
@@ -568,5 +546,43 @@ input[type='radio']:checked + label::after {
   background-color: var(--vp-c-bg);
   text-align: center;
   font-size: 0.9rem;
+}
+
+details {
+  padding: 0.75rem 1rem;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--vp-c-text-1);
+}
+
+details summary:hover {
+  color: var(--vp-c-brand-1);
+}
+
+details p,
+details div {
+  margin-left: 1.5rem;
+}
+
+.correct-answer,
+.incorrect-answer {
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.correct-answer {
+  background-color: green;
+}
+
+.incorrect-answer {
+  background-color: red;
 }
 </style>
