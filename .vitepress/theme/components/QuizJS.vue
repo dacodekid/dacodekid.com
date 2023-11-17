@@ -34,16 +34,50 @@ export default defineComponent({
     const passingScore = 70;
 
     // Computed
-    const currentQA = computed(() => shuffledQAs.value[currentIndex.value]);
-    const questionIndicator = computed(() => `${currentIndex.value + 1}/${props.qas.length}`);
-    const detailsButtonText = computed(() => (detailsOpen.value ? 'Hide' : 'Show'));
-    const nextButtonText = computed(() => (currentIndex.value === props.qas.length - 1 ? 'Done' : 'Next'));
-    const nextButtonClass = computed(() =>
-      currentIndex.value === props.qas.length - 1 ? 'done-button' : 'next-button'
-    );
-    const isAnswerSelected = computed(
-      () => isReviewMode.value || typeof selectedAnswers.value[currentIndex.value] !== 'undefined'
-    );
+    const currentQA = computed(() => {
+      return shuffledQAs.value[currentIndex.value];
+    });
+
+    const questionIndicator = computed(() => {
+      return `${currentIndex.value + 1}/${props.qas.length}`;
+    });
+
+    const detailsButtonText = computed(() => {
+      return detailsOpen.value ? 'Hide' : 'Show';
+    });
+
+    const nextButtonText = computed(() => {
+      return currentIndex.value === props.qas.length - 1 ? 'Done' : 'Next';
+    });
+
+    const nextButtonClass = computed(() => {
+      return currentIndex.value === props.qas.length - 1 ? 'done-button' : 'next-button';
+    });
+
+    const isAnswerSelected = computed(() => {
+      return isReviewMode.value || typeof selectedAnswers.value[currentIndex.value] !== 'undefined';
+    });
+
+    const numberOfCorrectAnswers = computed(() => {
+      return props.qas.reduce((count, qa, index) => {
+        return count + (selectedAnswers.value[index] === qa.answer.key ? 1 : 0);
+      }, 0);
+    });
+
+    const numberOfWrongAnswers = computed(() => {
+      return props.qas.reduce((count, qa, index) => {
+        return count + (selectedAnswers.value[index] && selectedAnswers.value[index] !== qa.answer.key ? 1 : 0);
+      }, 0);
+    });
+
+    const numberOfUnansweredQuestions = computed(() => {
+      return props.qas.length - Object.keys(selectedAnswers.value).length;
+    });
+
+    const calculateScore = computed(() => {
+      return (numberOfCorrectAnswers.value / props.qas.length) * 100;
+    });
+
     const formattedTimer = computed(() => {
       const hours = Math.floor(timer.value / 3600)
         .toString()
@@ -54,10 +88,6 @@ export default defineComponent({
       const seconds = (timer.value % 60).toString().padStart(2, '0');
       return `${hours}:${minutes}:${seconds}`;
     });
-
-    const calculateScore = () => (calculateCorrectAnswers() / props.qas.length) * 100;
-    const calculateCorrectAnswers = () =>
-      props.qas.reduce((count, qa, index) => count + (selectedAnswers.value[index] === qa.answer.key ? 1 : 0), 0);
 
     // Methods
     function checkAnswer(questionIndex, selectedOptionKey) {
@@ -155,7 +185,7 @@ export default defineComponent({
     const completeQuiz = () => {
       quizCompleted.value = true;
       stopTimer();
-      if (calculateScore() >= passingScore) {
+      if (numberOfCorrectAnswers.value >= passingScore) {
         const celebrations = 10;
         for (let i = 0; i < celebrations; i++) {
           setTimeout(() => triggerCelebration(), i * 250);
@@ -227,7 +257,6 @@ export default defineComponent({
       finishQuiz,
       passingScore,
       retakeQuiz,
-      calculateCorrectAnswers,
       answerFeedback,
       feedbackClass,
       checkAnswer,
@@ -238,6 +267,9 @@ export default defineComponent({
       isAnswerSelected,
       timer,
       formattedTimer,
+      numberOfCorrectAnswers,
+      numberOfWrongAnswers,
+      numberOfUnansweredQuestions,
     };
   },
 });
@@ -323,15 +355,29 @@ export default defineComponent({
       <!-- Results Section -->
       <div v-else class="result-container">
         <div class="result-content">
-          <h2>{{ calculateScore() >= passingScore ? 'PASSED' : 'FAILED' }}</h2>
-          <p>
-            <strong>
-              Scored: {{ calculateScore().toFixed(2) }}% ({{ calculateCorrectAnswers() }}/{{ qas.length }})
-            </strong>
-          </p>
-          <p>
-            <strong> Passing Score: 70% </strong>
-          </p>
+          <h2>{{ calculateScore >= passingScore ? 'PASSED' : 'FAILED' }}</h2>
+          <div class="results-table">
+            <div class="results-row">
+              <div class="results-cell">Scored:</div>
+              <div class="results-cell">{{ calculateScore.toFixed(2) }}%</div>
+            </div>
+            <div class="results-row">
+              <div class="results-cell">Passing Score:</div>
+              <div class="results-cell">70%</div>
+            </div>
+            <div class="results-row">
+              <div class="results-cell">Correct:</div>
+              <div class="results-cell">{{ numberOfCorrectAnswers }}/{{ qas.length }}</div>
+            </div>
+            <div class="results-row">
+              <div class="results-cell">Wrong:</div>
+              <div class="results-cell">{{ numberOfWrongAnswers }}/{{ qas.length }}</div>
+            </div>
+            <div class="results-row">
+              <div class="results-cell">Unanswered:</div>
+              <div class="results-cell">{{ numberOfUnansweredQuestions }}/{{ qas.length }}</div>
+            </div>
+          </div>
           <div class="button-container">
             <button @click="retakeQuiz" class="retake-button">Retake</button>
             <button @click="reviewQuiz" class="review-button">Review</button>
@@ -376,6 +422,34 @@ export default defineComponent({
   text-align: center;
 }
 
+.results-table {
+  border: 2px dotted #ccc; /* or use dashed */
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.results-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.results-cell {
+  flex: 1;
+  min-width: 8rem;
+}
+
+.results-cell:first-child {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.results-cell:last-child {
+  text-align: left;
+  margin-left: 5px;
+}
+
 .button-container {
   width: 100%;
   display: flex;
@@ -405,7 +479,6 @@ export default defineComponent({
 .navigation-button,
 .finish-button,
 .timer {
-  /* background-color: var(--vp-c-brand-3); */
   padding: 0;
   min-width: 50px;
 }
@@ -463,7 +536,6 @@ export default defineComponent({
 .top-row {
   display: flex;
   flex-direction: column;
-  /* align-items: start; */
   justify-content: center;
   margin-bottom: 1rem;
 }
@@ -477,7 +549,7 @@ export default defineComponent({
 
 .timer {
   border-radius: 15px 15px 0 0;
-  padding: 0rem 1rem;
+  padding: 0rem 1.1rem;
   background-color: var(--vp-c-gray-1);
   font-weight: bold;
   font-size: 0.7rem;
