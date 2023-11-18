@@ -90,21 +90,21 @@ export default defineComponent({
     });
 
     // Methods
-    function checkAnswer(questionIndex, selectedOptionKey) {
+    const checkAnswer = (questionIndex, selectedOptionKey) => {
       const correctAnswerKey = shuffledQAs.value[questionIndex].answer.key;
       answerFeedback.value[questionIndex] = selectedOptionKey === correctAnswerKey;
       if (Object.keys(selectedAnswers.value).length === 1 && intervalId === undefined) {
         startTimer();
       }
-    }
+    };
 
-    function feedbackClass(questionIndex) {
+    const feedbackClass = (questionIndex) => {
       if (isReviewMode.value) {
         const isSelected = typeof selectedAnswers.value[questionIndex] !== 'undefined';
         return isSelected && answerFeedback.value[questionIndex] ? 'correct-answer' : 'incorrect-answer';
       }
       return answerFeedback.value[questionIndex] ? 'correct-answer' : 'incorrect-answer';
-    }
+    };
 
     const shuffleOptions = (options) => {
       for (let i = options.length - 1; i > 0; i--) {
@@ -114,11 +114,23 @@ export default defineComponent({
       return options;
     };
 
-    const reshuffleQuestions = () => {
-      let shuffledQuestions = props.qas.map((qa) => ({ ...qa, options: shuffleOptions([...qa.options]) }));
-      shuffledQAs.value = shuffledQuestions;
+    const shuffleQuestions = () => {
+      // Shuffle the questions array
+      let shuffledQuestions = [...props.qas];
+      for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+      }
+
+      // Shuffle the options for each question and update the answer key accordingly
+      shuffledQAs.value = shuffledQuestions.map((qa) => {
+        const shuffledOptions = shuffleOptions([...qa.options]);
+        const newAnswerKey = shuffledOptions.find((option) => option.text === qa.answer.text).key;
+        return { ...qa, options: shuffledOptions, answer: { key: newAnswerKey, text: qa.answer.text } };
+      });
     };
 
+    // Event Handlers
     const startTimer = () => {
       intervalId = setInterval(() => timer.value++, 1000) as unknown as number;
     };
@@ -159,11 +171,12 @@ export default defineComponent({
     // Lifecycle Hooks
     onMounted(() => {
       window.addEventListener('keydown', handleKeyDown);
-      reshuffleQuestions();
+      shuffleQuestions();
     });
 
     onUnmounted(() => {
       window.removeEventListener('keydown', handleKeyDown);
+      stopTimer();
     });
 
     // Watchers
@@ -213,7 +226,7 @@ export default defineComponent({
       selectedAnswers.value = {};
       answerFeedback.value = {};
       quizCompleted.value = false;
-      reshuffleQuestions();
+      shuffleQuestions();
       timer.value = 0;
       stopTimer();
     };
