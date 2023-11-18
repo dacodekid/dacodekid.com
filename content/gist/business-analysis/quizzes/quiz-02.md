@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 02
-
 ```quiz
 Question: As a business analyst, who is your key contact for reviewing the requirements-gathering plan for a new initiative?
 A: The project sponsor

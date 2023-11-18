@@ -27,6 +27,7 @@ export default defineComponent({
     const answerFeedback = ref({});
     const shuffledQAs = ref<Array<QuizQuestion>>([]);
     const questionInput = ref((currentIndex.value + 1).toString());
+    const zenModeActive = ref(false);
     const timer = ref(0);
     let intervalId: number | undefined = undefined;
 
@@ -128,6 +129,20 @@ export default defineComponent({
         const newAnswerKey = shuffledOptions.find((option) => option.text === qa.answer.text).key;
         return { ...qa, options: shuffledOptions, answer: { key: newAnswerKey, text: qa.answer.text } };
       });
+    };
+
+    const toggleZenMode = () => {
+      const navBar = document.querySelector('.VPNavBar') as HTMLElement;
+      const asideElements = document.querySelectorAll('aside') as NodeListOf<HTMLElement>;
+      zenModeActive.value = !zenModeActive.value;
+
+      if (zenModeActive.value) {
+        navBar.classList.add('hidden');
+        asideElements.forEach((el) => el.classList.add('hidden'));
+      } else {
+        navBar.classList.remove('hidden');
+        asideElements.forEach((el) => el.classList.remove('hidden'));
+      }
     };
 
     // Event Handlers
@@ -283,6 +298,7 @@ export default defineComponent({
       numberOfCorrectAnswers,
       numberOfWrongAnswers,
       numberOfUnansweredQuestions,
+      toggleZenMode,
     };
   },
 });
@@ -300,6 +316,7 @@ export default defineComponent({
         <div class="top-row">
           <div class="timer-container">
             <span class="timer">{{ formattedTimer }}</span>
+            <button class="zen-mode-button" @click="toggleZenMode">Zen Mode</button>
             <div class="quiz-indicator">
               <input
                 type="number"
@@ -687,5 +704,19 @@ input[type='number']::-webkit-inner-spin-button {
   appearance: button;
   cursor: pointer;
   margin: 0;
+}
+
+.zen-mode-button {
+  /* Styling properties */
+  margin-left: 1rem;
+  padding: 1px 10px;
+  background-color: var(--vp-c-gray-3);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.zen-mode-button:hover {
+  background-color: var(--vp-c-gray-1);
 }
 </style>

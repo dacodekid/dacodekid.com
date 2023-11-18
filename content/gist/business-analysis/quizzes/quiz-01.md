@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 01
-
 ```quiz
 Question: A procurement division of a corporation is in the process of transitioning to a standardized software solution for its operations. When selecting a business analyst for this transition, which qualifications should be given the highest priority?
 A: Expertise in technology and presentation abilities

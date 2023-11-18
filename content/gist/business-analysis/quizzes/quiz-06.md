@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 06
-
 ```quiz
 Question: In assisting an organization to advance its business analysis processes and methodologies, which organizational structure is established for centralized management or mentorship of business analysts to enhance the business analysis practice throughout the organization?
 A: Change Management Group

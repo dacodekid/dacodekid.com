@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 05
-
 ```quiz
 Question: To create a feature model for your product, which technique should you employ with stakeholders and SMEs to identify product features and categorize them?
 A: Pareto chart

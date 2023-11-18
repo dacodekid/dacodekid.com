@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 03
-
 ```quiz
 Question: Following the completion of a solution, a team brings in individuals lacking formal product testing experience to use the solution while being observed. What is this type of testing called?
 A: Interface assessment testing

@@ -365,3 +365,25 @@ img[src^="https://www.plantuml.com"]
 .vp-doc h2 {
   border-top: none !important;
 }
+
+/**
+  * Show / hide sidebar and navbar with animation (for quiz's zen mode)
+  * -------------------------------------------------------------------------- */
+
+.VPSidebar.hidden,
+.VPNavBar.hidden {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.VPNavBar,
+.VPSidebar {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}

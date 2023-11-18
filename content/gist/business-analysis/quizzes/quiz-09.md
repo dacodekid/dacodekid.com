@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 09
-
 ```quiz
 Question: What is the first principle of validation?
 A: Validating from different views

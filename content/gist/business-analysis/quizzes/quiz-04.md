@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 04
-
 ```quiz
 Question: In the context of a BCG matrix, one axis signifies the product's market growth, while the other represents:
 A: Return on Investment for the product

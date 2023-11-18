@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 10
-
 ```quiz
 Question: In stakeholder identification, how are Enterprise and Business Architectures utilized?
 A: As a source for identifying stakeholders based on the roles outlined in the architectures

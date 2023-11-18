@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 07
-
 ```quiz
 Question: What should a business analyst do first to encourage a strong team dynamic in a newly formed group for an ERP system project?
 A: Offer to share expertise in creating models and diagrams to clarify requirements.

@@ -3,8 +3,6 @@ prev: false
 next: false
 ---
 
-# Quiz 08
-
 ```quiz
 Question: When a stakeholder describes a requirement, what should be the initial action taken?
 A: Agree with the stakeholder on the business necessity.
