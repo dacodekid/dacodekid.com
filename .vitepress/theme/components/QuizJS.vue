@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
-import { QuestionBlock } from '../plugins/types';
+import { QuestionBlock, Key } from '../plugins/types';
 
 // Props
 const props = defineProps({
@@ -20,14 +20,12 @@ const PASSING_SCORE = 70;
 // State
 const currentQuestionIndex = ref(0);
 const showAnswer = ref(false);
-const showResults = ref(false);
 const feedbackArray = ref<string[]>([]);
 const userAnswers = ref<string[]>([]);
 const zenModeActive = ref(false);
 const questionInput = ref((currentQuestionIndex.value + 1).toString());
 const isReviewMode = ref(false);
 const isQuizEnded = ref(false);
-const isPass = ref(false);
 const elapsedTime = ref(0);
 let intervalId: number | undefined = undefined;
 
@@ -70,6 +68,9 @@ const shuffleQuizData = (quizData: QuestionBlock[]): QuestionBlock[] => {
 
   // Shuffle the choices for each question
   shuffledQuizBlock = shuffledQuizBlock.map((quizBlock) => {
+    if (!Array.isArray(quizBlock.choices)) {
+      throw new Error(`Invalid choices in quiz block: ${quizBlock}`);
+    }
     const shuffledChoices = shuffle([...quizBlock.choices]);
     return { ...quizBlock, choices: shuffledChoices };
   });
@@ -79,6 +80,11 @@ const shuffleQuizData = (quizData: QuestionBlock[]): QuestionBlock[] => {
 
 // Update feedback text to show if the answer is correct or incorrect
 const updateFeedback = (selected: string, answer: string, feedbackArray: string[], index: number): string[] => {
+  // Validate index
+  if (index < 0 || index >= feedbackArray.length) {
+    throw new Error(`Invalid index in updateFeedback: ${index}`);
+  }
+
   // Clone the feedback array
   let newFeedbackArray = [...feedbackArray];
 
@@ -96,17 +102,25 @@ const updateFeedback = (selected: string, answer: string, feedbackArray: string[
 
 // Events
 const startTimer = () => {
-  if (intervalId === undefined) {
-    intervalId = setInterval(() => {
-      elapsedTime.value++;
-    }, 1000) as unknown as number;
+  try {
+    if (intervalId === undefined) {
+      intervalId = setInterval(() => {
+        elapsedTime.value++;
+      }, 1000) as unknown as number;
+    }
+  } catch (error) {
+    console.error('An error occurred while starting the timer:', error);
   }
 };
 
 const stopTimer = () => {
-  if (intervalId !== undefined) {
-    clearInterval(intervalId);
-    intervalId = undefined;
+  try {
+    if (intervalId !== undefined) {
+      clearInterval(intervalId);
+      intervalId = undefined;
+    }
+  } catch (error) {
+    console.error('An error occurred while stopping the timer:', error);
   }
 };
 
@@ -134,8 +148,24 @@ const finishQuiz = () => {
   }
 
   isQuizEnded.value = true;
-  showResults.value = true;
   stopTimer();
+};
+
+const reviewQuiz = () => {
+  isReviewMode.value = true;
+  showAnswer.value = true;
+  currentQuestionIndex.value = 0;
+};
+
+const retakeQuiz = () => {
+  isReviewMode.value = false;
+  isQuizEnded.value = false;
+  showAnswer.value = false;
+  currentQuestionIndex.value = 0;
+  elapsedTime.value = 0;
+  quizData.value = shuffleQuizData(props.quizData);
+  feedbackArray.value = Array(quizData.value.length).fill('');
+  userAnswers.value = Array(quizData.value.length).fill('');
 };
 
 const toggleZenMode = () => {
@@ -152,55 +182,44 @@ const toggleZenMode = () => {
   }
 };
 
-const retakeQuiz = () => {
-  isReviewMode.value = false;
-  isQuizEnded.value = false;
-  showAnswer.value = false;
-  currentQuestionIndex.value = 0;
-  elapsedTime.value = 0;
-  quizData.value = shuffleQuizData(props.quizData);
-  feedbackArray.value = Array(quizData.value.length).fill('');
-  userAnswers.value = Array(quizData.value.length).fill('');
-};
-
-const reviewQuiz = () => {
-  isReviewMode.value = true;
-  showAnswer.value = true;
-  currentQuestionIndex.value = 0;
-};
-
 // Event Handlers
 const handleKeydown = (event: KeyboardEvent) => {
-  switch (event.key) {
-    case 'ArrowLeft':
-    case 'ArrowDown':
-      prevQuestion();
-      break;
-    case 'ArrowRight':
-    case 'ArrowUp':
-      nextQuestion();
-      break;
-    default:
-      break;
+  try {
+    switch (event.key) {
+      case Key.ArrowLeft:
+      case Key.ArrowDown:
+        prevQuestion();
+        break;
+      case Key.ArrowRight:
+      case Key.ArrowUp:
+        nextQuestion();
+        break;
+      default:
+        break;
+    }
+  } catch (error) {
+    console.error('An error occurred while handling the keydown event:', error);
   }
 };
 
 const handleQuestionIndexChange = () => {
   let newQuestionIndex = parseInt(questionInput.value, 10) - 1;
 
-  if (isNaN(newQuestionIndex)) {
-    // If the input is not a number, reset it to the last question index
+  if (isNaN(newQuestionIndex) || newQuestionIndex < 0 || newQuestionIndex >= quizData.value.length) {
+    console.warn('Invalid question number entered. Resetting to largest valid value.');
     newQuestionIndex = quizData.value.length - 1;
-  } else {
-    // If the input is a number, get the index of the question (within the range of the quiz data)
-    newQuestionIndex = Math.max(0, Math.min(newQuestionIndex, quizData.value.length - 1));
   }
+
   currentQuestionIndex.value = newQuestionIndex;
   questionInput.value = (newQuestionIndex + 1).toString();
 };
 
 // Lifecycle hooks
 onMounted(() => {
+  if (!props.quizData) {
+    throw new Error('Quiz data is not available');
+  }
+
   quizData.value = shuffleQuizData(props.quizData);
   feedbackArray.value = Array(quizData.value.length).fill('');
   userAnswers.value = Array(quizData.value.length).fill('');
@@ -317,24 +336,28 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
       <h3>{{ finalScore >= PASSING_SCORE ? 'PASSED' : 'FAILED' }}</h3>
       <div class="results-table">
         <div class="results-row">
+          <div class="results-cell">Time Elapsed:</div>
+          <div class="results-cell">{{ formattedElapsedTime }}</div>
+        </div>
+        <div class="results-row">
           <div class="results-cell">Scored:</div>
-          <div class="results-cell">{{ finalScore }}%</div>
+          <div class="results-cell">{{ finalScore.toFixed(2) }}%</div>
         </div>
         <div class="results-row">
           <div class="results-cell">Passing Score:</div>
           <div class="results-cell">{{ PASSING_SCORE }}%</div>
         </div>
         <div class="results-row">
-          <div class="results-cell">Total:</div>
+          <div class="results-cell">Total Questions:</div>
           <div class="results-cell">{{ quizData.length }}</div>
-        </div>
-        <div class="results-row">
-          <div class="results-cell">Answered:</div>
-          <div class="results-cell">{{ answeredQuestions }}</div>
         </div>
         <div class="results-row">
           <div class="results-cell">Unanswered:</div>
           <div class="results-cell">{{ unansweredQuestions }}</div>
+        </div>
+        <div class="results-row">
+          <div class="results-cell">Answered:</div>
+          <div class="results-cell">{{ answeredQuestions }}</div>
         </div>
         <div class="results-row">
           <div class="results-cell">Correct:</div>
@@ -343,10 +366,6 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
         <div class="results-row">
           <div class="results-cell">Incorrect:</div>
           <div class="results-cell">{{ incorrectAnswers }}</div>
-        </div>
-        <div class="results-row">
-          <div class="results-cell">Time Elapsed:</div>
-          <div class="results-cell">{{ formattedElapsedTime }}</div>
         </div>
       </div>
       <div class="button-container">
