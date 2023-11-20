@@ -1089,6 +1089,7 @@ Question: Is it likely that the system boundary will change during system develo
 A: No
 B: Maybe
 C: Yes
+D: It depends
 Answer: C
 Explanation: The system boundary, differentiating the system to be developed from its environment, is likely to change during the course of system development.
 
@@ -1336,6 +1337,7 @@ Question: How many phases are included in the requirements life cycle?
 A: Always one
 B: One or two phases
 C: Can include a number of phases
+D: Always two
 Answer: C
 Explanation: The requirements life cycle can be complex, involving multiple phases.
 
