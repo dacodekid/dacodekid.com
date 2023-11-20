@@ -124,10 +124,6 @@ const nextQuestion = () => {
 };
 
 const finishQuiz = () => {
-  stopTimer();
-  isQuizEnded.value = true;
-  showResults.value = true;
-
   if (!isReviewMode.value) {
     const isConfirmed = window.confirm('Are you sure you want to finish the quiz?');
     if (!isConfirmed) {
@@ -136,6 +132,10 @@ const finishQuiz = () => {
   } else {
     isReviewMode.value = false; // Exit review mode if in review mode (so that user can go to results page)
   }
+
+  isQuizEnded.value = true;
+  showResults.value = true;
+  stopTimer();
 };
 
 const toggleZenMode = () => {
@@ -247,7 +247,8 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
             :max="quizData.length"
             v-model="questionInput"
             @change="handleQuestionIndexChange"
-          />/{{ quizData.length }}
+          />
+          <span>/{{ quizData.length }}</span>
         </div>
       </div>
 
@@ -317,23 +318,35 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
       <div class="results-table">
         <div class="results-row">
           <div class="results-cell">Scored:</div>
-          <div class="results-cell">{{ finalScore.toFixed(2) }}%</div>
+          <div class="results-cell">{{ finalScore }}%</div>
         </div>
         <div class="results-row">
           <div class="results-cell">Passing Score:</div>
           <div class="results-cell">{{ PASSING_SCORE }}%</div>
         </div>
         <div class="results-row">
-          <div class="results-cell">Correct:</div>
-          <div class="results-cell">{{ correctAnswers }}/{{ quizData.length }}</div>
+          <div class="results-cell">Total:</div>
+          <div class="results-cell">{{ quizData.length }}</div>
         </div>
         <div class="results-row">
-          <div class="results-cell">Wrong:</div>
-          <div class="results-cell">{{ incorrectAnswers }}/{{ quizData.length }}</div>
+          <div class="results-cell">Answered:</div>
+          <div class="results-cell">{{ answeredQuestions }}</div>
         </div>
         <div class="results-row">
           <div class="results-cell">Unanswered:</div>
-          <div class="results-cell">{{ unansweredQuestions }}/{{ quizData.length }}</div>
+          <div class="results-cell">{{ unansweredQuestions }}</div>
+        </div>
+        <div class="results-row">
+          <div class="results-cell">Correct:</div>
+          <div class="results-cell">{{ correctAnswers }}</div>
+        </div>
+        <div class="results-row">
+          <div class="results-cell">Incorrect:</div>
+          <div class="results-cell">{{ incorrectAnswers }}</div>
+        </div>
+        <div class="results-row">
+          <div class="results-cell">Time Elapsed:</div>
+          <div class="results-cell">{{ formattedElapsedTime }}</div>
         </div>
       </div>
       <div class="button-container">
@@ -455,8 +468,10 @@ input[type='number']::-webkit-inner-spin-button {
   text-align: justify;
 }
 
+input[type='number'],
 .quiz-current-indicator {
   font-size: 0.8rem;
+  text-align: center;
 }
 
 .row {
@@ -535,7 +550,7 @@ input[type='number']::-webkit-inner-spin-button {
 .results-row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 }
 
 .results-cell {
