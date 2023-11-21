@@ -71,7 +71,9 @@ const shuffleQuizData = (quizData: QuestionBlock[]): QuestionBlock[] => {
     if (!Array.isArray(quizBlock.choices)) {
       throw new Error(`Invalid choices in quiz block: ${quizBlock}`);
     }
-    const shuffledChoices = shuffle([...quizBlock.choices]);
+    // TODO: This is not working for some reason
+    // const shuffledChoices = shuffle([...quizBlock.choices]);
+    const shuffledChoices = [...quizBlock.choices];
     return { ...quizBlock, choices: shuffledChoices };
   });
 
