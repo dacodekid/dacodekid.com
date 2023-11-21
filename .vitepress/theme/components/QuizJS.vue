@@ -183,6 +183,11 @@ const toggleZenMode = () => {
   }
 };
 
+const clearAnswer = () => {
+  userAnswers.value[currentQuestionIndex.value] = '';
+  feedbackArray.value[currentQuestionIndex.value] = '';
+};
+
 // Event Handlers
 const handleKeydown = (event: KeyboardEvent) => {
   try {
@@ -196,6 +201,7 @@ const handleKeydown = (event: KeyboardEvent) => {
       h: toggleAnswer,
       f: finishQuiz,
       z: toggleZenMode,
+      c: clearAnswer,
       '.': () => {
         event.preventDefault();
         (document.getElementsByName('question-number')[0] as HTMLInputElement).focus();
