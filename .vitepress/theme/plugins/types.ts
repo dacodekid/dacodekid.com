@@ -11,10 +11,3 @@ export interface QuestionBlock {
   answer: string;
   explanation: string;
 }
-
-export enum Key {
-  ArrowLeft = 'ArrowLeft',
-  ArrowDown = 'ArrowDown',
-  ArrowRight = 'ArrowRight',
-  ArrowUp = 'ArrowUp',
-}

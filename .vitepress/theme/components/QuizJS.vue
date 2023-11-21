@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
-import { QuestionBlock, Key } from '../plugins/types';
+import { QuestionBlock } from '../plugins/types';
 
 // Props
 const props = defineProps({
@@ -51,11 +51,12 @@ const finalScore = computed(() => {
 
 // Shuffle quiz blocks and/or choices
 const shuffle = (data: any[]): any[] => {
-  for (let i = data.length - 1; i > 0; i--) {
+  let shuffledData = [...data];
+  for (let i = shuffledData.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [data[i], data[j]] = [data[j], data[i]];
+    [shuffledData[i], shuffledData[j]] = [shuffledData[j], shuffledData[i]];
   }
-  return data;
+  return shuffledData;
 };
 
 // Shuffle the choices for each question
@@ -71,9 +72,7 @@ const shuffleQuizData = (quizData: QuestionBlock[]): QuestionBlock[] => {
     if (!Array.isArray(quizBlock.choices)) {
       throw new Error(`Invalid choices in quiz block: ${quizBlock}`);
     }
-    // TODO: This is not working for some reason
-    // const shuffledChoices = shuffle([...quizBlock.choices]);
-    const shuffledChoices = [...quizBlock.choices];
+    const shuffledChoices = shuffle([...quizBlock.choices]);
     return { ...quizBlock, choices: shuffledChoices };
   });
 
@@ -187,17 +186,39 @@ const toggleZenMode = () => {
 // Event Handlers
 const handleKeydown = (event: KeyboardEvent) => {
   try {
-    switch (event.key) {
-      case Key.ArrowLeft:
-      case Key.ArrowDown:
-        prevQuestion();
-        break;
-      case Key.ArrowRight:
-      case Key.ArrowUp:
-        nextQuestion();
-        break;
-      default:
-        break;
+    const key = event.key.toLowerCase();
+    const keyFunctionMap: { [key: string]: () => void } = {
+      arrowleft: prevQuestion,
+      arrowdown: prevQuestion,
+      p: prevQuestion,
+      arrowright: nextQuestion,
+      arrowup: nextQuestion,
+      n: nextQuestion,
+      s: toggleAnswer,
+      h: toggleAnswer,
+      f: finishQuiz,
+      z: toggleZenMode,
+    };
+
+    // Handle arrow keys, p, n, s, h, f, z for navigation, show/hide answer, finish quiz, and zen mode
+    if (keyFunctionMap[key]) {
+      keyFunctionMap[key]();
+    }
+    // Handle 1, 2, 3, 4 for choices
+    else {
+      const keyNum = parseInt(key);
+      if (!isNaN(keyNum) && keyNum >= 1 && keyNum <= 4) {
+        const choiceIndex = parseInt(key, 10) - 1;
+        if (currentQuestion.value.choices[choiceIndex]) {
+          userAnswers.value[currentQuestionIndex.value] = currentQuestion.value.choices[choiceIndex].key;
+          feedbackArray.value = updateFeedback(
+            userAnswers.value[currentQuestionIndex.value],
+            currentQuestion.value.answer,
+            feedbackArray.value,
+            currentQuestionIndex.value
+          );
+        }
+      }
     }
   } catch (error) {
     console.error('An error occurred while handling the keydown event:', error);
@@ -290,7 +311,7 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
 
       <div class="row fourth-row">
         <ul>
-          <li v-for="(choice, index) in currentQuestion.choices" :key="index">
+          <li v-for="(choice, index) in currentQuestion.choices" :key="`${currentQuestionIndex}-${choice.key}`">
             <input
               type="radio"
               :id="choice.key"
