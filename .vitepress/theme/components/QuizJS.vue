@@ -189,15 +189,17 @@ const handleKeydown = (event: KeyboardEvent) => {
     const key = event.key.toLowerCase();
     const keyFunctionMap: { [key: string]: () => void } = {
       arrowleft: prevQuestion,
-      arrowdown: prevQuestion,
       p: prevQuestion,
       arrowright: nextQuestion,
-      arrowup: nextQuestion,
       n: nextQuestion,
       s: toggleAnswer,
       h: toggleAnswer,
       f: finishQuiz,
       z: toggleZenMode,
+      '.': () => {
+        event.preventDefault();
+        (document.getElementsByName('question-number')[0] as HTMLInputElement).focus();
+      },
     };
 
     // Handle arrow keys, p, n, s, h, f, z for navigation, show/hide answer, finish quiz, and zen mode
@@ -208,15 +210,19 @@ const handleKeydown = (event: KeyboardEvent) => {
     else {
       const keyNum = parseInt(key);
       if (!isNaN(keyNum) && keyNum >= 1 && keyNum <= 4) {
-        const choiceIndex = parseInt(key, 10) - 1;
-        if (currentQuestion.value.choices[choiceIndex]) {
-          userAnswers.value[currentQuestionIndex.value] = currentQuestion.value.choices[choiceIndex].key;
-          feedbackArray.value = updateFeedback(
-            userAnswers.value[currentQuestionIndex.value],
-            currentQuestion.value.answer,
-            feedbackArray.value,
-            currentQuestionIndex.value
-          );
+        // Check if the number input field is focused
+        const numberInput = document.getElementsByName('question-number')[0] as HTMLInputElement;
+        if (document.activeElement !== numberInput) {
+          const choiceIndex = parseInt(key, 10) - 1;
+          if (currentQuestion.value.choices[choiceIndex]) {
+            userAnswers.value[currentQuestionIndex.value] = currentQuestion.value.choices[choiceIndex].key;
+            feedbackArray.value = updateFeedback(
+              userAnswers.value[currentQuestionIndex.value],
+              currentQuestion.value.answer,
+              feedbackArray.value,
+              currentQuestionIndex.value
+            );
+          }
         }
       }
     }
@@ -282,6 +288,7 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
         </div>
         <div class="right quiz-current-indicator">
           <input
+            name="question-number"
             type="number"
             inputmode="numeric"
             step="1"
@@ -333,7 +340,10 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
         </ul>
       </div>
 
-      <div class="row row-horizontal fifth-row" v-if="showAnswer">
+      <div
+        class="row row-horizontal fifth-row"
+        v-if="(userAnswers[currentQuestionIndex] && showAnswer) || isReviewMode"
+      >
         <div
           class="feedback"
           :class="{
@@ -344,11 +354,11 @@ watch(answeredQuestions, (newAnsweredQuestions) => {
           {{ feedbackArray[currentQuestionIndex] }}
         </div>
         <div class="answer">
-          <strong>Answer:</strong>
+          <strong>Answer: </strong>
           <span v-html="currentQuestion.choices.find((choice) => choice.key === currentQuestion.answer)?.text"></span>
         </div>
         <div class="explanation">
-          <strong>Explanation:</strong>
+          <strong>Explanation: </strong>
           <span v-html="currentQuestion.explanation"></span>
         </div>
       </div>
@@ -507,7 +517,6 @@ input[type='number']::-webkit-inner-spin-button {
   color: var(--vp-c-text-1);
   box-shadow: var(--vp-shadow-1);
   transition: all 0.3s ease;
-  text-align: justify;
 }
 
 input[type='number'],
