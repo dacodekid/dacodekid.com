@@ -189,51 +189,64 @@ const clearAnswer = () => {
 };
 
 // Event Handlers
+const handleChoiceOrOtherKeys = (key: string) => {
+  if (['1', '2', '3', '4'].includes(key)) {
+    const choiceIndex = parseInt(key, 10) - 1;
+    if (currentQuestion.value.choices[choiceIndex]) {
+      userAnswers.value[currentQuestionIndex.value] = currentQuestion.value.choices[choiceIndex].key;
+      feedbackArray.value = updateFeedback(
+        userAnswers.value[currentQuestionIndex.value],
+        currentQuestion.value.answer,
+        feedbackArray.value,
+        currentQuestionIndex.value
+      );
+    }
+  }
+};
+
 const handleKeydown = (event: KeyboardEvent) => {
   try {
     const key = event.key.toLowerCase();
-    const keyFunctionMap: { [key: string]: () => void } = {
-      arrowleft: prevQuestion,
-      p: prevQuestion,
-      arrowright: nextQuestion,
-      n: nextQuestion,
-      s: toggleAnswer,
-      h: toggleAnswer,
-      f: finishQuiz,
-      z: toggleZenMode,
-      c: clearAnswer,
-      '.': () => {
-        event.preventDefault();
-        (document.getElementsByName('question-number')[0] as HTMLInputElement).focus();
-      },
-    };
+    const numberInput = document.getElementsByName('question-number')[0] as HTMLInputElement;
 
-    // Handle arrow keys, p, n, s, h, f, z for navigation, show/hide answer, finish quiz, and zen mode
-    if (keyFunctionMap[key]) {
-      keyFunctionMap[key]();
+    // Avoid action when number input is focused
+    if (document.activeElement === numberInput) {
+      return;
     }
-    // Handle 1, 2, 3, 4 for choices
-    else {
-      const keyNum = parseInt(key);
-      if (!isNaN(keyNum) && keyNum >= 1 && keyNum <= 4) {
-        // Check if the number input field is focused
-        const numberInput = document.getElementsByName('question-number')[0] as HTMLInputElement;
-        if (document.activeElement !== numberInput) {
-          const choiceIndex = parseInt(key, 10) - 1;
-          if (currentQuestion.value.choices[choiceIndex]) {
-            userAnswers.value[currentQuestionIndex.value] = currentQuestion.value.choices[choiceIndex].key;
-            feedbackArray.value = updateFeedback(
-              userAnswers.value[currentQuestionIndex.value],
-              currentQuestion.value.answer,
-              feedbackArray.value,
-              currentQuestionIndex.value
-            );
-          }
-        }
-      }
+
+    switch (key) {
+      case 'arrowleft':
+      case 'p':
+        prevQuestion();
+        break;
+      case 'arrowright':
+      case 'n':
+        nextQuestion();
+        break;
+      case 'arrowup':
+        numberInput.focus();
+        nextQuestion();
+        break;
+      case 'arrowdown':
+        numberInput.focus();
+        prevQuestion();
+        break;
+      case 's':
+      case 'h':
+        toggleAnswer();
+        break;
+      case 'f':
+        finishQuiz();
+        break;
+      case 'z':
+        toggleZenMode();
+        break;
+      default:
+        handleChoiceOrOtherKeys(key);
+        break;
     }
   } catch (error) {
-    console.error('An error occurred while handling the keydown event:', error);
+    console.error('Error in handleKeydown:', error);
   }
 };
 
