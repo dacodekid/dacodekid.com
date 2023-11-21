@@ -223,13 +223,13 @@ const handleKeydown = (event: KeyboardEvent) => {
       case 'n':
         nextQuestion();
         break;
-      case 'arrowup':
-        numberInput.focus();
-        nextQuestion();
-        break;
       case 'arrowdown':
-        numberInput.focus();
         prevQuestion();
+        numberInput.focus();
+        break;
+      case 'arrowup':
+        nextQuestion();
+        numberInput.focus();
         break;
       case 's':
       case 'h':
@@ -240,6 +240,9 @@ const handleKeydown = (event: KeyboardEvent) => {
         break;
       case 'z':
         toggleZenMode();
+        break;
+      case 'c':
+        clearAnswer();
         break;
       default:
         handleChoiceOrOtherKeys(key);
