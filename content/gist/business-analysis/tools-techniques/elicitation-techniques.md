@@ -68,3 +68,48 @@ Elicitation techniques are methods used to gather information from various sourc
 - ### Questionnaires and Surveys
 
   Questionnaires and Surveys are elicitation techniques that consist of a structured set of questions designed to collect information from stakeholders. These tools are particularly effective for gathering data from a large number of participants in a relatively short period of time. Questionnaires and surveys can be distributed in various formats, including paper, online forms, or via email. The questions can be open-ended, allowing for qualitative responses, or closed-ended, facilitating quantitative analysis. This technique is useful for understanding stakeholder opinions, preferences, or attitudes towards a particular issue or proposed solution. Confidentiality can be assured to encourage honest and candid responses, making it an effective tool for capturing information stakeholders might not be willing to share in a more public setting, such as interviews or focus groups.
+
+## Quiz
+
+```quiz
+Question: Why are Interviews considered a vital Elicitation Technique in business analysis?
+A: They are primarily used for team building and social networking.
+B: Interviews are key for eliciting detailed and specific information from stakeholders.
+C: Their main purpose is to manage company-wide financial audits.
+D: They are used exclusively for technical troubleshooting and IT support.
+Answer: B
+Explanation: Interviews are vital in business analysis as they are used for eliciting detailed and specific information from stakeholders, which can be crucial for understanding complex topics or uncovering unstated needs.
+
+Question: In what way does Document Analysis contribute to the Elicitation process?
+A: By focusing on redesigning the company's website and digital presence.
+B: It is utilized for routine maintenance of office equipment and facilities.
+C: Document Analysis involves reviewing existing documentation for relevant business information.
+D: Its primary use is in organizing and managing corporate events.
+Answer: C
+Explanation: Document Analysis contributes to the Elicitation process by allowing business analysts to review existing documentation to obtain relevant information, thus providing insights into the current state or specific requirements.
+
+Question: What is the primary goal of Brainstorming as an Elicitation Technique?
+A: To provide entertainment and leisure activities for employees.
+B: The main goal of Brainstorming is to quickly generate a broad range of ideas and options.
+C: Its sole purpose is to conduct performance evaluations and appraisals.
+D: Focusing on the maintenance and upgrade of IT infrastructure.
+Answer: B
+Explanation: The primary goal of Brainstorming as an Elicitation Technique is to quickly generate a wide range of ideas and options, fostering creative thinking and providing a foundation for further discussion and analysis.
+
+Question: How do Facilitated Workshops function as an Elicitation Technique?
+A: They are exclusively used for conducting financial and legal audits.
+B: Facilitated Workshops are structured meetings aimed at achieving specific objectives with stakeholder collaboration.
+C: Their main focus is on improving the physical workspace and office environment.
+D: Used primarily for conducting external marketing and sales campaigns.
+Answer: B
+Explanation: Facilitated Workshops function as an Elicitation Technique by providing a structured environment led by a skilled facilitator where stakeholders collaborate to achieve specific objectives like defining requirements or making decisions.
+
+Question: What role do Prototyping and Storyboarding play in the Elicitation process?
+A: They are used for managing and organizing company databases and IT systems.
+B: Prototyping and Storyboarding aid in visualizing proposed solutions to understand stakeholder requirements better.
+C: Their primary purpose is in the recruitment and training of new employees.
+D: Focused on overseeing logistics and supply chain operations.
+Answer: B
+Explanation: In the Elicitation process, Prototyping and Storyboarding play the role of visualizing proposed solutions, such as through models or visual narratives, which helps in clarifying requirements and expectations.
+
+```
