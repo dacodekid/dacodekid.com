@@ -125,4 +125,46 @@ The choice of representation method depends on the complexity of your data and t
 
 ---
 
-By thoroughly understanding and correctly applying the Affinity Diagram technique, business analysts can effectively manage complex information, thereby contributing to the project's success.
+## Quiz
+
+```quiz
+Question: In the context of Business Analysis, what is the primary purpose of using an Affinity Diagram?
+A: To create a detailed project plan with timelines
+B: To organize a large volume of information into manageable categories
+C: To develop a comprehensive risk management strategy
+D: To map out the organization's financial projections
+Answer: B
+Explanation: The primary purpose of an Affinity Diagram in Business Analysis is to organize a large volume of information into manageable categories, aiding in problem-solving and decision-making by grouping data around common themes.
+
+Question: How does an Affinity Diagram aid in defining Future State Considerations?
+A: By providing financial analysis for budget planning
+B: By organizing ideas and alternatives for future capabilities
+C: By establishing a direct communication channel with stakeholders
+D: By setting specific technical requirements for IT systems
+Answer: B
+Explanation: In defining Future State Considerations, Affinity Diagrams are used to process and organize the abundant ideas and alternatives around future capabilities into categories and subcategories based on their affinity or relationship to each other.
+
+Question: When identifying design options, what role does an Affinity Diagram play?
+A: It is used to prioritize projects based on ROI
+B: It organizes user stories and requirements into groups
+C: It determines the final solution without further analysis
+D: It directly implements chosen design options
+Answer: B
+Explanation: In identifying design options, Affinity Diagrams are used to organize user stories, features, or requirements into groups, assisting in the decision-making process when multiple design options are being considered.
+
+Question: What is a common method used in workshops for creating an Affinity Diagram?
+A: Using complex statistical analysis
+B: Implementing a standard Gantt chart
+C: Using physical sticky notes for interactive collaboration
+D: Conducting formal corporate board meetings
+Answer: C
+Explanation: A common and interactive method used in workshops for creating an Affinity Diagram is using physical sticky notes. Each idea or piece of data is written on a sticky note, and participants group them into themes by sticking them on a wall or board.
+
+Question: Which of the following is NOT a typical representation method for an Affinity Diagram?
+A: Digital Tools like Miro or Lucidspark
+B: Physical Sticky Notes during collaborative sessions
+C: Hierarchical Diagrams to show structured relationships
+D: A detailed financial ledger documenting expenses
+Answer: D
+Explanation: A detailed financial ledger documenting expenses is not a typical representation method for an Affinity Diagram. Affinity Diagrams are used for organizing information and ideas, not for financial record-keeping.
+```
