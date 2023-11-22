@@ -14,30 +14,18 @@ During project execution, aligning activities to stay attuned to organizational 
 
 Engaging with stakeholders to demystify business challenges and prospects is imperative for all programs and projects. The extent to which a Needs Assessment is formally chronicled is contingent upon organizational ethos, prevailing market conditions, environmental factors, and possibly even regulatory stipulations.
 
----
+## Processes
 
-<!--@include: ../processes/identify-problem-or-opportunity.md{6,}-->
+### [Identify Problem or Opportunity](../processes/identify-problem-or-opportunity.md)
 
----
+### [Assess Current State](../processes/assess-current-state.md)
 
-<!--@include: ../processes/assess-current-state.md{6,}-->
+### [Determine Future State](../processes/determine-future-state.md)
 
----
+### [Determine Viable Options and Provide Recommendation](../processes/determine-viable-options-and-provide-recommendation.md)
 
-<!--@include: ../processes/determine-future-state.md{6,}-->
+### [Facilitate Product Roadmap Development](../processes/facilitate-product-roadmap-development.md)
 
----
+### [Assemble Business Case](../processes/assemble-business-case.md)
 
-<!--@include: ../processes/determine-viable-options-and-provide-recommendation.md{6,}-->
-
----
-
-<!--@include: ../processes/facilitate-product-roadmap-development.md{6,}-->
-
----
-
-<!--@include: ../processes/assemble-business-case.md{6,}-->
-
----
-
-<!--@include: ../processes/support-charter-development.md{6,}-->
+### [Support Charter Development](../processes/support-charter-development.md)
