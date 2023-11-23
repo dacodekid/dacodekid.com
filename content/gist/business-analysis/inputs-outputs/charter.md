@@ -64,5 +64,4 @@ D: External marketing and sales agencies.
 Answer: B
 Explanation: In predictive life cycles, the individual assigned to perform business analysis often supports the sponsor in creating the Charter, contributing to the business analysis work required for its development.
 
-
 ```

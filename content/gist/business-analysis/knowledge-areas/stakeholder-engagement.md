@@ -8,30 +8,18 @@ Stakeholder Engagement revolves around the tasks carried out to comprehend the r
 
 A significant portion of business analysis pertains to communication. The Stakeholder Engagement processes emphasize the individuals or groups linked, either directly or indirectly, to the situation being analyzed or to the solution. Clarity regarding who should be included in the business analysis process, combined with concerted efforts to collaborate and adopt practices that are supportive, yields immense benefits not just for business analysis, but also for portfolio, program, and project management. Stakeholder Engagement, in essence, ensures maximum representation and sustained interest and participation from the stakeholder community.
 
----
+## Processes
 
-<!--@include: ../processes/identify-stakeholders.md{6,}-->
+### [Identify Stakeholders](/content/gist/business-analysis/processes/identify-stakeholders.md)
 
----
+### [Conduct Stakeholder Analysis](/content/gist/business-analysis/processes/conduct-stakeholder-analysis.md)
 
-<!--@include: ../processes/conduct-stakeholder-analysis.md{6,}-->
+### [Determine Stakeholder Engagement and Communication Approach](/content/gist/business-analysis/processes/determine-stakeholder-engagement-and-communication-approach.md)
 
----
+### [Conduct Business Analysis Planning](/content/gist/business-analysis/processes/conduct-business-analysis-planning.md)
 
-<!--@include: ../processes/determine-stakeholder-engagement-and-communication-approach.md{6,}-->
+### [Prepare Transition to Future State](/content/gist/business-analysis/processes/prepare-transition-to-future-state.md)
 
----
+### [Manage Stakeholder Engagement and Communication](/content/gist/business-analysis/processes/manage-stakeholder-engagement-and-communication.md)
 
-<!--@include: ../processes/conduct-business-analysis-planning.md{6,}-->
-
----
-
-<!--@include: ../processes/prepare-transition-to-future-state.md{6,}-->
-
----
-
-<!--@include: ../processes/manage-stakeholder-engagement-and-communication.md{6,}-->
-
----
-
-<!--@include: ../processes/assess-business-analysis-perfoemance.md{6,}-->
+### [Assess Business Analysis Performance](/content/gist/business-analysis/processes/assess-business-analysis-performance.md)

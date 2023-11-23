@@ -16,16 +16,16 @@ Engaging with stakeholders to demystify business challenges and prospects is imp
 
 ## Processes
 
-### [Identify Problem or Opportunity](../processes/identify-problem-or-opportunity.md)
+### [Identify Problem or Opportunity](/content/gist/business-analysis/processes/identify-problem-or-opportunity.md)
 
-### [Assess Current State](../processes/assess-current-state.md)
+### [Assess Current State](/content/gist/business-analysis/processes/assess-current-state.md)
 
-### [Determine Future State](../processes/determine-future-state.md)
+### [Determine Future State](/content/gist/business-analysis/processes/determine-future-state.md)
 
-### [Determine Viable Options and Provide Recommendation](../processes/determine-viable-options-and-provide-recommendation.md)
+### [Determine Viable Options and Provide Recommendation](/content/gist/business-analysis/processes/determine-viable-options-and-provide-recommendation.md)
 
-### [Facilitate Product Roadmap Development](../processes/facilitate-product-roadmap-development.md)
+### [Facilitate Product Roadmap Development](/content/gist/business-analysis/processes/facilitate-product-roadmap-development.md)
 
-### [Assemble Business Case](../processes/assemble-business-case.md)
+### [Assemble Business Case](/content/gist/business-analysis/processes/assemble-business-case.md)
 
-### [Support Charter Development](../processes/support-charter-development.md)
+### [Support Charter Development](/content/gist/business-analysis/processes/support-charter-development.md)

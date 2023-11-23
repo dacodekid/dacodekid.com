@@ -7,7 +7,7 @@ next: false
 
 Questionnaires and surveys are elicitation techniques that involve written sets of questions aimed at accumulating information rapidly from a broad range of respondents. These tools are highly scalable, capable of reaching a large, geographically dispersed population at relatively low cost. They are particularly useful for stakeholder analysis, where you can collect data to establish or maintain a stakeholder list.
 
-### Key Advantages
+## Key Advantages
 
 1. **Scalability**: The ability to collect data from a large number of people, even if they are widely dispersed geographically.
 
@@ -17,7 +17,7 @@ Questionnaires and surveys are elicitation techniques that involve written sets 
 
 4. **Standardization**: All respondents answer the same questions, aiding comparability.
 
-### Key Concerns
+## Key Concerns
 
 1. **Lack of Clarification**: There's no immediate way to clarify questions or answers, which could lead to misinterpretation.
 
@@ -27,7 +27,7 @@ Questionnaires and surveys are elicitation techniques that involve written sets 
 
 4. **Sampling Bias**: Results may be skewed if only those with extreme opinions respond, thereby not representing the broader stakeholder community.
 
-### Risk Mitigation Strategies
+## Risk Mitigation Strategies
 
 1. **Sample Size Calculation**: Utilize a sample size calculator to ascertain the number of responses needed for statistical significance.
 
@@ -39,7 +39,7 @@ Questionnaires and surveys are elicitation techniques that involve written sets 
 
 5. **Pilot Testing**: Perform a pilot test to refine questions and ensure clarity.
 
-### Practical Applications
+## Practical Applications
 
 - **Stakeholder Analysis**: Surveys can provide valuable data for stakeholder listing and categorization.
 
@@ -48,3 +48,49 @@ Questionnaires and surveys are elicitation techniques that involve written sets 
 - **Market Research**: Surveys can help assess market demand or user preferences, which can inform the Business Case.
 
 Questionnaires and surveys serve as robust tools for data gathering in business analysis. However, to yield meaningful results, these tools require careful planning, sound design, and thoughtful analysis, particularly to ensure that the gathered data will sufficiently inform the decision-making process.
+
+## Quiz
+
+```quiz
+Question: As a Business Analyst, you plan to use questionnaires and surveys for stakeholder analysis in a global project. What is the PRIMARY advantage of this approach?
+A: The anonymity provided to respondents encourages more honest responses.
+B: The ability to clarify questions immediately and receive detailed responses.
+C: The capability to collect data from a large, geographically dispersed population.
+D: The use of incentives to guarantee a high response rate.
+Answer: C
+Explanation: The primary advantage of using questionnaires and surveys in a global project is their scalability, enabling the collection of data from a large, geographically dispersed population.
+
+Question: When designing a survey for requirement prioritization, what is a KEY concern that you need to address?
+A: Ensuring that the survey reaches a broad range of stakeholders to avoid sampling bias.
+B: Guaranteeing the anonymity of responses to improve data reliability.
+C: Crafting questions that are open-ended to gather rich, detailed data.
+D: The lack of immediate ways to clarify questions or answers, which could lead to misinterpretation.
+Answer: D
+Explanation: A key concern when designing surveys is the lack of immediate ways to clarify questions or answers, which could lead to misinterpretation, especially in the context of requirement prioritization.
+
+Question: In using questionnaires for market research, what risk mitigation strategy would be MOST effective in ensuring the clarity and effectiveness of the questions?
+A: Offering small incentives to encourage participation.
+B: Calculating the correct sample size for statistical significance.
+C: Performing a pilot test to refine questions and ensure their clarity.
+D: Sending follow-up reminders to boost response rates.
+Answer: C
+Explanation: Performing a pilot test to refine questions and ensure their clarity is the most effective risk mitigation strategy in this context, as it directly addresses the potential issues in question design.
+
+Question: What is a major limitation of using questionnaires and surveys in business analysis, particularly in the context of stakeholder analysis?
+A: The inability to reach a large number of people due to geographic constraints.
+B: The high costs involved, especially when using digital tools.
+C: The potential for responses to be limited by the nature of the questions, affecting the richness of the data.
+D: The guaranteed high response rate, which may overwhelm the analysis process.
+Answer: C
+Explanation: A major limitation of questionnaires and surveys is that the responses might be limited by the nature of the questions, affecting the richness of the data, particularly in stakeholder analysis.
+
+Question: If you're conducting a survey to assess market demand, which risk mitigation strategy is crucial to ensure reliable and actionable data?
+A: Utilizing a sample size calculator to ascertain the number of responses needed for statistical significance.
+B: Offering small incentives to encourage participation from all stakeholders.
+C: Ensuring that all respondents answer the same set of questions for standardization.
+D: Designing the survey to be as short and simple as possible to improve response rates.
+Answer: A
+Explanation: Utilizing a sample size calculator to ascertain the number of responses needed for statistical significance is crucial in ensuring that the survey results are reliable and can be used to accurately assess market demand.
+
+
+```
