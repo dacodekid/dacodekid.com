@@ -63,7 +63,7 @@ Transitioning from the current state to the desired future state is a pivotal ph
 
 Effective stakeholder management is an ongoing activity. This process involves continuously monitoring stakeholder relationships, ensuring effective communication, addressing emerging concerns, and fostering collaborative relationships. By proactively managing stakeholder engagement, potential issues can be identified and mitigated early.
 
-#### [Assess Business Analysis Performance](/content/gist/business-analysis/processes/assess-business-analysis-perfoemance.md)
+#### [Assess Business Analysis Performance](/content/gist/business-analysis/processes/assess-business-analysis-performance.md)
 
 Continuous improvement is vital for the success of any business analysis activity. This process involves evaluating the effectiveness of business analysis practices, methodologies, and stakeholder engagement strategies. Feedback from stakeholders is invaluable in this phase to understand areas of improvement and adapt strategies accordingly.
 
