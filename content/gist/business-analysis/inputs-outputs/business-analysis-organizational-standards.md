@@ -94,5 +94,4 @@ D: To serve as a legal guideline for document preparation
 Answer: B
 Explanation: Specifying formatting and syntax rules in Business Analysis Organizational Standards is significant because it ensures uniformity and coherence in how business analysis data and information are presented. This uniformity facilitates easier understanding and consistency across various business analysis deliverables.
 
-
 ```

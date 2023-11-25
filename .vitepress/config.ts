@@ -18,92 +18,8 @@ const gistMenu = [
         link: '/content/gist/business-analysis/',
       },
       {
-        text: 'Knowledge Areas',
-        collapsed: false,
-        items: [
-          {
-            text: 'Needs Assessment',
-            link: '/content/gist/business-analysis/knowledge-areas/needs-assessment.md',
-          },
-          {
-            text: 'Stakeholder Engagement',
-            link: '/content/gist/business-analysis/knowledge-areas/stakeholder-engagement.md',
-          },
-          {
-            text: 'Elicitation',
-            link: '/content/gist/business-analysis/knowledge-areas/elicitation.md',
-          },
-          {
-            text: 'Analysis',
-            link: '/content/gist/business-analysis/knowledge-areas/analysis.md',
-          },
-          {
-            text: 'Traceability & Monitoring',
-            link: '/content/gist/business-analysis/knowledge-areas/traceability-and-monitoring.md',
-          },
-          {
-            text: 'Solution Evaluation',
-            link: '/content/gist/business-analysis/knowledge-areas/solution-evaluation.md',
-          },
-        ],
-      },
-      {
-        text: 'Process Groups',
-        collapsed: false,
-        items: [
-          {
-            text: 'Defining & Aligning',
-            link: '/content/gist/business-analysis/process-groups/defining-and-aligning.md',
-          },
-          {
-            text: 'Initiating',
-            link: '/content/gist/business-analysis/process-groups/initiating.md',
-          },
-          {
-            text: 'Planning',
-            link: '/content/gist/business-analysis/process-groups/planning.md',
-          },
-          {
-            text: 'Executing',
-            link: '/content/gist/business-analysis/process-groups/executing.md',
-          },
-          {
-            text: 'Monitoring & Controlling',
-            link: '/content/gist/business-analysis/process-groups/monitoring-and-controlling.md',
-          },
-          {
-            text: 'Releasing',
-            link: '/content/gist/business-analysis/process-groups/releasing.md',
-          },
-        ],
-      },
-      {
-        text: 'Glossary',
-        link: '/content/gist/business-analysis/glossary.md',
-      },
-      {
-        text: 'Inputs',
-        link: '/content/gist/business-analysis/inputs.md',
-      },
-      {
-        text: 'Outputs',
-        link: '/content/gist/business-analysis/outputs.md',
-      },
-      {
-        text: 'Tools & Techniques',
-        link: '/content/gist/business-analysis/tools-techniques.md',
-      },
-      {
-        text: 'Processes',
-        link: '/content/gist/business-analysis/processes.md',
-      },
-      {
-        text: 'Process Groups vs Knowledge Areas',
-        link: '/content/gist/business-analysis/process-groups-vs-knowledge-areas.md',
-      },
-      {
         text: 'Quizzes',
-        collapsed: false,
+        collapsed: true,
         items: [
           {
             text: 'Quiz 01',
@@ -142,6 +58,90 @@ const gistMenu = [
             link: '/content/gist/business-analysis/quizzes/quiz-09.md',
           },
         ],
+      },
+      {
+        text: 'Process Groups',
+        collapsed: true,
+        items: [
+          {
+            text: 'Defining & Aligning',
+            link: '/content/gist/business-analysis/process-groups/defining-and-aligning.md',
+          },
+          {
+            text: 'Initiating',
+            link: '/content/gist/business-analysis/process-groups/initiating.md',
+          },
+          {
+            text: 'Planning',
+            link: '/content/gist/business-analysis/process-groups/planning.md',
+          },
+          {
+            text: 'Executing',
+            link: '/content/gist/business-analysis/process-groups/executing.md',
+          },
+          {
+            text: 'Monitoring & Controlling',
+            link: '/content/gist/business-analysis/process-groups/monitoring-and-controlling.md',
+          },
+          {
+            text: 'Releasing',
+            link: '/content/gist/business-analysis/process-groups/releasing.md',
+          },
+        ],
+      },
+      {
+        text: 'Knowledge Areas',
+        collapsed: true,
+        items: [
+          {
+            text: 'Needs Assessment',
+            link: '/content/gist/business-analysis/knowledge-areas/needs-assessment.md',
+          },
+          {
+            text: 'Stakeholder Engagement',
+            link: '/content/gist/business-analysis/knowledge-areas/stakeholder-engagement.md',
+          },
+          {
+            text: 'Elicitation',
+            link: '/content/gist/business-analysis/knowledge-areas/elicitation.md',
+          },
+          {
+            text: 'Analysis',
+            link: '/content/gist/business-analysis/knowledge-areas/analysis.md',
+          },
+          {
+            text: 'Traceability & Monitoring',
+            link: '/content/gist/business-analysis/knowledge-areas/traceability-and-monitoring.md',
+          },
+          {
+            text: 'Solution Evaluation',
+            link: '/content/gist/business-analysis/knowledge-areas/solution-evaluation.md',
+          },
+        ],
+      },
+      {
+        text: 'Process Groups vs Knowledge Areas',
+        link: '/content/gist/business-analysis/process-groups-vs-knowledge-areas.md',
+      },
+      {
+        text: 'Inputs',
+        link: '/content/gist/business-analysis/inputs.md',
+      },
+      {
+        text: 'Outputs',
+        link: '/content/gist/business-analysis/outputs.md',
+      },
+      {
+        text: 'Tools & Techniques',
+        link: '/content/gist/business-analysis/tools-techniques.md',
+      },
+      {
+        text: 'Processes',
+        link: '/content/gist/business-analysis/processes.md',
+      },
+      {
+        text: 'Glossary',
+        link: '/content/gist/business-analysis/glossary.md',
       },
     ],
   },
