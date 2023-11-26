@@ -7,7 +7,7 @@ next: false
 
 Wireframes are visual representations that ==outline the skeletal framework of a digital product== or system. They are often used in the ==context of website or software development== as a part of User Interface (UI) and User Experience (UX) design. Wireframes serve to establish the architecture and layout of the page or system, providing a clear and simplified visual guide that shows how elements are arranged and interact.
 
-### Objectives and Usage
+## Objectives and Usage
 
 - **Layout Design**: Wireframes primarily focus on the placement of elements and layout design, giving stakeholders an idea of where each element will appear on a page.
 
@@ -17,7 +17,7 @@ Wireframes are visual representations that ==outline the skeletal framework of a
 
 - **Stakeholder Alignment**: They serve as a point of discussion among designers, developers, and other stakeholders to agree on the system's layout and functionalities before development starts.
 
-### Characteristics
+## Characteristics
 
 - **Low to High Fidelity**: Wireframes can range from low-fidelity, hand-drawn sketches to high-fidelity, digital mock-ups that are interactive.
 
@@ -25,7 +25,7 @@ Wireframes are visual representations that ==outline the skeletal framework of a
 
 - **Agility**: They can be easily modified, making them an agile tool suitable for iterative development processes.
 
-### Applications
+## Applications
 
 - **Prototyping**: Wireframes often act as the first step in the prototyping process, laying the groundwork for more detailed prototypes.
 
@@ -33,7 +33,7 @@ Wireframes are visual representations that ==outline the skeletal framework of a
 
 - **Development Guidance**: They can guide front-end developers in the layout and functional aspects of the system.
 
-### Relationship to Requirements
+## Relationship to Requirements
 
 - **Detailing Requirements**: Wireframes make abstract requirements concrete by visualizing them, which can lead to more detailed or refined requirements.
 
@@ -41,7 +41,7 @@ Wireframes are visual representations that ==outline the skeletal framework of a
 
 - **Functional Mapping**: Wireframes allow for the visual mapping of functional specifications, aiding in both requirements elicitation and communication among stakeholders.
 
-### Limitations and Risks
+## Limitations and Risks
 
 - **Design Limitations**: Wireframes are generally not concerned with design aesthetics like color, font, or actual images, focusing more on functionality and layout.
 
