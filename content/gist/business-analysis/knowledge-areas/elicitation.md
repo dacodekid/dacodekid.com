@@ -14,7 +14,10 @@ Lastly, the frequency and mode of elicitation vary depending on the project's li
 
 ## Processes
 
-[Determine Elicitation Approach](/content/gist/business-analysis/processes/determine-elicitation-approach.md)
-[Prepare for Elicitation](/content/gist/business-analysis/processes/prepare-for-elicitation.md)
-[Conduct Elicitation](/content/gist/business-analysis/processes/conduct-elicitation.md)
-[Confirm Elicitation Results](/content/gist/business-analysis/processes/confirm-elicitation-results.md)
+### [Determine Elicitation Approach](/content/gist/business-analysis/processes/determine-elicitation-approach.md)
+
+### [Prepare for Elicitation](/content/gist/business-analysis/processes/prepare-for-elicitation.md)
+
+### [Conduct Elicitation](/content/gist/business-analysis/processes/conduct-elicitation.md)
+
+### [Confirm Elicitation Results](/content/gist/business-analysis/processes/confirm-elicitation-results.md)

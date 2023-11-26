@@ -10,38 +10,22 @@ Analysis is not limited to examining, modeling, and documenting product informat
 
 While analysis can be performed on any product information, there's a pronounced focus on information related to requirements. The nature of the product information and its format largely depends on the project's life cycle. Typically, analysis processes are iterative and often occur alongside elicitation processes.
 
----
+## Processes
 
-<!--@include: ../processes/determine-analysis-approach.md{6,}-->
+### [Determine Analysis Approach](../processes/determine-analysis-approach.md)
 
----
+### [Create and Analyze Models](../processes/create-and-analyze-models.md)
 
-<!--@include: ../processes/create-and-analyze-models.md{6,}-->
+### [Define and Elaborate Requirements](../processes/define-and-elaborate-requirements.md)
 
----
+### [Define Acceptance Criteria](../processes/define-acceptance-criteria.md)
 
-<!--@include: ../processes/define-and-elaborate-requirements.md{6,}-->
+### [Verify Requirements](../processes/verify-requirements.md)
 
----
+### [Validate Requirements](../processes/validate-requirements.md)
 
-<!--@include: ../processes/define-acceptance-criteria.md{6,}-->
+### [Prioritize Requirements and Other Product Information](../processes/prioritize-requirements-and-other-product-information.md)
 
----
+### [Identify and Analyze Product Risks](../processes/identify-and-analyze-product-risks.md)
 
-<!--@include: ../processes/verify-requirements.md{6,}-->
-
----
-
-<!--@include: ../processes/validate-requirements.md{6,}-->
-
----
-
-<!--@include: ../processes/prioritize-requirements-and-other-product-information.md{6,}-->
-
----
-
-<!--@include: ../processes/identify-and-analyze-product-risks.md{6,}-->
-
----
-
-<!--@include: ../processes/assess-product-design-options.md{6,}-->
+### [Assess Product Design Options](../processes/assess-product-design-options.md)
