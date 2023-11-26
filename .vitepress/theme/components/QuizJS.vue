@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { QuestionBlock } from '../plugins/types';
+import { log } from 'console';
 
 // Props
 const props = defineProps({
@@ -170,16 +171,14 @@ const retakeQuiz = () => {
 };
 
 const toggleZenMode = () => {
-  const navBar = document.querySelector('.VPNavBar') as HTMLElement;
-  const asideElements = document.querySelectorAll('aside') as NodeListOf<HTMLElement>;
+  const zenElements = document.querySelectorAll('.VPNavBar, .VPSidebar, .VPDocAside') as NodeListOf<HTMLElement>;
+
   zenModeActive.value = !zenModeActive.value;
 
   if (zenModeActive.value) {
-    navBar.classList.add('hidden');
-    asideElements.forEach((el) => el.classList.add('hidden'));
+    zenElements.forEach((el) => el.classList.add('hidden'));
   } else {
-    navBar.classList.remove('hidden');
-    asideElements.forEach((el) => el.classList.remove('hidden'));
+    zenElements.forEach((el) => el.classList.remove('hidden'));
   }
 };
 
