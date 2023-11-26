@@ -36,18 +36,12 @@ However, evaluating a solution is not without challenges:
 - Data required for evaluation might not be essential for the solution, potentially increasing solution development costs.
 - Some solution benefits might only be measurable long after its release. Responsibility for measuring these benefits might fall on the business area overseeing the product or an organizational domain.
 
----
+## Processes
 
-<!--@include: ../processes/evaluate-solution-performance.md{6,}-->
+### [Evaluate Solution Performance](/content/gist/business-analysis/processes/evaluate-solution-performance.md)
 
----
+### [Determine Solution Evaluation Approach](/content/gist/business-analysis/processes/determine-solution-evaluation-approach.md)
 
-<!--@include: ../processes/determine-solution-evaluation-approach.md{6,}-->
+### [Evaluate Acceptance Results and Address Defects](/content/gist/business-analysis/processes/evaluate-acceptance-results-and-address-defects.md)
 
----
-
-<!--@include: ../processes/evaluate-acceptance-results-and-address-defects.md{6,}-->
-
----
-
-<!--@include: ../processes/obtain-solution-acceptance-for-release.md{6,}-->
+### [Obtain Solution Acceptance for Release](/content/gist/business-analysis/processes/obtain-solution-acceptance-for-release.md)

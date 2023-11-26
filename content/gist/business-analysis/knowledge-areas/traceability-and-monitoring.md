@@ -12,10 +12,10 @@ Traceability and Monitoring are vital components in the domain of business analy
 
 ## Processes
 
-### [Determine Traceability and Monitoring Approach](../processes/determine-traceability-and-monitoring-approach.md)
+### [Determine Traceability and Monitoring Approach](/content/gist/business-analysis/processes/determine-traceability-and-monitoring-approach.md)
 
-### [Establish Relationships and Dependencies](../processes/establish-relationships-and-dependencies.md)
+### [Establish Relationships and Dependencies](/content/gist/business-analysis/processes/establish-relationships-and-dependencies.md)
 
-### [Select and Approve Requirements](../processes/select-and-approve-requirements.md)
+### [Select and Approve Requirements](/content/gist/business-analysis/processes/select-and-approve-requirements.md)
 
-### [Manage Changes to Requirements and Other Product Information](../processes/manage-changes-to-requirements-and-other-product-information.md)
+### [Manage Changes to Requirements and Other Product Information](/content/gist/business-analysis/processes/manage-changes-to-requirements-and-other-product-information.md)

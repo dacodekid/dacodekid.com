@@ -12,20 +12,20 @@ While analysis can be performed on any product information, there's a pronounced
 
 ## Processes
 
-### [Determine Analysis Approach](../processes/determine-analysis-approach.md)
+### [Determine Analysis Approach](/content/gist/business-analysis/processes/determine-analysis-approach.md)
 
-### [Create and Analyze Models](../processes/create-and-analyze-models.md)
+### [Create and Analyze Models](/content/gist/business-analysis/processes/create-and-analyze-models.md)
 
-### [Define and Elaborate Requirements](../processes/define-and-elaborate-requirements.md)
+### [Define and Elaborate Requirements](/content/gist/business-analysis/processes/define-and-elaborate-requirements.md)
 
-### [Define Acceptance Criteria](../processes/define-acceptance-criteria.md)
+### [Define Acceptance Criteria](/content/gist/business-analysis/processes/define-acceptance-criteria.md)
 
-### [Verify Requirements](../processes/verify-requirements.md)
+### [Verify Requirements](/content/gist/business-analysis/processes/verify-requirements.md)
 
-### [Validate Requirements](../processes/validate-requirements.md)
+### [Validate Requirements](/content/gist/business-analysis/processes/validate-requirements.md)
 
-### [Prioritize Requirements and Other Product Information](../processes/prioritize-requirements-and-other-product-information.md)
+### [Prioritize Requirements and Other Product Information](/content/gist/business-analysis/processes/prioritize-requirements-and-other-product-information.md)
 
-### [Identify and Analyze Product Risks](../processes/identify-and-analyze-product-risks.md)
+### [Identify and Analyze Product Risks](/content/gist/business-analysis/processes/identify-and-analyze-product-risks.md)
 
-### [Assess Product Design Options](../processes/assess-product-design-options.md)
+### [Assess Product Design Options](/content/gist/business-analysis/processes/assess-product-design-options.md)
