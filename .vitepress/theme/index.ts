@@ -26,7 +26,7 @@ export default {
         const updateDividers = () => {
           document.querySelectorAll('.VPSidebarItem').forEach((el) => {
             const textElement = el.querySelector('.text');
-            if (textElement && textElement.textContent.trim() === '----------') {
+            if (textElement?.textContent?.trim() === '----------') {
               el.classList.add('sidebar-divider');
             }
           });
