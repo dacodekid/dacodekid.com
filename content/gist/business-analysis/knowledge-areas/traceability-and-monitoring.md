@@ -10,18 +10,12 @@ Traceability and Monitoring are vital components in the domain of business analy
 
 - **Traceability Across Projects**: The principles and thinking rooted in Traceability and Monitoring are universal. They apply across all projects and their life cycles. Understanding the interrelations between requirements and other project aspects, like tests or releases, is paramount for ensuring consistency and completion of the project. Traceability supports change impact analysis, confirming objectives fulfillment, and ensuring comprehensive test coverage. Moreover, it aids in identifying missing or superfluous requirements. Regardless of the project's life cycle type or how requirements are documented, tracking and monitoring completed requirements is indispensable.
 
----
+## Processes
 
-<!--@include: ../processes/determine-traceability-and-monitoring-approach.md{6,}-->
+### [Determine Traceability and Monitoring Approach](../processes/determine-traceability-and-monitoring-approach.md)
 
----
+### [Establish Relationships and Dependencies](../processes/establish-relationships-and-dependencies.md)
 
-<!--@include: ../processes/establish-relationships-and-dependencies.md{6,}-->
+### [Select and Approve Requirements](../processes/select-and-approve-requirements.md)
 
----
-
-<!--@include: ../processes/select-and-approve-requirements.md{6,}-->
-
----
-
-<!--@include: ../processes/manage-changes-to-requirements-and-other-product-information.md{6,}-->
+### [Manage Changes to Requirements and Other Product Information](../processes/manage-changes-to-requirements-and-other-product-information.md)

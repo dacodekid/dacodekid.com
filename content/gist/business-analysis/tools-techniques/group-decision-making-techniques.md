@@ -46,14 +46,6 @@ D: They focus solely on the financial aspects of planning
 Answer: B
 Explanation: In business analysis planning, Group Decision-Making Techniques play a role in establishing clear decision-making processes early on. This is crucial to avoid misunderstandings or conflicts during the execution of the project.
 
-Question: Which section in business analysis documentation details specific Group Decision-Making Techniques?
-A: Section 8.3.2.7
-B: Section 2.1.5.3
-C: Section 3.2.4.1
-D: Section 1.4.2.2
-Answer: A
-Explanation: Section 8.3.2.7 in business analysis documentation details specific Group Decision-Making Techniques such as Autocratic, Delphi, Force Field Analysis, Majority, Plurality, and Unanimity, each with its unique approach to decision-making.
-
 Question: Can Group Decision-Making Techniques vary in their approach to reaching a decision?
 A: No, all techniques follow the same approach
 B: Yes, techniques range from autocratic to unanimous decisions
