@@ -30,7 +30,6 @@ xychart-beta
 
 ```quiz
 Question: What is the primary purpose of a Pareto Diagram in problem-solving?
-
 A: To create detailed financial forecasts for future projects.
 B: To prioritize and focus efforts by identifying significant factors.
 C: For organizing and scheduling team meetings and activities.
