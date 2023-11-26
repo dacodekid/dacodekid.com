@@ -389,3 +389,17 @@ img[src^="https://www.plantuml.com"]
     opacity 0.5s ease,
     transform 0.5s ease;
 }
+
+/**
+  * Custom divider for the sidebar
+  * -------------------------------------------------------------------------- */
+.VPSidebarItem.sidebar-divider {
+  pointer-events: none;
+  cursor: default;
+  color: transparent;
+  background-color: #ccc; /* Divider color */
+  height: 0.5rem;
+  width: 50%;
+  margin: 1rem 0;
+  overflow: hidden;
+}
