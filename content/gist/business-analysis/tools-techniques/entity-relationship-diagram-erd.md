@@ -17,7 +17,7 @@ In conjunction with process models, ERDs can offer a more comprehensive view by 
 
 To summarize, an Entity Relationship Diagram serves as a vital tool for understanding and modeling the business data objects, their relationships, and cardinality, thereby assisting in the data analysis, scope definition, and subsequent phases like database design.
 
-### Example
+## Example
 
 Below is a ERD diagram involving multiple entities for a hypothetical Library Management System. Entities involved are 'Book', 'Author', 'Publisher', 'Library', 'Member', and 'Loan'.
 
@@ -53,3 +53,47 @@ In this diagram:
 - The `Loan` entity is related to both `Author` and `Publisher` with an "optional to many" relationship, indicating that a loan may include works from zero or many authors and publications from zero or many publishers.
 
 This complex ERD provides a more detailed understanding of the system's relationships and cardinalities from a business perspective.
+
+## Quiz
+
+```quiz
+Question: A business analyst is working on a new customer relationship management system and needs to model the relationships between customers, their orders, and the products they purchase. Which tool would be most appropriate for visually representing these relationships?
+A: Gantt Chart
+B: Entity Relationship Diagram (ERD)
+C: SWOT Analysis
+D: Fishbone Diagram
+Answer: B
+Explanation: An Entity Relationship Diagram (ERD) is designed to visually represent various business data objects and their relationships, making it ideal for modeling the relationships between customers, orders, and products in a customer relationship management system.
+
+Question: In an Entity Relationship Diagram (ERD), what does the cardinality symbol '1' represent in a relationship between two entities?
+A: The relationship involves one and only one instance of each entity
+B: The relationship involves at least one instance of each entity
+C: The relationship is optional and may not involve any instance of the entities
+D: The relationship is many-to-many
+Answer: A
+Explanation: In an ERD, the cardinality symbol '1' represents a 'one-to-one' relationship, indicating that one and only one instance of each entity is involved in the relationship.
+
+Question: How does an Entity Relationship Diagram (ERD) aid in the database design phase of a project?
+A: By providing a timeline for database development
+B: By offering a visual representation of business data objects and their relationships
+C: By allocating budget for database storage
+D: By assigning roles for database maintenance
+Answer: B
+Explanation: An ERD aids in the database design phase by offering a visual representation of business data objects and their relationships. This is crucial for understanding the scope of data and for database designers to develop an appropriate database structure.
+
+Question: What is the primary purpose of modeling 'many-to-many' relationships in an Entity Relationship Diagram (ERD)?
+A: To indicate that many instances of one entity can be associated with many instances of another entity
+B: To show that many entities are required for the project
+C: To represent that the relationship involves many steps
+D: To demonstrate the complexity of the project
+Answer: A
+Explanation: In an ERD, modeling 'many-to-many' relationships serves to indicate that many instances of one entity can be associated with many instances of another entity, reflecting a complex interrelation between these entities.
+
+Question: When should an Entity Relationship Diagram (ERD) typically be created in the project lifecycle?
+A: After the completion of the project
+B: During the project closure phase
+C: Early in the analysis phase to establish a clear understanding of the scope of data
+D: Only during the final stages of database implementation
+Answer: C
+Explanation: An ERD should typically be created early in the analysis phase of a project. This helps in establishing a clear understanding of the scope of data involved in the system and is beneficial for subsequent phases like database design.
+```

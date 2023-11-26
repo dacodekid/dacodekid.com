@@ -7,7 +7,7 @@ next: false
 
 "Viable Product Design Options" are formulations of how a solution or a component of a solution can be structured to achieve the defined business goals and objectives. These options are not mere conceptual sketches; they are subjected to rigorous stakeholder review to ensure they are both practical to implement and aligned with business needs.
 
-### Components of Viable Product Design Options
+## Components of Viable Product Design Options
 
 1. **Representation**: Each design option is typically presented in a format that can include diagrams, mockups, specifications, and other descriptive forms that make it easy for stakeholders to understand the design.
 
@@ -17,7 +17,7 @@ next: false
 
 4. **Pros and Cons**: A balanced view is presented for each design option, detailing the advantages and disadvantages. This could include factors like cost, time, resource requirements, scalability, and risk.
 
-### Decision Making
+## Decision Making
 
 After presenting viable product design options, stakeholders typically engage in a decision-making process to select the most suitable design. This could involve:
 
@@ -29,7 +29,7 @@ After presenting viable product design options, stakeholders typically engage in
 
 - **Stakeholder Consensus**: Sometimes, a simple majority vote or consensus among key stakeholders may be used to finalize the option.
 
-### Post-Selection Steps
+## Post-Selection Steps
 
 Once a design option is selected:
 
@@ -40,3 +40,47 @@ Once a design option is selected:
 3. **Iteration**: Depending on the development methodology in use (Agile, Waterfall, etc.), there may be iterations or phases where the solution is progressively developed and refined.
 
 By presenting stakeholders with viable product design options, the business analysis process facilitates informed decision-making, minimizes risks, and sets the stage for the effective construction of a solution that meets organizational needs.
+
+## Quiz
+
+```quiz
+Question: What are "Viable Product Design Options" in business analysis?
+A: Conceptual sketches for the aesthetic design of the product
+B: Practical solution structures aligned with business needs, subjected to stakeholder review
+C: Legal compliance frameworks for product design
+D: Financial budget plans for product development
+Answer: B
+Explanation: Viable Product Design Options are practical formulations of solution structures, which are reviewed by stakeholders to ensure they are implementable and aligned with business needs.
+
+Question: How is feasibility analysis important in evaluating Viable Product Design Options?
+A: It ensures options are practical from technical, financial, and operational standpoints
+B: It focuses solely on the financial feasibility of options
+C: It assesses only the aesthetic feasibility
+D: It is irrelevant in evaluating design options
+Answer: A
+Explanation: Feasibility analysis is crucial in assessing Viable Product Design Options, as it ensures that each option is practical and feasible from technical, financial, and operational perspectives.
+
+Question: What decision-making method might be used to select a product design option?
+A: Weighted scoring, cost-benefit analysis, or stakeholder consensus
+B: Random selection without any criteria
+C: Based solely on the aesthetic appeal of the design
+D: Based only on the highest financial cost
+Answer: A
+Explanation: Methods like weighted scoring, cost-benefit analysis, risk assessment, and stakeholder consensus are typically used to objectively and effectively select the most suitable product design option.
+
+Question: What happens after a product design option is selected?
+A: The project is often abandoned
+B: Solution construction begins, followed by validation and verification
+C: The focus shifts exclusively to financial aspects
+D: The design is frozen without further development
+Answer: B
+Explanation: Once a design option is selected, the construction of the solution begins, adhering to the chosen design. This phase includes continuous validation and verification to ensure alignment with business objectives and the selected design.
+
+Question: Why is providing a balanced view of pros and cons important for each design option?
+A: To present a comprehensive understanding of the advantages and disadvantages of each option
+B: It's not important to consider pros and cons
+C: Solely to focus on the disadvantages
+D: To highlight only the financial pros and cons
+Answer: A
+Explanation: Presenting a balanced view of the pros and cons of each design option is important for stakeholders to have a comprehensive understanding of the advantages and disadvantages, aiding in informed decision-making.
+```

@@ -7,7 +7,7 @@ next: false
 
 The Spider Web game is another collaborative elicitation technique designed to visually represent the interdependencies or connections among various components, issues, or stakeholders within a project, product, or process. It can help teams understand the complexities and relationships that exist, making it easier to prioritize actions and identify potential risks or bottlenecks.
 
-### Key Components
+## Key Components
 
 - **Central Node**: Represents the primary focus such as a project, goal, or key issue around which the discussion will revolve.
 - **Facilitator**: Oversees the session, providing instructions and moderating discussions.
@@ -18,7 +18,7 @@ The Spider Web game is another collaborative elicitation technique designed to v
 
 - **Sticky Notes**: Used to write down elements that will be part of the web.
 
-### How It Works
+## How It Works
 
 1. **Introduction and Context**: The facilitator introduces the objective and explains the rules and metaphor of the spider web.
 
@@ -34,7 +34,7 @@ The Spider Web game is another collaborative elicitation technique designed to v
 
 7. **Action Planning**: Based on the insights gained, action items or next steps are discussed and agreed upon.
 
-### Advantages
+## Advantages
 
 - **Visual Clarity**: Provides a clear visual representation of complex relationships and interdependencies.
 - **Engagement and Collaboration**: Engages stakeholders and team members in a tactile and interactive way, ensuring varied inputs and collective decision-making.
@@ -44,3 +44,47 @@ The Spider Web game is another collaborative elicitation technique designed to v
 - **Prioritization and Risk Mitigation**: Helps in the prioritization of tasks or issues based on their impact and connections to other nodes.
 
 The Spider Web technique is often utilized in strategic planning, risk identification, and problem-solving scenarios. It is agnostic to any particular project management or development methodology, making it widely applicable.
+
+## Quiz
+
+```quiz
+Question: A project team is struggling to understand the complex interdependencies among various project components and stakeholders. They want to visualize these connections to better manage risks and prioritize actions. Which elicitation technique would best serve this purpose?
+A: Fishbone Diagram
+B: Spider Web Game
+C: Gantt Chart
+D: Pareto Analysis
+Answer: B
+Explanation: The Spider Web game is designed to visually represent the interdependencies or connections among various components, issues, or stakeholders, making it an ideal tool for understanding complex relationships and prioritizing actions in a project.
+
+Question: In the Spider Web exercise, what does the central node typically represent?
+A: The least important stakeholder
+B: The primary focus, such as the project goal or key issue
+C: The most significant risk
+D: The longest project phase
+Answer: B
+Explanation: In the Spider Web exercise, the central node represents the primary focus, such as a project, goal, or key issue, around which the discussion revolves and connections are drawn.
+
+Question: Why are sticky notes used by participants in the Spider Web game?
+A: To schedule future meetings
+B: To write down elements that are part of the web
+C: To vote on the best ideas
+D: To document final decisions
+Answer: B
+Explanation: In the Spider Web game, participants use sticky notes to write down various elements, components, or stakeholders that have a relationship or impact on the central node, which are then placed as part of the spider web.
+
+Question: What is a key advantage of using the Spider Web technique in a strategic planning session?
+A: Financial Forecasting
+B: Visual Clarity of Complex Relationships
+C: Detailed Scheduling
+D: Resource Allocation Efficiency
+Answer: B
+Explanation: A key advantage of using the Spider Web technique in strategic planning is the Visual Clarity it provides in representing complex relationships and interdependencies, aiding in understanding and decision-making.
+
+Question: After creating the spider web and discussing the connections, what is the next crucial step in the Spider Web exercise?
+A: Disregarding less significant nodes
+B: Action Planning based on insights gained
+C: Immediate implementation of changes
+D: Voting on the most critical connections
+Answer: B
+Explanation: The next crucial step after creating the spider web and discussing the connections is Action Planning. This involves formulating action items or next steps based on the insights gained from analyzing the web.
+```

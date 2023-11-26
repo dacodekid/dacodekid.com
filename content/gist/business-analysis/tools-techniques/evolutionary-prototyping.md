@@ -7,7 +7,7 @@ next: false
 
 Evolutionary Prototyping is an approach where the prototype of a system is ==incrementally refined== based on stakeholder feedback ==until it eventually evolves into the final product==. Unlike Throwaway Prototyping, where a model is quickly constructed with the representation of only those aspects of the software that are of interest and then discarded, in Evolutionary Prototyping, the prototype is continually improved and updated.
 
-### Objectives and Usage
+## Objectives and Usage
 
 - **Incremental Refinement**: The primary objective is to build a system incrementally, allowing for the prototype to be improved step-by-step based on feedback from end-users and other stakeholders.
 
@@ -15,7 +15,7 @@ Evolutionary Prototyping is an approach where the prototype of a system is ==inc
 
 - **Risk Mitigation**: The incremental nature and constant feedback loops make it easier to identify issues or make changes early in the project, reducing the risks of late failure.
 
-### Characteristics
+## Characteristics
 
 - **Iterative Process**: Evolutionary Prototyping is inherently iterative, involving a cycle of development, evaluation, and refinement.
 
@@ -25,7 +25,7 @@ Evolutionary Prototyping is an approach where the prototype of a system is ==inc
 
 - **Living Model**: Unlike other forms of prototyping that may start anew with each iteration, the evolutionary prototype is a "living model" that evolves over time.
 
-### Applications
+## Applications
 
 - **Complex Systems**: Particularly useful for complex systems where requirements are not well-understood or are expected to change.
 
@@ -33,7 +33,7 @@ Evolutionary Prototyping is an approach where the prototype of a system is ==inc
 
 - **Agile Environments**: Often used in agile development frameworks which emphasize incremental development and stakeholder collaboration.
 
-### Relationship to Requirements
+## Relationship to Requirements
 
 - **Elicitation and Validation**: Prototypes serve as a practical tool for both eliciting new requirements and validating existing ones.
 

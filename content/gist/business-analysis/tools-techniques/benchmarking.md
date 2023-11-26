@@ -7,7 +7,7 @@ next: false
 
 Benchmarking is a structured approach that involves ==comparing an organization's current practices, processes, and performance metrics against those of industry-leading organizations or established standards==. The primary aim is to identify gaps in performance and gain insights into areas for improvement. Benchmarking is not exclusive to business analysis but is a tool where business analysis skills are essential for interpreting and applying the results.
 
-### Relevance in Business Analysis:
+## Relevance in Business Analysis:
 
 Benchmarking serves multiple purposes in business analysis. From informing the Needs Assessment phase to guiding the formulation of solutions and future state analysis, it provides a data-driven approach to decision-making. It is also adaptable and can be applied to various industries, making it a versatile tool in the business analyst's toolkit.
 

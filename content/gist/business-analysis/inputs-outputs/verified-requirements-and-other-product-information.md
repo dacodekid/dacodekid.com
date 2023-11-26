@@ -7,7 +7,7 @@ next: false
 
 "Verified Requirements and Other Product Information" refers to the set of requirements and associated product details that have undergone an evaluation process to ensure they are free from errors and conform to predefined quality standards. This concept is a critical element in the business analysis process, serving as a foundation for subsequent activities like validation, prioritization, and approval.
 
-### Key Points
+## Key Points
 
 1. **Error-Free**: Verification ensures that the gathered requirements and other product information are accurate and free from errors. This involves checks for completeness, consistency, and other quality attributes.
 
@@ -22,3 +22,47 @@ next: false
 6. **Comprehensive Review**: Requirements and product information typically undergo both verification and validation processes before being presented to stakeholders for final review and approval. This ensures not only quality but also relevance and alignment with business goals.
 
 In essence, verified requirements and other product information are critical assets that have been rigorously evaluated for quality and accuracy. They serve as reliable inputs for other business analysis activities, including validation and stakeholder approval, contributing to the overall success and quality of the solution.
+
+## Quiz
+
+```quiz
+Question: What is the primary focus of verifying requirements and product information in a project?
+A: To define the project's marketing and communication strategies
+B: To ensure they are free from errors and conform to quality standards
+C: To establish the project's legal and compliance framework
+D: To determine the project's budget and financial goals
+Answer: B
+Explanation: The primary focus of verifying requirements and other product information is to ensure that they are accurate, free from errors, and conform to predefined quality standards.
+
+Question: Why is verification important, even if it doesn't guarantee business alignment?
+A: Because it ensures that the requirements are well-crafted and meet quality standards
+B: Verification is not important in business analysis
+C: It focuses solely on the financial aspects of the requirements
+D: It dictates the aesthetic aspects of the product
+Answer: A
+Explanation: Verification is crucial because it ensures that the requirements are well-crafted and meet certain quality standards, focusing on 'building the thing right' before assessing whether they align with business needs ('building the right thing').
+
+Question: How do verified requirements and product information serve subsequent business analysis processes?
+A: They are disregarded in subsequent processes
+B: As reliable inputs for activities like validation and stakeholder approval
+C: They solely focus on the financial aspects of subsequent processes
+D: They dictate the aesthetic design of subsequent deliverables
+Answer: B
+Explanation: Once verified, requirements and product information often serve as reliable inputs for other business analysis processes or project activities, such as validation and eventual approval by stakeholders.
+
+Question: What does the verification process typically assess in terms of requirements?
+A: Completeness, consistency, and other quality attributes
+B: Solely the financial implications of the requirements
+C: The aesthetic design of the requirements
+D: The legal compliance of the requirements
+Answer: A
+Explanation: The verification process assesses requirements and product information for completeness, consistency, and conformity to other quality attributes, ensuring they are free from errors.
+
+Question: How are requirements usually processed in terms of verification and validation?
+A: They are often verified for quality before being validated for business effectiveness
+B: Validation always occurs before verification
+C: Verification and validation are irrelevant processes
+D: They are only verified and never validated
+Answer: A
+Explanation: Although verification and validation can technically occur in any order or concurrently, it is common for requirements to be verified for quality and accuracy before being validated to ensure they meet business objectives.
+```

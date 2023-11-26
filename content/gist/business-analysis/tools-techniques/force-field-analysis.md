@@ -7,7 +7,7 @@ next: false
 
 Force Field Analysis is a decision-making technique focused on identifying and evaluating the various forces that can affect a proposed change. By carefully assessing these forces, the product team can gauge the viability of implementing the change within an organizational context. Here's a deeper look at the process and components:
 
-### Components of Force Field Analysis:
+## Components of Force Field Analysis:
 
 1. **Description of Change**: The change under consideration is described and placed centrally in the model, serving as the focal point.
 
@@ -17,7 +17,7 @@ Force Field Analysis is a decision-making technique focused on identifying and e
 
 4. **Weighting of Forces**: Each force, whether positive or negative, is assigned a weight. The weight reflects the force's significance and the ease with which it can be influenced.
 
-### Steps to Conduct Force Field Analysis:
+## Steps to Conduct Force Field Analysis:
 
 1. **Identify Change**: Clearly state the change that is being considered.
 
@@ -29,7 +29,7 @@ Force Field Analysis is a decision-making technique focused on identifying and e
 
 5. **Analyze and Decide**: If the positive forces outweigh the negative forces, then there is organizational support to proceed with the change. Conversely, if negative forces are dominant, the change is less likely to be successful.
 
-### Applications in Decision Making:
+## Applications in Decision Making:
 
 - **Evaluating Organizational Support**: The total scores give an indication of whether there is sufficient organizational backing for the change.
 
@@ -37,7 +37,7 @@ Force Field Analysis is a decision-making technique focused on identifying and e
 
 - **Risk Management**: Identifying the negative forces can help in formulating risk mitigation plans.
 
-### Advantages and Disadvantages:
+## Advantages and Disadvantages:
 
 **Advantages**:
 
@@ -51,7 +51,7 @@ Force Field Analysis is a decision-making technique focused on identifying and e
 
 By applying Force Field Analysis, teams can have a structured framework to assess the feasibility of a proposed change, considering both its advantages and the challenges it may encounter. This technique provides a comprehensive view that aids in making more informed decisions.
 
-### Example:
+## Example:
 
 ```
                           Proposed Change
@@ -74,3 +74,47 @@ In this example:
 - Negative Forces that resist the change are listed on the right side, each also with their respective weights. Their total weight is summed at the bottom as well.
 
 In this case, the sum of Positive Forces (8) outweighs the sum of Negative Forces (6), indicating that there is sufficient organizational support to proceed with the change.
+
+## Quiz
+
+```quiz
+Question: When a project team is considering the implementation of a new technology solution and needs to evaluate the factors supporting and opposing the change, which technique would be most appropriate for this analysis?
+A: SWOT Analysis
+B: Force Field Analysis
+C: Pareto Analysis
+D: Cost-Benefit Analysis
+Answer: B
+Explanation: Force Field Analysis is a decision-making technique focused on identifying and evaluating the forces that affect a proposed change, making it ideal for a project team to assess the factors supporting and opposing the implementation of a new technology solution.
+
+Question: In Force Field Analysis, how are the factors that support the proposed change represented in the model?
+A: They are listed on the left side as positive forces
+B: They are assigned a negative weight
+C: They are tallied at the bottom of the model
+D: They are listed on the right side as negative forces
+Answer: A
+Explanation: In Force Field Analysis, the factors that support the proposed change are represented as positive forces and are listed on the left side of the model.
+
+Question: What is the primary purpose of assigning weights to each force in Force Field Analysis?
+A: To reflect the force's significance and the ease with which it can be influenced
+B: To determine the project's budget
+C: To allocate resources to different project phases
+D: To schedule tasks and activities
+Answer: A
+Explanation: In Force Field Analysis, weights are assigned to each force based on its significance and the ease with which it can be influenced, allowing for a more nuanced evaluation of the forces affecting the change.
+
+Question: How does Force Field Analysis contribute to risk management in a project?
+A: By identifying negative forces, it helps in formulating risk mitigation plans
+B: It calculates the financial risk involved in the project
+C: It assigns risk management tasks to team members
+D: It schedules risk assessment activities
+Answer: A
+Explanation: Force Field Analysis contributes to risk management by identifying negative forces (or impediments) against the change, thereby aiding in the formulation of risk mitigation plans.
+
+Question: What is a potential disadvantage of using Force Field Analysis in decision-making?
+A: It always leads to a biased outcome
+B: The subjectivity in assigning weights can lead to biased outcomes
+C: It only provides financial analysis
+D: It assigns specific solutions to problems
+Answer: B
+Explanation: A potential disadvantage of using Force Field Analysis is the subjectivity in assigning weights to the forces, which can lead to biased outcomes, as different individuals may perceive the significance of the forces differently.
+```

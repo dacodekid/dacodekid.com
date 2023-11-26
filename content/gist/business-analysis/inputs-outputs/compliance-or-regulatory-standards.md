@@ -32,3 +32,47 @@ In terms of business analysis, these compliance or regulatory standards have a f
 4. **Impact on Requirement Set**: Business analysts have to incorporate these standards into the requirements set, thereby directly affecting the scope, quality, and deliverables of the portfolio component, program, or project.
 
 ==Compliance or Regulatory Standards are non-negotiable guidelines== or rules that must be adhered to during the course of a portfolio component, program, or project. They influence multiple facets of business analysis, from requirements elicitation and documentation to traceability and monitoring, and necessitate a rigorous approach to ensure full compliance.
+
+## Quiz
+
+```quiz
+Question: What is the primary reason for incorporating Compliance or Regulatory Standards in business analysis?
+A: To enhance the marketing strategy of the project
+B: To ensure adherence to external constraints imposed by government or industry bodies
+C: To determine the project budget and resource allocation
+D: To outline the project's communication and stakeholder engagement plan
+Answer: B
+Explanation: Compliance or Regulatory Standards are imposed by governmental bodies or industry organizations, and their primary role in business analysis is to ensure adherence to these external constraints.
+
+Question: How do Compliance or Regulatory Standards impact the process of requirements elicitation and documentation?
+A: They necessitate a more informal approach to requirements documentation
+B: They require adherence to specified standards for audit preparedness
+C: They encourage flexibility in tailoring business analysis approaches
+D: They focus solely on the financial aspects of requirements
+Answer: B
+Explanation: Compliance or Regulatory Standards require business analysts to adhere to specific guidelines in requirements elicitation and documentation to ensure audit preparedness.
+
+Question: In what way do Compliance or Regulatory Standards influence traceability and monitoring in business analysis?
+A: By dictating more formal approaches to traceability and monitoring
+B: By eliminating the need for a traceability matrix
+C: By focusing exclusively on the project's communication methods
+D: By reducing the importance of regulatory compliance
+Answer: A
+Explanation: Compliance or Regulatory Standards often dictate more formal approaches to traceability and monitoring, such as including specific columns in a traceability matrix that map requirements to regulatory clauses.
+
+Question: What constraint do Compliance or Regulatory Standards place on tailoring business analysis approaches?
+A: They generally increase flexibility in choosing analysis methods
+B: They may limit options for tailoring due to strict regulatory requirements
+C: They always mandate the use of specific business analysis software
+D: They require all projects to follow the same standardized approach
+Answer: B
+Explanation: Due to Compliance or Regulatory Standards, the options for tailoring business analysis approaches may be limited, especially in highly regulated industries.
+
+Question: What impact do Compliance or Regulatory Standards have on the requirement set in a project?
+A: They tend to reduce the scope and quality of the requirement set
+B: They directly affect the scope, quality, and deliverables of the project
+C: They usually have no significant impact on the requirement set
+D: They solely focus on enhancing the aesthetic appeal of deliverables
+Answer: B
+Explanation: Compliance or Regulatory Standards directly impact the requirement set, influencing the scope, quality, and deliverables of the portfolio component, program, or project.
+```
