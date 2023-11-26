@@ -12,8 +12,6 @@ The culmination of the product's development phase:
 
 This process group ensures a smooth transition from development to operations, making sure the solution meets stakeholder needs and is ready for real-world application.
 
----
-
 ## Solution Evaluation
 
-<!--@include: ../processes/obtain-solution-acceptance-for-release.md{6,}-->
+### [Obtain Solution Acceptance for Release](/content/gist/business-analysis/processes/obtain-solution-acceptance-for-release.md)

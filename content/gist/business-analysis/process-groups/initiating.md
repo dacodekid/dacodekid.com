@@ -8,8 +8,6 @@ As the name suggests, this group is about setting the stage:
 
 The goal here is to lay a firm foundation and provide clear direction for the ensuing stages.
 
----
-
 ## Needs Assessment
 
-<!--@include: ../processes/support-charter-development.md{6,}-->
+### [Support Charter Development](/content/gist/business-analysis/processes/support-charter-development.md)

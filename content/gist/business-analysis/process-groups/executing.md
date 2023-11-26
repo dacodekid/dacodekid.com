@@ -8,72 +8,42 @@ This is where the rubber meets the road:
 
 The focus is on generating tangible outputs that drive the product's development.
 
----
-
 ## Stakeholder Engagement
 
-<!--@include: ../processes/prepare-transition-to-future-state.md{6,}-->
-
----
+### [Prepare Transition to Future State](/content/gist/business-analysis/processes/prepare-transition-to-future-state.md)
 
 ## Elicitation
 
-<!--@include: ../processes/prepare-for-elicitation.md{6,}-->
+### [Prepare for Elicitation](/content/gist/business-analysis/processes/prepare-for-elicitation.md)
 
----
+### [Conduct Elicitation](/content/gist/business-analysis/processes/conduct-elicitation.md)
 
-<!--@include: ../processes/conduct-elicitation.md{6,}-->
-
----
-
-<!--@include: ../processes/confirm-elicitation-results.md{6,}-->
-
----
+### [Confirm Elicitation Results](/content/gist/business-analysis/processes/confirm-elicitation-results.md)
 
 ## Analysis
 
-<!--@include: ../processes/create-and-analyze-models.md{6,}-->
+### [Create and Analyze Models](/content/gist/business-analysis/processes/create-and-analyze-models.md)
 
----
+### [Define and Elaborate Requirements](/content/gist/business-analysis/processes/define-and-elaborate-requirements.md)
 
-<!--@include: ../processes/define-and-elaborate-requirements.md{6,}-->
+### [Define Acceptance Criteria](/content/gist/business-analysis/processes/define-acceptance-criteria.md)
 
----
+### [Verify Requirements](/content/gist/business-analysis/processes/verify-requirements.md)
 
-<!--@include: ../processes/define-acceptance-criteria.md{6,}-->
+### [Validate Requirements](/content/gist/business-analysis/processes/validate-requirements.md)
 
----
+### [Prioritize Requirements and Other Product Information](/content/gist/business-analysis/processes/prioritize-requirements-and-other-product-information.md)
 
-<!--@include: ../processes/verify-requirements.md{6,}-->
+### [Identify and Analyze Product Risks](/content/gist/business-analysis/processes/identify-and-analyze-product-risks.md)
 
----
-
-<!--@include: ../processes/validate-requirements.md{6,}-->
-
----
-
-<!--@include: ../processes/prioritize-requirements-and-other-product-information.md{6,}-->
-
----
-
-<!--@include: ../processes/identify-and-analyze-product-risks.md{6,}-->
-
----
-
-<!--@include: ../processes/assess-product-design-options.md{6,}-->
-
----
+### [Assess Product Design Options](/content/gist/business-analysis/processes/assess-product-design-options.md)
 
 ## Traceability and Monitoring
 
-<!--@include: ../processes/establish-relationships-and-dependencies.md{6,}-->
+### [Establish Relationships and Dependencies](/content/gist/business-analysis/processes/establish-relationships-and-dependencies.md)
 
----
-
-<!--@include: ../processes/select-and-approve-requirements.md{6,}-->
-
----
+### [Select and Approve Requirements](/content/gist/business-analysis/processes/select-and-approve-requirements.md)
 
 ## Solution Evaluation
 
-<!--@include: ../processes/evaluate-acceptance-results-and-address-defects.md{6,}-->
+### [Evaluate Acceptance Results and Address Defects](/content/gist/business-analysis/processes/evaluate-acceptance-results-and-address-defects.md)

@@ -8,36 +8,26 @@ The heart of project preparation lies here:
 
 A well-crafted plan ensures that business analysis activities align with project objectives and stakeholder expectations.
 
----
-
 ## Stakeholder Engagement
 
-<!--@include: ../processes/conduct-stakeholder-analysis.md{6,}-->
+### [Conduct Stakeholder Analysis](/content/gist/business-analysis/processes/conduct-stakeholder-analysis.md)
 
-<!--@include: ../processes/determine-stakeholder-engagement-and-communication-approach.md{6,}-->
+### [Determine Stakeholder Engagement and Communication Approach](/content/gist/business-analysis/processes/determine-stakeholder-engagement-and-communication-approach.md)
 
-<!--@include: ../processes/conduct-business-analysis-planning.md{6,}-->
-
----
+### [Conduct Business Analysis Planning](/content/gist/business-analysis/processes/conduct-business-analysis-planning.md)
 
 ## Elicitation
 
-<!--@include: ../processes/determine-elicitation-approach.md{6,}-->
-
----
+### [Determine Elicitation Approach](/content/gist/business-analysis/processes/determine-elicitation-approach.md)
 
 ## Analysis
 
-<!--@include: ../processes/determine-analysis-approach.md{6,}-->
-
----
+### [Determine Analysis Approach](/content/gist/business-analysis/processes/determine-analysis-approach.md)
 
 ## Traceability and Monitoring
 
-<!--@include: ../processes/determine-traceability-and-monitoring-approach.md{6,}-->
-
----
+### [Determine Traceability and Monitoring Approach](/content/gist/business-analysis/processes/determine-traceability-and-monitoring-approach.md)
 
 ## Solution Evaluation
 
-<!--@include: ../processes/determine-solution-evaluation-approach.md{6,}-->
+### [Determine Solution Evaluation Approach](/content/gist/business-analysis/processes/determine-solution-evaluation-approach.md)

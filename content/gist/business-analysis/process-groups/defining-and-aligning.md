@@ -13,30 +13,24 @@ This process group revolves around the initial phases of a product's lifecycle. 
 
 Essentially, this process group ensures that any new initiative or change aligns with the organization's objectives and will bring tangible benefits.
 
----
-
 ## Needs Assessment
 
-<!--@include: ../processes/identify-problem-or-opportunity.md{6,}-->
+### [Identify Problem or Opportunity](/content/gist/business-analysis/processes/identify-problem-or-opportunity.md)
 
-<!--@include: ../processes/assess-current-state.md{6,}-->
+### [Assess Current State](/content/gist/business-analysis/processes/assess-current-state.md)
 
-<!--@include: ../processes/determine-future-state.md{6,}-->
+### [Determine Future State](/content/gist/business-analysis/processes/determine-future-state.md)
 
-<!--@include: ../processes/determine-viable-options-and-provide-recommendation.md{6,}-->
+### [Determine Viable Options and Provide Recommendation](/content/gist/business-analysis/processes/determine-viable-options-and-provide-recommendation.md)
 
-<!--@include: ../processes/facilitate-product-roadmap-development.md{6,}-->
+### [Facilitate Product Roadmap Development](/content/gist/business-analysis/processes/facilitate-product-roadmap-development.md)
 
-<!--@include: ../processes/assemble-business-case.md{6,}-->
-
----
+### [Assemble Business Case](/content/gist/business-analysis/processes/assemble-business-case.md)
 
 ## Stakeholder Engagement
 
-<!--@include: ../processes/identify-stakeholders.md{6,}-->
-
----
+### [Identify Stakeholders](/content/gist/business-analysis/processes/identify-stakeholders.md)
 
 ## Solution Evaluation
 
-<!--@include: ../processes/evaluate-solution-performance.md{6,}-->
+### [Evaluate Solution Performance](/content/gist/business-analysis/processes/evaluate-solution-performance.md)

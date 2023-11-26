@@ -8,18 +8,12 @@ This group ensures everything stays on track:
 
 Proactive monitoring and control ensure that any deviations are quickly identified and rectified.
 
----
-
 ## Stakeholder Engagement
 
-<!--@include: ../processes/manage-stakeholder-engagement-and-communication.md{6,}-->
+### [Manage Stakeholder Engagement and Communication](/content/gist/business-analysis/processes/manage-stakeholder-engagement-and-communication.md)
 
----
-
-<!--@include: ../processes/assess-business-analysis-perfoemance.md{6,}-->
-
----
+### [Assess Business Analysis Performance](/content/gist/business-analysis/processes/assess-business-analysis-performance.md)
 
 ## Traceability and Monitoring
 
-<!--@include: ../processes/manage-changes-to-requirements-and-other-product-information.md{6,}-->
+### [Manage Changes to Requirements and Other Product Information](/content/gist/business-analysis/processes/manage-changes-to-requirements-and-other-product-information.md)
