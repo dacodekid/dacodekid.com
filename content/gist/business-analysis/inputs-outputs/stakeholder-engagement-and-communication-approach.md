@@ -72,5 +72,4 @@ D: To serve as a legal document outlining stakeholder rights
 Answer: B
 Explanation: Specifying decision-making and approvals in the Stakeholder Engagement and Communication Approach is significant because it ensures that stakeholders have clear accountability. This clarity reduces ambiguities and potential conflicts, contributing to effective stakeholder management.
 
-
 ```
