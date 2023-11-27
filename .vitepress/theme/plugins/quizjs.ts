@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import DOMPurify from 'isomorphic-dompurify';
 import { Choice, QuestionBlock } from './types';
 
@@ -118,6 +120,22 @@ const parseQuestionBlock = (block: string): QuestionBlock => {
   };
 };
 
+const processQuizContent = (content, relativePath) => {
+  // escape & sanitize the content
+  const sanitizedContent = DOMPurify.sanitize(escapeText(content));
+
+  // Split the raw data into individual questions
+  const rawQuestions = splitQuizData(sanitizedContent);
+
+  // Validate each raw question
+  rawQuestions.forEach((question, index) => {
+    validateQuiz(question, index, relativePath);
+  });
+
+  // Parse the validated questions into structured objects
+  return rawQuestions.map(parseQuestionBlock);
+};
+
 export const quiz = (md) => {
   const defaultRender = md.renderer.rules.fence.bind(md.renderer.rules);
 
@@ -126,21 +144,55 @@ export const quiz = (md) => {
     let content = token.content.trim();
 
     if (token.info === 'quiz') {
-      // escape & sanitize the content
-      content = DOMPurify.sanitize(escapeText(content));
+      // Split the content into lines
+      const lines = content.split('\n');
 
-      // Split the raw data into individual questions
-      const rawQuestions = splitQuizData(content);
+      // Initialize an empty array to hold all quizzes
+      let allQuizzes = [];
 
-      // Validate each raw question
-      rawQuestions.forEach((question, index) => {
-        validateQuiz(question, index, env.relativePath);
-      });
+      // Initialize an empty string to accumulate quiz block lines
+      let quizBlock = '';
 
-      // Parse the validated questions into structured objects
-      const questions = rawQuestions.map(parseQuestionBlock);
+      for (const line of lines) {
+        // Ignore empty lines
+        if (!line.trim()) {
+          continue;
+        }
 
-      return `<QuizJS :quizData='${JSON.stringify(questions)}'></QuizJS>`;
+        // Check if line is a path
+        if (line.startsWith('/')) {
+          const filePath = path.join(process.cwd(), line);
+          if (fs.existsSync(filePath)) {
+            // Read the file content if it's a path
+            const fileContent = fs.readFileSync(filePath, 'utf-8');
+
+            // Extract the quiz content between ```quiz and ```
+            const quizContentMatch = fileContent.match(/```quiz([\s\S]*?)```(?!\w)/);
+            const quizContent = quizContentMatch ? quizContentMatch[1].trim() : '';
+
+            // Process the quiz content and add the questions to the allQuizzes array
+            allQuizzes = allQuizzes.concat(processQuizContent(quizContent, env.relativePath));
+          }
+        } else if (line.startsWith('Question')) {
+          // If quizBlock is not empty, process it and add the questions to the allQuizzes array
+          if (quizBlock) {
+            allQuizzes = allQuizzes.concat(processQuizContent(quizBlock, env.relativePath));
+          }
+
+          // Start a new quiz block with the current line
+          quizBlock = line;
+        } else {
+          // If the line is part of a quiz block, add it to quizBlock
+          quizBlock += '\n' + line;
+        }
+      }
+
+      // If quizBlock is not empty after the loop, process it and add the questions to the allQuizzes array
+      if (quizBlock) {
+        allQuizzes = allQuizzes.concat(processQuizContent(quizBlock, env));
+      }
+
+      return `<QuizJS :quizData='${JSON.stringify(allQuizzes)}'></QuizJS>`;
     }
 
     // return default renderer if the language is not specified
