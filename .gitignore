@@ -2,6 +2,7 @@ node_modules/
 cache/
 dist/
 _exclude/
+coverage/
 
 .DS_Store
 bun.lockb

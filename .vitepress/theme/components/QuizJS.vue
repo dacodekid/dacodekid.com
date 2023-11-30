@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { QuestionBlock } from '../plugins/types';
-import { log } from 'console';
 
 // Props
 const props = defineProps({
