@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d .vitepress/dist",
     "release": "npm-run-all --serial clean build deploy",
     "test": "vitest",
+    "test:cov": "vitest --coverage",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {

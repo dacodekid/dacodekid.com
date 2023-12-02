@@ -1,201 +1,168 @@
-import fs from 'fs';
-import path from 'path';
+// quizjs.ts
+
+import MarkdownIt from 'markdown-it';
 import DOMPurify from 'isomorphic-dompurify';
-import { Choice, QuestionBlock } from './types';
+import * as fs from 'fs';
+import * as path from 'path';
 
-let idCounter: number = 0;
-
-const escapeText = (str: string): string => {
+export const escapeText = (str: string): string => {
   const chars = new Map([
     ['&', '&amp;'],
     ['<', '&lt;'],
     ['>', '&gt;'],
     ["'", '&#39;'],
   ]);
+
   return str.replace(/[&<>'"]/g, (text) => chars.get(text) || text);
 };
 
-const handleError = (message: string, quizBlock: string, index: number, filePath: string): void => {
-  console.error(`
-Quiz 
-  ${'Block'.padEnd(7)}: ${index + 1}
-  ${'File'.padEnd(7)}: ${filePath} 
-  ${'Issue'.padEnd(7)}: ${message}
-
-Content:
-----------------
-${quizBlock}
-----------------`);
-  process.exit(1);
+export const sanitizeText = (str: string): string => {
+  str = str.trim();
+  str = escapeText(str);
+  str = DOMPurify.sanitize(str);
+  return str;
 };
 
-const validateQuiz = (quizBlock: string, index: number, filePath: string): void => {
-  const hasQuestion = /^Question: /m.test(quizBlock);
-  const hasOptions = ['A', 'B', 'C', 'D'].every((letter) => new RegExp(`^${letter}: `, 'm').test(quizBlock));
-  const hasAnswer = /^Answer: /m.test(quizBlock);
-  const hasExplanation = /^Explanation: /m.test(quizBlock);
+export const getFileContent = (filePath: string = ''): string | null => {
+  if (!filePath) return null;
 
-  if (!hasQuestion) {
-    handleError('Question', quizBlock, index, filePath);
-  }
-  if (!hasOptions) {
-    handleError('One or more options', quizBlock, index, filePath);
-  }
-  if (!hasAnswer) {
-    handleError('Answer', quizBlock, index, filePath);
-  }
-  if (!hasExplanation) {
-    handleError('Explanation', quizBlock, index, filePath);
-  }
-};
-
-const splitQuizData = (quizData: string): string[] => {
-  return quizData.split(/\n(?=Question: )/);
-};
-
-const parseQuestion = (line: string, question: string): string => {
-  return question + line.replace('Question: ', '') + '<br>';
-};
-
-const parseChoice = (line: string, choices: Choice[]): Choice[] => {
-  if (/^[A-Z]:/.test(line)) {
-    const [choiceKey, ...choiceTextParts] = line.split(': ');
-    const choiceText = choiceTextParts.join(': ').trim();
-    choices.push({ key: choiceKey, text: choiceText });
-  } else if (choices.length > 0) {
-    choices[choices.length - 1].text += '<br>' + line.trim();
-  }
-  return choices;
-};
-
-const parseAnswer = (line: string): string => {
-  return line.replace('Answer: ', '');
-};
-
-const parseExplanation = (line: string, explanation: string): string => {
-  return explanation + line.replace('Explanation: ', '') + '<br>';
-};
-
-const parseQuestionBlock = (block: string): QuestionBlock => {
-  const lines = block.split('\n');
-
-  let question: string = '';
-  let choices: Choice[] = [];
-  let answer: string = '';
-  let explanation: string = '';
-
-  let currentSection = 'question';
-
-  for (const line of lines) {
-    if (/^[A-Z]:/.test(line)) {
-      currentSection = 'choices';
-    } else if (line.startsWith('Answer:')) {
-      currentSection = 'answer';
-    } else if (line.startsWith('Explanation:')) {
-      currentSection = 'explanation';
+  try {
+    if (fs.existsSync(filePath)) {
+      return fs.readFileSync(filePath, 'utf-8').trim();
     }
 
-    switch (currentSection) {
-      case 'question':
-        question = parseQuestion(line, question);
-        break;
-      case 'choices':
-        choices = parseChoice(line, choices);
-        break;
-      case 'answer':
-        answer = parseAnswer(line);
-        break;
-      case 'explanation':
-        explanation = parseExplanation(line, explanation);
-        break;
-    }
+    console.error(`File does not exist: ${filePath}`);
+    return null;
+  } catch (error) {
+    console.error(error);
+    return null;
   }
+};
+
+export const getQuizContent = (fileContent: string = ''): string | null => {
+  if (!fileContent) return null;
+
+  const regex = /```quiz([\s\S]*?)```(?!\w)/;
+
+  const quizContentMatch = fileContent.match(regex)?.[1];
+  const quizContent = quizContentMatch ? quizContentMatch.trim() : '';
+
+  return quizContent !== '' ? quizContent : null;
+};
+
+export const splitQuizContent = (content: string = ''): string[] => {
+  if (!content) return [];
+
+  const regex = /(?=Question:|^\/)/m;
+
+  let splitContent = content
+    .split(regex)
+    .map((item) => item.trim())
+    .filter((item) => item !== '');
+
+  return splitContent;
+};
+
+export const validateQuizBlock = (quizBlock: string = ''): boolean => {
+  const regex =
+    /^Question: [\s\S]*?\nA: [\s\S]*?\nB: [\s\S]*?\nC: [\s\S]*?\nD: [\s\S]*?\nAnswer: [ABCD]\nExplanation: [\s\S]*?$/gm;
+
+  return regex.test(quizBlock);
+};
+
+export const mergeQuizContent = (
+  blocks: string[] = [],
+  processedFiles: Set<string> = new Set<string>(),
+  currentFilename: string = ''
+): string[] => {
+  const quizData = new Set<string>();
+
+  const processExternalFile = (block: string): void => {
+    if (processedFiles.has(block)) {
+      console.warn(`Cyclic reference detected: ${block}`);
+      return;
+    }
+    processedFiles.add(block);
+
+    const fileContent = sanitizeText(getFileContent(path.join(process.cwd(), block)));
+    if (!fileContent) return;
+
+    const quizContent = getQuizContent(fileContent);
+    if (!quizContent) return;
+
+    const additionalBlocks = splitQuizContent(quizContent);
+
+    const additionalQuizData = mergeQuizContent(additionalBlocks, processedFiles, block);
+    additionalQuizData.forEach((item) => quizData.add(item));
+  };
+
+  const validateAndAddQuizBlock = (block: string): void => {
+    if (!validateQuizBlock(block)) {
+      console.error('=================');
+      console.error('INVALID QUIZ BLOCK');
+      console.error('File:', currentFilename, '\n');
+      console.error(block);
+      console.error('~~~~~~~~~~~~~~~~~', '\n\n');
+      return;
+    }
+    quizData.add(block);
+  };
+
+  const processBlock = (block: string): void => {
+    if (block.startsWith('/')) {
+      processExternalFile(block);
+    } else {
+      validateAndAddQuizBlock(block);
+    }
+  };
+
+  blocks.forEach(processBlock);
+
+  return Array.from(quizData);
+};
+
+export const tokenizeBlock = (quizBlock: string): object => {
+  const regex =
+    /Question: (?<question>[\s\S]*?)\n(?=A:)A: (?<choiceA>[\s\S]*?)\n(?=B:)B: (?<choiceB>[\s\S]*?)\n(?=C:)C: (?<choiceC>[\s\S]*?)\n(?=D:)D: (?<choiceD>[\s\S]*?)\n(?=Answer:)Answer: (?<answer>[A-D])\n(?=Explanation:)Explanation: (?<explanation>[\s\S]*)/gm;
+
+  const match = regex.exec(quizBlock);
+
+  if (!match) return null;
+
+  const formatText = (text) => text.trim().replace(/\n/g, '<br>');
 
   return {
-    id: idCounter++,
-    question,
-    choices,
-    answer,
-    explanation,
+    question: formatText(match.groups.question),
+    choices: [
+      { key: 'A', text: formatText(match.groups.choiceA) },
+      { key: 'B', text: formatText(match.groups.choiceB) },
+      { key: 'C', text: formatText(match.groups.choiceC) },
+      { key: 'D', text: formatText(match.groups.choiceD) },
+    ],
+    answer: match.groups.answer,
+    explanation: formatText(match.groups.explanation),
   };
 };
 
-const processQuizContent = (content, relativePath) => {
-  // escape & sanitize the content
-  const sanitizedContent = DOMPurify.sanitize(escapeText(content));
-
-  // Split the raw data into individual questions
-  const rawQuestions = splitQuizData(sanitizedContent);
-
-  // Validate each raw question
-  rawQuestions.forEach((question, index) => {
-    validateQuiz(question, index, relativePath);
-  });
-
-  // Parse the validated questions into structured objects
-  return rawQuestions.map(parseQuestionBlock);
-};
-
-export const quiz = (md) => {
+export function quiz(md: MarkdownIt) {
   const defaultRender = md.renderer.rules.fence.bind(md.renderer.rules);
 
   md.renderer.rules.fence = (tokens, idx, options, env, self) => {
     const token = tokens[idx];
-    let content = token.content.trim();
 
-    if (token.info === 'quiz') {
-      // Split the content into lines
-      const lines = content.split('\n');
+    if (token.info.trim() === 'quiz') {
+      let content: any;
+      content = sanitizeText(token.content);
+      content = splitQuizContent(content);
+      content = mergeQuizContent(content, new Set(), env.filePath);
+      content = content.map(tokenizeBlock);
+      content = JSON.stringify(content);
 
-      // Initialize an empty array to hold all quizzes
-      let allQuizzes = [];
-
-      // Initialize an empty string to accumulate quiz block lines
-      let quizBlock = '';
-
-      for (const line of lines) {
-        // Ignore empty lines
-        if (!line.trim()) {
-          continue;
-        }
-
-        // Check if line is a path
-        if (line.startsWith('/')) {
-          const filePath = path.join(process.cwd(), line);
-          if (fs.existsSync(filePath)) {
-            // Read the file content if it's a path
-            const fileContent = fs.readFileSync(filePath, 'utf-8');
-
-            // Extract the quiz content between ```quiz and ```
-            const quizContentMatch = fileContent.match(/```quiz([\s\S]*?)```(?!\w)/);
-            const quizContent = quizContentMatch ? quizContentMatch[1].trim() : '';
-
-            // Process the quiz content and add the questions to the allQuizzes array
-            allQuizzes = allQuizzes.concat(processQuizContent(quizContent, env.relativePath));
-          }
-        } else if (line.startsWith('Question')) {
-          // If quizBlock is not empty, process it and add the questions to the allQuizzes array
-          if (quizBlock) {
-            allQuizzes = allQuizzes.concat(processQuizContent(quizBlock, env.relativePath));
-          }
-
-          // Start a new quiz block with the current line
-          quizBlock = line;
-        } else {
-          // If the line is part of a quiz block, add it to quizBlock
-          quizBlock += '\n' + line;
-        }
-      }
-
-      // If quizBlock is not empty after the loop, process it and add the questions to the allQuizzes array
-      if (quizBlock) {
-        allQuizzes = allQuizzes.concat(processQuizContent(quizBlock, env));
-      }
-
-      return `<QuizJS :quizData='${JSON.stringify(allQuizzes)}'></QuizJS>`;
+      return `<QuizJS :quizData='${content}'></QuizJS>`;
     }
 
-    // return default renderer if the language is not specified
     return defaultRender(tokens, idx, options, env, self);
   };
-};
+}
+
+export default quiz;
