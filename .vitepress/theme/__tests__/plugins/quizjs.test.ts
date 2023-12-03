@@ -3,95 +3,16 @@
 import * as fs from 'fs';
 import MarkdownIt from 'markdown-it';
 import { describe, expect, it, vi } from 'vitest';
-import * as quizJS from './quizjs';
-
-const a_md = `
-# Content A
-
-\`\`\`quiz
-Question: What is the capital of France? &<>'"
-A: Paris
-B: London
-C: Berlin
-D: Madrid
-Answer: A
-Explanation: Paris is the capital of France.
-\`\`\`
-
-\`\`\`javascript
-console.log("Hello, world!");
-\`\`\`
-`;
-
-const b_md = `
-# Content B
-
-\`\`\`quiz
-Question: What is the capital of / Germany?
-Second line of question.
-A: Paris
-B: London
-C: Berlin
-D: Madrid
-Answer: C
-Explanation: Berlin is the capital of Germany.
-Second line of explanation.
-Third line of explanation.
-/c.md
-Question: What is the capital of India?
-A: Paris
-B: London
-C: Berlin
-D: New Delhi
-Answer: D
-Explanation: New Delhi is the capital of India.
-Second line of explanation.
-Third line of explanation.
-
-
-
-/a.md
-
-\`\`\`
-`;
-
-const c_md = `
-# Content C
-
-\`\`\`quiz
-Question: What is the capital of Spain?
-A: Paris
-B: London
-C: Berlin
-D: Madrid
-Answer: D
-Explanation: Madrid is the capital of Spain.
-
-/a.md
-/b.md
-\`\`\`
-`;
-
-const d_md = ``;
-
-const e_md = `
-\`\`\`quiz
-\`\`\`
-`;
-
-const f_md = `
-\`\`\`quiz
-Not a valid quiz block.
-\`\`\`
-`;
+import * as quizJS from '../../plugins/quizjs';
+import * as mockedFs from '../../__mocks__/quiz.mock';
 
 const mockFs = {
-  '/a.md': a_md,
-  '/b.md': b_md,
-  '/c.md': c_md,
-  '/d.md': d_md,
-  '/e.md': e_md,
-  '/f.md': f_md,
+  '/a.md': mockedFs.a_md,
+  '/b.md': mockedFs.b_md,
+  '/c.md': mockedFs.c_md,
+  '/d.md': mockedFs.d_md,
+  '/e.md': mockedFs.e_md,
+  '/f.md': mockedFs.f_md,
 };
 
 // Mock fs
@@ -122,6 +43,23 @@ describe('escapeText', () => {
   });
 });
 
+describe('sanitizeText', () => {
+  it('should return an empty string if no text or empty string is provided', () => {
+    const emptyText = quizJS.sanitizeText('');
+    const whitespaceText = quizJS.sanitizeText(' \n');
+
+    expect(emptyText).toBe('');
+    expect(whitespaceText).toBe('');
+  });
+
+  it('should sanitize text', () => {
+    const input = `&<>'`;
+    const expected = '&amp;&lt;&gt;&#39;';
+    const actual = quizJS.sanitizeText(input);
+    expect(actual).toBe(expected);
+  });
+});
+
 describe('getFileContent', () => {
   it('should return null if no path or empty string is provided', () => {
     const nullFilePath = quizJS.getFileContent();
@@ -138,7 +76,7 @@ describe('getFileContent', () => {
   });
 
   it('should return the file content', () => {
-    const expected = a_md.trim();
+    const expected = mockedFs.a_md.trim();
     const actual = quizJS.getFileContent('/a.md');
 
     expect(actual).toBe(expected);
@@ -175,7 +113,7 @@ describe('getQuizContent', () => {
 
   it('should return the quiz content', () => {
     const expected = `Question: What is the capital of France? &<>'"\nA: Paris\nB: London\nC: Berlin\nD: Madrid\nAnswer: A\nExplanation: Paris is the capital of France.`;
-    const actual = quizJS.getQuizContent(a_md);
+    const actual = quizJS.getQuizContent(mockedFs.a_md);
 
     expect(actual).toBe(expected);
   });
@@ -199,7 +137,7 @@ describe('splitQuizContent', () => {
       `Question: What is the capital of India?\nA: Paris\nB: London\nC: Berlin\nD: New Delhi\nAnswer: D\nExplanation: New Delhi is the capital of India.\nSecond line of explanation.\nThird line of explanation.`,
       `/a.md`,
     ];
-    const actual = quizJS.splitQuizContent(quizJS.getQuizContent(b_md));
+    const actual = quizJS.splitQuizContent(quizJS.getQuizContent(mockedFs.b_md));
 
     expect(actual).toEqual(expected);
   });
