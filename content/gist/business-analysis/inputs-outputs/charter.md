@@ -26,7 +26,7 @@ The Charter is an instrumental document that formalizes the initiation of a busi
 ```quiz
 Question: What is the primary function of a Charter in the context of business analysis?
 A: To provide a detailed technical specification for the project.
-B: To formally initiate a portfolio component, program, or project and establish its scope boundaries.
+B: To initiate and define scope boundaries for a project or program.
 C: To create a comprehensive marketing and sales plan for the product.
 D: To serve as a legal contract between the organization and external stakeholders.
 Answer: B
@@ -34,15 +34,15 @@ Explanation: The Charter serves as a formal document that initiates a portfolio 
 
 Question: How does the Charter support Business Analysis activities?
 A: It serves as a detailed project schedule and timeline.
-B: It guides which aspects of business analysis should be conducted and helps in estimating effort levels.
+B: It directs the focus of business analysis and assists in estimating effort required.
 C: It focuses exclusively on the financial budgeting aspects of the project.
-D: It details the personal development and training plans for the project team.
+D: It details the personal development and training plans for the project team members.
 Answer: B
 Explanation: The Charter, in conjunction with business analysis planning approaches, provides guidance on which aspects of business analysis should be conducted, and aids in estimating the level of effort required.
 
 Question: What role does the Charter play in terms of scope definition in a project?
 A: It is primarily used for team-building and morale-boosting.
-B: It defines the boundaries of what the project will entail, ensuring alignment with business goals.
+B: It sets the project's scope, aligning it with business objectives.
 C: It focuses on establishing the project's technical infrastructure.
 D: It serves as a document for external stakeholder communication.
 Answer: B
@@ -50,7 +50,7 @@ Explanation: The Charter plays a crucial role in defining the scope of the proje
 
 Question: In what way does the Charter function as an authorization tool?
 A: It authorizes the technical team to begin software development.
-B: It formally authorizes the existence of the project, program, or portfolio component.
+B: It officially sanctions the project, program, or portfolio component.
 C: It grants permission to the marketing team to start promotional activities.
 D: It serves as a legal authorization for external financial investments.
 Answer: B

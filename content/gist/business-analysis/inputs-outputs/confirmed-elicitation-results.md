@@ -41,7 +41,7 @@ In summary, confirmed elicitation results serve as an agreed-upon informational 
 
 ```quiz
 Question: What is the primary purpose of the process "Confirm Elicitation Results" in business analysis?
-A: To allocate the project's budget based on elicited information
+A: To allocate the project's budget based on elicited information and requirements
 B: To verify the accuracy and completeness of the elicited information
 C: To finalize the project's communication strategy
 D: To establish the legal framework for the project
@@ -49,7 +49,7 @@ Answer: B
 Explanation: The process of "Confirm Elicitation Results" is integral for verifying the accuracy and completeness of the information gathered through elicitation techniques, ensuring that it reflects the stakeholders' needs and expectations.
 
 Question: How is a "common understanding" relevant in the context of confirmed elicitation results?
-A: It signifies agreement among the product team about the accuracy of elicited information
+A: It indicates the product team's agreement on the accuracy of information
 B: It refers to a standardized method for budget allocation
 C: It indicates a universal approach to legal compliance in projects
 D: It is a term used for general stakeholder communication
@@ -57,7 +57,7 @@ Answer: A
 Explanation: A critical attribute of confirmed elicitation results is that they signify a "common understanding" among the project's product team, indicating consensus on the accuracy of the elicited information.
 
 Question: What is a key utility of confirmed elicitation results in the creation of models during the business analysis process?
-A: They serve as a base for creating first-draft models
+A: They serve as a base for creating first-draft models of the solution
 B: They are used to finalize the project's technical architecture
 C: They primarily focus on the aesthetic aspects of models
 D: They dictate the project's marketing strategy

@@ -97,10 +97,10 @@ Answer: D
 Explanation: In an adaptive approach, acceptance criteria are often defined at the level of individual user stories, providing a concise way to articulate requirements for each story.
 
 Question: What is the primary purpose of Acceptance Criteria in the business analysis process?
-A: To provide guidelines for stakeholder communications
-B: To serve as a checklist for evaluating if a deliverable meets the stated requirements
-C: To establish a detailed project plan and schedule
-D: To outline the responsibilities of the project team members
+A: To provide guidelines for stakeholder communications and reporting
+B: To serve as a checklist for evaluating if a deliverable meets the requirements
+C: To establish a detailed project plan and schedule for the project team
+D: To outline the responsibilities of the project team members and stakeholders
 Answer: B
 Explanation: Acceptance Criteria serve as a checklist for evaluating deliverables and determining whether they fulfill the stated requirements, thereby validating that the solution meets the business needs.
 
@@ -115,13 +115,13 @@ Explanation: In the Given-When-Then syntax used for Acceptance Criteria, the "Th
 Question: If a deliverable fails to meet the Acceptance Criteria at the solution level, what does it indicate about the project?
 A: The project budget has been exceeded
 B: The project is not on track to be accepted in its current state
-C: The team needs immediate reorganization
-D: Stakeholders are likely to request additional features
+C: The team needs immediate reorganization and restructuring
+D: Stakeholders are likely to request additional features and functionality
 Answer: B
 Explanation: If a deliverable fails to meet the Acceptance Criteria at any level, including the solution level, it indicates that the item (requirement, iteration, release, or solution) is not on track to be accepted in its current state.
 
 Question: How do Acceptance Criteria align with requirements in the business analysis process?
-A: They ensure that the project team adheres to organizational policies
+A: They ensure that the project team adheres to organizational policies and procedures
 B: They align directly and completely with the requirements and product information
 C: They serve as a legal contract between the project team and the stakeholders
 D: They outline the project management methodologies to be used

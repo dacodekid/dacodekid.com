@@ -28,7 +28,7 @@ The Business Need is a critical element in the business analysis process, servin
 ```quiz
 Question: In the context of organizational change, what is the primary role of a Business Need?
 A: It acts as a detailed guide for the implementation of the solution.
-B: It serves as the driving force justifying the consideration of a new initiative.
+B: It acts as the key motivator for considering a new initiative.
 C: It provides a comprehensive risk assessment for potential projects.
 D: It outlines the exact technological requirements for organizational change.
 Answer: B
@@ -53,16 +53,16 @@ Explanation: A Business Need typically arises from factors like market demands, 
 Question: In the business analysis process, what role does the Business Need play in developing a Business Case?
 A: It serves as a minor reference point.
 B: It provides the primary financial forecast.
-C: It is the critical component providing the "why" behind the initiative.
-D: It outlines the technical specifications for the project.
+C: It's the essential element explaining the initiative's purpose.
+D: It outlines the technical specifications for the project or program.
 Answer: C
 Explanation: The Business Need is a critical component of the Business Case, providing the foundational reason or 'why' behind the initiative.
 
 Question: What is a common mistake organizations make when addressing a Business Need?
 A: Focusing too much on long-term goals.
-B: Providing solutions before fully understanding the situation.
+B: Offering solutions without fully grasping the context.
 C: Conducting excessive risk assessments.
-D: Limiting their analysis to external factors.
+D: Limiting their analysis to external factors only.
 Answer: B
 Explanation: Organizations often make the mistake of providing solutions before fully understanding the situation, which underscores the importance of thorough business analysis to identify and fix the root causes of problems.
 ```

@@ -53,13 +53,13 @@ Explanation: Analysis Models provide a multi-dimensional view of the solution, o
 Question: How do Analysis Models contribute to the identification of gaps in requirements?
 A: By allocating resources efficiently
 B: By identifying inconsistencies, gaps, or omissions
-C: By outlining stakeholder communication plans
+C: By outlining stakeholder communication plans for the project
 D: By establishing financial metrics for the project
 Answer: B
 Explanation: Analysis Models are instrumental in identifying any inconsistencies, gaps, or omissions in the requirements or the solution itself, thereby aiding in thorough requirements gathering.
 
 Question: In the context of iterative processes, how are Analysis Models typically utilized?
-A: They remain static throughout the project lifecycle
+A: They remain static throughout the project lifecycle and are not revised
 B: They are revised, refined, or replaced as needed
 C: They are used only in the initial phases of the project
 D: They are solely for stakeholder presentations
@@ -67,17 +67,17 @@ Answer: B
 Explanation: The development and use of Analysis Models are iterative processes. As analysis continues, these models may need to be revised, refined, or even replaced to suit evolving requirements.
 
 Question: What role do Analysis Models play when working with user stories in an agile project?
-A: They primarily focus on budgeting concerns
+A: They primarily focus on budgeting concerns for the project
 B: They assist in defining or deriving acceptance criteria
-C: They are used to train new project team members
+C: They are used to train new project team members on the solution
 D: They serve as a tool for legal documentation
 Answer: B
 Explanation: In agile projects, especially when working with user stories, Analysis Models can be used to define or derive acceptance criteria, enhancing clarity and understanding.
 
 Question: When are Business Objectives Models particularly useful in the business analysis process?
-A: For establishing project communication channels
+A: For establishing project communication channels and protocols
 B: To set acceptance criteria at the product or business objectives level
-C: To allocate resources among project teams
+C: To allocate resources among project teams and stakeholders
 D: For legal compliance checks
 Answer: B
 Explanation: Business Objectives Models are useful for establishing acceptance criteria at the product or business objectives level, aiding in aligning the solution with the overarching business goals.

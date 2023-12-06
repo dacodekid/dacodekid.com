@@ -36,13 +36,13 @@ In summary, approved requirements are pivotal in setting the trajectory of the p
 Question: What is the primary focus of the verification process for requirements?
 A: Ensuring financial feasibility of the requirements
 B: Confirming that the requirements are well-defined and clear
-C: Assessing the legal implications of the requirements
+C: Assessing the legal implications of the requirements for the project
 D: Allocating resources based on the requirements
 Answer: B
 Explanation: Verification of requirements focuses on confirming that they are well-defined, unambiguous, and clear, essentially checking the quality of the requirements before they proceed further in the project lifecycle.
 
 Question: What does the validation process for requirements primarily confirm?
-A: The alignment of requirements with legal standards
+A: The alignment of requirements with legal standards and regulations
 B: That requirements are aligned with the strategic goals and business needs
 C: The resource allocation for the requirements
 D: The communication strategy for the project
@@ -51,16 +51,16 @@ Explanation: Validation confirms that the requirements not only are well-written
 
 Question: How do approved requirements function in predictive project life cycles?
 A: They establish a "requirements baseline" for the project
-B: They are used only for stakeholder communication
+B: They are used only for stakeholder communication purposes
 C: They solely focus on the financial aspects of the project
 D: They determine the legal contracts for the project
 Answer: A
 Explanation: In predictive project life cycles, approved requirements establish a "requirements baseline," against which any change requests are evaluated for impact analysis.
 
 Question: What is an indicator that requirements have achieved "approved" status?
-A: Stakeholders have been informed about the requirements
+A: Stakeholders have been informed about the requirements list
 B: Stakeholders with decision-making authority agree with the requirements
-C: The project budget has been allocated based on the requirements
+C: The project budget has been allocated based on the requirements list
 D: The legal team has reviewed the requirements
 Answer: B
 Explanation: The approval of requirements indicates that stakeholders with decision-making authority are in agreement with the requirements as they stand.
@@ -68,7 +68,7 @@ Explanation: The approval of requirements indicates that stakeholders with decis
 Question: In an adaptive life cycle, how are approved requirements typically manifested?
 A: As a finalized project budget
 B: As a prioritized backlog ready for development
-C: As a legal document for stakeholder agreements
+C: As a legal document for stakeholder agreements and contracts
 D: As a fixed communication plan for the project
 Answer: B
 Explanation: In projects using an adaptive life cycle, approved requirements often take the form of a prioritized backlog ready for development, including "stories" selected for upcoming iterations.

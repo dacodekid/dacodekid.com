@@ -51,7 +51,7 @@ Answer: C
 Explanation: Actual Acceptance Results from regression testing are invaluable for Business Analysts as they help uncover situations where recent changes to the product might have negatively impacted existing functionalities.
 
 Question: If the Actual Acceptance Results frequently show major discrepancies with the Acceptance Criteria, what strategic decision might this prompt?
-A: Increasing the marketing budget for the product
+A: Increasing the marketing budget for the product to improve its visibility
 B: Reconsidering the project scope, timelines, or overall approach
 C: Immediately terminating the project
 D: Outsourcing the project to another team
@@ -60,17 +60,17 @@ Explanation: Frequent or major discrepancies between Actual Acceptance Results a
 
 Question: How do Actual Acceptance Results contribute to quality control in a project?
 A: By establishing a record of the product’s alignment with requirements and expectations
-B: By determining the financial profitability of the product
-C: By assessing the efficiency of the project management methodologies used
+B: By determining the financial profitability of the product or project
+C: By assessing the efficiency of the project management methodologies used in the project
 D: By evaluating the effectiveness of the project's risk management strategies
 Answer: A
 Explanation: Actual Acceptance Results play a critical role in quality control by establishing a concrete record of the product’s alignment with stakeholder requirements and expectations, thereby serving as an accountability tool.
 
 Question: When Actual Acceptance Results identify defects, what is the typical course of action recommended by Business Analysts?
-A: Ignore the defects if they are minor
+A: Ignore the defects if they are minor and do not impact the product's performance
 B: Recommend adjustments or changes to address the defects
 C: Immediately halt all project activities
-D: Shift focus to a different project or product
+D: Shift focus to a different project or product altogether
 Answer: B
 Explanation: Upon identifying defects through Actual Acceptance Results, Business Analysts typically recommend corrective measures, ranging from minor adjustments to significant changes in the product, feature, or functionality.
 ```

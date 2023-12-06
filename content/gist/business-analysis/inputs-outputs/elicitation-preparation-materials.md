@@ -49,8 +49,8 @@ Elicitation Preparation Materials serve as a vital roadmap for conducting effect
 ```quiz
 Question: What is the primary goal of using Elicitation Preparation Materials in a project?
 A: To determine the project's final budget
-B: To ensure the elicitation process achieves its set objectives
-C: To establish the project's legal framework
+B: To guarantee the elicitation process meets its objectives
+C: To establish the project's legal framework and compliance
 D: To define the technical architecture of the project
 Answer: B
 Explanation: The primary goal of Elicitation Preparation Materials is to maximize the probability of meeting the set objectives of the elicitation process, ensuring effective requirement gathering.
@@ -64,10 +64,10 @@ Answer: A
 Explanation: Elicitation Preparation Materials are designed to optimize the time spent in elicitation sessions, making efficient use of stakeholders' time and ensuring quick progress in the project.
 
 Question: What types of elements might be included in Elicitation Preparation Materials?
-A: Elicitation objectives, agenda, background information, questions, and presentation materials
-B: Financial statements and budget forecasts for the project
+A: Elicitation goals, agenda, background info, questions, and presentation materials
+B: Financial statements and budget forecasts for the project and its activities
 C: Legal contracts and compliance documents
-D: Technical specifications and architectural blueprints
+D: Technical specifications and architectural blueprints for the project
 Answer: A
 Explanation: Elicitation Preparation Materials can include various elements like stated objectives for the activity, a schedule or agenda, background information, a set of questions to guide the process, and presentation materials.
 
@@ -81,7 +81,7 @@ Explanation: Post-elicitation, Elicitation Preparation Materials may be revisite
 
 Question: In what way do Elicitation Preparation Materials interact with the process of creating and analyzing models?
 A: They are irrelevant to the modeling process
-B: They help structure the discussion and provide context for model creation
+B: They organize discussion and provide context for modeling
 C: They solely focus on the financial aspects of modeling
 D: They dictate the final model design without any alterations
 Answer: B

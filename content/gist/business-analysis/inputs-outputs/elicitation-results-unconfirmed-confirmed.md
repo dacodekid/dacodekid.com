@@ -37,7 +37,7 @@ In summary, elicitation results, whether unconfirmed or confirmed, are integral 
 
 ```quiz
 Question: What are elicitation results in the context of business analysis?
-A: Quantitative data obtained from financial reports
+A: Quantitative data obtained from financial reports and audits
 B: Information acquired through elicitation activities
 C: Official statements released by stakeholders
 D: Confirmed data from external sources
@@ -56,13 +56,13 @@ Question: What role do unconfirmed elicitation results play in business analysis
 A: They are disregarded in favor of confirmed information
 B: They serve as a preliminary base for understanding problems or opportunities
 C: They are used only for financial analysis
-D: They are only used in the final stages of project development
+D: They are only used in the final stages of project development and implementation
 Answer: B
 Explanation: Unconfirmed elicitation results serve as a preliminary base for comprehending the scope and context of a problem or opportunity, aiding in further analysis and collaboration.
 
 Question: How do elicitation results contribute to stakeholder identification and analysis?
 A: They provide definitive legal advice about stakeholders
-B: They only offer insights into confirmed stakeholders
+B: They only offer insights into confirmed stakeholders and their characteristics
 C: They highlight potential areas where new stakeholders might be located
 D: They are irrelevant in stakeholder analysis
 Answer: C
@@ -70,8 +70,8 @@ Explanation: Elicitation results, even when unconfirmed, can highlight potential
 
 Question: What demonstrates the iterative nature of business analysis?
 A: The static nature of elicitation results
-B: The transition of elicitation results from unconfirmed to confirmed status
-C: Discontinuation of elicitation after initial stages
+B: Changing elicitation results from unconfirmed to confirmed status
+C: Discontinuation of elicitation after initial stages of the project
 D: Sole reliance on external data sources
 Answer: B
 Explanation: The iterative nature of business analysis is demonstrated by the transition of elicitation results from unconfirmed to confirmed status through analysis and collaboration, showing the dynamic and evolving nature of the information-gathering process.

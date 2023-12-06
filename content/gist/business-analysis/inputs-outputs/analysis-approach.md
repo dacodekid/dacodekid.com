@@ -55,7 +55,7 @@ By adhering to a well-defined Analysis Approach, Business Analysts can achieve c
 
 ```quiz
 Question: Why is the Analysis Approach considered dynamic in business analysis?
-A: It includes static models for project management
+A: It includes static models for project management and tracking
 B: It changes as new information arises during the project
 C: It outlines unchangeable project budgets and timelines
 D: It's used only for stakeholder communication strategies
@@ -63,7 +63,7 @@ Answer: B
 Explanation: The Analysis Approach is dynamic because it may undergo changes as the project progresses and new insights are gained, necessitating updates to the methodology and practices.
 
 Question: What is the primary purpose of the Verification and Validation component in the Analysis Approach?
-A: To allocate project resources efficiently
+A: To allocate project resources efficiently and effectively
 B: To ensure requirements are accurate and complete
 C: To define the project's communication plan
 D: To establish legal contracts for the project
@@ -71,10 +71,10 @@ Answer: B
 Explanation: The Verification and Validation component of the Analysis Approach is crucial for ensuring that the requirements are accurate, complete, and will meet the intended purpose.
 
 Question: How does the Analysis Approach aid in the tracking of requirements?
-A: By outlining legal compliance measures
+A: By outlining legal compliance measures for requirements
 B: By focusing on the financial aspects of requirements
 C: By specifying attributes to be captured for requirements
-D: By detailing stakeholder training programs
+D: By detailing stakeholder training programs for requirements
 Answer: C
 Explanation: The Analysis Approach includes a focus on Requirements Attributes, determining what attributes need to be captured for effective management and tracking of requirements.
 
@@ -82,15 +82,15 @@ Question: What does the Requirements Architecture component address in the Analy
 A: The legal aspects of requirements
 B: Relationships among different requirements and models
 C: Financial implications of requirements
-D: Training needs for project stakeholders
+D: Training needs for project stakeholders regarding requirements
 Answer: B
 Explanation: The Requirements Architecture component is crucial as it outlines how different requirements and models relate to each other, aiding in modeling elaboration and understanding the interdependencies.
 
 Question: When would new models typically be added to the Analysis Approach?
 A: Only at the project outset
-B: When budget increases allow for it
+B: When budget increases allow for it during the project
 C: As analysis progresses and new needs are identified
-D: After project completion, during retrospectives
+D: After project completion, during retrospectives and lessons learned
 Answer: C
 Explanation: The Analysis Approach is revised to include new models as the analysis progresses and the need for new types of models emerges, reflecting the evolving nature of the project.
 ```

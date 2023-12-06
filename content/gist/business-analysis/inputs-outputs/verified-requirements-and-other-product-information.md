@@ -27,42 +27,42 @@ In essence, verified requirements and other product information are critical ass
 
 ```quiz
 Question: What is the primary focus of verifying requirements and product information in a project?
-A: To define the project's marketing and communication strategies
+A: To define the project's marketing and communication strategies and channels
 B: To ensure they are free from errors and conform to quality standards
-C: To establish the project's legal and compliance framework
+C: To establish the project's legal and compliance framework and requirements
 D: To determine the project's budget and financial goals
 Answer: B
 Explanation: The primary focus of verifying requirements and other product information is to ensure that they are accurate, free from errors, and conform to predefined quality standards.
 
 Question: Why is verification important, even if it doesn't guarantee business alignment?
 A: Because it ensures that the requirements are well-crafted and meet quality standards
-B: Verification is not important in business analysis
-C: It focuses solely on the financial aspects of the requirements
-D: It dictates the aesthetic aspects of the product
+B: Verification is not important in business analysis processes and can be skipped
+C: It focuses solely on the financial aspects of the requirements and product information
+D: It dictates the aesthetic aspects of the product and requirements
 Answer: A
 Explanation: Verification is crucial because it ensures that the requirements are well-crafted and meet certain quality standards, focusing on 'building the thing right' before assessing whether they align with business needs ('building the right thing').
 
 Question: How do verified requirements and product information serve subsequent business analysis processes?
-A: They are disregarded in subsequent processes
+A: They are disregarded in subsequent processes as they are already verified
 B: As reliable inputs for activities like validation and stakeholder approval
-C: They solely focus on the financial aspects of subsequent processes
+C: They solely focus on the financial aspects of subsequent processes and activities
 D: They dictate the aesthetic design of subsequent deliverables
 Answer: B
 Explanation: Once verified, requirements and product information often serve as reliable inputs for other business analysis processes or project activities, such as validation and eventual approval by stakeholders.
 
 Question: What does the verification process typically assess in terms of requirements?
-A: Completeness, consistency, and other quality attributes
-B: Solely the financial implications of the requirements
-C: The aesthetic design of the requirements
-D: The legal compliance of the requirements
+A: Completeness, consistency, and other quality attributes of the requirements
+B: Solely the financial implications of the requirements and product information
+C: The aesthetic design of the requirements and product information
+D: The legal compliance of the requirements and product information
 Answer: A
 Explanation: The verification process assesses requirements and product information for completeness, consistency, and conformity to other quality attributes, ensuring they are free from errors.
 
 Question: How are requirements usually processed in terms of verification and validation?
 A: They are often verified for quality before being validated for business effectiveness
-B: Validation always occurs before verification
-C: Verification and validation are irrelevant processes
-D: They are only verified and never validated
+B: Validation always occurs before verification in the business analysis process
+C: Verification and validation are irrelevant processes in business analysis
+D: They are only verified and never validated in the business analysis process
 Answer: A
 Explanation: Although verification and validation can technically occur in any order or concurrently, it is common for requirements to be verified for quality and accuracy before being validated to ensure they meet business objectives.
 ```

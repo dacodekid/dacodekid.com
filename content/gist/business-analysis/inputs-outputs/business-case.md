@@ -42,31 +42,31 @@ In summary, the Business Case is a multi-faceted document that serves several cr
 ```quiz
 Question: What is the main purpose of the Business Case in the context of project or portfolio management?
 A: To detail the technical specifications of the project.
-B: To establish the economic feasibility and justify the investment in an initiative.
-C: To create a detailed project schedule with deadlines and milestones.
+B: To determine the economic viability and justify the initiative's investment.
+C: To create a detailed project schedule with deadlines and milestones for the project.
 D: To serve as a legal contract between the organization and external stakeholders.
 Answer: B
 Explanation: The primary purpose of the Business Case is to establish the economic feasibility of an initiative and justify the investment required, by detailing the value and benefits it will bring to the organization.
 
 Question: How does the Business Case link to Business Goals and Objectives?
 A: It provides a detailed technical roadmap for the project.
-B: It connects business goals and objectives with the actual work in portfolio components, programs, or projects.
-C: It focuses exclusively on the marketing and sales strategies for the project.
+B: It links business goals with the practical work in portfolios, programs, or projects.
+C: It focuses exclusively on the marketing and sales strategies for the project or program.
 D: It serves as a comprehensive risk management document.
 Answer: B
 Explanation: The Business Case acts as a tether that links business goals and objectives with the actual work involved in portfolio components, programs, or projects, aligning them with the organization’s overarching strategy.
 
 Question: In what way does the Business Case contribute to the creation of a Charter?
-A: It provides a detailed budget breakdown for the project.
-B: It serves as a key input, containing essential information like business need and cost-benefit analysis.
-C: It outlines the specific qualifications and skills required for team members.
+A: It provides a detailed budget breakdown for the project or program.
+B: It acts as a crucial input with vital details such as business need and cost-benefit analysis.
+C: It outlines the specific qualifications and skills required for team members on the project.
 D: It details the technology stack to be used in the project.
 Answer: B
 Explanation: Once approved, the Business Case serves as a crucial input for creating a Charter, often containing an abbreviated version of the business case, including key details such as the business need and cost-benefit analysis.
 
 Question: What role does the Business Case play in the Needs Assessment phase?
 A: It is mainly used for team building and human resource planning.
-B: It is one of the final steps, providing a foundation for defining the objectives of the initiative.
+B: It's a final step, laying the groundwork for setting the initiative's objectives.
 C: It focuses on the development of the project's IT infrastructure.
 D: It serves as a document for external stakeholder communication.
 Answer: B
@@ -74,8 +74,8 @@ Explanation: In the Needs Assessment phase, assembling the Business Case is one 
 
 Question: Why is the Business Case considered an authoritative source for expected benefits of an initiative?
 A: It primarily serves as a technical guide for the development team.
-B: It is the foundational document for tracking and measuring the outlined benefits.
-C: It focuses on the recruitment and training aspects of the project team.
+B: It's the base document for monitoring and assessing the specified benefits.
+C: It focuses on the recruitment and training aspects of the project team members.
 D: It is used to establish partnerships with external vendors and suppliers.
 Answer: B
 Explanation: The Business Case is viewed as the authoritative source for expected benefits because it details these benefits in a manner that allows for tracking and measurement, thus providing a clear framework for evaluating the success of the initiative.

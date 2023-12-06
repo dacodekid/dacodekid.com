@@ -28,14 +28,14 @@ By meticulously performing a Current State Assessment, business analysts lay the
 ```quiz
 Question: What is the primary goal of conducting a Current State Assessment in business analysis?
 A: To plan corporate social events and team outings.
-B: Understanding the existing "as-is" state to determine the desired "to-be" state.
+B: Grasping the current state to define the desired future state.
 C: Focusing solely on the organization's digital marketing strategies.
 D: Managing the daily operational tasks and employee schedules.
 Answer: B
 Explanation: The primary goal of a Current State Assessment is to understand the existing "as-is" state of the organization or project, which helps in determining what should exist in the future "to-be" state.
 
 Question: How does a Current State Assessment utilize models and textual descriptions?
-A: For designing the company's annual report and marketing materials.
+A: For designing the company's annual report and marketing materials for the year.
 B: They provide insights into the current functioning of the organization.
 C: Used exclusively for financial budgeting and planning.
 D: Focused on employee recruitment and training processes.
@@ -44,7 +44,7 @@ Explanation: In a Current State Assessment, models like workflow diagrams and te
 
 Question: What role does the Current State Assessment play in relation to solution design?
 A: It is used to design new office spaces and layouts.
-B: Assists in comparing the current state with future solution designs to identify gaps.
+B: Helps compare the present state with future solutions to spot discrepancies.
 C: Focused on planning and organizing office parties and events.
 D: Used solely for managing the company's social media accounts.
 Answer: B
@@ -59,8 +59,8 @@ Answer: B
 Explanation: Depending on various factors like project complexity, industry norms, and the size of the problem, formal documentation of the Current State Assessment may not be necessary.
 
 Question: What types of differences does a Current State Assessment identify when compared to future solutions?
-A: Differences in the types of office equipment and supplies used.
-B: Differences in functionalities, new capabilities, or capabilities not present in the current state.
+A: Disparities in the types of office equipment and supplies utilized for improved efficiency.
+B: Discrepancies in functionalities, new features, or absent capabilities in the current state.
 C: Variations in employee satisfaction and engagement levels.
 D: Changes in the organization's market share and customer base.
 Answer: B

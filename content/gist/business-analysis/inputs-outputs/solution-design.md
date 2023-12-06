@@ -39,42 +39,42 @@ The solution design serves as an instrumental framework that facilitates the tra
 
 ```quiz
 Question: What is the primary purpose of "Solution Design" in the context of Business Analysis?
-A: To provide a set of specifications and diagrams for the future state of the organization
-B: To outline the financial strategies for the organization
-C: To serve as a legal document for organizational changes
-D: To focus solely on the current operational procedures
+A: To offer specifications and diagrams for the organization's future state
+B: To outline the financial strategies for the organization to follow
+C: To serve as a legal document for organizational changes and transitions
+D: To focus solely on the current operational procedures of the organization
 Answer: A
 Explanation: Solution Design in Business Analysis refers to a comprehensive set of specifications and diagrams that articulate the future state of the organization, serving as a pivotal input for transitioning from the current state.
 
 Question: What kind of information does "Solution Design" typically include?
-A: Only financial and budgetary requirements
+A: Only financial and budgetary requirements for the project
 B: Specifications, diagrams, and business procedure specifications
-C: Solely the organizational hierarchy and role definitions
+C: Solely the organizational hierarchy and role definitions of team members
 D: Limited to stakeholder communication strategies
 Answer: B
 Explanation: Solution Design includes detailed specifications (functional and non-functional), diagrams (like flowcharts, architecture diagrams), and business procedure specifications.
 
 Question: How does the Solution Design relate to Business Analysis?
 A: It contradicts the findings from Business Analysis.
-B: It is an extension of the product information identified in Business Analysis.
-C: It is unrelated and independent of Business Analysis.
-D: It focuses exclusively on external market factors.
+B: It is an extension of the product information identified.
+C: It is unrelated and independent of Business Analysis findings.
+D: It focuses exclusively on external market factors and trends.
 Answer: B
 Explanation: The specifications and diagrams in the Solution Design are usually an extension of the product information identified and elaborated upon during the Business Analysis process.
 
 Question: What role does Business and Enterprise Architecture play in Solution Design?
-A: It is generally disregarded in Solution Design.
-B: It ensures alignment with broader organizational strategy and infrastructure.
-C: Its sole purpose is to document historical data.
+A: It is generally disregarded in Solution Design as it is not relevant.
+B: Ensures alignment with organizational strategy and infrastructure.
+C: Its sole purpose is to document historical data and information.
 D: It focuses only on the technological aspects of the organization.
 Answer: B
 Explanation: When feasible and beneficial, Solution Design should leverage the existing features of the Business and Enterprise Architecture, ensuring alignment with the broader organizational strategy and infrastructure.
 
 Question: Why is comparative assessment important in Solution Design?
-A: It is only useful for marketing strategies.
+A: It is only useful for marketing strategies and campaigns.
 B: It helps identify design challenges and potential obstacles for transition.
-C: Its main focus is on comparing employee performance.
-D: It is used to determine the organization's stock value.
+C: Its main focus is on comparing employee performance and productivity.
+D: It is used to determine the organization's stock value and market share.
 Answer: B
 Explanation: Comparative assessment of the Solution Design against proposed options serves to identify potential design challenges and obstacles that may impede the transition to the future state.
 ```

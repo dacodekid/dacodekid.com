@@ -29,34 +29,34 @@ Improved Stakeholder Engagement and Communication are achieved through a combina
 
 ```quiz
 Question: When managing a project, you notice a decrease in team productivity. After investigation, you realize that poor communication and engagement with stakeholders is the primary issue. What should be the first action to address this problem?
-A: Implement new project management software to streamline processes.
+A: Implement new project management software to streamline processes and improve communication.
 B: Reassess and possibly revise the existing communication plans and engagement strategies.
-C: Increase the frequency of team meetings to improve internal communication.
-D: Assign more responsibilities to team members to encourage active participation.
+C: Increase the frequency of team meetings to improve internal communication and engagement.
+D: Assign more responsibilities to team members to encourage active participation in the project.
 Answer: B
 Explanation: The first action should be to reassess and possibly revise the existing communication plans and engagement strategies. This aligns with the practice of directing team's efforts towards addressing concerns in Stakeholder Engagement and Communication.
 
 Question: In a scenario where there are barriers to effective Stakeholder Engagement and Communication, who should a business analyst collaborate with to facilitate the removal of these obstacles?
-A: External consultants specializing in communication.
+A: External consultants specializing in communication and engagement.
 B: Individuals with management responsibilities like project managers or team leads.
-C: The entire project team, regardless of their roles or responsibilities.
-D: Stakeholders who are being impacted by these barriers.
+C: The entire project team, regardless of their roles or responsibilities in the project.
+D: Stakeholders who are being impacted by these barriers to communication and engagement.
 Answer: B
 Explanation: Business analysts should collaborate with individuals who have management responsibilities (like project managers or team leads) to facilitate the removal of obstacles in Stakeholder Engagement and Communication.
 
 Question: How should a business analyst approach the process of improving Stakeholder Engagement and Communication over the course of a project?
 A: By strictly adhering to the initial engagement and communication plan without any changes.
-B: Through a one-time, comprehensive overhaul of all communication strategies.
+B: Through a one-time, comprehensive overhaul of all communication strategies and plans.
 C: By adopting an iterative approach, adjusting strategies as new challenges arise.
 D: By delegating the responsibility of communication to a specialized team.
 Answer: C
 Explanation: The process of improving Stakeholder Engagement and Communication should be approached iteratively, making adjustments as new challenges arise throughout the project.
 
 Question: When a project experiences organizational, technical, or interpersonal roadblocks that impede effective Stakeholder Engagement and Communication, whose responsibility is it primarily to address these issues?
-A: The IT department, for any technical issues.
-B: Junior team members, as a learning opportunity.
-C: Management, leveraging their authority to facilitate the removal of these impediments.
-D: External stakeholders, to provide a fresh perspective.
+A: The IT department, for any technical issues that arise.
+B: Junior team members, as a learning opportunity for them.
+C: Management using their authority to remove impediments.
+D: External stakeholders, to provide a fresh perspective on the issue.
 Answer: C
 Explanation: It is primarily the responsibility of management to address issues like organizational, technical, or interpersonal roadblocks, leveraging their authority to facilitate effective Stakeholder Engagement and Communication.
 

@@ -29,7 +29,7 @@ In essence, Configuration Management Standards serve as a framework that instill
 
 ```quiz
 Question: What is the primary role of Configuration Management Standards in a project?
-A: To define the project's marketing strategy
+A: To define the project's marketing strategy and sales plan
 B: To govern and control changes made to the solution
 C: To allocate the project budget
 D: To outline the project's communication channels
@@ -39,22 +39,22 @@ Explanation: Configuration Management Standards are crucial for the governance a
 Question: How do Configuration Management Standards contribute to ensuring that the developed product aligns with its approved requirements?
 A: By focusing exclusively on the financial aspects of the project
 B: By ensuring systematic assessment and control of any divergence
-C: By allocating resources based on project milestones
+C: By allocating resources based on project milestones and deliverables
 D: By dictating the project's communication strategy
 Answer: B
 Explanation: One of the key functions of Configuration Management Standards is to ensure alignment with approved requirements, with any deviations being systematically assessed and controlled.
 
 Question: What aspect of project management is critically supported by Configuration Management Standards?
 A: Traceability and monitoring of the development process
-B: Solely the financial tracking of the project
-C: The personal performance assessment of team members
+B: Solely the financial tracking of the project budget
+C: The personal performance assessment of team members and stakeholders
 D: The aesthetic design of the project deliverables
 Answer: A
 Explanation: Configuration Management Standards play a crucial role in dictating how traceability and monitoring should be conducted, ensuring alignment with the development process.
 
 Question: In the absence of established Configuration Management Standards, what responsibility falls on the project team?
 A: To disregard any form of configuration management
-B: To define their own configuration management process
+B: To define their own configuration management process and standards
 C: To follow a standardized global configuration management process
 D: To focus solely on the technical aspects of the project
 Answer: B
@@ -63,7 +63,7 @@ Explanation: If an organization does not have established Configuration Manageme
 Question: What is a key feature of Configuration Management that aids in troubleshooting and auditing?
 A: The ability to revert to previous versions of project artifacts
 B: The exclusion of any form of version control
-C: The use of a single tool for all configuration management tasks
+C: The use of a single tool for all configuration management tasks and activities
 D: The focus on aesthetic aspects of project artifacts
 Answer: A
 Explanation: A critical feature of Configuration Management is version control, which allows for reverting to previous versions of artifacts like code, models, or requirements, aiding in troubleshooting and auditing.

@@ -79,7 +79,7 @@ Explanation: The Business Analysis Performance Assessment contributes to continu
 
 Question: When a Business Analysis Performance Assessment identifies challenges with certain tools or techniques, what is the likely course of action?
 A: The tools or techniques are immediately discontinued with no alternatives.
-B: Recommendations are made for improving or replacing them with more effective alternatives.
+B: Suggestions are made to enhance or replace them with better alternatives.
 C: The same tools or techniques are mandated for all future projects.
 D: The tools or techniques are used only in high-risk projects.
 Answer: B

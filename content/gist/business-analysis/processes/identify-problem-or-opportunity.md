@@ -17,7 +17,7 @@ The identification of the business problem or opportunity is a pre-project activ
 
 ### Role of Elicitation
 
-==Various tools like SWOT analysis, PESTLE analysis==, or root cause analysis could be utilized for a comprehensive identification of problems or opportunities. This process works closely with "Conduct Elicitation," as a lot of the necessary information is obtained through effective elicitation. Inadequate data could result in proposing solutions that do not accurately address the scale of the problem or opportunity, thereby emphasizing the critical role of elicitation.
+==Various tools like SWOT analysis, PESTLE analysis, or Root-Cause analysis== could be utilized for a comprehensive identification of problems or opportunities. This process works closely with "[Conduct Elicitation](./conduct-elicitation.md)," as a lot of the necessary information is obtained through effective elicitation. Inadequate data could result in proposing solutions that do not accurately address the scale of the problem or opportunity, thereby emphasizing the critical role of elicitation.
 
 ### Drafting a Situation Statement
 

@@ -45,33 +45,33 @@ In summary, Metrics and KPIs serve as the linchpins for solution evaluation and 
 
 ```quiz
 Question: What is the primary function of Metrics in the context of business analysis?
-A: To define the project's budget and resource allocation
-B: To serve as quantifiable measures for evaluating solution performance
-C: To establish the legal framework of a project
-D: To outline the project's communication strategy
+A: To define the project's budget and resource allocation plan
+B: To quantify solution performance evaluation
+C: To establish the legal framework of a project or solution
+D: To outline the project's communication strategy and plan
 Answer: B
 Explanation: In business analysis, Metrics are used as quantifiable measures for evaluating the performance of a solution, helping in defining how its success can be quantified.
 
 Question: How do Key Performance Indicators (KPIs) differ from general Metrics?
-A: KPIs are less focused and not tied to specific objectives
-B: KPIs are a specialized type of metric focused on strategic organizational objectives
-C: KPIs are only used for financial evaluations
-D: KPIs serve as a legal compliance check
+A: KPIs are less focused and not tied to specific objectives or goals
+B: KPIs are strategic organizational metrics
+C: KPIs are only used for financial evaluations of a solution
+D: KPIs serve as a legal compliance check for a solution
 Answer: B
 Explanation: KPIs are a specialized type of metric that are usually tied back to strategic organizational objectives, serving as actionable indicators for evaluating progress towards specific goals.
 
 Question: When selecting Metrics and KPIs for evaluating a solution, what is a crucial consideration?
-A: The color scheme of the reporting dashboards
+A: The color scheme of the reporting dashboards and charts
 B: Ensuring alignment with the business objectives
-C: The aesthetic design of the solution
-D: The marketing strategy of the organization
+C: The aesthetic design of the solution under evaluation
+D: The marketing strategy of the organization or project
 Answer: B
 Explanation: It's important to ensure that the Metrics and KPIs selected for solution evaluation align with the business objectives, as they should help in measuring the factors critical for achieving them.
 
 Question: How can Metrics be used in the context of a solution under development?
-A: As part of the acceptance criteria to determine if the solution meets requirements
-B: To determine the project's final budget
-C: Solely for aesthetic evaluations
+A: As acceptance criteria to gauge solution compliance
+B: To determine the project's final budget and resource allocation plan
+C: Solely for aesthetic evaluations of the solution
 D: For establishing the project's communication plan
 Answer: A
 Explanation: In the context of a solution under development, Metrics can form part of the acceptance criteria, helping to determine if the solution meets the outlined requirements.

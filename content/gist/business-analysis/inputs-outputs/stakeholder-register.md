@@ -48,34 +48,34 @@ Answer: B
 Explanation: It's important to develop a comprehensive Stakeholder Register to identify and assess all entities that may influence or be influenced by the project, aiding in effective stakeholder management.
 
 Question: How does the Stakeholder Register aid in the development of a Stakeholder Engagement and Communication Approach?
-A: By providing detailed financial data about each stakeholder.
+A: By providing detailed financial data about each stakeholder and their contributions.
 B: By offering insights into stakeholders' interests and preferred communication methods.
-C: By listing stakeholders based on their geographical location.
-D: By categorizing stakeholders solely based on their organizational role.
+C: By listing stakeholders based on their geographical location and time zone.
+D: By categorizing stakeholders solely based on their organizational role and title.
 Answer: B
 Explanation: The Stakeholder Register aids in developing a Stakeholder Engagement and Communication Approach by offering insights into stakeholders' interests and preferred communication methods.
 
 Question: When assessing stakeholders for inclusion in the Stakeholder Register, what aspect is a Business Analyst MOST likely to evaluate?
-A: The stakeholder's financial contribution to the project.
+A: The stakeholder's financial contribution to the project budget.
 B: Each stakeholder's interest, influence, and impact on the project.
-C: The personal preferences and hobbies of the stakeholders.
-D: The technological skills of each stakeholder.
+C: The personal preferences and hobbies of the stakeholders involved.
+D: The technological skills of each stakeholder and their ability to contribute.
 Answer: B
 Explanation: When assessing stakeholders for the Stakeholder Register, a Business Analyst is most likely to evaluate each stakeholder's interest, influence, and impact on the project.
 
 Question: Why is it necessary to continuously update the Stakeholder Register throughout the project lifecycle?
-A: To keep track of the financial contributions of each stakeholder.
+A: To keep track of the financial contributions of each stakeholder to the project.
 B: Because new stakeholders may emerge or existing stakeholders' interests may change.
-C: To reduce the overall number of stakeholders as the project progresses.
-D: To focus on stakeholders who provide technological support.
+C: To reduce the overall number of stakeholders as the project progresses and matures.
+D: To focus on stakeholders who provide technological support to the project.
 Answer: B
 Explanation: It is necessary to continuously update the Stakeholder Register because new stakeholders may emerge or existing stakeholders' interests or influence may change as the project progresses.
 
 Question: In the context of Risk Management, what role does the Stakeholder Register play?
-A: It is used to calculate the financial risks associated with each stakeholder.
+A: It is used to calculate the financial risks associated with each stakeholder involved.
 B: It helps identify potential risks or resistance to the project related to stakeholders.
 C: The register is primarily used to track the technical risks posed by stakeholders.
-D: It focuses on the legal implications of stakeholder interests.
+D: It focuses on the legal implications of stakeholder interests and influence.
 Answer: B
 Explanation: In Risk Management, the Stakeholder Register helps identify potential risks or resistance related to stakeholders and aids in developing strategies to mitigate these risks.
 

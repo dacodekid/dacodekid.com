@@ -65,7 +65,7 @@ Answer: A
 Explanation: If the elicitation techniques are appropriate and the business analysts are skilled, but the work products are lacking, the focus should be on enhancing the level of stakeholder participation.
 
 Question: When Business Analysis Work Products frequently exhibit ambiguities and gaps, which factor should be considered as a potential cause?
-A: Inadequate review and validation processes
+A: Inadequate review and validation processes for the work products
 B: Insufficient detail captured using the chosen technique
 C: Lack of alignment with project management methodologies
 D: Ineffective communication channels within the team

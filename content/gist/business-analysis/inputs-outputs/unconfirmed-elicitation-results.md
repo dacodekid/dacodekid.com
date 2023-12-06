@@ -27,42 +27,42 @@ In essence, unconfirmed elicitation results serve as a starting point in the bus
 
 ```quiz
 Question: What are "Unconfirmed Elicitation Results" in the context of business analysis?
-A: Finalized and approved project outcomes
+A: Finalized and approved project outcomes that are ready for implementation
 B: Initial outcomes from elicitation activities awaiting validation
 C: The project's budget and financial documents
-D: Legal compliance documents for the project
+D: Legal compliance documents for the project and product
 Answer: B
 Explanation: Unconfirmed Elicitation Results are the initial outcomes from completed elicitation activities that have not yet undergone a validation or review process, making them "unconfirmed" until further validated.
 
 Question: How are Unconfirmed Elicitation Results typically documented?
-A: In a highly formalized and rigid format only
+A: In a highly formalized and rigid format only using specialized tools
 B: Using a range of formats from informal snapshots to specialized tools
-C: Solely through financial documentation
-D: Exclusively through legal documentation
+C: Solely through financial documentation and budgeting
+D: Exclusively through legal documentation and compliance
 Answer: B
 Explanation: The documentation of Unconfirmed Elicitation Results can vary in formality, ranging from informal methods like snapshots of a whiteboard to more formal documentation using specialized requirements management tools.
 
 Question: What is the purpose of consolidating and organizing Unconfirmed Elicitation Results?
-A: To prepare for a formal review, understanding, and subsequent validation
-B: To focus solely on the financial aspects of the project
-C: To establish the project's legal framework
-D: To outline the project's marketing strategy
+A: To prepare for a formal review, understanding, and validation
+B: To focus solely on the financial aspects of the project and product
+C: To establish the project's legal framework and compliance
+D: To outline the project's marketing strategy and channels
 Answer: A
 Explanation: Post-elicitation, Unconfirmed Elicitation Results are consolidated and organized to facilitate a structured review and understanding, preparing them for subsequent validation.
 
 Question: How do Unconfirmed Elicitation Results evolve into Confirmed Elicitation Results?
 A: Through a process of review and validation by stakeholders
-B: They remain unconfirmed throughout the project
+B: They remain unconfirmed throughout the project lifecycle
 C: They are disregarded in favor of new elicitation activities
-D: Solely through financial review processes
+D: Solely through financial review processes and budgeting
 Answer: A
 Explanation: The transition from unconfirmed to confirmed elicitation results occurs through a process of review and validation, often undertaken by stakeholders or subject matter experts, leading to a consensus on the accuracy and relevance of the information.
 
 Question: What role do Unconfirmed Elicitation Results play in the business analysis process?
 A: They serve as a final and unchangeable basis for decision-making
 B: They act as a starting point, subject to further validation and review
-C: They solely focus on the aesthetic aspects of the project
-D: They are used to define the legal framework of the project
+C: They solely focus on the aesthetic aspects of the project and product
+D: They are used to define the legal framework of the project and product
 Answer: B
 Explanation: Unconfirmed Elicitation Results serve as a starting point in the business analysis process, gathered from various elicitation activities and existing in multiple formats, but require further validation to become reliable inputs for subsequent stages.
 ```

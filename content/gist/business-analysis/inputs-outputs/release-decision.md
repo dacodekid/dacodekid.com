@@ -71,9 +71,9 @@ Explanation: In a predictive project life cycle, the sign-off typically occurs a
 
 Question: What role does the RACI matrix play in the release decision process?
 A: It indicates who holds the accountability for the solution's sign-off
-B: It outlines the project's technical specifications
-C: It defines the project's aesthetic design guidelines
-D: It establishes the financial budget for the release
+B: It outlines the project's technical specifications and requirements
+C: It defines the project's aesthetic design guidelines and requirements
+D: It establishes the financial budget for the release and implementation
 Answer: A
 Explanation: The RACI matrix, developed during Business Analysis Planning, plays a crucial role in identifying who is accountable for the solution's sign-off, ensuring the involvement of the right stakeholders in the release decision.
 ```

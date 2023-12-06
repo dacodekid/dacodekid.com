@@ -27,16 +27,16 @@ As the business analysis work progresses, the volume of requirements and other p
 Question: In the context of "Requirements and Other Product Information," what is the primary role of Transition Requirements?
 A: They are used to define the financial aspects of the project.
 B: They serve to bridge the gap between the current and future states.
-C: They outline the technical specifications of the solution.
+C: They outline the technical specifications of the solution to be developed.
 D: They are exclusively focused on stakeholder communication strategies.
 Answer: B
 Explanation: Transition Requirements are crucial for bridging the gap between the current and future states of an organization or a system, encompassing temporary capabilities like data conversion, training needs, and operational changes.
 
 Question: How do "Requirements and Other Product Information" aid in the preparation of elicitation activities?
-A: By providing a checklist for required technical tools
-B: By setting financial benchmarks for the project
+A: By providing a checklist for required technical tools and equipment
+B: By setting financial benchmarks for the project budget
 C: By serving as a basis to determine the objectives and prepare questions
-D: By outlining the project's scope in terms of stakeholder management
+D: By outlining the project's scope in terms of stakeholder management and communication
 Answer: C
 Explanation: Requirements and other product information serve as the basis to determine the objectives of elicitation activities, helping in preparing questions and setting the agenda for these activities.
 
@@ -52,14 +52,14 @@ Question: How does the iterative process of refinement and expansion impact "Req
 A: It leads to a reduction in the overall volume of requirements.
 B: It ensures that requirements remain static throughout the project.
 C: It results in an increasingly comprehensive context for analysis.
-D: It primarily focuses on eliminating stakeholder input.
+D: It primarily focuses on eliminating stakeholder input and feedback.
 Answer: C
 Explanation: The iterative process of refinement and expansion leads to an increasingly comprehensive context, aiding in the creation of new models or the analysis of existing ones.
 
 Question: What is a key characteristic of "Requirements and Other Product Information" in business analysis?
-A: They focus solely on the current state of the project.
+A: They focus solely on the current state of the project and organization.
 B: They comprise all details relevant to a solution and evolve over time.
-C: They are static and unchanging once defined.
+C: They are static and unchanging once defined in the initial stages.
 D: They are limited to technical and operational aspects only.
 Answer: B
 Explanation: "Requirements and Other Product Information" not only comprise all details relevant to a solution but also serve as an evolving base for further elicitation and analysis activities.

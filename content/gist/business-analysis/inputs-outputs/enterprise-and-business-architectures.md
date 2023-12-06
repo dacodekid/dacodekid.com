@@ -40,7 +40,7 @@ Enterprise and Business Architectures serve as pivotal elements in business anal
 ```quiz
 Question: In the context of "Assess Current State," how do Enterprise and Business Architectures function as a fundamental input?
 A: They provide a high-level overview of the organization's financial status
-B: They visually and holistically depict different aspects of the enterprise and organizational structures
+B: They visually depict enterprise and organizational structures comprehensively
 C: They offer a detailed account of the organization's past performance
 D: They exclusively focus on the technological advancements within the organization
 Answer: B
@@ -56,14 +56,14 @@ Explanation: Enterprise and Business Architectures are used in discussions about
 
 Question: How do Enterprise and Business Architectures assist in analyzing and presenting viable options for organizational change?
 A: They provide a framework for team-building exercises
-B: They are used to analyze and explain options within the context of existing architectures
+B: Used to analyze options within existing architectures
 C: Their use is limited to evaluating the organization's marketing strategies
 D: They focus on mapping the personal career paths of employees
 Answer: B
 Explanation: Enterprise and Business Architectures assist in the process of analyzing and presenting viable options for organizational change by providing a context within the existing architectures. This helps frame the size and complexity of each option in terms understandable to decision-makers.
 
 Question: In stakeholder identification, how are Enterprise and Business Architectures utilized?
-A: As a source for identifying stakeholders based on the roles outlined in the architectures
+A: As a source for role-based stakeholder identification
 B: To determine the personal interests of each stakeholder
 C: Exclusively for understanding the technology preferences of stakeholders
 D: To map the financial contributions of stakeholders
@@ -74,7 +74,7 @@ Question: What role do Enterprise and Business Architectures play in the design 
 A: They are used to ensure compatibility of proposed designs with existing architectures or to understand how these architectures might change
 B: Their sole purpose is to track the implementation timeline of changes
 C: They focus on the personal development plans of the employees
-D: They are used to draft legal documents for organizational changes
+D: They are used to draft legal documents for organizational changes and compliance
 Answer: A
 Explanation: Enterprise and Business Architectures play a crucial role in the design and implementation of organizational changes by ensuring that proposed designs can operate within the existing architectures or understanding how those architectures might need to change. They help identify system, data limitations, and reuse opportunities, influencing the feasibility of design options.
 ```

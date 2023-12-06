@@ -45,10 +45,10 @@ The Transition Plan is an indispensable tool in the toolkit of business analysis
 
 ```quiz
 Question: What is the primary purpose of a Transition Plan in Business Analysis?
-A: To detail the financial investments for future projects
-B: To guide the steps and activities for transitioning to the future state
-C: To outline the marketing strategies for new products
-D: To document employee performance metrics
+A: To detail the financial investments for future projects and products
+B: To direct the steps and activities for transitioning to the future state
+C: To outline the marketing strategies for new products and services
+D: To document employee performance metrics and career paths
 Answer: B
 Explanation: The Transition Plan is a comprehensive guide that details the steps and activities necessary for a smooth transition from the current state to the future state as defined by the solution design.
 
@@ -61,9 +61,9 @@ Answer: B
 Explanation: The Readiness Assessment Input is a core element of the Transition Plan that helps identify the organization's capability and willingness to transition to the future state, providing a foundation for the plan.
 
 Question: How does the Transition Plan contribute to mitigating risks in Business Analysis?
-A: By prioritizing product development tasks
+A: By prioritizing product development tasks over other operational activities
 B: By identifying and managing risks related to transitioning to the new state
-C: By focusing solely on stakeholder profit margins
+C: By focusing solely on stakeholder profit margins and financial returns
 D: By documenting the historical performance of the organization
 Answer: B
 Explanation: The Transition Plan aids in identifying and managing risks associated with the transition to the new state, offering actionable risk responses.
@@ -77,9 +77,9 @@ Answer: C
 Explanation: The Conflict Resolution element of the Transition Plan ensures that transition activities do not clash with other ongoing projects or operational programs, thereby preventing bottlenecks and disruptions.
 
 Question: In the context of adaptive or agile methodologies, what does the Transition Plan often specify?
-A: A detailed five-year financial plan
+A: A detailed five-year financial plan for the organization
 B: A reserved block of time or iteration for transition-related tasks
-C: The long-term career paths for team members
+C: The long-term career paths for team members involved in the project
 D: The geographic expansion strategies for the company
 Answer: B
 Explanation: For projects using adaptive or agile methodologies, the Transition Plan may specify a reserved block of time or iteration specifically for dealing with transition-related tasks.

@@ -47,42 +47,42 @@ Feasibility Study Results play a vital role in facilitating organizational decis
 
 ```quiz
 Question: What is the main purpose of Feasibility Study Results in Business Analysis?
-A: To design the organization's website
-B: To provide key outcomes from the feasibility analysis for decision-making
-C: To schedule employee vacations
-D: To set up the organization's IT infrastructure
+A: To design the organization's website and social media presence
+B: To present critical outcomes for decisions
+C: To schedule employee vacations and time off
+D: To set up the organization's IT infrastructure and systems
 Answer: B
 Explanation: The primary purpose of Feasibility Study Results in Business Analysis is to provide the aggregated outcomes from the feasibility analysis, enabling executive review and informed decision-making.
 
 Question: What should the Feasibility Study Results package typically include?
-A: A detailed technical specification of IT systems
-B: A summary of outcomes, a recommended solution, and information on all viable options
+A: A detailed technical specification of IT systems and infrastructure requirements
+B: Summary of outcomes, recommended solution, and info on viable options
 C: The personal preferences of the project manager
 D: A plan for the organization's next corporate event
 Answer: B
 Explanation: The Feasibility Study Results package should include a summary of key takeaways, a recommended solution based on the analysis, and detailed information about all viable options considered during the feasibility study.
 
 Question: How do Feasibility Study Results contribute to the creation of a Business Case?
-A: By focusing on the aesthetic aspects of the project
+A: By focusing on the aesthetic aspects of the project or solution
 B: By providing foundational information to support decision-making
-C: By determining the project's budget allocation
-D: By outlining the project manager's personal goals
+C: By determining the project's budget allocation and financial plan
+D: By outlining the project manager's personal goals and objectives
 Answer: B
 Explanation: Feasibility Study Results contribute to the creation of a Business Case by providing foundational information and insights. This information helps decision-makers determine whether to initiate a portfolio component, program, or project.
 
 Question: Why is it important to include information about all viable options in the Feasibility Study Results?
-A: To focus solely on the financial aspects
+A: To focus solely on the financial aspects of the project or solution
 B: To ensure decision-makers have a holistic view of alternatives
-C: To set up team-building exercises
-D: To manage the organization's social media accounts
+C: To set up team-building exercises and activities
+D: To manage the organization's social media accounts and presence
 Answer: B
 Explanation: Including information about all viable options in the Feasibility Study Results is important to ensure that decision-makers have a comprehensive and holistic view of the alternatives available. This aids in making an informed decision, even if it differs from the recommended choice.
 
 Question: Are Feasibility Study Results used as a decision support tool?
-A: No, they are only for internal team discussions
-B: Yes, they serve as a decision support tool for executive review
-C: They are solely used for financial reporting
-D: They are exclusively for marketing decisions
+A: No, they are only for internal team discussions and review
+B: Yes, They aid executive decision support
+C: They are solely used for financial reporting and analysis
+D: They are exclusively for marketing decisions and planning
 Answer: B
 Explanation: Feasibility Study Results serve as a decision support tool, often adhering to an organizational standard or template, aimed to facilitate executive review and informed decision-making.
 

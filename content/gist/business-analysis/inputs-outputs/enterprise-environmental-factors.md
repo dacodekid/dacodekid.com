@@ -71,7 +71,7 @@ EEFs can both enable and constrain the analysis activities, from the choice of a
 Question: What are Enterprise Environmental Factors (EEFs) in the context of business analysis?
 A: Factors fully controlled by the business analysis team
 B: Conditions outside the immediate control of the team influencing business analysis
-C: Only the legal and contractual restrictions affecting business analysis
+C: Only the legal and contractual restrictions affecting business analysis activities
 D: Tools and techniques used in business analysis
 Answer: B
 Explanation: EEFs are conditions not under the immediate control of the team that influence, constrain, or direct how business analysis is conducted. They include a variety of external and internal factors but are not limited to legal and contractual restrictions or specific tools and techniques.
@@ -86,22 +86,22 @@ Explanation: Organizational culture and structure are examples of EEFs as they a
 
 Question: How do EEFs impact the choice of project or product life cycle in business analysis?
 A: They determine the exact steps in the life cycle
-B: EEFs have no impact on the life cycle choice
+B: EEFs have no impact on the life cycle choice in business analysis
 C: They influence the cumulative choice of the life cycle
-D: They solely dictate the budget for the life cycle
+D: They solely dictate the budget for the life cycle choice
 Answer: C
 Explanation: The cumulative influence of all environmental factors, or EEFs, affects the choice of the project or product life cycle in business analysis. They do not determine specific steps, solely dictate budgets, nor are they without impact on the life cycle choice.
 
 Question: In terms of EEFs, what can contractual restrictions in business analysis lead to?
-A: Guaranteed project success
-B: No significant impact on business analysis
+A: Guaranteed project success and stakeholder satisfaction
+B: No significant impact on business analysis processes
 C: Constraints or additional requirements in the analysis
 D: Simplification of business analysis processes
 Answer: C
 Explanation: Contractual restrictions can impose constraints or additional requirements on the business analysis processes. They are not typically associated with guaranteeing project success, simplifying processes, or having no impact.
 
 Question: Which factor is an example of how Enterprise Environmental Factors can influence business analysis through stakeholder dynamics?
-A: The project manager's leadership style
+A: The project manager's leadership style and preferences
 B: Stakeholder expectations and risk appetite
 C: The personal goals of the business analyst
 D: The technological expertise of the team
@@ -109,10 +109,10 @@ Answer: B
 Explanation: Stakeholder expectations and risk appetite are examples of how EEFs can influence business analysis through stakeholder dynamics, as they dictate what solutions stakeholders are willing to accept. The other options do not directly relate to stakeholder dynamics in the context of EEFs.
 
 Question: What role do social and cultural influences play in Enterprise Environmental Factors (EEFs)?
-A: They determine the technical aspects of business analysis
+A: They determine the technical aspects of business analysis processes
 B: They influence the formality and collaboration in business analysis
-C: They have no impact on business analysis
-D: They solely dictate the financial budgeting for projects
+C: They have no impact on business analysis processes
+D: They solely dictate the financial budgeting for projects and products
 Answer: B
 Explanation: Social and cultural influences are EEFs that can affect the formality of business analysis efforts and the ways in which business analysts collaborate with stakeholders. They do not solely determine technical or financial aspects and are not without impact on business analysis.
 
@@ -125,26 +125,26 @@ Answer: C
 Explanation: Security policies are an example of EEFs that can influence the choice of tools and techniques used in business analysis. They do not dictate the overall strategy, are not unrelated to EEFs, and their impact extends beyond just the hiring process.
 
 Question: What impact does enterprise architecture have as an Enterprise Environmental Factor?
-A: It solely influences the marketing strategies
-B: It has no influence on business analysis
+A: It solely influences the marketing strategies of a project
+B: It has no influence on business analysis processes
 C: It may constrain or influence the results of business analysis
-D: It determines the personal development of business analysts
+D: It determines the personal development of business analysts in a project
 Answer: C
 Explanation: Enterprise architecture as an EEF can influence or constrain the results of business analysis. It does not solely affect marketing strategies, has a significant impact on business analysis, and does not primarily focus on the personal development of business analysts.
 
 Question: How do marketplace conditions function as an Enterprise Environmental Factor in business analysis?
-A: They only impact the IT infrastructure
+A: They only impact the IT infrastructure of a project
 B: They can pose issues impacting product success
 C: They are irrelevant to business analysis
-D: They solely influence employee satisfaction
+D: They solely influence employee satisfaction in a project
 Answer: B
 Explanation: Marketplace conditions are EEFs that can pose issues affecting the chance of success with a current product, thus impacting business analysis. They are not limited to IT infrastructure, are relevant to business analysis, and do not solely influence employee satisfaction.
 
 Question: What is the influence of human resource management policies as an Enterprise Environmental Factor in business analysis?
-A: They determine the project timeline
-B: They impact the availability and capability of individuals involved
-C: They have no role in business analysis
-D: They only affect the technological choices in a project
+A: They determine the project timeline and budget
+B: They influence individual availability and capability
+C: They have no role in business analysis processes
+D: They only affect the technological choices in a project or product
 Answer: B
 Explanation: Human resource management policies as EEFs can impact the availability of individuals to be involved in business analysis and their capability and skill levels. They do not directly determine project timelines, are not irrelevant to business analysis, and their influence extends beyond just technological choices.
 ```

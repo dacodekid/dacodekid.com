@@ -47,42 +47,42 @@ In summary, Product Risk Analysis is a multi-faceted exercise that not only iden
 
 ```quiz
 Question: What is the primary purpose of conducting Product Risk Analysis in business analysis?
-A: To provide a detailed budget plan for risk management
-B: To identify, analyze, and prepare responses for risks associated with a product's development and implementation
-C: To serve as a legal document outlining the risks involved in a project
-D: To focus exclusively on the technical risks associated with product development
+A: To provide a detailed budget plan for risk management activities
+B: To identify, analyze, and prepare responses for product development and implementation risks
+C: To serve as a legal document outlining the risks involved in a project or product
+D: To focus exclusively on the technical risks associated with product development and implementation
 Answer: B
 Explanation: The primary purpose of Product Risk Analysis is to identify, analyze, and prepare responses for the various risks that could potentially affect a product's development, implementation, or operational phases. This analysis helps in effective risk management throughout the product lifecycle.
 
 Question: How does the List of Potential Responses contribute to Product Risk Analysis?
-A: By providing a financial breakdown for each identified risk
+A: By providing a financial breakdown for each identified risk and its potential responses
 B: By outlining potential mitigating actions to address each identified risk
-C: By serving as a technical manual for risk management tools
-D: By acting as a legal guideline for risk mitigation
+C: By serving as a technical manual for risk management tools and techniques used
+D: By acting as a legal guideline for risk mitigation and management processes
 Answer: B
 Explanation: The List of Potential Responses in Product Risk Analysis outlines potential mitigating actions for each identified risk. This helps in preparing and planning appropriate responses to manage and control the risks effectively.
 
 Question: Why is Total Risk Exposure an important component of Product Risk Analysis?
-A: It provides a detailed financial impact of all risks combined.
-B: It encapsulates the cumulative effect of all risks, calculated as the product of each risk's probability and impact.
-C: It outlines the technical implications of all risks combined.
-D: It serves as a legal assessment of the project's risks.
+A: It provides a detailed financial impact of all risks combined on the project.
+B: It quantifies overall risk as probability multiplied by impact.
+C: It outlines the technical implications of all risks combined on the project.
+D: It serves as a legal assessment of the project's risks and their impact.
 Answer: B
 Explanation: Total Risk Exposure is an important component of Product Risk Analysis as it encapsulates the cumulative effect of all identified risks. This is usually calculated as the product of each risk's probability and impact, providing a holistic view of the overall risk level associated with the product.
 
 Question: In which context is Product Risk Analysis particularly critical?
-A: In projects with low complexity and risk
+A: In projects with low complexity and risk levels
 B: In high-risk or complex projects, and during transition phases
-C: Solely in the financial planning phase of a project
-D: Only in the technical development phase of a product
+C: Solely in the financial planning phase of a project or product
+D: Only in the technical development phase of a product or project
 Answer: B
 Explanation: Product Risk Analysis is particularly critical in high-risk or complex projects, as well as during transition phases. In these contexts, additional effort is required to effectively manage and address the risks to ensure successful project outcomes.
 
 Question: What role do Trends in Qualitative Analysis Results play in Product Risk Analysis?
-A: They focus on the financial trends of risk occurrence.
-B: They involve studying patterns in qualitative risk data to understand how risks may evolve.
-C: They serve as a legal record of risk trends.
-D: They exclusively analyze technical risk trends.
+A: They focus on the financial trends of risk occurrence and impact.
+B: They analyze qualitative risk data patterns to predict risk evolution.
+C: They serve as a legal record of risk trends and patterns.
+D: They exclusively analyze technical risk trends and patterns.
 Answer: B
 Explanation: Trends in Qualitative Analysis Results in Product Risk Analysis involve studying patterns in the qualitative data related to risks. This helps in understanding how these risks may evolve over time, aiding in more effective risk management and planning.
 

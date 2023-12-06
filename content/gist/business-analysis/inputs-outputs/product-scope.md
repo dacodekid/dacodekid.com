@@ -35,18 +35,18 @@ Product Scope is an evolving element, defined by features and functions that cha
 
 ```quiz
 Question: What is the primary composition of Product Scope in business analysis?
-A: The financial budget and cost estimates for the project.
+A: The financial budget and cost estimates for the project activities.
 B: The features and functions that define a particular solution.
-C: The legal and compliance requirements of the project.
-D: The detailed project schedule and timeline.
+C: The legal and compliance requirements of the project and product.
+D: The detailed project schedule and timeline for the project.
 Answer: B
 Explanation: Product Scope is primarily comprised of the features and functions that define a particular solution, outlining what is included in the scope of the project.
 
 Question: How is the initial Product Scope determined?
-A: Post completion of the technical development phase.
-B: Once the business case has been approved and based on the chosen solution approach.
-C: After finalizing the marketing and sales strategies for the product.
-D: Based solely on the preferences of the project stakeholders.
+A: Post completion of the technical development phase of the project.
+B: After business case approval and the chosen solution approach.
+C: After finalizing the marketing and sales strategies for the product launch.
+D: Based solely on the preferences of the project stakeholders and sponsors.
 Answer: B
 Explanation: The initial Product Scope is determined once the business case has been approved, and it is based on the solution approach that is approved at that time, establishing the initial set of capabilities and features.
 
@@ -60,16 +60,16 @@ Explanation: The Product Scope goes through a continuous refinement process as t
 
 Question: What role does the Product Scope play in Transition Planning?
 A: It is used to establish partnerships with external vendors.
-B: It helps in making decisions on how the transition should proceed, identifying special resources and coordination.
-C: It focuses on the personal development and training of the project team.
-D: It serves as a document for external stakeholder communication.
+B: It aids in decision-making for the transition, identifying necessary resources and coordination.
+C: It focuses on the personal development and training of the project team members.
+D: It serves as a document for external stakeholder communication and marketing.
 Answer: B
 Explanation: In Transition Planning, understanding the Product Scope is crucial as it aids in decision-making regarding how the transition should be carried out, identifying any special resources and coordination that may be required.
 
 Question: How does the Product Scope influence Elicitation activities?
 A: It serves as a basis for financial auditing during the project.
-B: It sets the boundaries and context for information gathering, guiding what needs to be elicited.
-C: It is mainly used for evaluating the performance of the project team.
+B: It defines boundaries and context for information gathering, guiding elicitation.
+C: It is mainly used for evaluating the performance of the project team members.
 D: It dictates the technological tools to be used in the project.
 Answer: B
 Explanation: The Product Scope is essential for Elicitation activities as it sets the boundaries and context for what information needs to be gathered, particularly when focused on solution requirements.

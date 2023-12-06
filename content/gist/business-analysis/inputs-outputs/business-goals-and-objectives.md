@@ -85,7 +85,7 @@ Answer: B
 Explanation: In business analysis, a Business Goal is a broad, high-level statement providing general direction, lacking quantifiable metrics. In contrast, a Business Objective is specific, measurable, achievable, relevant, and time-bound, derived from the Business Goals.
 
 Question: How do Business Goals and Objectives contribute to the assessment of project options?
-A: By determining the project's budget allocation
+A: By determining the project's budget allocation and financial feasibility
 B: By providing a basis for evaluating how well options satisfy them
 C: By offering legal guidance for project contracts
 D: By setting technological standards for all options
@@ -104,7 +104,7 @@ Question: What role do Business Objectives play in the prioritization of work in
 A: They are used for scheduling employee vacations
 B: They serve as a basis for prioritizing requirements and related work
 C: They dictate the social media strategy for the project
-D: They are solely used for external stakeholder communication
+D: They are solely used for external stakeholder communication purposes
 Answer: B
 Explanation: Business Objectives often serve as a basis for prioritizing requirements and related work in a project. The aim is to ensure that the most crucial business objectives are addressed first, maximizing business value.
 

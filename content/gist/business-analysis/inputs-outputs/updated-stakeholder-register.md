@@ -35,10 +35,10 @@ The Updated Stakeholder Register is a crucial asset in business analysis for mai
 
 ```quiz
 Question: What is a critical reason for periodically updating the Stakeholder Register in business analysis?
-A: To keep track of the financial investments of stakeholders
-B: To ensure that it reflects the current set of stakeholders and their characteristics as the project progresses
-C: To maintain a record of technical issues encountered in the project
-D: To serve as a legal document for stakeholder contracts
+A: To keep track of the financial investments of stakeholders in the project
+B: To align with changing stakeholders as the project advances
+C: To maintain a record of technical issues encountered in the project and their resolutions
+D: To serve as a legal document for stakeholder contracts and agreements
 Answer: B
 Explanation: Periodically updating the Stakeholder Register is critical to ensure it accurately reflects the current set of stakeholders and their characteristics (roles, responsibilities, interests, influence, etc.) as the project progresses. This helps in effective requirement elicitation, stakeholder engagement, and risk mitigation.
 
@@ -52,23 +52,23 @@ Explanation: An Updated Stakeholder Register typically includes stakeholder name
 
 Question: How does the Updated Stakeholder Register contribute to effective Communication Strategy development in a project?
 A: By providing data on stakeholders' technical skills
-B: By offering insights into stakeholders' communication preferences and characteristics
-C: By detailing the legal implications of stakeholder communication
+B: By providing insights into stakeholders' communication preferences and traits
+C: By detailing the legal implications of stakeholder communication and engagement
 D: By outlining the budget for stakeholder communication activities
 Answer: B
 Explanation: The Updated Stakeholder Register contributes to the development of an effective Communication Strategy by offering insights into stakeholders' communication preferences and characteristics. This enables the development of tailored communication strategies essential for successful stakeholder engagement and project success.
 
 Question: What aspect of project risk is directly mitigated by the Updated Stakeholder Register?
 A: Technical risks associated with product development
-B: Risks related to stakeholder management, such as inadequate stakeholder engagement
-C: Financial risks involving project budget overruns
+B: Risks in stakeholder management, like insufficient engagement
+C: Financial risks involving project budget overruns and cost escalations
 D: Environmental risks associated with the project’s execution
 Answer: B
 Explanation: The Updated Stakeholder Register plays a key role in mitigating risks related to stakeholder management. By keeping track of all stakeholders and their characteristics, the register helps identify and address risks like inadequate stakeholder engagement that could pose a threat to the project.
 
 Question: In what way does the Updated Stakeholder Register aid in Requirement Elicitation?
 A: By providing a detailed project budget
-B: By identifying the appropriate stakeholders to approach for specific requirements
+B: By identifying the right stakeholders for specific requirements
 C: By outlining the technical specifications of the project
 D: By serving as a legal guideline for requirement gathering
 Answer: B

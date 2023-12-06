@@ -39,42 +39,42 @@ Prioritized requirements and other product information serve multiple functions.
 
 ```quiz
 Question: What is the main purpose of prioritizing requirements in a project?
-A: To establish the project's legal framework
-B: To agree on which requirements should be addressed first based on business goals
-C: To define the project's technical architecture
-D: To outline the project's marketing strategy
+A: To establish the project's legal framework and compliance
+B: To prioritize requirements based on business goals
+C: To define the project's technical architecture and design
+D: To outline the project's marketing strategy and branding
 Answer: B
 Explanation: The primary purpose of prioritizing requirements is for stakeholders to agree on which requirements are most critical to be addressed first, ensuring alignment with the business goals and objectives.
 
 Question: How does requirement prioritization differ in adaptive methodologies compared to predictive methodologies?
 A: It results in an ordered backlog in adaptive methodologies
-B: It is ignored in adaptive methodologies
+B: It is ignored in adaptive methodologies and only considered in predictive methodologies
 C: It focuses solely on financial aspects in predictive methodologies
 D: It is only considered for legal compliance in predictive methodologies
 Answer: A
 Explanation: In adaptive methodologies like Agile, prioritization typically results in an ordered backlog organized based on business value and risk, while in predictive methodologies, prioritization attributes are set on individual requirements.
 
 Question: What role do prioritized requirements play in the design process of a solution?
-A: They inform the design by emphasizing which requirements need to be accounted for first
-B: They determine the financial budget of the design process
-C: They solely focus on the aesthetic aspects of the design
-D: They are irrelevant to the design process
+A: They guide the design by highlighting the initial requirements to address
+B: They determine the financial budget of the design process and activities
+C: They solely focus on the aesthetic aspects of the design process and activities
+D: They are irrelevant to the design process and activities
 Answer: A
 Explanation: Prioritized requirements inform the solution design process by emphasizing which requirements should be considered first, ensuring that the design aligns with crucial business objectives.
 
 Question: How are prioritized requirements utilized in risk management during the design phase?
 A: They highlight where potential risks may have the greatest impact
-B: They are irrelevant to risk management
-C: They solely focus on mitigating financial risks
+B: They are irrelevant to risk management during the design phase
+C: They solely focus on mitigating financial risks during the design phase
 D: They dictate the aesthetic risk management strategies
 Answer: A
 Explanation: In risk management, prioritized requirements help to spotlight areas where potential risks may have the greatest impact, aiding in effective risk mitigation during the design phase.
 
 Question: Why is it important that requirements are articulated without unnecessarily constraining the design?
 A: To ensure flexibility in design choices and avoid bias
-B: To focus solely on the financial aspects of the design
-C: To adhere to legal compliance in design
-D: To dictate the aesthetic aspects of the design
+B: To focus solely on the financial aspects of the design process
+C: To adhere to legal compliance in design choices
+D: To dictate the aesthetic aspects of the design process
 Answer: A
 Explanation: Requirements should be articulated in a way that does not unnecessarily constrain or bias the design, ensuring flexibility in design choices and avoiding limitations that could hinder effective solution development.
 ```

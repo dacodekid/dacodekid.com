@@ -36,9 +36,9 @@ Understanding how to manage and analyze change requests is crucial for maintaini
 ```quiz
 Question: What is a key step in the process of managing Change Requests in traditional project management approaches?
 A: Formalizing and evaluating through a structured approval process
-B: Ignoring unless they align with the original project scope
-C: Only considering if they come from high-level stakeholders
-D: Implementing them immediately without analysis
+B: Ignoring unless they align with the original project scope and requirements
+C: Only considering if they come from high-level stakeholders like the CEO
+D: Implementing them immediately without analysis or evaluation
 Answer: A
 Explanation: In traditional project management approaches, Change Requests are formalized and go through a structured evaluation and approval process to determine their impact and feasibility.
 
@@ -59,15 +59,15 @@ Answer: B
 Explanation: In adaptive approaches like Agile or Scrum, handling Change Requests is less formal; they are often framed as user stories and added to the product backlog for prioritization.
 
 Question: What is the primary purpose of performing an impact analysis for a Change Request?
-A: To determine the project's new budget
+A: To determine the project's new budget allocation
 B: To evaluate how the change affects the project's scope, schedule, and resources
-C: To assign new roles to the project team members
-D: To decide the project's communication strategy
+C: To assign new roles to the project team members based on the change
+D: To decide the project's communication strategy for the change
 Answer: B
 Explanation: Impact analysis is crucial for evaluating how a Change Request would affect the current project state, including its scope, schedule, and resources.
 
 Question: What factor often determines how Change Requests are managed in a project?
-A: The personal preference of the project manager
+A: Influenced by the project manager or team's personal preference and their project management style
 B: Whether a traditional or adaptive project management approach is used
 C: The geographical location of the project
 D: The industry in which the project is being executed

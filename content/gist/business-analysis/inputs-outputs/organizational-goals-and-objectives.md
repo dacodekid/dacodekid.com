@@ -67,32 +67,32 @@ In summary, while both organizational and business goals and objectives serve to
 
 ```quiz
 Question: Imagine you are a Business Analyst tasked with aligning a new project with the overarching strategy of your organization. Which of the following would be the MOST appropriate source to understand the broader strategic aims to ensure alignment?
-A: Department-specific business plans.
-B: Internal corporate strategy documents and business plans.
-C: External market analysis reports.
-D: Feedback from recent customer surveys.
+A: Department-specific business plans and reports.
+B: Internal corporate strategy and business plans.
+C: External market analysis reports and studies.
+D: Feedback from recent customer surveys and focus groups.
 Answer: B
 Explanation: Internal corporate strategy documents and business plans are the most appropriate sources for understanding an organization's broader strategic aims, as they contain insights into the company's overall strategy, industry trends, market conditions, and more.
 
 Question: As a Business Analyst, you find that the internal corporate strategy documents are unavailable. What is your next best approach to understand the Organizational Goals and Objectives?
-A: Conduct interviews with stakeholders.
+A: Conduct interviews with stakeholders to gather information.
 B: Review previous project reports for indirect insights.
-C: Wait for the documents to become available.
+C: Wait for the documents to become available before proceeding.
 D: Make assumptions based on industry standards.
 Answer: A
 Explanation: When internal corporate strategy documents are not available, conducting interviews with stakeholders is the best approach to gather information about the Organizational Goals and Objectives.
 
 Question: In the context of Organizational Goals and Objectives, which of the following BEST describes the difference between a goal and an objective?
 A: Goals are specific action-oriented statements, while objectives are broad targets.
-B: Goals and objectives are essentially the same in a business context.
+B: Goals and objectives are essentially the same in a business context and can be used interchangeably.
 C: Goals are long-term and broad-based, while objectives are short-term and specific.
 D: Objectives are long-term strategic plans, while goals are short-term tactical steps.
 Answer: C
 Explanation: Organizational goals are broad-based, long-term targets, while objectives are more specific, action-oriented, and typically short-term, enabling the attainment of goals.
 
 Question: When considering the alignment of a project with Organizational Goals and Objectives, which aspect is MOST critical for a Business Analyst to focus on?
-A: Ensuring the project is completed within the shortest possible time.
-B: Making sure the project aligns with the specific and actionable objectives of the organization.
+A: Ensuring the project is completed within the shortest possible time frame.
+B: Ensuring project alignment with organization's specific objectives.
 C: Focusing solely on the financial aspects of the project.
 D: Aligning the project with personal goals of the project team.
 Answer: B
@@ -100,7 +100,7 @@ Explanation: The most critical aspect for a Business Analyst is to ensure that t
 
 Question: When distinguishing between Organizational Goals and Objectives and Business Goals and Objectives, which of the following is TRUE?
 A: Both are tactical and linked to specific business units or projects.
-B: Organizational Goals and Objectives are broad and strategic, whereas Business Goals and Objectives are more tactical and operational.
+B: Organizational goals are strategic, while business goals are tactical.
 C: Business Goals and Objectives are usually long-term and broad, similar to Organizational Goals and Objectives.
 D: There is no significant difference between the two in terms of scope and detail level.
 Answer: B

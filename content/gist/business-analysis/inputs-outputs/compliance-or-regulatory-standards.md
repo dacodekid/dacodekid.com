@@ -38,7 +38,7 @@ In terms of business analysis, these compliance or regulatory standards have a f
 ```quiz
 Question: What is the primary reason for incorporating Compliance or Regulatory Standards in business analysis?
 A: To enhance the marketing strategy of the project
-B: To ensure adherence to external constraints imposed by government or industry bodies
+B: To comply with external regulations from government or industry bodies
 C: To determine the project budget and resource allocation
 D: To outline the project's communication and stakeholder engagement plan
 Answer: B
@@ -53,7 +53,7 @@ Answer: B
 Explanation: Compliance or Regulatory Standards require business analysts to adhere to specific guidelines in requirements elicitation and documentation to ensure audit preparedness.
 
 Question: In what way do Compliance or Regulatory Standards influence traceability and monitoring in business analysis?
-A: By dictating more formal approaches to traceability and monitoring
+A: By mandating formal methods for traceability and monitoring
 B: By eliminating the need for a traceability matrix
 C: By focusing exclusively on the project's communication methods
 D: By reducing the importance of regulatory compliance
@@ -62,14 +62,14 @@ Explanation: Compliance or Regulatory Standards often dictate more formal approa
 
 Question: What constraint do Compliance or Regulatory Standards place on tailoring business analysis approaches?
 A: They generally increase flexibility in choosing analysis methods
-B: They may limit options for tailoring due to strict regulatory requirements
-C: They always mandate the use of specific business analysis software
+B: They can restrict tailoring options due to stringent regulatory demands
+C: They always mandate the use of specific business analysis software tools
 D: They require all projects to follow the same standardized approach
 Answer: B
 Explanation: Due to Compliance or Regulatory Standards, the options for tailoring business analysis approaches may be limited, especially in highly regulated industries.
 
 Question: What impact do Compliance or Regulatory Standards have on the requirement set in a project?
-A: They tend to reduce the scope and quality of the requirement set
+A: They tend to reduce the scope and quality of the requirement set due to their restrictive nature
 B: They directly affect the scope, quality, and deliverables of the project
 C: They usually have no significant impact on the requirement set
 D: They solely focus on enhancing the aesthetic appeal of deliverables

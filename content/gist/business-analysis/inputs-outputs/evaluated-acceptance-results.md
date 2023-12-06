@@ -47,24 +47,24 @@ Evaluated Acceptance Results are comprehensive assessments that not only serve a
 
 ```quiz
 Question: What is the primary purpose of Evaluated Acceptance Results in a project?
-A: To define the project's marketing strategy
-B: To compare the actual results of a solution with the predefined acceptance criteria
-C: To establish the project's budget
-D: To outline the legal framework of the project
+A: To define the project's marketing strategy and plans
+B: To compare actual results with predefined acceptance criteria
+C: To establish the project's budget allocation and financial plan
+D: To outline the legal framework of the project and its activities
 Answer: B
 Explanation: Evaluated Acceptance Results are focused on comparing the actual results of a solution with the predefined acceptance criteria, determining whether the solution has met, exceeded, or failed to meet these criteria.
 
 Question: How do Evaluated Acceptance Results contribute to understanding the state of the product?
-A: By focusing solely on the financial aspects of the product
-B: By articulating the product's proficiencies and deficiencies
+A: By focusing solely on the financial aspects of the product and its development
+B: By articulating the product's proficiencies and deficiencies in relation to the acceptance criteria
 C: By establishing the final technical specifications of the product
-D: By determining the marketing potential of the product
+D: By determining the marketing potential of the product and its features
 Answer: B
 Explanation: Evaluated Acceptance Results give a clear picture of the state of the product in terms of its proficiencies and deficiencies, indicating how it has affected the expected business value.
 
 Question: What aspect is considered in Evaluated Acceptance Results for projects following an adaptive life cycle?
 A: The 'Definition of Done'
-B: The project's budget allocation
+B: The project's budget allocation and financial plan
 C: The legal compliance of the project
 D: The aesthetic design of the product
 Answer: A
@@ -72,9 +72,9 @@ Explanation: In projects with an adaptive life cycle, the 'Definition of Done' i
 
 Question: What kind of analysis is typically conducted if Evaluated Acceptance Results reveal variances or defects?
 A: Root Cause Analysis and Cost Analysis
-B: Aesthetic Analysis
-C: Marketing Analysis
-D: Legal Compliance Analysis
+B: Aesthetic Analysis and Design Analysis
+C: Marketing Analysis and Sales Analysis
+D: Legal Compliance Analysis and Regulatory Analysis
 Answer: A
 Explanation: If variances or defects are identified in Evaluated Acceptance Results, Root Cause Analysis to identify the reasons for discrepancies and Cost Analysis to evaluate the cost of addressing defects are typically conducted.
 

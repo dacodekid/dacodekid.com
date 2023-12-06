@@ -41,15 +41,15 @@ Situation Statement is a critical tool in business analysis. It crystallizes the
 
 ```quiz
 Question: What is the primary purpose of a Situation Statement in business analysis?
-A: To provide a detailed financial analysis of the problem or opportunity.
-B: To serve as a foundational framework for identifying and describing a problem or opportunity.
-C: To outline the specific steps for implementing a solution.
-D: To act as a legal document outlining organizational responsibilities.
+A: To provide a detailed financial analysis of the problem or opportunity at hand.
+B: To act as a foundational framework for problem or opportunity identification.
+C: To outline the specific steps for implementing a solution to the problem or opportunity.
+D: To act as a legal document outlining organizational responsibilities and liabilities.
 Answer: B
 Explanation: The Situation Statement serves as a foundational framework for identifying and describing either a problem or an opportunity within an organization, focusing on the situation's impact and resulting consequences.
 
 Question: Which of the following is NOT a fundamental element of a Situation Statement?
-A: A core objective assertion defining the problem or opportunity.
+A: A core objective assertion defining the problem or opportunity at hand.
 B: Details on how the situation affects or could affect the organization.
 C: A list of all stakeholders involved in the situation.
 D: The consequences of the situation in terms of business value.
@@ -67,7 +67,7 @@ Explanation: The Situation Statement becomes a baseline against which the curren
 Question: In the context of Business Case development, what role does the Situation Statement play?
 A: It only serves as a reference for financial estimations.
 B: It is included to clearly communicate the problem or opportunity being addressed.
-C: It outlines the exact roles and responsibilities of team members.
+C: It outlines the exact roles and responsibilities of team members and stakeholders.
 D: It provides a detailed implementation schedule for the proposed solution.
 Answer: B
 Explanation: The Situation Statement is included in the business case to clearly communicate the problem or opportunity that the proposed solution is addressing.

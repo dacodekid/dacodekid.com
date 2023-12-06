@@ -33,42 +33,42 @@ The "Recommended Solution Option" is a crucial output that encapsulates informed
 
 ```quiz
 Question: What is the significance of the "Recommended Solution Option" in business analysis?
-A: To manage the organization's social media strategy
-B: To serve as the guided course of action based on comprehensive analysis
-C: To schedule employee vacations
-D: To set up the organization's IT infrastructure
+A: To manage the organization's social media strategy and channels
+B: To provide a guided course of action based on thorough analysis
+C: To schedule employee vacations and time off from work
+D: To set up the organization's IT infrastructure and systems
 Answer: B
 Explanation: The "Recommended Solution Option" is significant in business analysis as it serves as the guided course of action that is determined based on comprehensive analysis and evaluation of all viable options, considering factors like financial impacts, operational efficiency, and stakeholder preferences.
 
 Question: What should be included in the summary explanation of the Recommended Solution Option?
-A: A detailed technical specification of IT systems
-B: A rationale articulating why the specific option was chosen
-C: The personal preferences of the project manager
-D: A plan for the organization's next corporate event
+A: A detailed technical specification of IT systems and infrastructure
+B: A rationale explaining the choice of a particular option
+C: The personal preferences of the project manager and team
+D: A plan for the organization's next corporate event or party
 Answer: B
 Explanation: A summary explanation of the Recommended Solution Option should include a rationale that articulates why this specific option was chosen. This offers transparency and understandability to stakeholders regarding the decision.
 
 Question: At what levels is the Recommended Solution Option made in organizations?
-A: Only at the operational level
+A: Only at the operational level of the organization
 B: At both the Portfolio or Program Level and the Project Level
-C: Exclusively at the financial level
-D: Solely at the personal level of individual team members
+C: Exclusively at the financial level of the organization
+D: Solely at the personal level of individual team members and stakeholders
 Answer: B
 Explanation: The Recommended Solution Option is made at both the Portfolio or Program Level, where the focus is broad and aligns with overall goals, and at the Project Level, where the recommendation includes a more focused high-level description of the products to be developed.
 
 Question: How is the Recommended Solution Option typically presented in practical terms?
-A: Through social media posts
+A: Through social media posts and advertisements
 B: In the business case document with supporting information
-C: In the personal diary of the business analyst
-D: Solely through verbal communication
+C: In the personal diary of the business analyst or project manager
+D: Solely through verbal communication and discussions
 Answer: B
 Explanation: Practically, the Recommended Solution Option is often presented in the business case document, including not just the recommendation itself but also supporting information like data and analysis results that furnish the rationale behind the selection.
 
 Question: Is it important to mention subjective criteria in the Recommended Solution Option?
-A: No, subjective criteria are irrelevant
-B: Yes, to provide context and for stakeholder buy-in
+A: No, subjective criteria are irrelevant in the decision-making process
+B: Yes, to provide context and for stakeholder buy-in and transparency
 C: Subjective criteria are only mentioned in financial decisions
-D: They are only relevant in aesthetic decisions
+D: They are only relevant in aesthetic decisions and design choices
 Answer: B
 Explanation: It is important to explicitly state any subjective or qualitative criteria used in the decision-making process of the Recommended Solution Option. This transparency provides context and can be crucial for gaining stakeholder buy-in.
 
