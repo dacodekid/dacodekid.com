@@ -32,33 +32,33 @@ Answer: A
 Explanation: An Event Response Table is ideal for outlining how a system should react to various events. It lists external triggers and specifies how the system is expected to respond, making it suitable for an e-commerce platform.
 
 Question: In the early stages of a project, why is an Event List important for shaping the scope of work?
-A: It enumerates external events that instigate behavior within the solution, defining its event-handling scope
-B: It schedules all project tasks and activities
-C: It outlines the budget allocation for each event
-D: It assigns responsibilities for event management to team members
+A: It lists external events triggering behavior in the solution, defining its event-handling scope
+B: It schedules all project tasks and activities in a timeline format
+C: It outlines the budget allocation for each event in the project scope
+D: It assigns responsibilities for event management to team members and stakeholders in the project
 Answer: A
 Explanation: An Event List is important in the early stages of a project as it enumerates external events that the solution is expected to respond to, thereby shaping the scope of work from an event-handling perspective.
 
 Question: What additional information does an Event Response Table provide compared to a basic Event List?
-A: Detailed project budget and financial forecasts
+A: Detailed project budget and financial forecasts for each event
 B: System responses to the events and related use cases or system flows
 C: A timeline for project completion and milestone achievements
-D: Allocation of resources to different project events
+D: Allocation of resources to different project events and activities
 Answer: B
 Explanation: An Event Response Table provides additional information compared to an Event List by outlining the system's expected responses to each event and associating those responses with related use cases or system flows.
 
 Question: How can an Event Response Table contribute to the requirements elicitation process in a project?
-A: By creating a detailed project schedule
-B: By identifying possible use cases or system flows that need to be part of the requirements
-C: By allocating resources for requirements gathering
-D: By determining the project's return on investment
+A: By creating a detailed project schedule and timeline
+B: By identifying use cases or system flows to include in the requirements
+C: By allocating resources for requirements gathering and analysis
+D: By determining the project's return on investment (ROI)
 Answer: B
 Explanation: An Event Response Table can contribute to the requirements elicitation process by identifying possible use cases, user stories, or system flows that will be part of the requirements, based on how the system is expected to respond to various events.
 
 Question: When should a business analyst consider updating the Event List in a project?
-A: Only at the beginning of the project
-B: Throughout the project as new events that the solution needs to address are identified
-C: After the project is completed
+A: Only at the beginning of the project to define the scope of work
+B: Continuously as new solution-relevant events are identified
+C: After the project is completed and the solution is deployed
 D: During the financial auditing phase of the project
 Answer: B
 Explanation: A business analyst should consider updating the Event List throughout the project as new events are identified that the solution needs to address, ensuring the list remains comprehensive and relevant.

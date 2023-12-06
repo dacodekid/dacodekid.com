@@ -53,34 +53,34 @@ Answer: B
 Explanation: The Definition of Done (DoD) is a set of mutually agreed-upon conditions that a team commits to meet before a work item is considered complete and ready for acceptance by business stakeholders, making it the appropriate concept to determine when a feature is ready.
 
 Question: In the context of Agile project management, what does the Definition of Done (DoD) typically include at the User Story level?
-A: A list of all project stakeholders
-B: A detailed project timeline
+A: A list of all project stakeholders and their contact information
+B: A detailed project timeline and schedule
 C: Acceptance criteria and other conditions for each user story
-D: The total budget for the user story
+D: The total budget for the user story and the project
 Answer: C
 Explanation: At the User Story level, the Definition of Done (DoD) typically includes acceptance criteria and other conditions that need to be fulfilled for the user story to be considered complete.
 
 Question: How can the Definition of Done (DoD) evolve throughout the lifecycle of a project?
-A: It remains constant and does not change
+A: It remains constant and does not change over time
 B: It evolves as the team gains insights or the project scope changes
-C: It becomes less detailed and more general
-D: It is only defined at the beginning and end of the project
+C: It becomes less detailed and more general over time
+D: It is only defined at the beginning and end of the project lifecycle
 Answer: B
 Explanation: The Definition of Done (DoD) is not static and can evolve over time as the team gains more insights or as the project scope changes, ensuring continued alignment with project objectives and stakeholder expectations.
 
 Question: What role does the Definition of Done (DoD) play in the solution evaluation phase of a project?
-A: It provides a baseline for the project budget
+A: It provides a baseline for the project budget and schedule
 B: It becomes a crucial input when evaluating the readiness of a solution for release
-C: It outlines the roles and responsibilities of project team members
-D: It schedules the tasks necessary for solution implementation
+C: It outlines the roles and responsibilities of project team members and stakeholders
+D: It schedules the tasks necessary for solution implementation and deployment
 Answer: B
 Explanation: The Definition of Done (DoD), particularly when integrated with acceptance criteria, serves as a crucial input in the solution evaluation phase, helping to determine the readiness of a solution for release.
 
 Question: When a project item meets the criteria established in the Definition of Done (DoD), how is this typically reflected in project management tools?
-A: The item is marked as 'in progress'
+A: The item is marked as 'in progress' or 'ongoing'
 B: The item is marked as 'done' or 'complete'
 C: The item's budget allocation is increased
-D: The item's deadline is extended
+D: The item's deadline is extended by a few days
 Answer: B
 Explanation: Once a project item meets the Definition of Done (DoD) criteria, it is typically marked as 'done' or 'complete' in project management tools, such as project plans, requirements management tools, or Kanban boards.
 ```

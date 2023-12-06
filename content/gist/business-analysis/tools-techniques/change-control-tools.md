@@ -46,8 +46,8 @@ Answer: C
 Explanation: A Version Control System (VCS) is responsible for tracking the revision history of any type of work product, acting similarly to a baseline by establishing an original work product and tracking subsequent modifications.
 
 Question: A project team is implementing a new tool to manage changes in their software development project. This tool will include comprehensive documentation, a tracking process, and defined approval levels for authorizing changes. What is this tool primarily focused on?
-A: Project Management
-B: Quality Assurance
+A: Project Management Software (PMS)
+B: Quality Assurance and Control (QA/QC)
 C: Configuration Management System (CMS)
 D: Risk Management
 Answer: C

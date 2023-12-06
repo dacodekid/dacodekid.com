@@ -54,42 +54,42 @@ Retrospectives and Lessons Learned serve as a foundation for tailoring various a
 
 ```quiz
 Question: What is a key difference between Retrospectives and Lessons Learned in terms of timing and frequency?
-A: Retrospectives are conducted regularly or at the end of an iteration, while Lessons Learned are typically at the end of a phase or milestone.
-B: Lessons Learned are conducted on a daily basis, while Retrospectives are annual events.
+A: Retrospectives are regular or per iteration; Lessons Learned are at phase or milestone ends.
+B: Lessons Learned are conducted on a daily basis, while Retrospectives are annual events only.
 C: Both are conducted only at the beginning of a project.
-D: Retrospectives are never documented, whereas Lessons Learned are always documented.
+D: Retrospectives are never documented, whereas Lessons Learned are always documented for future reference.
 Answer: A
 Explanation: The key difference in timing and frequency between Retrospectives and Lessons Learned is that Retrospectives are conducted either regularly or at the end of a body of work, such as an iteration, whereas Lessons Learned are typically conducted at the end of a phase or a significant milestone.
 
 Question: How do Retrospectives contribute to business analysis in adaptive life cycles?
-A: By providing a formal record of financial decisions
-B: By fostering open discussion and immediate implementation of decisions for continual process improvement
-C: By focusing solely on the technical aspects of a project
-D: By serving as a legal review of project activities
+A: By providing a formal record of financial decisions made during a project
+B: By encouraging open dialogue and promptly applying decisions for ongoing process enhancement
+C: By focusing solely on the technical aspects of a project and not on the business aspects
+D: By serving as a legal review of project activities and decisions
 Answer: B
 Explanation: In adaptive life cycles, Retrospectives contribute to business analysis by fostering open discussion among team members about what is working well, what isn't, and what needs to change. Decisions are often implemented immediately, contributing to continual process improvement.
 
 Question: Why are Lessons Learned important for planning future projects in business analysis?
-A: They focus exclusively on the financial outcomes of past projects.
+A: They focus exclusively on the financial outcomes of past projects and can be used to plan future budgets.
 B: They provide documented insights from past experiences that can inform future project planning.
-C: They are used to determine the technical specifications for future projects.
-D: They serve as legal documentation of past project activities.
+C: They are used to determine the technical specifications for future projects based on past projects.
+D: They serve as legal documentation of past project activities and decisions.
 Answer: B
 Explanation: Lessons Learned are important for planning future projects in business analysis because they provide formally documented insights from past experiences. These insights can inform future project planning and serve as a historical record.
 
 Question: What aspect of business analysis can benefit from insights gained from Retrospectives and Lessons Learned?
-A: Only the financial planning phase of a project
-B: Tailoring elicitation techniques, analysis approaches, traceability, and monitoring processes, and solution evaluation
-C: Determining the legal implications of past projects
-D: Deciding the technical architecture for future projects
+A: Only the financial planning phase of a project can benefit from these insights
+B: Customizing elicitation methods, analysis, traceability, monitoring, and solution assessment
+C: Determining the legal implications of past projects and decisions for future projects
+D: Deciding the technical architecture for future projects based on past projects
 Answer: B
 Explanation: Insights gained from Retrospectives and Lessons Learned can benefit various aspects of business analysis. They can guide the tailoring of elicitation techniques, inform the selection of analysis approaches, influence traceability and change management processes, and offer insights into effective metric collection and evaluation techniques.
 
 Question: In what way do Retrospectives differ from Lessons Learned regarding decision-making?
-A: Decisions in Retrospectives require extensive legal documentation, while Lessons Learned do not.
+A: Decisions in Retrospectives require extensive legal documentation, while Lessons Learned do not require any documentation.
 B: Decisions in Retrospectives are often implemented immediately and may not be formally documented, unlike Lessons Learned.
 C: Lessons Learned involve immediate decision implementation, while Retrospectives focus on future planning.
-D: Both require decisions to be approved by external regulatory bodies.
+D: Both require decisions to be approved by external regulatory bodies before implementation.
 Answer: B
 Explanation: The difference in decision-making between Retrospectives and Lessons Learned is that decisions made in Retrospectives are often implemented immediately and may not require formal documentation. In contrast, the outcomes of Lessons Learned are formally documented and stored for future reference or action.
 

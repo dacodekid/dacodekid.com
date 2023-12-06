@@ -71,34 +71,34 @@ Answer: B
 Explanation: A Data Dictionary is a structured repository containing detailed information about data elements in a system, describing data fields and their attributes, making it suitable for ensuring clarity about data aspects in a CRM system.
 
 Question: In a Data Dictionary, what does the 'Validation Rules' column primarily specify?
-A: The timeline for data processing
+A: The timeline for data processing and storage
 B: Constraints and rules applied to the data for validation
-C: The budget allocation for managing the data
-D: The roles and responsibilities for data entry
+C: The budget allocation for managing the data fields
+D: The roles and responsibilities for data entry and management
 Answer: B
 Explanation: The 'Validation Rules' column in a Data Dictionary specifies constraints and rules applied to the data for validation, such as "required," "unique," or specific value ranges.
 
 Question: How does a Data Dictionary typically relate to the process of defining system requirements?
-A: It provides a timeline for requirement gathering
+A: It provides a timeline for requirement gathering and analysis
 B: It captures detailed requirements and associated business rules
-C: It allocates resources for requirement analysis
-D: It schedules meetings for requirement discussions
+C: It allocates resources for requirement analysis and documentation
+D: It schedules meetings for requirement discussions and reviews
 Answer: B
 Explanation: A Data Dictionary is instrumental in capturing highly detailed requirements and associated business rules, serving as a standalone model that eliminates the need for redundant requirements statements.
 
 Question: What is a key benefit of using a Data Dictionary in a project?
-A: It simplifies financial budgeting
+A: It simplifies financial budgeting and resource allocation
 B: It provides a centralized repository of data definitions
 C: It automatically updates project schedules
-D: It assigns tasks to project team members
+D: It assigns tasks to project team members and stakeholders
 Answer: B
 Explanation: A key benefit of using a Data Dictionary is that it provides a centralized repository of data definitions, facilitating consistency and effective communication between business and technical stakeholders.
 
 Question: If a Data Dictionary becomes outdated, what is a potential limitation that might arise in a project?
-A: Inefficient resource allocation
+A: Inefficient resource allocation for data management
 B: Misinterpretation of data fields and business rules
-C: Delay in project completion timelines
-D: Overestimation of the project budget
+C: Delay in project completion timelines and milestones
+D: Overestimation of the project budget and costs
 Answer: B
 Explanation: If a Data Dictionary is not kept up-to-date with changes in business rules or system enhancements, it may lead to misinterpretation of data fields and business rules, affecting the accuracy and integrity of the project's data management.
 ```

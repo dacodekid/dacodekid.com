@@ -21,23 +21,23 @@ Competitive Analysis serving as a systematic approach to evaluating an organizat
 
 ```quiz
 Question: What is the primary purpose of Competitive Analysis in Business Analysis?
-A: To evaluate an organization's internal policies
-B: To assess the financial stability of an organization
+A: To evaluate an organization's internal policies and procedures for operational efficiency
+B: To assess the financial stability of an organization in the market landscape
 C: To evaluate an organization's external environment in relation to its competitors
-D: To analyze the organization's employee performance
+D: To analyze the organization's employee performance and productivity
 Answer: C
 Explanation: Competitive Analysis in Business Analysis is primarily used to evaluate an organization's external environment, especially in relation to its competitors, to identify potential threats and opportunities in the market.
 
 Question: Which of the following is NOT a direct outcome of Competitive Analysis?
-A: Identification of competitor strengths and weaknesses
-B: Discovery of gaps in the market
+A: Identification of competitor strengths and weaknesses in the market
+B: Discovery of gaps in the market where customer needs are not met
 C: Improvement in internal employee training programs
 D: Understanding if a proposed design offers an advantage over competitors
 Answer: C
 Explanation: Competitive Analysis focuses on external factors like competitor strengths and weaknesses, market gaps, and comparing design options with competitors. It does not directly result in improvements in internal employee training programs.
 
 Question: How does Competitive Analysis assist in product development?
-A: By providing insights into internal production costs
+A: By providing insights into internal production costs and expenses
 B: By revealing market gaps where customer needs are not met
 C: By focusing solely on the organization's existing product strengths
 D: By limiting the scope of market research to current customers
@@ -53,9 +53,9 @@ Answer: B
 Explanation: Competitive Analysis is a component of Market Analysis. While it focuses on competitors, Market Analysis also includes other external factors like customer behavior, market trends, etc.
 
 Question: What role does Competitive Analysis play in product design?
-A: It primarily focuses on reducing production costs
+A: It primarily focuses on reducing production costs and expenses
 B: It aids in comparing design options to competitors' products
-C: It is unrelated to product design
+C: It is unrelated to product design and development
 D: It only focuses on improving existing product designs
 Answer: B
 Explanation: In product design, Competitive Analysis is used to compare design options and understand if a proposed design offers a significant advantage over what competitors offer, thus informing design decisions.

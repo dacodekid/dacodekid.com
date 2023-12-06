@@ -57,33 +57,33 @@ Answer: B
 Explanation: The Spider Web game is designed to visually represent the interdependencies or connections among various components, issues, or stakeholders, making it an ideal tool for understanding complex relationships and prioritizing actions in a project.
 
 Question: In the Spider Web exercise, what does the central node typically represent?
-A: The least important stakeholder
+A: The least important stakeholder, such as a junior team member
 B: The primary focus, such as the project goal or key issue
-C: The most significant risk
-D: The longest project phase
+C: The most significant risk or bottleneck, such as a critical path activity
+D: The longest project phase or activity, such as testing
 Answer: B
 Explanation: In the Spider Web exercise, the central node represents the primary focus, such as a project, goal, or key issue, around which the discussion revolves and connections are drawn.
 
 Question: Why are sticky notes used by participants in the Spider Web game?
-A: To schedule future meetings
+A: To schedule future meetings and follow-ups
 B: To write down elements that are part of the web
-C: To vote on the best ideas
-D: To document final decisions
+C: To vote on the best ideas or solutions, based on the discussion
+D: To document final decisions and action items
 Answer: B
 Explanation: In the Spider Web game, participants use sticky notes to write down various elements, components, or stakeholders that have a relationship or impact on the central node, which are then placed as part of the spider web.
 
 Question: What is a key advantage of using the Spider Web technique in a strategic planning session?
-A: Financial Forecasting
+A: Financial Forecasting, including budgeting and forecasting
 B: Visual Clarity of Complex Relationships
-C: Detailed Scheduling
+C: Detailed Scheduling of Project Activities
 D: Resource Allocation Efficiency
 Answer: B
 Explanation: A key advantage of using the Spider Web technique in strategic planning is the Visual Clarity it provides in representing complex relationships and interdependencies, aiding in understanding and decision-making.
 
 Question: After creating the spider web and discussing the connections, what is the next crucial step in the Spider Web exercise?
-A: Disregarding less significant nodes
+A: Disregarding less significant nodes and connections
 B: Action Planning based on insights gained
-C: Immediate implementation of changes
+C: Immediate implementation of changes based on the discussion
 D: Voting on the most critical connections
 Answer: B
 Explanation: The next crucial step after creating the spider web and discussing the connections is Action Planning. This involves formulating action items or next steps based on the insights gained from analyzing the web.

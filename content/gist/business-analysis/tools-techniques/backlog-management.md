@@ -41,42 +41,42 @@ By implementing effective Backlog Management, organizations can ensure that work
 
 ```quiz
 Question: What is the primary function of Backlog Management in business analysis?
-A: To define the project's legal and compliance framework
+A: To define the project's legal and compliance framework and guidelines
 B: To organize, maintain, and prioritize the list of work items for a project
-C: To establish the project's budget and financial goals
-D: To outline the project's communication and marketing strategy
+C: To establish the project's budget and financial goals and objectives
+D: To outline the project's communication and marketing strategy and plan
 Answer: B
 Explanation: Backlog Management is responsible for organizing, maintaining, and prioritizing the backlog items, which include tasks, user stories, and other work items necessary for producing the project's solution.
 
 Question: Who typically holds the ownership and is responsible for the upkeep of the product backlog?
-A: The legal department
+A: The legal department of the organization or company
 B: The Product Owner, often collaborating with the Business Analyst
-C: The financial department
-D: The marketing team
+C: The financial department, often collaborating with the Business Analyst
+D: The Project Manager, often collaborating with the Business Analyst
 Answer: B
 Explanation: The ownership and upkeep of the backlog usually lie with the Product Owner, who often collaborates closely with the Business Analyst in refining the product backlog.
 
 Question: How does prioritization work within Backlog Management?
-A: Items are randomly chosen without any criteria
+A: Items are randomly chosen without any criteria for prioritization or sequencing
 B: Items are prioritized according to their business value or importance
-C: Only financial aspects are considered for prioritization
-D: Only aesthetic aspects are prioritized
+C: Only financial aspects are considered for prioritization of items
+D: Only aesthetic aspects are prioritized for items
 Answer: B
 Explanation: In Backlog Management, items are continually prioritized according to their business value or importance, often in consultation with stakeholders and the development team.
 
 Question: What role does Backlog Management play in change management within adaptive project approaches?
-A: It is irrelevant to change management
+A: It is irrelevant to change management in adaptive approaches to projects
 B: It facilitates change management by adding new changes to the backlog
-C: It focuses solely on financial changes
+C: It focuses solely on financial changes in the project scope
 D: It dictates the aesthetic changes in the project
 Answer: B
 Explanation: In adaptive (Agile) life cycles, Backlog Management plays a significant role in change management. As new changes or stories emerge, they are added to the backlog, awaiting prioritization.
 
 Question: Why is Backlog Management important for maintaining the requirements list?
-A: It is irrelevant to the requirements list
+A: It is irrelevant to the requirements list in business analysis and project management
 B: It keeps the requirements list aligned with business value and customer importance
-C: It focuses solely on the financial aspects of the requirements
-D: It prioritizes requirements based only on their aesthetic appeal
+C: It focuses solely on the financial aspects of the requirements list and project
+D: It prioritizes requirements based only on their aesthetic appeal and design
 Answer: B
 Explanation: Backlog Management serves as a technique to keep the requirements list aligned with business value or customer importance, ensuring that work proceeds on the most critical items first.
 ```

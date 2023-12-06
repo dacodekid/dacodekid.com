@@ -64,25 +64,25 @@ Business Capability Analysis is a robust technique for gauging organizational ca
 
 ```quiz
 Question: What is the primary objective of Business Capability Analysis?
-A: To manage organizational branding and public relations.
+A: To manage organizational branding and public relations activities.
 B: Creating specifications to assess and monitor business capabilities.
-C: Focusing solely on the development of new technology platforms.
-D: Coordinating corporate social responsibility initiatives.
+C: Focusing solely on the development of new technology platforms and tools.
+D: Coordinating corporate social responsibility initiatives and programs.
 Answer: B
 Explanation: The primary objective of Business Capability Analysis is to create a specification by which business capabilities can be assessed and monitored, rooted in data-driven analysis.
 
 Question: In Business Capability Analysis, what role does historical data play?
-A: It's primarily used for auditing financial transactions.
+A: It's primarily used for auditing financial transactions and records of the organization.
 B: Historical data helps comprehend performance trends and establish standards.
-C: It is only used for employee performance evaluations.
-D: Used exclusively for customer feedback and market research.
+C: It is only used for employee performance evaluations and appraisals purposes.
+D: Used exclusively for customer feedback and market research activities.
 Answer: B
 Explanation: In Business Capability Analysis, historical data are gathered to understand performance trends and establish performance standards for evaluating current and future state performance.
 
 Question: How does Business Capability Analysis assist in Future State Analysis?
-A: By focusing on external market expansion and partnerships.
+A: By focusing on external market expansion and partnerships with other organizations.
 B: Using current state benchmarks to set targets for future capabilities.
-C: It's limited to assessing future real estate and infrastructure needs.
+C: It's limited to assessing future real estate and infrastructure needs of the organization.
 D: Solely for planning future corporate training and development programs.
 Answer: B
 Explanation: In Future State Analysis, Business Capability Analysis uses the specification developed in the current state as a benchmark to set targets for future capabilities.
@@ -96,10 +96,10 @@ Answer: C
 Explanation: Business Capability Analysis involves analyzing Processes, People Skills, and Resources to evaluate organizational performance.
 
 Question: What is the significance of Performance Standards in Business Capability Analysis?
-A: Used for organizing employee recreational activities.
+A: Used for organizing employee recreational activities and events.
 B: They act as criteria for judging the effectiveness of a capability.
 C: Solely for tracking sales and revenue growth.
-D: For assessing the quality of products and services offered.
+D: For assessing the quality of products and services offered by the organization.
 Answer: B
 Explanation: Performance Standards, set using historical data, act as criteria for judging the effectiveness of a capability in both current and future state analyses.
 

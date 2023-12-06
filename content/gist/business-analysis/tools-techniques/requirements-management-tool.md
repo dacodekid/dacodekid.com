@@ -41,32 +41,32 @@ Overall, a Requirements Management Tool is integral to an effective Business Ana
 
 ```quiz
 Question: What is the primary role of a Requirements Management Tool in Business Analysis?
-A: To automatically generate high-quality requirements.
-B: To serve as a centralized repository for capturing, storing, and managing requirements and related information.
-C: It is used solely for project budgeting and financial management.
-D: To handle the technical development of the product.
+A: To automatically generate high-quality requirements, thereby reducing the need for human intervention.
+B: To act as a central hub for capturing, storing, and handling requirements and related data.
+C: It is used solely for project budgeting and financial management purposes.
+D: To handle the technical development of the product, including coding and testing.
 Answer: B
 Explanation: The primary role of a Requirements Management Tool in Business Analysis is to act as a centralized repository for capturing, storing, and managing requirements and associated product information, facilitating efficient requirements management.
 
 Question: How does the audit trail functionality in a Requirements Management Tool support the Business Analysis process?
-A: By focusing only on financial auditing.
+A: By focusing only on financial auditing and budgeting.
 B: It maintains a history of changes made to requirements, aiding in effective change management.
-C: Audit trails are irrelevant in the context of requirements management.
-D: It serves to record only the final version of requirements without tracking changes.
+C: Audit trails are irrelevant in the context of requirements management, so this functionality is not important.
+D: It serves to record only the final version of requirements without tracking changes made.
 Answer: B
 Explanation: The audit trail functionality in a Requirements Management Tool supports the Business Analysis process by maintaining a detailed history of changes made to requirements, including who made the changes and when, thus aiding in effective change management.
 
 Question: What is a significant limitation of using a Requirements Management Tool?
-A: It automatically ensures the high quality of the requirements defined.
+A: It automatically ensures the high quality of the requirements defined, thereby reducing the need for human intervention.
 B: The tool acts only as a storage and management facility and does not contribute to defining high-quality product information.
-C: It is limited to managing requirements for small-scale projects.
-D: Requirements Management Tools are too complex to be used effectively.
+C: It is limited to managing requirements for small-scale projects, not large-scale projects.
+D: Requirements Management Tools are too complex to be used effectively by Business Analysts.
 Answer: B
 Explanation: A significant limitation of a Requirements Management Tool is that while it serves as a storage and management facility, it does not inherently contribute to the definition of high-quality product information.
 
 Question: Why is team collaboration functionality important in a Requirements Management Tool?
 A: It is not important; team collaboration is managed outside the tool.
-B: Team collaboration functionality allows team members to work together within the tool, enhancing communication and collaboration on requirements.
+B: Enables collaborative work and communication among team members on requirements.
 C: This functionality is only used for remote teams and not necessary for teams working in the same location.
 D: Team collaboration features are primarily for social networking purposes.
 Answer: B
@@ -74,7 +74,7 @@ Explanation: Team collaboration functionality is important in a Requirements Man
 
 Question: What should be considered when selecting a Requirements Management Tool?
 A: The tool's ability to handle large data storage only.
-B: Selection should be based on the tool's alignment with organizational needs, including its support for traceability.
+B: Choose tools that match organizational needs and support traceability.
 C: The primary consideration should be the tool’s cost, regardless of its features.
 D: Only the aesthetic aspects of the tool's interface should be considered.
 Answer: B

@@ -42,7 +42,7 @@ By using a VCS, business analysts can maintain the integrity of work products, a
 ```quiz
 Question: What is the primary role of a Version Control System (VCS) in business analysis?
 A: To serve as a financial ledger for the project.
-B: To track changes to work products, maintain a history of changes, and facilitate collaboration among team members.
+B: Track changes, maintain history, and foster collaboration among team members.
 C: It is used solely for scheduling project timelines.
 D: To record the personal information of project team members.
 Answer: B
@@ -50,33 +50,33 @@ Explanation: The primary role of a Version Control System (VCS) in business anal
 
 Question: What does the 'commit' operation in a VCS represent?
 A: It indicates the financial commitment to the project.
-B: A 'commit' represents the act of saving changes to the repository, capturing a snapshot of the work product at a specific point in time.
+B: A 'commit' saves changes, capturing a work product snapshot.
 C: Commit refers to the termination of the project.
 D: It signifies the completion of the project.
 Answer: B
 Explanation: In a Version Control System, a 'commit' is the operation of saving changes to the repository. Each commit acts as a snapshot of the work product at the moment of the commit, capturing the state of the files and changes made.
 
 Question: How does a VCS contribute to effective project management in predictive life cycles?
-A: By eliminating the need for project planning.
-B: VCS supports Configuration Management by tracking versions of work products, aiding in change management and ensuring alignment with project requirements.
-C: It contributes by focusing only on the technical aspects of the project.
+A: By eliminating the need for project planning, thereby saving time.
+B: VCS tracks work product versions for change management and alignment with requirements.
+C: It contributes by focusing only on the technical aspects of the project and not the business.
 D: VCS is irrelevant in predictive life cycles.
 Answer: B
 Explanation: In projects following predictive life cycles, a Version Control System is crucial for effectively managing changes to work products. It supports Configuration Management by tracking each version of a work product, making it easier to manage changes, assess their impact, and distribute the latest version to team members.
 
 Question: What feature of VCS allows for rollback to previous versions?
 A: Financial tracking features.
-B: The rollback and audit trail feature, which enables reverting to previous versions and facilitates debugging and maintaining an audit trail.
+B: Rollback and audit trail enable version reverting and maintain an audit trail for debugging.
 C: Rollback features are not available in VCS.
 D: Only the version naming feature allows for rollbacks.
 Answer: B
 Explanation: One key feature of a Version Control System is the ability to rollback and access an audit trail. This feature provides the capability to revert to previous versions of work products, which is essential for debugging and maintaining an audit trail of changes.
 
 Question: How does concurrency control in a VCS enhance collaboration in projects?
-A: It limits the number of users who can access the project.
-B: Concurrency control allows multiple contributors to work on a project simultaneously and handles conflicts arising from overlapping changes.
-C: Concurrency control is used to schedule project meetings.
-D: It enhances collaboration by focusing only on document formatting.
+A: It limits the number of users who can access the project at a given time.
+B: Concurrency control enables simultaneous work and resolves conflicts from overlapping changes.
+C: Concurrency control is used to schedule project meetings and discussions.
+D: It enhances collaboration by focusing only on document formatting and aesthetics.
 Answer: B
 Explanation: Concurrency control in a Version Control System is a crucial feature that enhances collaboration in projects. It allows multiple contributors to work on the project simultaneously and manages any conflicts that arise when changes made by different contributors overlap.
 ```

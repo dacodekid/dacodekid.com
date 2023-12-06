@@ -51,42 +51,42 @@ By using the Onion Diagram effectively, business analysts can enhance stakeholde
 
 ```quiz
 Question: What is the primary purpose of using an Onion Diagram in business analysis?
-A: To create a detailed budget plan for the project.
-B: To visually represent the relationships between stakeholders and the solution, indicating the strength of these relationships.
-C: It is used solely for technical architecture design.
-D: To list all the tasks required in a project in a sequential order.
+A: To create a detailed budget plan for the project based on stakeholder preferences.
+B: To visually depict stakeholder-solution relationships and their strength.
+C: It is used solely for technical architecture design and planning.
+D: To list all the tasks required in a project in a sequential order of execution.
 Answer: B
 Explanation: The primary purpose of the Onion Diagram is to visually articulate the relationships between stakeholders and the solution, with different layers indicating the strength or significance of these relationships.
 
 Question: How does the positioning of stakeholders in the Onion Diagram indicate their relationship to the solution?
 A: Stakeholders closer to the core have a more indirect and weaker relationship with the solution.
-B: The distance from the core does not indicate the strength of the relationship.
+B: The distance from the core does not indicate the strength of the relationship with the solution.
 C: Stakeholders placed closer to the core have a more direct or strong relationship with the solution.
 D: Only external stakeholders are placed close to the core.
 Answer: C
 Explanation: In the Onion Diagram, stakeholders positioned closer to the core are those with a more direct or strong relationship to the solution. Those on the outer layers have a less direct relationship.
 
 Question: What is a limitation of the Onion Diagram in stakeholder analysis?
-A: It provides a comprehensive understanding of the detailed nature of stakeholder relationships.
-B: It may oversimplify complex relationships and lacks detailed information on the nature of stakeholder-solution relationships.
-C: The Onion Diagram is only applicable in technical projects.
-D: It is too complex and time-consuming to create.
+A: It provides a comprehensive understanding of the detailed nature of stakeholder relationships with the solution.
+B: It can oversimplify complex relationships and lacks detailed information on their nature.
+C: The Onion Diagram is only applicable in technical projects and not for business analysis.
+D: It is too complex and time-consuming to create and maintain.
 Answer: B
 Explanation: A limitation of the Onion Diagram is that it may oversimplify complex stakeholder relationships and does not offer detailed insights into the nature of these relationships.
 
 Question: When is it particularly useful to employ an Onion Diagram in a project?
 A: Only in the final stages of the project for retrospective analysis.
-B: When there's a need to quickly convey stakeholder relationships and develop management or communication strategies.
+B: For quick communication of stakeholder relationships and strategy development.
 C: It is only used for small-scale projects with a limited number of stakeholders.
 D: The Onion Diagram is only applicable for financial analysis.
 Answer: B
 Explanation: The Onion Diagram is particularly useful when there's a need to quickly convey the nature of stakeholder relationships to the team and to develop effective stakeholder management or communication strategies.
 
 Question: What does each layer in an Onion Diagram represent?
-A: The chronological order of stakeholder involvement in the project.
+A: The chronological order of stakeholder involvement in the project timeline.
 B: Different budget levels allocated to stakeholders.
-C: Different stakeholders, grouped based on the strength or significance of their relationship to the solution.
-D: The geographic location of stakeholders.
+C: Stakeholders grouped by relationship strength or significance to the solution.
+D: The geographic location of stakeholders in relation to the solution.
 Answer: C
 Explanation: In an Onion Diagram, each layer represents different stakeholders, grouped based on the strength or significance of their relationship to the solution, with the innermost layers indicating stronger relationships.
 ```

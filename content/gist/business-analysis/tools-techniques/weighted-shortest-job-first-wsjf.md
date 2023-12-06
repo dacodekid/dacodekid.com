@@ -40,8 +40,8 @@ In adaptive project frameworks, such as Agile or SAFe, WSJF becomes particularly
 ```quiz
 Question: What is the primary purpose of the Weighted Shortest Job First (WSJF) method in Agile frameworks?
 A: To extend project timelines.
-B: To prioritize backlog items by incorporating multiple dimensions like business value, time criticality, risk/opportunity, and effort.
-C: It is used solely for financial budgeting of projects.
+B: Prioritize backlog items using business value, time, risk, and effort.
+C: It is used solely for financial budgeting of projects and business.
 D: To manage the personal schedules of the development team.
 Answer: B
 Explanation: The primary purpose of the Weighted Shortest Job First (WSJF) method in Agile and other adaptive frameworks is to prioritize backlog items effectively. It incorporates multiple dimensions, including business value, time criticality, risk reduction/opportunity enablement, and effort, to derive a comprehensive weighted value. This helps in deciding the order in which user stories or features should be developed.
@@ -55,24 +55,24 @@ Answer: B
 Explanation: The WSJF method calculates the prioritization of backlog items using the formula: (Business Value + Time Criticality + Risk Reduction/Opportunity Enablement) / Effort. This formula integrates all four dimensions into a single numerical value, enabling a nuanced prioritization approach.
 
 Question: Why is the Fibonacci sequence used in WSJF estimation?
-A: The Fibonacci sequence is irrelevant in WSJF estimation.
-B: The Fibonacci sequence is used as it offers a convenient way to estimate dimensions, accounting for the inherent uncertainty in estimating.
-C: It is used for its aesthetic appeal in presentations.
-D: The sequence is used only to complicate the estimation process.
+A: The Fibonacci sequence is irrelevant in WSJF estimation and is not used.
+B: Fibonacci sequence aids in estimating dimensions considering uncertainty.
+C: It is used for its aesthetic appeal in presentations and reports.
+D: The sequence is used only to complicate the estimation process further.
 Answer: B
 Explanation: The Fibonacci sequence is often used in WSJF estimation because it provides a structured yet flexible way to estimate the dimensions of business value, time criticality, risk/opportunity, and effort. The sequence accounts for the inherent uncertainty in estimating, particularly for larger or more complex tasks.
 
 Question: In which project frameworks is WSJF particularly useful?
-A: It is only useful in waterfall project management.
+A: It is only useful in waterfall project management frameworks.
 B: WSJF is particularly useful in adaptive project frameworks like Agile or SAFe.
-C: The method is exclusively used in financial management frameworks.
+C: The method is exclusively used in financial management frameworks, not in project management.
 D: WSJF is only applicable in manufacturing processes.
 Answer: B
 Explanation: Weighted Shortest Job First (WSJF) is particularly useful in adaptive project frameworks such as Agile and the Scaled Agile Framework (SAFe). In these environments, WSJF helps teams and product owners to prioritize features in the backlog that offer the highest value against the least effort while considering time constraints and risks or opportunities.
 
 Question: What role does WSJF play in decision-making for business analysts and product owners?
 A: WSJF plays no role in their decision-making process.
-B: WSJF is an essential tool for business analysts and product owners in prioritization and decision-making, focusing on high-value features with consideration to time and effort.
+B: WSJF prioritizes high-value features, considering time and effort.
 C: It is only used for deciding team holidays.
 D: WSJF is used to determine the salaries of team members.
 Answer: B

@@ -67,25 +67,25 @@ A Kanban Board serves as a real-time communication tool, an information radiator
 ```quiz
 Question: In the context of Kanban Boards, why are Work in Progress (WIP) Limits set for each column?
 A: To prioritize tasks in the product backlog.
-B: To restrict the number of tasks in a column, preventing overload and identifying bottlenecks.
-C: To display completed tasks in the 'Done' column.
-D: To determine which tasks to 'pull' from the 'To Do' column.
+B: To limit tasks in a column, preventing overload and spotting bottlenecks.
+C: To display completed tasks in the 'Done' column for reference.
+D: To determine which tasks to 'pull' from the 'To Do' column to 'In Progress.'
 Answer: B
 Explanation: WIP Limits are set to control the number of tasks in each workflow stage, preventing the team from taking on too much work at once and aiding in the early identification of bottlenecks.
 
 Question: How does the 'pull' system in a Kanban Board function?
-A: Team members add new tasks to the 'To Do' column as they arise.
-B: Tasks are automatically moved to the 'Done' column upon completion.
+A: Team members add new tasks to the 'To Do' column as they arise during the project.
+B: Tasks are automatically moved to the 'Done' column upon completion by the team.
 C: Team members 'pull' tasks from the 'To Do' column to 'In Progress' based on WIP limits and priorities.
-D: Tasks are assigned to team members by the project manager.
+D: Tasks are assigned to team members by the project manager based on their availability.
 Answer: C
 Explanation: In the 'pull' system of a Kanban Board, team members move tasks from 'To Do' to 'In Progress' based on the WIP limits and current priorities, ensuring an efficient workflow.
 
 Question: What is a primary benefit of the visual nature of a Kanban Board in adaptive methodologies?
 A: It allows for a static representation of the project plan.
-B: It facilitates easy archiving of completed tasks.
-C: It provides a dynamic view of work status, aiding quick adaptation to changes.
-D: It serves to document the project's historical data.
+B: It facilitates easy archiving of completed tasks for future reference.
+C: It offers a dynamic work status view for adapting to changes quickly.
+D: It serves to document the project's historical data for future reference.
 Answer: C
 Explanation: The visual aspect of a Kanban Board is crucial in adaptive methodologies as it provides a real-time, dynamic view of work status, enabling the team to quickly adapt to changes and align with evolving objectives.
 
@@ -98,7 +98,7 @@ Answer: B
 Explanation: The Kanban Board interfaces with the product backlog by pulling tasks, usually based on their priority, from the backlog into the board. This ensures that the work on the board reflects current priorities and needs.
 
 Question: What does the accumulation of tasks in a specific column of a Kanban Board typically indicate?
-A: The team is efficiently managing their workload.
+A: The team is efficiently managing their workload at that stage.
 B: There is a bottleneck in the workflow at that stage.
 C: The project is ahead of schedule.
 D: The WIP limits for that column need to be increased.

@@ -73,41 +73,41 @@ Elicitation techniques are methods used to gather information from various sourc
 
 ```quiz
 Question: Why are Interviews considered a vital Elicitation Technique in business analysis?
-A: They are primarily used for team building and social networking.
+A: They are primarily used for team building and social networking activities.
 B: Interviews are key for eliciting detailed and specific information from stakeholders.
-C: Their main purpose is to manage company-wide financial audits.
-D: They are used exclusively for technical troubleshooting and IT support.
+C: Their main purpose is to manage company-wide financial audits and compliance.
+D: They are used exclusively for technical troubleshooting and IT support activities.
 Answer: B
 Explanation: Interviews are vital in business analysis as they are used for eliciting detailed and specific information from stakeholders, which can be crucial for understanding complex topics or uncovering unstated needs.
 
 Question: In what way does Document Analysis contribute to the Elicitation process?
-A: By focusing on redesigning the company's website and digital presence.
-B: It is utilized for routine maintenance of office equipment and facilities.
+A: By focusing on redesigning the company's website and digital presence to improve customer experience.
+B: It is utilized for routine maintenance of office equipment and facilities management.
 C: Document Analysis involves reviewing existing documentation for relevant business information.
 D: Its primary use is in organizing and managing corporate events.
 Answer: C
 Explanation: Document Analysis contributes to the Elicitation process by allowing business analysts to review existing documentation to obtain relevant information, thus providing insights into the current state or specific requirements.
 
 Question: What is the primary goal of Brainstorming as an Elicitation Technique?
-A: To provide entertainment and leisure activities for employees.
+A: To provide entertainment and leisure activities for employees and stakeholders.
 B: The main goal of Brainstorming is to quickly generate a broad range of ideas and options.
-C: Its sole purpose is to conduct performance evaluations and appraisals.
-D: Focusing on the maintenance and upgrade of IT infrastructure.
+C: Its sole purpose is to conduct performance evaluations and appraisals for employees.
+D: Focusing on the maintenance and upgrade of IT infrastructure and systems.
 Answer: B
 Explanation: The primary goal of Brainstorming as an Elicitation Technique is to quickly generate a wide range of ideas and options, fostering creative thinking and providing a foundation for further discussion and analysis.
 
 Question: How do Facilitated Workshops function as an Elicitation Technique?
-A: They are exclusively used for conducting financial and legal audits.
-B: Facilitated Workshops are structured meetings aimed at achieving specific objectives with stakeholder collaboration.
-C: Their main focus is on improving the physical workspace and office environment.
-D: Used primarily for conducting external marketing and sales campaigns.
+A: They are exclusively used for conducting financial and legal audits of the company.
+B: Facilitated Workshops are structured meetings for specific objectives through stakeholder collaboration.
+C: Their main focus is on improving the physical workspace and office environment for employees.
+D: Used primarily for conducting external marketing and sales campaigns for the company.
 Answer: B
 Explanation: Facilitated Workshops function as an Elicitation Technique by providing a structured environment led by a skilled facilitator where stakeholders collaborate to achieve specific objectives like defining requirements or making decisions.
 
 Question: What role do Prototyping and Storyboarding play in the Elicitation process?
 A: They are used for managing and organizing company databases and IT systems.
-B: Prototyping and Storyboarding aid in visualizing proposed solutions to understand stakeholder requirements better.
-C: Their primary purpose is in the recruitment and training of new employees.
+B: Prototyping and Storyboarding visualize solutions to clarify stakeholder needs.
+C: Their primary purpose is in the recruitment and training of new employees and stakeholders.
 D: Focused on overseeing logistics and supply chain operations.
 Answer: B
 Explanation: In the Elicitation process, Prototyping and Storyboarding play the role of visualizing proposed solutions, such as through models or visual narratives, which helps in clarifying requirements and expectations.

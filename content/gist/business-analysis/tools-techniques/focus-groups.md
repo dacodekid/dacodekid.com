@@ -49,15 +49,15 @@ Explanation: Focus groups are an ideal elicitation technique for gathering quali
 Question: What is a key characteristic of participants in a focus group used for business analysis?
 A: They are randomly selected from the general population
 B: They are prequalified with specific knowledge or interest in the subject
-C: They are only senior executives of the organization
-D: They are exclusively external stakeholders
+C: They are only senior executives of the organization sponsoring the project
+D: They are exclusively external stakeholders and customers
 Answer: B
 Explanation: Participants in a focus group are prequalified, meaning they possess specific knowledge, experience, or stake in the subject being discussed, ensuring relevant and informed feedback.
 
 Question: How does the role of a facilitator contribute to the effectiveness of a focus group?
-A: By managing the project budget
+A: By managing the project budget and financial resources
 B: By ensuring healthy team dynamics and a free flow of ideas
-C: By assigning tasks to the participants
+C: By assigning tasks to the participants and monitoring their progress
 D: By preparing the project schedule
 Answer: B
 Explanation: In focus groups, the facilitator plays a crucial role in managing team dynamics and ensuring a free flow of ideas, contributing significantly to the effectiveness of the session.
@@ -72,9 +72,9 @@ Explanation: Focus groups primarily provide qualitative and nuanced feedback, wh
 
 Question: When are focus groups particularly useful in the business analysis process?
 A: For understanding stakeholder attitudes and expectations regarding a proposed solution
-B: For calculating the return on investment of a project
-C: For determining the technical architecture of a system
-D: For legal compliance verification
+B: For calculating the return on investment of a project or solution implementation
+C: For determining the technical architecture of a system or solution
+D: For legal compliance verification and regulatory audits of the project
 Answer: A
 Explanation: Focus groups are particularly useful in business analysis for understanding the attitudes and expectations of stakeholders and subject matter experts towards a proposed solution or different design options.
 ```

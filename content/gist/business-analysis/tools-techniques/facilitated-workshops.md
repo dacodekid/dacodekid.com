@@ -33,31 +33,31 @@ Thus, facilitated workshops are a versatile and powerful technique for various s
 
 ```quiz
 Question: What is a key objective of using Facilitated Workshops in Product Roadmap Development?
-A: To finalize the financial budget for the entire project.
+A: To finalize the financial budget for the entire project lifecycle.
 B: To elicit information for formulating a product roadmap through collaborative brainstorming.
-C: To determine the technical architecture of the product.
-D: To establish legal compliance and regulatory frameworks for the product.
+C: To determine the technical architecture of the product and its underlying infrastructure.
+D: To establish legal compliance and regulatory frameworks for the product development.
 Answer: B
 Explanation: In Product Roadmap Development, Facilitated Workshops are used to elicit information necessary to formulate the roadmap, utilizing collaborative brainstorming to prioritize and define high-level features and capabilities.
 
 Question: How do Facilitated Workshops contribute to the assembly of a Business Case?
-A: By focusing solely on the marketing strategies for the product.
-B: By providing a platform for stakeholders to discuss and validate business scenarios and risks.
-C: By detailing the product's user interface and user experience design.
-D: By negotiating contracts with external vendors and suppliers.
+A: By focusing solely on the marketing strategies for the product or service.
+B: By offering a platform for stakeholders to discuss and validate business scenarios and risks.
+C: By detailing the product's user interface and user experience design requirements and specifications.
+D: By negotiating contracts with external vendors and suppliers for the project.
 Answer: B
 Explanation: During the assembly of a Business Case, Facilitated Workshops offer a forum for stakeholders to discuss, scrutinize, and validate various business scenarios, risks, and benefits, contributing to a comprehensive and robust business case.
 
 Question: What role do Facilitated Workshops play in Charter Development?
-A: They are primarily used for detailed technical training of the development team.
+A: They are primarily used for detailed technical training of the development team members.
 B: They facilitate consensus on project objectives, scope, and deliverables for the charter.
-C: They focus on establishing the project's branding and public relations strategies.
+C: They focus on establishing the project's branding and public relations strategies and policies.
 D: They are used to create detailed project schedules with specific deadlines.
 Answer: B
 Explanation: In Charter Development, Facilitated Workshops enable stakeholders to reach a consensus on crucial elements like project objectives, scope, deliverables, and other essential aspects to be included in the charter.
 
 Question: What is a characteristic feature of Facilitated Workshops in terms of stakeholder interaction?
-A: They are used to individually assess the performance of stakeholders.
+A: They are used to individually assess the performance of stakeholders in the project.
 B: They foster interactivity and collaboration, leading to improved communication.
 C: They focus on documenting individual stakeholder complaints and grievances.
 D: They serve as a formal procedure for stakeholder promotion and appraisal.
@@ -65,9 +65,9 @@ Answer: B
 Explanation: A key characteristic of Facilitated Workshops is their interactivity and collaborative nature, which enhances communication among stakeholders, particularly for complex topics requiring diverse input.
 
 Question: Why is the role of a skilled facilitator crucial in Facilitated Workshops?
-A: To provide technical support for software and tools used in the workshop.
+A: To provide technical support for software and tools used in the workshop sessions.
 B: To guide the group towards achieving the objective of the workshop effectively.
-C: To document and report the personal achievements of each participant.
+C: To document and report the personal achievements of each participant in the workshop.
 D: To ensure compliance with health and safety regulations during the workshop.
 Answer: B
 Explanation: The effectiveness of a Facilitated Workshop heavily relies on the facilitator's skills in guiding and directing the group towards the workshop's objective, ensuring productive and focused discussions.

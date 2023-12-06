@@ -44,15 +44,15 @@ By serving these multiple functions, a Traceability Matrix becomes an indispensa
 ```quiz
 Question: What is the primary purpose of a Traceability Matrix in business analysis?
 A: To serve as a financial ledger for the project.
-B: To establish and visualize relationships between requirements, deliverables, and other project entities, ensuring alignment with business objectives.
-C: It is used solely for scheduling project timelines.
+B: Visualize relationships between requirements, deliverables, and entities for alignment.
+C: It is used solely for scheduling project timelines and milestones.
 D: To record the personal information of project team members.
 Answer: B
 Explanation: The primary purpose of a Traceability Matrix in business analysis is to establish and visualize the relationships between various types of requirements, deliverables, and other project or product entities. This helps in ensuring that each element is aligned with and supports the business objectives of the project.
 
 Question: How does a Traceability Matrix aid in the validation of requirements?
 A: By focusing on the aesthetic aspects of the project.
-B: It maps requirements to business objectives to ensure each requirement contributes value and prevents scope creep.
+B: Maps requirements to business objectives, ensuring value and preventing scope creep.
 C: The Traceability Matrix is not used for validating requirements.
 D: It validates requirements by extending the project deadline.
 Answer: B
@@ -60,15 +60,15 @@ Explanation: During the validation phase, a Traceability Matrix is used to map r
 
 Question: In what way is the Traceability Matrix used for prioritizing requirements?
 A: It prioritizes requirements based solely on their complexity.
-B: Requirements are prioritized according to their alignment with quantified and ranked business objectives, identified in the Traceability Matrix.
-C: The Matrix is used to prioritize requirements randomly.
-D: Prioritization is based on the personal preferences of the business analyst.
+B: Prioritize requirements based on alignment with ranked business objectives in the Traceability Matrix.
+C: The Matrix is used to prioritize requirements randomly, without any specific criteria.
+D: Prioritization is based on the personal preferences of the business analyst, not the Matrix.
 Answer: B
 Explanation: The Traceability Matrix is a powerful tool for prioritizing requirements by tracing each requirement to business objectives that have been quantified and ranked. This allows the project team to prioritize requirements based on how well they align with these high-value objectives, ensuring that the most critical requirements are addressed first.
 
 Question: What additional entities can be tracked using a Traceability Matrix?
 A: Only financial data related to the project.
-B: It can track a variety of project entities like business rules, design elements, implementation details, and test cases.
+B: Tracks project entities such as business rules, design, implementation, and tests.
 C: The Matrix only tracks the project schedule.
 D: It is used exclusively for tracking stakeholder communication.
 Answer: B
@@ -76,7 +76,7 @@ Explanation: A Traceability Matrix is not restricted to tracking only requiremen
 
 Question: How is the Traceability Matrix adapted in agile or adaptive project life cycles?
 A: It is replaced with a financial tracking tool.
-B: A lightweight version, known as the Interaction Matrix, is used for quicker assessments at specific points in time.
+B: Use the Interaction Matrix for quicker assessments at specific times.
 C: In adaptive projects, the Traceability Matrix is considered irrelevant.
 D: It is used to extend the duration of each sprint or iteration.
 Answer: B

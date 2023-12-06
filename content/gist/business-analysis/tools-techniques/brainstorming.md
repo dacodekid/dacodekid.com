@@ -85,18 +85,18 @@ The multifaceted nature of Brainstorming makes it a versatile tool in the busine
 
 ```quiz
 Question: During the initial stages of a new project, a Business Analyst decides to use brainstorming for stakeholder identification. What is the PRIMARY advantage of using this technique in this context?
-A: It allows for detailed risk assessment and mitigation strategies.
+A: It allows for detailed risk assessment and mitigation strategies to be developed.
 B: It generates a high volume of potential stakeholder names or types quickly.
-C: It focuses on the financial implications of stakeholder involvement.
+C: It focuses on the financial implications of stakeholder involvement in the project.
 D: It provides a detailed analysis of each identified stakeholder's influence.
 Answer: B
 Explanation: The primary advantage of using brainstorming for stakeholder identification is its ability to quickly generate a high volume of potential stakeholder names or types.
 
 Question: When using brainstorming for elicitation planning, what role does the facilitator play in the session?
-A: The facilitator primarily contributes ideas for elicitation techniques.
-B: The facilitator ensures equitable participation and prevents dominance by any single individual.
-C: The facilitator is responsible for documenting all the ideas generated.
-D: The facilitator decides which ideas are relevant and disregards the rest.
+A: The facilitator primarily contributes ideas for elicitation techniques to be used.
+B: The facilitator ensures equitable participation and prevents dominance by any individual.
+C: The facilitator is responsible for documenting all the ideas generated during the session.
+D: The facilitator decides which ideas are relevant and disregards the rest to save time.
 Answer: B
 Explanation: In a brainstorming session for elicitation planning, the facilitator's role is to ensure equitable participation and prevent any single individual from dominating the session.
 
@@ -109,17 +109,17 @@ Answer: A
 Explanation: A key benefit of using brainstorming to identify tools and techniques for analysis is that it leads to the generation of a large number of ideas.
 
 Question: If a Business Analyst uses brainstorming to identify design options, what characteristic of the technique is most beneficial?
-A: The ability to provide anonymity to participants.
+A: The ability to provide anonymity to participants to encourage more ideas.
 B: The dynamic interaction where group members build upon each other's ideas.
-C: The focus on financial aspects of different design options.
+C: The focus on financial aspects of different design options and their implications.
 D: The facilitator's role in analyzing the feasibility of each idea.
 Answer: B
 Explanation: When using brainstorming to identify design options, the most beneficial characteristic is the dynamic interaction where group members build upon each other's ideas to generate even more options.
 
 Question: What is a potential challenge when using brainstorming for risk identification in a project?
-A: The process may be too time-consuming and detailed.
-B: There might be a lack of collaboration and group dynamics.
-C: The inability to criticize or critique ideas might lead to an overwhelming number of risks being listed without immediate prioritization.
+A: The process may be too time-consuming and detailed for the project.
+B: There might be a lack of collaboration and group dynamics in the session.
+C: Failure to critique ideas may result in listing many risks without prioritizing them.
 D: The focus tends to shift towards stakeholder analysis rather than risk identification.
 Answer: C
 Explanation: A potential challenge in using brainstorming for risk identification is that the no-critique rule might lead to an overwhelming number of risks being listed without immediate prioritization.

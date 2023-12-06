@@ -41,42 +41,42 @@ Real Options provides a structured decision-making framework that allows busines
 
 ```quiz
 Question: What is the main purpose of the Real Options methodology in business analysis?
-A: To design the organization's website
-B: To manage decision-making in the context of uncertainty and information asymmetry
-C: To schedule employee vacations
-D: To set up the organization's IT infrastructure
+A: To design the organization's website and mobile app
+B: To handle decision-making amid uncertainty and uneven information
+C: To schedule employee vacations and time off
+D: To set up the organization's IT infrastructure and network
 Answer: B
 Explanation: The Real Options methodology is used in business analysis to manage decision-making in projects, especially under conditions of uncertainty and information asymmetry. It focuses on when to exercise particular choices in a structured way.
 
 Question: What is a fundamental principle of Real Options in decision-making?
-A: To make all decisions immediately
+A: To make all decisions immediately without delay
 B: To delay decision-making to the latest possible time
 C: To prioritize decisions based on aesthetic appeal
-D: To focus only on financial decisions
+D: To focus only on financial decisions and ignore other factors
 Answer: B
 Explanation: A fundamental principle of Real Options is to delay decision-making to the latest possible time. This approach allows for accumulating more information and reducing uncertainties, leading to more informed decisions.
 
 Question: How does delaying decisions in Real Options benefit a project?
-A: It ensures immediate action on all project matters
+A: It ensures immediate action on all project matters and issues
 B: It allows for gathering more information and reducing uncertainties
-C: It focuses solely on the financial aspects of decisions
+C: It focuses solely on the financial aspects of decisions and ignores other factors
 D: It prioritizes decisions based on the personal preferences of stakeholders
 Answer: B
 Explanation: Delaying decisions in the Real Options framework allows the team to gather more information, which leads to more informed decision-making. It also helps in reducing uncertainties surrounding a decision.
 
 Question: What is a potential risk associated with the Real Options approach?
-A: Decisions never need to be made
+A: Decisions never need to be made in the Real Options framework
 B: Waiting too long might result in missed opportunities
-C: It only applies to IT-related decisions
+C: It only applies to IT-related decisions and not other areas
 D: It is only useful for small-scale projects
 Answer: B
 Explanation: A potential risk associated with the Real Options approach is that waiting too long to make a decision might result in missed opportunities or diminishing returns. Therefore, the timing of the decision becomes a critical factor.
 
 Question: In which type of projects is Real Options particularly applicable?
-A: Only in financial projects
+A: Only in financial projects where decisions are based on financial data
 B: In adaptive projects where decisions are based on evolving information
-C: In projects where decisions are based on the aesthetic value
-D: In projects where all decisions are made at the outset
+C: In projects where decisions are based on the aesthetic value of the product
+D: In projects where all decisions are made at the outset and never changed
 Answer: B
 Explanation: Real Options is particularly applicable in adaptive projects where decisions need to be made based on evolving information. It guides the "when" of decision-making, enabling teams to manage their work more efficiently in the context of changing project dynamics.
 

@@ -62,7 +62,7 @@ Impact Analysis is a multi-faceted and deeply structured technique crucial for e
 ```quiz
 Question: What is the primary purpose of Impact Analysis in business analysis?
 A: To create a detailed budget for the project.
-B: To determine how proposed changes will affect different aspects of a project and make informed decisions based on identified impacts.
+B: Determine impacts of proposed changes for informed decisions.
 C: It is used solely for scheduling project timelines.
 D: To record the personal information of project team members.
 Answer: B
@@ -70,7 +70,7 @@ Explanation: The primary purpose of Impact Analysis in business analysis is to d
 
 Question: How does Impact Analysis contribute to managing the requirements baseline?
 A: By ignoring any changes and keeping the requirements baseline static.
-B: It helps in evaluating the effect of changes on existing requirements, assessing potential alterations in attributes like complexity and dependencies.
+B: Evaluate changes on existing requirements, considering attributes like complexity.
 C: Impact Analysis is irrelevant to the requirements baseline.
 D: It only focuses on adding new requirements without assessing the impact on existing ones.
 Answer: B
@@ -78,7 +78,7 @@ Explanation: Impact Analysis contributes to managing the requirements baseline b
 
 Question: Why is story slicing relevant in the context of Impact Analysis?
 A: Story slicing is irrelevant and should be avoided.
-B: Slicing large stories or requirements into smaller pieces allows for a more focused and manageable Impact Analysis.
+B: Slice large requirements for focused Impact Analysis.
 C: Story slicing is only used for budgeting purposes.
 D: It is solely a documentation process with no impact on analysis.
 Answer: B
@@ -86,17 +86,17 @@ Explanation: Story slicing is relevant in the context of Impact Analysis because
 
 Question: What considerations are taken into account in project management when conducting Impact Analysis?
 A: Project management considerations are not affected by Impact Analysis.
-B: Impact Analysis extends to project management aspects like re-evaluating management plans, including scope, time, cost, and risk management.
+B: Impact Analysis includes project management aspects: scope, time, cost, risk.
 C: The focus is only on changing the project manager.
 D: Impact Analysis in project management is only for increasing the project timeline.
 Answer: B
 Explanation: When conducting Impact Analysis, it extends to various project management considerations. This includes re-evaluating and potentially adjusting various management plans such as scope, time, cost, and risk management, among others.
 
 Question: How does Impact Analysis aid in making recommendations following a proposed change?
-A: It leads to automatic approval of all proposed changes.
-B: The analysis synthesizes findings into a report with recommendations ranging from implementation to rejection, often supported by a cost-benefit analysis.
+A: It leads to automatic approval of all proposed changes, eliminating the need for recommendations.
+B: Synthesize findings into a report with recommendations, including cost-benefit analysis.
 C: Impact Analysis only recommends increasing the budget.
-D: Recommendations are made based on personal preferences of the analyst.
+D: Recommendations are made based on personal preferences of the analyst, not the findings.
 Answer: B
 Explanation: Impact Analysis aids in making recommendations by synthesizing the findings into a comprehensive report. This report typically includes recommendations on how to proceed with the proposed change, ranging from immediate implementation to deferment or rejection, often supported by a mini-business case or cost-benefit analysis.
 ```

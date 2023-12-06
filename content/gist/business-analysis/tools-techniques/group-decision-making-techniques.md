@@ -23,34 +23,34 @@ Group Decision-Making Techniques are integral to various stages of business anal
 
 ```quiz
 Question: Why are Group Decision-Making Techniques important in business analysis?
-A: To focus solely on the aesthetic aspects of projects
+A: To focus solely on the aesthetic aspects of projects and solutions
 B: To help groups reach consensus on various issues or decisions
 C: To manage the organization's social media accounts
-D: To set up the organization's IT infrastructure
+D: To set up the organization's IT infrastructure and systems
 Answer: B
 Explanation: Group Decision-Making Techniques are crucial in business analysis as they facilitate groups in reaching consensus and making final decisions on various issues, topics, or solutions related to the project.
 
 Question: What is the role of Group Decision-Making Techniques in conflict resolution?
-A: They are primarily used for financial decision-making
+A: They are primarily used for financial decision-making and budgeting
 B: They are effective tools for resolving requirements-related conflicts
 C: They are used to determine the aesthetic value of the project
-D: They are irrelevant in conflict situations
+D: They are irrelevant in conflict situations and are only used for decision-making
 Answer: B
 Explanation: Group Decision-Making Techniques serve as effective tools for solving requirements-related conflicts in business analysis, enabling stakeholders to collaboratively reach a resolution.
 
 Question: How do Group Decision-Making Techniques contribute to business analysis planning?
-A: They are used to schedule employee vacations
+A: They are used to schedule employee vacations and time-off
 B: They help in establishing clear decision-making processes early on
-C: They dictate the IT infrastructure setup
-D: They focus solely on the financial aspects of planning
+C: They dictate the IT infrastructure setup for the project
+D: They focus solely on the financial aspects of planning and budgeting
 Answer: B
 Explanation: In business analysis planning, Group Decision-Making Techniques play a role in establishing clear decision-making processes early on. This is crucial to avoid misunderstandings or conflicts during the execution of the project.
 
 Question: Can Group Decision-Making Techniques vary in their approach to reaching a decision?
-A: No, all techniques follow the same approach
+A: No, all techniques follow the same approach to decision-making
 B: Yes, techniques range from autocratic to unanimous decisions
-C: They are only used for aesthetic decisions
-D: They are exclusively autocratic
+C: They are only used for aesthetic decisions in product design
+D: They are exclusively autocratic in nature
 Answer: B
 Explanation: Group Decision-Making Techniques vary in their approach to reaching a decision, ranging from autocratic decisions made by an individual to unanimous decisions that require agreement from all group members.
 

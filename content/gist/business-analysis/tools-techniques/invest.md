@@ -46,7 +46,7 @@ Explanation: The INVEST criteria (Independent, Negotiable, Valuable, Estimable, 
 
 Question: Why is it important for user stories to be Independent, as per the INVEST criteria?
 A: To ensure they can be developed in any sequence without dependencies
-B: To guarantee they are unrelated to the project's goals
+B: To guarantee they are unrelated to the project's goals and objectives
 C: To allow them to be omitted without impacting the project
 D: To make sure they do not require testing
 Answer: A
@@ -55,15 +55,15 @@ Explanation: The 'Independent' criterion in the INVEST model ensures that user s
 Question: What does the 'Negotiable' aspect of the INVEST criteria imply about user stories?
 A: They should have fixed, non-negotiable requirements
 B: Their details should remain flexible until they are ready for development
-C: They should involve negotiation about the project budget
-D: They must be negotiated with external stakeholders only
+C: They should involve negotiation about the project budget and resources
+D: They must be negotiated with external stakeholders only and not the development team
 Answer: B
 Explanation: The 'Negotiable' aspect of the INVEST criteria implies that the details of user stories should remain flexible and open to discussion until they are moved into the development phase. This allows for adaptations and changes in response to team and stakeholder discussions.
 
 Question: How does ensuring a user story is Testable, as per the INVEST criteria, contribute to the development process?
 A: It confirms that the story is unrelated to the rest of the project
 B: It ensures the story is specific and detailed enough for testing
-C: It guarantees that the story requires no further refinement
+C: It guarantees that the story requires no further refinement or elaboration
 D: It indicates that the story should be tested by external users only
 Answer: B
 Explanation: A 'Testable' user story, according to the INVEST criteria, is one that is specific and detailed enough to allow the creation of test cases. It ensures that there are clear acceptance criteria, contributing to the clarity and effectiveness of the development and testing processes.

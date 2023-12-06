@@ -40,15 +40,15 @@ Software packages and simulation tools exist to automate the creation and analys
 
 ```quiz
 Question: What is the primary purpose of Level 1 (L1) Process Flows in business analysis?
-A: They provide a detailed analysis of individual task performances.
+A: They provide a detailed analysis of individual task performances in a project.
 B: L1 Process Flows depict an end-to-end process in seven to ten steps.
 C: They are used exclusively for financial budgeting and forecasting.
-D: Focused on mapping individual employee responsibilities.
+D: Focused on mapping individual employee responsibilities and roles.
 Answer: B
 Explanation: Level 1 (L1) Process Flows are high-level diagrams that depict an end-to-end process in a simplified format, usually containing seven to ten steps.
 
 Question: How do Process Flows assist in the elicitation phase of a project?
-A: By setting project timelines and deadlines.
+A: By setting project timelines and deadlines for deliverables.
 B: Aiding in visualization of existing or proposed processes.
 C: Focusing solely on the allocation of project resources.
 D: Determining the project's social media strategy.
@@ -56,7 +56,7 @@ Answer: B
 Explanation: During the elicitation phase, Process Flows are used to aid in visualizing existing or proposed processes, facilitating discussions with stakeholders.
 
 Question: In Process Flow diagrams, what do diamonds typically represent?
-A: Decision points in the process.
+A: Decision points in the process flow sequence.
 B: Specific financial transactions or costs.
 C: Individual team member roles and tasks.
 D: External stakeholders or customer interactions.
@@ -64,17 +64,17 @@ Answer: A
 Explanation: In Process Flow diagrams, diamonds are graphical elements used to indicate decision points within the process.
 
 Question: What is the significance of Value Stream Maps in the context of Process Flows?
-A: They focus on enhancing brand marketing strategies.
+A: They focus on enhancing brand marketing strategies and campaigns.
 B: Value Stream Maps identify non-value-adding activities to be eliminated.
-C: Used primarily for tracking sales and revenue.
-D: They map out corporate governance and legal compliance.
+C: Used primarily for tracking sales and revenue generation.
+D: They map out corporate governance and legal compliance requirements.
 Answer: B
 Explanation: Value Stream Maps, a variation of Process Flows, include information on delays and queues to identify and eliminate non-value-adding activities.
 
 Question: How are Sequence Diagrams utilized in relation to Process Flows?
-A: They are designed for managing inventory and logistics.
+A: They are designed for managing inventory and logistics in a project.
 B: Sequence Diagrams focus on the interaction between systems or users.
-C: Primarily used for employee performance assessments.
+C: Primarily used for employee performance assessments and evaluations.
 D: Focused on customer satisfaction and feedback surveys.
 Answer: B
 Explanation: Sequence Diagrams are a form of Process Flow that emphasize the interaction between different systems or users and the sequence of these interactions.

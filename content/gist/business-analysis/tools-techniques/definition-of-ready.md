@@ -50,14 +50,14 @@ Explanation: The Definition of Ready (DoR) is a checklist of criteria that must 
 
 Question: What is a key component of the Definition of Ready (DoR) in Agile project management?
 A: Well-defined acceptance criteria for the user story
-B: A finalized project budget
-C: Allocation of office space for the team
+B: A finalized project budget and resource allocation
+C: Allocation of office space for the team members
 D: A detailed project timeline
 Answer: A
 Explanation: A key component of the Definition of Ready (DoR) is having well-defined acceptance criteria for the user story, which outlines the conditions that the solution must satisfy.
 
 Question: How does the Definition of Ready (DoR) contribute to risk mitigation in a project?
-A: By ensuring high returns on investment
+A: By ensuring high returns on investment (ROI) for the project
 B: By confirming all criteria are met before work begins
 C: By assigning tasks to the most skilled team members
 D: By creating a detailed marketing plan
@@ -65,9 +65,9 @@ Answer: B
 Explanation: The Definition of Ready (DoR) contributes to risk mitigation by ensuring that all necessary conditions are met before work begins on a user story or work item, potentially avoiding bottlenecks and project delays.
 
 Question: In which phase of a project is the Definition of Ready (DoR) particularly important?
-A: After the project completion
+A: After the project completion phase
 B: Before starting design and construction activities
-C: During the project closure phase
+C: During the project closure phase after all work is completed
 D: While preparing the final project report
 Answer: B
 Explanation: The Definition of Ready (DoR) is particularly important before starting design and construction activities, as it ensures that the scope and requirements are well-understood, thereby reducing ambiguity.
@@ -75,7 +75,7 @@ Explanation: The Definition of Ready (DoR) is particularly important before star
 Question: What is the relationship between the Definition of Ready (DoR) and the Definition of Done (DoD)?
 A: DoR confirms completion, while DoD ensures readiness
 B: DoR ensures readiness, while DoD confirms completion
-C: Both DoR and DoD focus on project budgeting
+C: Both DoR and DoD focus on project budgeting and resource allocation
 D: Both DoR and DoD deal with stakeholder communication
 Answer: B
 Explanation: The Definition of Ready (DoR) ensures that a user story or work item is sufficiently elaborated to begin work, while the Definition of Done (DoD) confirms that all criteria are met for the work to be considered complete.

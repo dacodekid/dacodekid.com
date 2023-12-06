@@ -31,7 +31,7 @@ In summary, Variance Analysis serves as a critical tool for both identifying and
 
 ```quiz
 Question: In an agile project environment, how is Variance Analysis typically utilized in relation to business analysis activities?
-A: To compare actual performance against the detailed Business Analysis Plan
+A: To compare actual performance against the detailed Business Analysis Plan and assess deviations
 B: To assess deviations in the business analysis schedule or degree of completion
 C: To analyze burndown charts and assess deviations from expected progress
 D: To evaluate the accuracy of stakeholder feedback on delivered segments
@@ -57,13 +57,13 @@ Explanation: Variance Analysis is used to investigate significant differences be
 Question: In the context of Variance Analysis, what caution should be exercised when interpreting metrics associated with business analysis?
 A: Metrics should not be used in isolation to attribute discrepancies to poor business analysis practices.
 B: Metrics should focus solely on financial aspects of project variances.
-C: Only qualitative metrics should be considered in Variance Analysis.
+C: Only qualitative metrics should be considered in Variance Analysis for business analysis.
 D: Variance metrics should always be cross-referenced with stakeholder satisfaction scores.
 Answer: A
 Explanation: Caution is advised when interpreting metrics associated with business analysis, as these metrics cannot single out poor business analysis practices as the sole cause for discrepancies in project and product development.
 
 Question: How does Variance Analysis in an adaptive life cycle differ from its application in a predictive life cycle?
-A: It focuses more on financial variances in an adaptive life cycle.
+A: It focuses more on financial variances in an adaptive life cycle than in a predictive life cycle.
 B: It is used to evaluate stakeholder engagement effectiveness in a predictive life cycle.
 C: It is more concerned with the extent of business analysis techniques deployed in an adaptive life cycle.
 D: It analyzes burndown charts in an adaptive life cycle, whereas it assesses schedule or degree of completion in a predictive life cycle.

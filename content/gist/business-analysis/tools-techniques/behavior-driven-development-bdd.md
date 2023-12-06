@@ -49,42 +49,42 @@ Behavior-Driven Development serves as an impactful technique in the Business Ana
 
 ```quiz
 Question: What is the primary objective of Behavior-Driven Development (BDD) in software development?
-A: To focus solely on the financial aspects of development
-B: To align development activities with user behavior and stakeholder expectations
+A: To focus solely on the financial aspects of development and testing activities
+B: To align development with user behavior and stakeholder expectations
 C: To define the legal framework of software development
-D: To outline the project's marketing strategy
+D: To outline the project's marketing strategy and plan to stakeholders
 Answer: B
 Explanation: Behavior-Driven Development (BDD) aims to align development activities with user behavior and stakeholder expectations, emphasizing collaboration and communication among stakeholders.
 
 Question: How does BDD differ from traditional Test-Driven Development (TDD)?
-A: BDD solely focuses on the financial aspects of testing
+A: BDD solely focuses on the financial aspects of testing and development activities
 B: BDD focuses on user behavior and collaboration, extending beyond TDD's technical focus
-C: BDD disregards testing principles
-D: BDD focuses only on the aesthetic aspects of the system
+C: BDD disregards testing principles and focuses solely on development activities
+D: BDD focuses only on the aesthetic aspects of the system and ignores technical aspects
 Answer: B
 Explanation: BDD extends the principles of Test-Driven Development (TDD) by focusing not just on technical aspects but also on the behavioral aspects of the system and encouraging collaboration among stakeholders.
 
 Question: What is the "Given-When-Then" syntax used in BDD?
-A: A structure for defining financial goals
-B: A format for crafting clear and shared acceptance criteria for user stories
-C: A method for defining the aesthetic aspects of a product
-D: A legal framework for software development
+A: A structure for defining financial goals and objectives for the project
+B: A format for creating clear and shared user story acceptance criteria
+C: A method for defining the aesthetic aspects of a product or system
+D: A legal framework for software development and testing activities
 Answer: B
 Explanation: The "Given-When-Then" syntax is a cornerstone technique in BDD, used for clearly defining acceptance criteria for user stories, specifying preconditions, actions, and expected outcomes.
 
 Question: What benefits does BDD offer in software development?
-A: Enhanced collaboration, clearer requirements, quality assurance, and shared understanding
-B: Focus solely on the financial benefits
-C: Emphasis on the aesthetic design of the software
-D: Prioritization of legal compliance over user needs
+A: Improved collaboration, precise requirements, quality control, mutual understanding
+B: Focus solely on the financial benefits of development and testing activities and legal compliance
+C: Emphasis on the aesthetic design of the software product or system and its marketing strategy
+D: Prioritization of legal compliance over user needs and expectations and financial aspects
 Answer: A
 Explanation: BDD offers several benefits, including enhanced collaboration among stakeholders, clearer articulation of requirements, quality assurance through test-first development, and fostering a shared understanding of user needs and product behavior.
 
 Question: Can BDD principles be applied in various life cycle methodologies?
-A: No, BDD is only applicable in Agile methodologies
+A: No, BDD is only applicable in Agile methodologies and not in other life cycle approaches
 B: Yes, BDD's principles are broadly applicable across different life cycle methodologies
 C: BDD principles are only relevant to financial aspects of development
-D: BDD is only applicable in legal compliance contexts
+D: BDD is only applicable in legal compliance contexts and its principles cannot be applied in other life cycle approaches
 Answer: B
 Explanation: The principles and techniques of BDD can be applied across various life cycle methodologies, not just in Agile but also in other project management approaches due to its focus on collaboration and alignment with user behavior.
 ```

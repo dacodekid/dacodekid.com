@@ -19,40 +19,40 @@ The technique aligns with the broader BA work of requirements prioritization and
 
 ```quiz
 Question: What is the primary purpose of multivoting in business analysis?
-A: To assign specific tasks to stakeholders based on their expertise.
+A: To assign specific tasks to stakeholders based on their expertise and availability.
 B: To engage stakeholders in rapidly prioritizing requirements through collective opinion.
-C: To create a detailed budget for each requirement.
-D: To finalize the project timeline and schedule.
+C: To create a detailed budget for each requirement based on cost-value analysis.
+D: To finalize the project timeline and schedule based on stakeholder preferences.
 Answer: B
 Explanation: Multivoting is used to engage stakeholders in a rapid and participative way to prioritize requirements or options. It leverages collective opinion to form a prioritized list, enhancing the decision-making process.
 
 Question: How does the multivoting process differ from the "buy a feature" technique in stakeholder engagement?
 A: Multivoting involves complex budgeting and cost-value analysis, unlike "buy a feature."
-B: It focuses solely on stakeholders' preferences or priorities, without the complex budgeting considerations found in "buy a feature."
-C: Multivoting does not involve stakeholder participation, whereas "buy a feature" does.
-D: There is no difference; both techniques are identical.
+B: It emphasizes stakeholders' preferences without complex budgeting like "buy a feature."
+C: Multivoting does not involve stakeholder participation, whereas "buy a feature" does through a voting process.
+D: There is no difference; both techniques are identical in their application.
 Answer: B
 Explanation: Multivoting is primarily about stakeholders expressing their preferences or priorities, often through a simple voting process. In contrast, "buy a feature" involves more complex considerations, like budgeting and cost-value trade-offs.
 
 Question: Why is multivoting considered an effective tool for stakeholder engagement?
-A: Because it limits stakeholder participation to only high-ranking individuals.
+A: Because it limits stakeholder participation to only high-ranking individuals in the organization.
 B: It democratizes the decision-making process, making it more transparent and participative.
 C: It only allows project managers to vote, thereby speeding up the decision process.
-D: Multivoting is used to delegate tasks, not for decision-making.
+D: Multivoting is used to delegate tasks, not for decision-making or stakeholder engagement.
 Answer: B
 Explanation: Multivoting is effective for stakeholder engagement as it democratizes the decision-making process. By involving stakeholders actively in prioritizing items, it makes the process more transparent and encourages wider participation.
 
 Question: In what scenario is multivoting particularly useful in a project?
-A: When detailed and long-term project planning is required.
-B: During stages where rapid decision-making is needed and understanding stakeholder priorities is crucial.
-C: When the project does not require stakeholder input or consensus.
-D: Only in the final stages of the project for retrospective analysis.
+A: When detailed and long-term project planning is required to finalize the project scope.
+B: In stages requiring rapid decisions and understanding stakeholder priorities.
+C: When the project does not require stakeholder input or consensus on requirements.
+D: Only in the final stages of the project for retrospective analysis and feedback.
 Answer: B
 Explanation: Multivoting is especially useful during project stages that require rapid decision-making and a clear understanding of stakeholder priorities. It facilitates quick yet effective consensus-building on important matters.
 
 Question: How does multivoting contribute to the prioritization of requirements?
-A: It restricts stakeholders from expressing their preferences on requirements.
-B: Through a voting process, it aggregates stakeholder opinions to rank requirements based on collective priority.
+A: It restricts stakeholders from expressing their preferences on requirements to only a few.
+B: By voting, it ranks requirements based on collective priority from stakeholder opinions.
 C: It assigns monetary values to each requirement.
 D: Multivoting is only used for final approval of the project plan, not for prioritizing requirements.
 Answer: B

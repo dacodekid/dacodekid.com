@@ -74,15 +74,15 @@ Answer: A
 Explanation: In an ERD, the cardinality symbol '1' represents a 'one-to-one' relationship, indicating that one and only one instance of each entity is involved in the relationship.
 
 Question: How does an Entity Relationship Diagram (ERD) aid in the database design phase of a project?
-A: By providing a timeline for database development
-B: By offering a visual representation of business data objects and their relationships
-C: By allocating budget for database storage
-D: By assigning roles for database maintenance
+A: By providing a timeline for database development and implementation
+B: By offering visual representation of business data objects and their relationships
+C: By allocating budget for database storage and maintenance activities
+D: By assigning roles for database maintenance and administration
 Answer: B
 Explanation: An ERD aids in the database design phase by offering a visual representation of business data objects and their relationships. This is crucial for understanding the scope of data and for database designers to develop an appropriate database structure.
 
 Question: What is the primary purpose of modeling 'many-to-many' relationships in an Entity Relationship Diagram (ERD)?
-A: To indicate that many instances of one entity can be associated with many instances of another entity
+A: To indicate many-to-many associations between entity instances
 B: To show that many entities are required for the project
 C: To represent that the relationship involves many steps
 D: To demonstrate the complexity of the project
@@ -91,9 +91,9 @@ Explanation: In an ERD, modeling 'many-to-many' relationships serves to indicate
 
 Question: When should an Entity Relationship Diagram (ERD) typically be created in the project lifecycle?
 A: After the completion of the project
-B: During the project closure phase
-C: Early in the analysis phase to establish a clear understanding of the scope of data
-D: Only during the final stages of database implementation
+B: During the project closure phase after all work is completed
+C: Used early in analysis to establish clear data scope understanding
+D: Only during the final stages of database implementation and testing
 Answer: C
 Explanation: An ERD should typically be created early in the analysis phase of a project. This helps in establishing a clear understanding of the scope of data involved in the system and is beneficial for subsequent phases like database design.
 ```

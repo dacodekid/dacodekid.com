@@ -71,7 +71,7 @@ In summary, Use Case Diagrams are instrumental in providing a visual synopsis of
 ```quiz
 Question: What is the primary purpose of Use Case Diagrams in business analysis?
 A: To provide a detailed financial budget for the project.
-B: To graphically depict the scope of use cases within a solution, illustrating the functionality and actor interactions.
+B: Graphically depict use case scope, showing functionality and actor interactions.
 C: They are used solely for documenting the technical architecture of a system.
 D: To record the personal data of project stakeholders.
 Answer: B
@@ -79,33 +79,33 @@ Explanation: Use Case Diagrams are used in business analysis primarily to graphi
 
 Question: How are actors represented in a Use Case Diagram?
 A: As detailed textual descriptions of each stakeholder's role.
-B: Actors are represented as stick figures, symbolizing individuals, roles, or other systems that interact with the use cases.
-C: Actors are not represented in Use Case Diagrams.
+B: Actors are depicted as stick figures, representing individuals, roles, or interacting systems.
+C: Actors are not represented in Use Case Diagrams, as they are irrelevant to the scope of the solution.
 D: They are represented as circles.
 Answer: B
 Explanation: In Use Case Diagrams, actors are represented as stick figures. These actors can be individuals, roles, or other systems that interact with the use cases in the diagram, illustrating the interfaces between the system and its users.
 
 Question: What does an association in a Use Case Diagram indicate?
 A: It indicates the flow of information between actors and use cases.
-B: Associations, represented as straight lines, denote that an actor is involved with a particular use case but do not indicate the flow of information.
+B: Associations, shown as straight lines, indicate actor involvement but not information flow.
 C: Associations show the financial relationship between actors and use cases.
 D: They indicate the technical specifications of the use cases.
 Answer: B
 Explanation: In Use Case Diagrams, associations are represented by straight lines connecting actors to use cases. These lines indicate that an actor is associated with a specific use case but do not show the flow of information.
 
 Question: What role do Use Case Diagrams play in stakeholder management?
-A: They are irrelevant in stakeholder management.
-B: Use Case Diagrams are valuable for managing stakeholder expectations by illustrating which stakeholders will interact with the system.
-C: These diagrams are used only for resolving stakeholder conflicts.
-D: They are utilized solely for stakeholder financial planning.
+A: They are irrelevant in stakeholder management, as they only depict the scope of the solution.
+B: Use Case Diagrams manage stakeholder expectations by showing system interactions.
+C: These diagrams are used only for resolving stakeholder conflicts and disagreements.
+D: They are utilized solely for stakeholder financial planning, not management.
 Answer: B
 Explanation: Use Case Diagrams play a significant role in stakeholder management. They illustrate which stakeholders (represented as actors) will directly interact with the system, thereby aiding in managing expectations and understanding stakeholder involvement.
 
 Question: How do Use Case Diagrams contribute to interface planning?
 A: By focusing on the aesthetic design of the interface.
-B: They offer insights into the interfaces that need to be developed between the system and actors, aiding in planning and design.
-C: Use Case Diagrams are not used for interface planning.
-D: They only contribute to the planning of physical interfaces.
+B: Insight into needed interfaces between the system and actors for planning and design.
+C: Use Case Diagrams are not used for interface planning, only for scope management.
+D: They only contribute to the planning of physical interfaces, not digital ones.
 Answer: B
 Explanation: Use Case Diagrams contribute to interface planning by visually representing the interactions between the system and its actors. This visualization aids in identifying and planning the interfaces that must be developed, ensuring comprehensive planning and design.
 ```

@@ -90,9 +90,9 @@ Explanation: Capability Tables are utilized in Future-State Analysis to define t
 
 Question: What aspect of Capability Tables provides an integrated view of the current and future states?
 A: Linking present problems and root causes with required features.
-B: Organizing office spaces and employee workstations.
+B: Organizing office spaces and employee workstations for efficiency.
 C: Conducting customer satisfaction surveys and feedback.
-D: Managing public relations and external communications.
+D: Managing public relations and external communications for the company.
 Answer: A
 Explanation: Capability Tables provide an integrated view by linking present problems and root causes with the features or capabilities required for future state achievement.
 

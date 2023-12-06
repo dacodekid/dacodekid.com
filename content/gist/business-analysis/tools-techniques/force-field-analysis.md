@@ -95,25 +95,25 @@ Answer: A
 Explanation: In Force Field Analysis, the factors that support the proposed change are represented as positive forces and are listed on the left side of the model.
 
 Question: What is the primary purpose of assigning weights to each force in Force Field Analysis?
-A: To reflect the force's significance and the ease with which it can be influenced
-B: To determine the project's budget
+A: To represent the force's significance and influence ease
+B: To determine the project's budget and financial resources
 C: To allocate resources to different project phases
 D: To schedule tasks and activities
 Answer: A
 Explanation: In Force Field Analysis, weights are assigned to each force based on its significance and the ease with which it can be influenced, allowing for a more nuanced evaluation of the forces affecting the change.
 
 Question: How does Force Field Analysis contribute to risk management in a project?
-A: By identifying negative forces, it helps in formulating risk mitigation plans
-B: It calculates the financial risk involved in the project
-C: It assigns risk management tasks to team members
-D: It schedules risk assessment activities
+A: It aids in formulating risk mitigation plans by identifying negative forces
+B: It calculates the financial risk involved in the project implementation
+C: It assigns risk management tasks to team members and stakeholders
+D: It schedules risk assessment activities throughout the project lifecycle
 Answer: A
 Explanation: Force Field Analysis contributes to risk management by identifying negative forces (or impediments) against the change, thereby aiding in the formulation of risk mitigation plans.
 
 Question: What is a potential disadvantage of using Force Field Analysis in decision-making?
-A: It always leads to a biased outcome
-B: The subjectivity in assigning weights can lead to biased outcomes
-C: It only provides financial analysis
+A: It always leads to a biased outcome due to subjectivity in weight assignment
+B: It can result in biased outcomes due to subjectivity in weight assignment
+C: It only provides financial analysis and does not consider other factors
 D: It assigns specific solutions to problems
 Answer: B
 Explanation: A potential disadvantage of using Force Field Analysis is the subjectivity in assigning weights to the forces, which can lead to biased outcomes, as different individuals may perceive the significance of the forces differently.

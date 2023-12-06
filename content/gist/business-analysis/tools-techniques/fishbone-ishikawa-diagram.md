@@ -40,15 +40,15 @@ Overall, the use of fishbone diagrams enhances the quality of requirements and s
 Question: What is the primary objective of using a Fishbone/Ishikawa Diagram in root cause analysis?
 A: To manage team schedules and project timelines.
 B: Identifying potential causes of a problem and categorizing them.
-C: Focusing on the development of new marketing strategies.
-D: Tracking financial transactions and budget allocations.
+C: Focusing on the development of new marketing strategies and campaigns.
+D: Tracking financial transactions and budget allocations for the project.
 Answer: B
 Explanation: The primary objective of using a Fishbone/Ishikawa Diagram is to identify potential causes of a problem or effect and categorize them in a structured manner.
 
 Question: In the creation of a Fishbone Diagram, what role does the 'Spine' play?
 A: It represents the timeline for project completion.
 B: The Spine serves as the central axis where primary causes are attached.
-C: Used for outlining the financial budget of the project.
+C: Used for outlining the financial budget of the project and its allocation.
 D: It displays the hierarchy of the project team.
 Answer: B
 Explanation: In a Fishbone Diagram, the Spine serves as the central axis, extending from the head, where the primary categories of causes or "bones" are attached.
@@ -62,17 +62,17 @@ Answer: B
 Explanation: Fishbone Diagrams align well with Requirements Life Cycle Management by facilitating a deep understanding of a problem, which leads to effective requirements elicitation and management.
 
 Question: What is a key step in the process of creating Fishbone Diagrams?
-A: Assigning project tasks to team members.
+A: Assigning project tasks to team members and stakeholders.
 B: Brainstorming possible causes for each identified category.
-C: Developing advertising and promotional materials.
+C: Developing advertising and promotional materials for the project.
 D: Calculating return on investment for projects.
 Answer: B
 Explanation: A key step in creating Fishbone Diagrams is brainstorming possible causes for each identified category and placing these causes along the "bones" of the diagram.
 
 Question: What limitation should be considered when using Fishbone Diagrams?
-A: They are only useful for large-scale international projects.
+A: They are only useful for large-scale international projects and not for smaller projects.
 B: They are not exhaustive and may need to be complemented by other techniques.
-C: Suitable exclusively for IT and software development projects.
+C: Suitable exclusively for IT and software development projects and solutions.
 D: Can only be used for employee performance evaluation.
 Answer: B
 Explanation: While Fishbone Diagrams are powerful for initial root cause analysis, they are not exhaustive and may need to be complemented by other techniques like Five Whys, surveys, or data analytics for a comprehensive analysis.

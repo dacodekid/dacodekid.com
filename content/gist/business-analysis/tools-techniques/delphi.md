@@ -41,42 +41,42 @@ In conclusion, the Delphi technique is a robust method for achieving a high-qual
 
 ```quiz
 Question: What is the primary purpose of the Delphi technique in business analysis?
-A: To provide a detailed financial analysis
+A: To provide a detailed financial analysis of a project
 B: To gather information and reach a consensus among subject matter experts
-C: To serve as a legal contract between experts
-D: To focus solely on the technical aspects of a project
+C: To serve as a legal contract between experts and the organization
+D: To focus solely on the technical aspects of a project and its components
 Answer: B
 Explanation: The primary purpose of the Delphi technique in business analysis is to gather information and arrive at a collective agreement among a group of subject matter experts (SMEs). This consensus-building approach is particularly beneficial in validating requirements, prioritizing features, and making estimations.
 
 Question: How does anonymity contribute to the effectiveness of the Delphi technique?
-A: It ensures financial confidentiality.
+A: It ensures financial confidentiality for participants.
 B: It reduces bias and undue influence from individual experts.
-C: It provides a legal shield for participants.
+C: It provides a legal shield for participants in case of disputes.
 D: It focuses on the technical skills of the participants.
 Answer: B
 Explanation: Anonymity is a key feature of the Delphi technique that contributes to its effectiveness by reducing bias and eliminating undue influence from any individual subject matter expert. This anonymity helps ensure that the collective wisdom is not skewed by the opinions or influence of a dominant individual.
 
 Question: What is the process followed in the Delphi technique?
-A: A detailed financial planning process
+A: A detailed financial planning process for the project that ensures budgetary compliance
 B: An iterative process of questionnaire distribution, feedback collection, and consensus-building among experts
-C: A legal assessment process
-D: A technical evaluation process
+C: A legal assessment process for the project that ensures compliance and risk mitigation measures
+D: A technical evaluation process for the project that ensures the use of the latest technology
 Answer: B
 Explanation: The process followed in the Delphi technique involves initiating with a questionnaire to experts, collecting feedback anonymously, summarizing and redistributing the responses for further comments, and repeating these steps in multiple rounds until a consensus is reached. This iterative process is designed to build a collective agreement among experts.
 
 Question: What kind of decisions can benefit from the application of the Delphi technique?
-A: Financial investment decisions
+A: Financial investment decisions for the project
 B: Decisions related to validating requirements, prioritizing features, or making estimations
-C: Legal decision-making
-D: Technical architecture decisions
+C: Legal decision-making such as contract negotiations, compliance, and risk mitigation measures
+D: Technical architecture decisions such as choosing the right technology stack
 Answer: B
 Explanation: The Delphi technique can be beneficially applied in decisions related to validating requirements, prioritizing features or user stories, and making more accurate estimations. These applications leverage the collective wisdom of subject matter experts to arrive at well-rounded and thoroughly considered decisions.
 
 Question: Why is the Delphi technique considered effective in informed decision-making?
-A: Because it provides a detailed financial overview
+A: Because it provides a detailed financial overview of project components and tasks
 B: Due to its ability to gather well-rounded input from multiple experts, leading to more reliable consensus-based decisions
-C: Because it focuses on legal compliance
-D: Because it emphasizes technical details
+C: Because it focuses on legal compliance, risk mitigation, and contract negotiations to ensure project success
+D: Because it emphasizes technical details and ensures the use of the latest technology
 Answer: B
 Explanation: The Delphi technique is considered effective in informed decision-making because it gathers input from multiple subject matter experts. This collective input, refined through iterative rounds, leads to more reliable consensus-based decisions that are well-rounded and thoroughly considered.
 

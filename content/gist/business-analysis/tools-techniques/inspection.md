@@ -35,34 +35,34 @@ Answer: B
 Explanation: An Inspection is a formal and rigorous review process used to assess work for completeness, consistency, and conformance to standards, making it suitable for reviewing a completed requirements document in a software development project.
 
 Question: What distinguishes an Inspection from a peer review in the context of reviewing a requirements document?
-A: Inspections rely solely on the domain knowledge of reviewers
+A: Inspections rely solely on the domain knowledge of reviewers while peer reviews use a checklist
 B: Inspections use a well-defined checklist to identify known defects
 C: Peer reviews are more formal and structured than inspections
-D: Peer reviews use a checklist while inspections do not
+D: Peer reviews use a checklist while inspections do not use any checklist
 Answer: B
 Explanation: The key differentiator of an Inspection from a peer review is the use of a well-defined checklist in Inspections to look for known types of defects, whereas peer reviews rely more on the reviewers' domain knowledge.
 
 Question: In a predictive project lifecycle, when are Inspections of requirements typically conducted?
-A: At the project initiation stage
+A: At the project initiation stage before the requirements process begins
 B: At the end of the requirements process, just before final approval
 C: After the first phase of implementation
-D: During the project closure phase
+D: During the project closure phase after the solution has been implemented
 Answer: B
 Explanation: In a predictive project lifecycle, Inspections of requirements are typically conducted at the end of the requirements process, just before the document is submitted for final approval.
 
 Question: Who are the usual participants in an Inspection session for a requirements document?
-A: Business stakeholders and management
+A: Business stakeholders and management of the inspectors
 B: Peers involved in the creation and documentation of the requirements
-C: External consultants and experts
-D: Customers and end-users
+C: External consultants and experts in the domain of the project
+D: Customers and end-users of the solution
 Answer: B
 Explanation: Participants in an Inspection session are usually peers who were involved in the creation and documentation of the requirements and who are the intended recipients of the requirements document.
 
 Question: What is the primary objective of conducting an Inspection on a requirements document?
-A: To assign tasks for requirement implementation
-B: To ensure that the requirements are acceptable for progressing into subsequent project phases
-C: To calculate the budget for requirement development
-D: To schedule the timeline for requirement completion
+A: To assign tasks for requirement implementation to team members
+B: To verify requirements acceptability for advancing into later project phases
+C: To calculate the budget for requirement development and implementation
+D: To schedule the timeline for requirement completion and delivery
 Answer: B
 Explanation: The primary objective of conducting an Inspection on a requirements document is to ensure that the requirements are acceptable in their current form for progressing into the subsequent phases of the project.
 ```

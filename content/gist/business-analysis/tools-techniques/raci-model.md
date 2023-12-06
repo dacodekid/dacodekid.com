@@ -59,34 +59,34 @@ Answer: D
 Explanation: In the RACI Model, the 'Responsible' role is primarily tasked with the actual execution of an activity. They are the 'doers' in the project.
 
 Question: What is the main purpose of the 'Accountable' role in the RACI Model?
-A: To provide expertise and guidance for a task
-B: To be ultimately answerable for the correct and thorough completion of the task
-C: To be kept updated on the progress of the task
-D: To execute the task
+A: To provide expertise and guidance for a task or activity
+B: To ensure the task's complete and accurate fulfillment
+C: To be kept updated on the progress of the task or activity
+D: To execute the task or activity
 Answer: B
 Explanation: The 'Accountable' role in the RACI Model is ultimately answerable for the correct and thorough completion of the task. This role typically has the authority to approve or reject the work.
 
 Question: How does the RACI Model support effective communication in Business Analysis?
 A: By creating a detailed financial plan
-B: By ensuring that the right people are consulted, informed, and held accountable at appropriate times
-C: By determining the technical specifications for project tasks
-D: By providing legal advice regarding stakeholder roles
+B: By consulting, informing, and holding the right people accountable at suitable times
+C: By determining the technical specifications for project tasks and activities
+D: By providing legal advice regarding stakeholder roles and responsibilities
 Answer: B
 Explanation: The RACI Model supports effective communication in Business Analysis by ensuring that the right people are consulted, informed, and held accountable at the right times, aligning with business analysis practices for effective stakeholder engagement.
 
 Question: What is a critical factor in aligning the Stakeholder Analysis with the RACI Model in Business Analysis?
-A: Determining the financial investment of each stakeholder
-B: Categorizing stakeholders based on attributes like power, influence, impact, or interest to determine their level of involvement
-C: Assessing the personal interests of stakeholders outside the project scope
-D: Focusing solely on stakeholders with high technical skills
+A: Determining the financial investment of each stakeholder outside the project scope
+B: Sorting stakeholders by power, influence, impact, or interest to set their involvement level
+C: Assessing the personal interests of stakeholders outside the project scope to determine their involvement level
+D: Focusing solely on stakeholders with high technical skills and expertise
 Answer: B
 Explanation: In Business Analysis, aligning the Stakeholder Analysis with the RACI Model involves categorizing stakeholders based on attributes like power, influence, impact, or interest. This categorization guides the determination of the appropriate level of involvement for each stakeholder within the RACI framework.
 
 Question: Why is the RACI Model considered a dynamic tool in Business Analysis?
-A: Because it provides a fixed structure that never changes throughout the project
+A: Because it provides a fixed structure that never changes throughout the project lifecycle or within different business analysis processes
 B: Because its classifications of stakeholder roles can change at different points in the product or project lifecycle
-C: Because it is used only at the beginning of the project
-D: Because it focuses exclusively on the technical aspects of roles
+C: Because it is used only at the beginning of the project to determine stakeholder roles and responsibilities
+D: Because it focuses exclusively on the technical aspects of roles and responsibilities
 Answer: B
 Explanation: The RACI Model is considered a dynamic tool in Business Analysis because its classifications of stakeholder roles and responsibilities can change at different points in a product or project lifecycle or within different business analysis processes. This flexibility allows for updates as necessary, ensuring clarity throughout the project.
 ```

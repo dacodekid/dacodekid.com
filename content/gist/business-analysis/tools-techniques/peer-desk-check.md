@@ -28,39 +28,39 @@ Inviting testers and those responsible for developing training manuals to the ve
 ```quiz
 Question: What is the main purpose of conducting a Peer Desk Check in business analysis?
 A: To formally approve the budget for the project.
-B: To informally review materials for logical consistency and identify any errors or inconsistencies in the analysis models or requirements.
+B: To informally check for logical consistency and errors in analysis models or requirements.
 C: It is used to delegate tasks among team members.
-D: Peer Desk Check is specifically for technical coding reviews, not business analysis.
+D: Peer Desk Check is specifically for technical coding reviews, not business analysis deliverables.
 Answer: B
 Explanation: The main purpose of a Peer Desk Check is to conduct an informal review where peers assess materials such as analysis models or requirements, aiming to identify any inconsistencies, errors, or logical flaws.
 
 Question: How does a Peer Review differ from a Peer Desk Check in its approach?
 A: Peer Reviews are less detailed and only conducted at the end of a project.
-B: Peer Review, which can be formal or informal, involves a broader group of participants and is conducted at various stages of the requirements process.
+B: Peer Review involves a broad group and happens at different stages.
 C: Peer Reviews are only for reviewing financial aspects of a project.
 D: There is no difference; both are the same process.
 Answer: B
 Explanation: Peer Review differs from Peer Desk Check in that it can be either formal or informal, involves a wider range of participants, and is conducted at various stages of the requirements process for a more comprehensive review.
 
 Question: What role do quality assurance and testing resources play in Peer Reviews?
-A: They primarily focus on the technical development aspects of the project.
-B: Quality assurance and testing resources provide valuable perspectives on testability, completeness, and consistency of the requirements.
-C: Their role is limited to post-deployment testing.
+A: They primarily focus on the technical development aspects of the project and not on the requirements.
+B: Testing resources offer insights on testability, completeness, and consistency of requirements.
+C: Their role is limited to post-deployment testing and not for the review process.
 D: They are involved only for budgeting purposes.
 Answer: B
 Explanation: Quality assurance and testing resources play a crucial role in Peer Reviews by providing insights on the testability, completeness, and consistency of the requirements, enhancing the quality of the review process.
 
 Question: Why is it beneficial to involve testers and those developing training manuals in the verification review process?
-A: They provide insights primarily on the financial feasibility of the project.
-B: Their involvement ensures a more detailed and focused review, particularly in terms of consistency, completeness, and testability of the requirements.
-C: Their involvement is only necessary for marketing purposes.
-D: They are involved solely to manage the project timeline.
+A: They provide insights primarily on the financial feasibility of the project and its requirements.
+B: They ensure a detailed review with a focus on consistency, completeness, and testability of requirements.
+C: Their involvement is only necessary for marketing purposes and not for the review process.
+D: They are involved solely to manage the project timeline and schedule.
 Answer: B
 Explanation: Involving testers and those responsible for developing training manuals in the verification review process is beneficial as it ensures a more detailed and focused review, especially regarding the requirements' consistency, completeness, and testability.
 
 Question: What is a key advantage of using screen-sharing technology during a Peer Review session?
 A: It allows for the review to be postponed and rescheduled easily.
-B: Screen-sharing technology enables real-time changes to documents, facilitating efficient resolution of identified issues.
+B: Screen-sharing allows real-time document changes for efficient issue resolution.
 C: The technology is used exclusively for remote project presentations, not for reviews.
 D: It allows participants to avoid active involvement in the review process.
 Answer: B

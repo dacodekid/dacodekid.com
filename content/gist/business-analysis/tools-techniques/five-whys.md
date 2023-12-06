@@ -42,41 +42,41 @@ Five-Whys technique serves as a foundational tool in the business analyst's tool
 
 ```quiz
 Question: What is the primary aim of the Five-Whys technique in root cause analysis?
-A: To establish a new marketing campaign strategy.
+A: To establish a new marketing campaign strategy for the company.
 B: Identifying the underlying cause of a problem by asking "Why?" repeatedly.
-C: Allocating resources for different departments.
-D: Planning corporate events and team-building activities.
+C: Allocating resources for different departments and teams.
+D: Planning corporate events and team-building activities for the project.
 Answer: B
 Explanation: The primary aim of the Five-Whys technique is to identify the underlying cause of a problem by iteratively asking the question "Why?" to peel away the layers of symptoms and uncover the root cause.
 
 Question: In the Five-Whys technique, how is the first level of "Why" determined?
-A: By analyzing the company's financial performance.
+A: By analyzing the company's financial performance and budget.
 B: Through asking why the identified problem occurs and documenting this cause.
-C: Based on customer feedback and surveys.
-D: According to the latest industry trends and benchmarks.
+C: Based on customer feedback and surveys conducted by the company in the past.
+D: According to the latest industry trends and benchmarks in the sector.
 Answer: B
 Explanation: The first level of "Why" in the Five-Whys technique is determined by asking why the problem occurs and documenting this initial cause.
 
 Question: When is the Five-Whys technique particularly useful in business analysis?
-A: For organizing company-wide events and conferences.
+A: For organizing company-wide events and conferences for employees.
 B: When a quick and straightforward method is needed to identify a problem's root cause.
-C: In making decisions about hiring and employee training.
-D: While planning the annual budget and financial forecasts.
+C: In making decisions about hiring and employee training and development.
+D: While planning the annual budget and financial forecasts for the company for the next year.
 Answer: B
 Explanation: The Five-Whys technique is particularly useful when a quick and straightforward method is required to identify the root cause of a problem.
 
 Question: What is a key consideration when applying the Five-Whys technique?
-A: Focusing exclusively on technological solutions.
+A: Focusing exclusively on technological solutions to the problem.
 B: Avoiding defensive responses by phrasing questions for open discussion.
-C: Determining the social media strategy for the company.
-D: Deciding on the office layout and space management.
+C: Determining the social media strategy for the company and its implementation.
+D: Deciding on the office layout and space management for the company.
 Answer: B
 Explanation: A key consideration in applying the Five-Whys technique is to phrase the questions in a way that encourages open discussion and exploration, avoiding making interviewees defensive.
 
 Question: What limitation should be noted when using the Five-Whys technique?
-A: It is only applicable to large-scale international businesses.
+A: It is only applicable to large-scale international businesses and not for smaller companies.
 B: The technique may oversimplify complex problems with multiple root causes.
-C: Suitable exclusively for the IT and software development sector.
+C: Suitable exclusively for the IT and software development sector and not for other industries.
 D: It can only be used in the context of employee performance reviews.
 Answer: B
 Explanation: A limitation of the Five-Whys technique is that it may oversimplify complex problems that have multiple root causes, relying on the expertise and insights of the people involved.

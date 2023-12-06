@@ -63,26 +63,26 @@ Answer: B
 Explanation: A Decision Tree is particularly advantageous for simplifying binary decisions due to its tree-like structure, making it easier to interpret visually and ideal for stakeholder reviews.
 
 Question: How do Decision Tables contribute to the test case development process?
-A: By assigning roles and responsibilities for each test case
+A: By assigning roles and responsibilities for each test case scenario
 B: Each column represents a business rule and can form the basis for a test case
-C: By providing a timeline for test case execution
-D: By outlining the budget required for each test case
+C: By providing a timeline for test case execution and review meetings
+D: By outlining the budget required for each test case scenario and its execution
 Answer: B
 Explanation: In Decision Tables, each column represents a business rule, which can form the basis for a test case, ensuring that all scenarios are accounted for in test case development.
 
 Question: When would a Decision Tree be particularly useful in a business analysis process?
-A: When evaluating the financial viability of a project
+A: When evaluating the financial viability of a project or product
 B: When there are redundant or unnecessary steps in decision-making
-C: When assigning tasks to team members
-D: When scheduling project phases
+C: When assigning tasks to team members and stakeholders in a project
+D: When scheduling project phases and activities in a timeline
 Answer: B
 Explanation: A Decision Tree is particularly useful for identifying redundant or unnecessary steps within a decision-making process, helping to simplify complex decision logic.
 
 Question: What is a common use case for both Decision Trees and Decision Tables in business analysis?
 A: Calculating the project's return on investment
 B: Capturing complex business rules and conditions
-C: Managing the project team
-D: Creating a marketing strategy
+C: Managing the project team and stakeholders involved
+D: Creating a marketing strategy for the product
 Answer: B
 Explanation: Both Decision Trees and Decision Tables are ideal for capturing complex business rules and conditions, making them valuable tools for business rules modeling in business analysis.
 ```

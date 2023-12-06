@@ -47,15 +47,15 @@ This means that for every dollar invested in the campaign, there was a return of
 
 ```quiz
 Question: What does the Return on Investment (ROI) measure in the context of business analysis?
-A: The total cost of an investment without considering its returns.
+A: The total cost of an investment without considering its returns or profitability.
 B: ROI measures the efficiency or profitability of an investment relative to its cost.
-C: It only measures the time taken for an investment to mature.
-D: ROI is a measure of the environmental impact of an investment.
+C: It only measures the time taken for an investment to mature and provide returns.
+D: ROI is a measure of the environmental impact of an investment on the organization.
 Answer: B
 Explanation: Return on Investment (ROI) is a performance measure used to evaluate the efficiency or profitability of an investment by comparing the return of the investment relative to its cost.
 
 Question: How is ROI calculated?
-A: ROI = Total Revenue / Total Costs
+A: ROI = (Total Revenue - Total Costs) / (Net Profit from the Investment - Cost of the Investment) × 100%
 B: ROI = Total Costs / Total Revenue
 C: ROI = (Net Profit from the Investment - Cost of the Investment) / Cost of the Investment × 100%
 D: ROI = Cost of the Investment / Net Profit from the Investment
@@ -63,26 +63,26 @@ Answer: C
 Explanation: ROI is calculated using the formula: ROI = (Net Profit from the Investment - Cost of the Investment) / Cost of the Investment × 100%. This formula provides a percentage-based metric for assessing an investment's profitability.
 
 Question: What is a limitation of using ROI as a measure for investment decisions?
-A: ROI always guarantees future profitability based on past performance.
-B: It does not consider the time value of money and is based on past performance, which might not indicate future results.
-C: ROI provides detailed risk analysis for the investment.
-D: It takes into account the environmental factors affecting the investment.
+A: ROI always guarantees future profitability based on past performance of the investment.
+B: Ignores money's time value and past performance may not forecast future results.
+C: ROI provides detailed risk analysis for the investment decision.
+D: It takes into account the environmental factors affecting the investment decision.
 Answer: B
 Explanation: A limitation of ROI is that it does not consider the time value of money and is based on historical data. Past performance might not always be indicative of future results, which can limit its predictive accuracy.
 
 Question: In the provided example, what does an ROI of 50% indicate about the marketing campaign investment?
-A: The campaign incurred a 50% loss on the investment.
-B: For every dollar invested in the campaign, there was a return of $1.50, indicating a profitable investment.
-C: The campaign had no impact on the company’s profits.
-D: It indicates that the campaign doubled the company's initial investment.
+A: The campaign incurred a 50% loss on the investment made.
+B: The campaign yielded a $1.50 return per dollar invested, signaling profitability.
+C: The campaign had no impact on the company’s profits and was a waste of money.
+D: It indicates that the campaign doubled the company's initial investment of $200,000.
 Answer: B
 Explanation: An ROI of 50% in the given example means that for every dollar invested in the marketing campaign, the company saw a return of $1.50. This indicates a profit of 50 cents on every dollar invested, showing the campaign was profitable.
 
 Question: Why is ROI considered a versatile tool for decision-making in investments?
-A: Because it provides a detailed technical analysis of the investment.
-B: ROI is versatile as it offers a straightforward percentage-based metric for comparing the profitability of different investments.
-C: It is only applicable to small-scale investments.
-D: ROI is versatile because it calculates the exact future returns of an investment.
+A: Because it provides a detailed technical analysis of the investment decision.
+B: ROI, a simple percentage measure, easily compares different investments' profitability.
+C: It is only applicable to small-scale investments, not large-scale investments.
+D: ROI is versatile because it calculates the exact future returns of an investment decision.
 Answer: B
 Explanation: ROI is considered a versatile tool for decision-making as it provides a clear, percentage-based metric that can be used to compare the profitability of different investments, making it useful across a broad range of investment types and scenarios.
 ```

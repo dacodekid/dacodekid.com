@@ -31,42 +31,42 @@ In essence, product visioning is a collaborative and iterative process aimed at 
 
 ```quiz
 Question: Why is Product Visioning considered indispensable in business analysis?
-A: It provides a detailed financial plan for product development.
+A: It provides a detailed financial plan for product development and release.
 B: It establishes the overarching direction and scope for a product or product release.
-C: It is primarily used to set exact timelines for product development phases.
+C: It is primarily used to set exact timelines for product development phases and milestones.
 D: It focuses on the technical specifications of the product.
 Answer: B
 Explanation: Product Visioning is crucial in business analysis because it establishes the overarching direction and scope for a product or product release, aligning team members with a unified conception of the product's future. It's not about detailed financial planning, setting exact timelines, or focusing on technical specs.
 
 Question: What is the primary purpose of a Vision Statement in Product Visioning?
-A: To serve as a detailed project management plan.
+A: To serve as a detailed project management plan for product development.
 B: To outline key expectations, target market, and major benefits of the product.
-C: To provide a legal framework for product development.
+C: To provide a legal framework for product development and release.
 D: To list the specific qualifications and skills of the development team.
 Answer: B
 Explanation: A Vision Statement in Product Visioning serves as a concise narrative that outlines key expectations, identifies the target market, and major benefits, and distinguishes the product from its competitors. It's not about project management, legal frameworks, or team qualifications.
 
 Question: How does the output from Product Visioning, like the vision statement, contribute to the Business Case?
-A: It offers a precise budget allocation for each phase of product development.
+A: It offers a precise budget allocation for each phase of product development and release.
 B: It equips decision-makers with an understanding of the product, aligning strategic and operational efforts.
-C: It details the technology stack and infrastructure requirements for the product.
-D: It serves as a binding contract between the development team and external stakeholders.
+C: It details the technology stack and infrastructure requirements for the product development.
+D: It serves as a binding contract between the development team and external stakeholders and vendors.
 Answer: B
 Explanation: The output from Product Visioning, such as the vision statement, contributes to the Business Case by ensuring that decision-makers have the same understanding of the product as the development team, aligning strategic objectives with operational efforts. It's not about budget details, technology infrastructure, or serving as a contract.
 
 Question: Why is achieving a shared understanding among team members important in Product Visioning?
-A: It is essential for complying with international standards and regulations.
+A: It is essential for complying with international standards and regulations for product development.
 B: It ensures that all team members are equally involved in the technical development process.
 C: It is crucial for steering the product development in a unified direction.
-D: It primarily focuses on documenting the personal achievements of team members.
+D: It primarily focuses on documenting the personal achievements of team members during product development.
 Answer: C
 Explanation: The attainment of a shared understanding among team members in Product Visioning is crucial for steering the product development in a unified direction, especially when multiple stakeholders have different views or expectations. It's not about compliance, equal involvement in technical development, or documenting personal achievements.
 
 Question: What makes Product Visioning a collaborative and iterative process?
-A: It involves negotiating contracts with vendors and suppliers.
-B: It includes continuous updates to the project's risk management plan.
+A: It involves negotiating contracts with vendors and suppliers for product development.
+B: It includes continuous updates to the project's risk management plan and strategy.
 C: It aims at achieving mutual understanding and agreement about the product's future trajectory.
-D: It is used to periodically review and update the product's pricing strategy.
+D: It is used to periodically review and update the product's pricing strategy and financial plan.
 Answer: C
 Explanation: Product Visioning is collaborative and iterative as it aims to achieve mutual understanding and agreement among team members about the product's future trajectory, using specific elicitation techniques and key deliverables. It's not about vendor contracts, risk management, or pricing strategy reviews.
 

@@ -71,10 +71,10 @@ Answer: B
 Explanation: A Detailed Activity List, an output of Job Analysis, is crucial for Performance Appraisal as it provides a comprehensive list of tasks, duties, and responsibilities, which can be used to measure an employee's performance effectively.
 
 Question: How does Job Analysis aid in the context of Transition Planning for new technological implementations in a project?
-A: By identifying cost-effective technology solutions
-B: By outlining the marketing strategies for new technologies
+A: By identifying cost-effective technology solutions for the project implementation
+B: By outlining the marketing strategies for new technologies and products
 C: By providing details for hiring and training staff in new or modified roles
-D: By determining the environmental impact of new technologies
+D: By determining the environmental impact of new technologies and products
 Answer: C
 Explanation: In Transition Planning, especially for projects involving new technologies, Job Analysis aids by providing detailed information required to hire, train, and integrate staff into new or modified roles that support the future state.
 
@@ -87,10 +87,10 @@ Answer: A
 Explanation: The High-Level Work Description, an output of Job Analysis, is particularly important in Business Analysis for understanding Stakeholder Roles. It provides an overarching view of the job’s primary objectives and functions, which is integral for requirements elicitation and stakeholder management.
 
 Question: What is the primary focus of Job Analysis when it is used in the context of Workflow and Process Reengineering?
-A: To enhance the organization's financial performance
+A: To enhance the organization's financial performance and profitability
 B: To identify areas for improvement or change in tasks and roles alignment
-C: To streamline recruitment processes
-D: To assess the impact of job roles on customer satisfaction
+C: To streamline recruitment processes and procedures
+D: To assess the impact of job roles on customer satisfaction and experience
 Answer: B
 Explanation: In the context of Workflow and Process Reengineering, Job Analysis focuses on providing insights into how tasks and roles are currently aligned. This information is used to identify areas for improvement or change in the existing workflows or processes.
 

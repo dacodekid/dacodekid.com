@@ -41,7 +41,7 @@ Interviews are versatile and can be employed at different stages of business ana
 
 ```quiz
 Question: What is a primary objective of conducting interviews in business analysis?
-A: To make financial decisions
+A: To make financial decisions for the project
 B: To identify problems or opportunities
 C: To provide technical support
 D: To conduct performance reviews
@@ -49,18 +49,18 @@ Answer: B
 Explanation: Interviews are primarily used in business analysis to identify problems or opportunities, as they provide a platform to understand the underlying issues from key stakeholders.
 
 Question: In the context of project or product charter development, how are interviews utilized?
-A: To determine project budget
-B: To assign team roles
+A: To determine project budget and financial resources
+B: To assign team roles and responsibilities
 C: To gather critical information for the charter
-D: To finalize project deadlines
+D: To finalize project deadlines and milestones
 Answer: C
 Explanation: Interviews are employed to gather critical information during the development of a project or product charter, either to initiate the charter or supplement it with additional details.
 
 Question: Which of the following best describes the nature of interviews in business analysis?
 A: Always formal with a fixed set of questions
-B: Solely based on stakeholder's financial interests
+B: Solely based on stakeholder's financial interests and preferences
 C: Either structured with pre-determined questions or unstructured
-D: Only conducted online
+D: Only conducted online or through video conferencing
 Answer: C
 Explanation: Interviews in business analysis can be either structured, with a predetermined set of questions, or unstructured, allowing spontaneous questions based on conversation flow.
 
@@ -73,18 +73,18 @@ Answer: B
 Explanation: A crucial aspect of conducting interviews is the documentation of stakeholders' responses, which can be achieved through various means like notes, audio, or video recordings.
 
 Question: How do interviews contribute to the elicitation preparation phase in business analysis?
-A: By clarifying objectives and setting expectations for future elicitation activities
-B: By finalizing project deliverables
-C: By conducting market analysis
+A: By setting objectives and expectations for future elicitation activities
+B: By finalizing project deliverables and milestones with stakeholders
+C: By conducting market analysis and research for the project
 D: By establishing legal frameworks
 Answer: A
 Explanation: Preliminary interviews help in clarifying objectives and setting expectations for those participating in future elicitation activities, guiding the formulation of agendas and determining relevant questions.
 
 Question: In the context of solution evaluation, what role do interviews play?
-A: Providing entertainment to stakeholders
+A: Providing entertainment to stakeholders and team members
 B: Collecting feedback on proposed solutions or implemented changes
-C: Selling products to stakeholders
-D: Recruiting new team members
+C: Selling products to stakeholders and customers in the market
+D: Recruiting new team members for the project
 Answer: B
 Explanation: Interviews are utilized in solution evaluation to collect feedback from stakeholders on proposed solutions or changes that have been implemented, aiding in the assessment process.
 ```

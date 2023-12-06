@@ -49,17 +49,17 @@ Answer: C
 Explanation: A traceability matrix is an effective tool for assessing the impact of a proposed change on existing requirements, as it links requirements to their origins and traces them throughout the project lifecycle.
 
 Question: In the context of Impact Analysis, what is the significance of conducting a conflict assessment?
-A: To determine financial conflicts in the project budget
+A: To determine financial conflicts in the project budget and resource allocation
 B: To identify and resolve conflicts between the proposed change and existing requirements
-C: To assign conflicting tasks to different team members
-D: To schedule conflicting project activities
+C: To assign conflicting tasks to different team members and stakeholders in the project
+D: To schedule conflicting project activities and tasks throughout the project lifecycle
 Answer: B
 Explanation: The significance of conducting a conflict assessment in Impact Analysis is to identify and resolve any conflicts between the proposed change and existing or baselined requirements, ensuring the integrity of the requirements baseline.
 
 Question: How does Impact Analysis affect ongoing business analysis activities in a project?
 A: It typically results in the immediate completion of all activities
 B: It evaluates how the proposed change will affect these activities
-C: It cancels all ongoing business analysis activities
+C: It cancels all ongoing business analysis activities in the project
 D: It allocates additional budget to business analysis activities
 Answer: B
 Explanation: Impact Analysis involves evaluating how a proposed change will affect ongoing business analysis activities, including work that has been completed and approved, as well as work still in progress.
@@ -67,16 +67,16 @@ Explanation: Impact Analysis involves evaluating how a proposed change will affe
 Question: Why is it important for a business analyst to collaborate with the project manager during Impact Analysis?
 A: To assess the impact of the change on various subsidiary plans within the project management plan
 B: To assign project management tasks to the business analyst
-C: To create a new project management plan
+C: To create a new project management plan for the project
 D: To evaluate the project manager's performance
 Answer: A
 Explanation: Collaboration between the business analyst and the project manager is important during Impact Analysis to properly assess the impact of the change on various subsidiary plans within the project management plan, capturing both project and product viewpoints.
 
 Question: What is the final stage in the Impact Analysis process?
-A: Immediately implementing the change
-B: Formulating a recommendation and submitting it to the approving authority
+A: Immediately implementing the change in the project
+B: Formulating a recommendation and submitting it for approval
 C: Cancelling the project
-D: Transferring project responsibilities
+D: Transferring project responsibilities to the project manager
 Answer: B
 Explanation: The final stage in the Impact Analysis process involves assembling the collected data and formulating a recommendation, which is then submitted to the approving authority, such as a Change Control Board (CCB).
 ```

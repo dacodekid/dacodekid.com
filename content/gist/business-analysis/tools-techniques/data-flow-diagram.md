@@ -55,25 +55,25 @@ Explanation: In a Data Flow Diagram, arrows are used to show the direction of da
 
 Question: What is the primary purpose of representing external entities in a Data Flow Diagram?
 A: To indicate actors or systems that interact with the process from outside the system boundary
-B: To show the internal staff involved in the process
-C: To display the financial stakeholders of the project
-D: To represent the technical infrastructure of the system
+B: To show the internal staff involved in the process and their roles and responsibilities
+C: To display the financial stakeholders of the project and their budget allocations
+D: To represent the technical infrastructure of the system and its components
 Answer: A
 Explanation: External entities in a Data Flow Diagram represent actors or systems that interact with the process but lie outside the defined system's boundary, highlighting their role in data interaction.
 
 Question: How does a Data Flow Diagram assist in the requirements gathering process?
-A: By providing a timeline for project deliverables
+A: By providing a timeline for project deliverables and milestones to be achieved
 B: By showing the flow of data, aiding in understanding how data requirements are met
-C: By allocating budget for data-related activities
-D: By assigning roles and responsibilities for data management
+C: By allocating budget for data-related activities and tasks in the project
+D: By assigning roles and responsibilities for data management and processing
 Answer: B
 Explanation: A Data Flow Diagram assists in the requirements gathering process by providing a visual representation of the flow of data. This helps stakeholders understand how data requirements are met and how data moves through the system.
 
 Question: What is a limitation of a Data Flow Diagram in terms of data analysis?
 A: It does not indicate the timing or sequence of data movement
-B: It cannot show the flow of data between processes
-C: It is unable to represent data storage
-D: It does not include external entities
+B: It cannot show the flow of data between processes and data stores
+C: It is unable to represent data storage and retrieval processes
+D: It does not include external entities in the data flow analysis
 Answer: A
 Explanation: A limitation of a Data Flow Diagram is that it does not indicate the timing, sequence, or control factors affecting the data flow, focusing only on the stateless flow of data itself.
 ```

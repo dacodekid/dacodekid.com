@@ -63,42 +63,42 @@ quadrantChart
 
 ```quiz
 Question: What is the primary purpose of the Stakeholder Matrix in business analysis?
-A: To track the financial contributions of each stakeholder.
-B: To categorize stakeholders based on their influence and impact, aiding in prioritizing and managing stakeholder engagement.
-C: It is exclusively used for legal documentation of stakeholders.
+A: To track the financial contributions of each stakeholder, including budgeting and forecasting.
+B: To categorize stakeholders by influence and impact, helping prioritize and manage engagement.
+C: It is exclusively used for legal documentation of stakeholders, such as contracts.
 D: To determine the technical skills of each stakeholder.
 Answer: B
 Explanation: The primary purpose of the Stakeholder Matrix in business analysis is to categorize stakeholders based on their level of influence on the project and the degree to which they are impacted by the project, which helps in prioritizing and managing stakeholder engagement effectively.
 
 Question: How should stakeholders in the 'High Influence/High Impact' quadrant be engaged?
-A: These stakeholders should be ignored as they have too much influence and impact.
+A: These stakeholders should be ignored as they have too much influence and impact, making them self-sufficient.
 B: Engage them minimally as their high influence and impact make them self-sufficient.
 C: Closely engage with these stakeholders throughout the project due to their significant influence and high impact.
-D: Only engage with them at the end of the project for final approval.
+D: Only engage with them at the end of the project for final approval as they are not relevant to the project.
 Answer: C
 Explanation: Stakeholders in the 'High Influence/High Impact' quadrant should be closely engaged throughout the project, as their significant influence over and high impact from the project make them crucial for its success.
 
 Question: What challenge might arise from stakeholders who fall near the border of two quadrants in the Stakeholder Matrix?
-A: It indicates that these stakeholders are not relevant to the project.
+A: It indicates that these stakeholders are not relevant to the project and can be ignored.
 B: Classifying these stakeholders can be challenging as they share characteristics of both quadrants.
-C: It means that the project is not viable.
-D: These stakeholders are typically removed from the analysis.
+C: It means that the project is not viable, as it does not have enough stakeholders.
+D: These stakeholders are typically removed from the analysis process.
 Answer: B
 Explanation: A challenge with stakeholders who fall near the border of two quadrants in the Stakeholder Matrix is the difficulty in classifying them, as they may exhibit characteristics pertinent to both quadrants.
 
 Question: Why is the Stakeholder Matrix considered a strategic tool in business analysis?
 A: It is used only for financial analysis.
-B: The matrix is strategic as it aids in focusing efforts and resources on the most influential and impacted stakeholders.
-C: The matrix is primarily a legal requirement.
-D: It is considered strategic as it only focuses on external stakeholders.
+B: The matrix is strategic, directing efforts and resources to influential stakeholders.
+C: The matrix is primarily a legal requirement, ensuring that all stakeholders are documented.
+D: It is considered strategic as it only focuses on external stakeholders and not internal ones.
 Answer: B
 Explanation: The Stakeholder Matrix is a strategic tool in business analysis as it helps in focusing efforts and resources more efficiently by identifying and categorizing stakeholders based on their influence and impact on the project.
 
 Question: In what way does the Stakeholder Matrix assist in resource allocation during business analysis activities?
-A: By ignoring stakeholders with low impact and influence.
-B: It provides insights for allocating resources effectively by highlighting which stakeholders require more attention and engagement.
-C: The matrix is used to allocate financial resources only.
-D: It allocates resources equally among all stakeholders.
+A: By ignoring stakeholders with low impact and influence, thereby saving resources.
+B: It highlights stakeholders needing more attention and engagement, aiding resource allocation.
+C: The matrix is used to allocate financial resources only and not human resources or time.
+D: It allocates resources equally among all stakeholders, ensuring fairness.
 Answer: B
 Explanation: The Stakeholder Matrix assists in resource allocation during business analysis activities by providing insights into which stakeholders require more focused attention and engagement, thereby enabling more effective and targeted allocation of resources.
 ```

@@ -72,31 +72,31 @@ Explanation: The primary purpose of SWOT Analysis is to analyze the Strengths, W
 
 Question: How does SWOT Analysis facilitate stakeholder engagement?
 A: By organizing team-building activities and events.
-B: Serving as a platform for structured and objective discussion about critical aspects.
-C: Focusing on redesigning the organization's website.
-D: Managing social media and marketing campaigns.
+B: Platform for structured, objective discussion on critical aspects.
+C: Focusing on redesigning the organization's website and online presence.
+D: Managing social media and marketing campaigns for the organization.
 Answer: B
 Explanation: SWOT Analysis serves as a valuable tool for facilitating structured and objective discussions with stakeholders about high-level and critical aspects of an organization.
 
 Question: In SWOT Analysis, what are 'Strengths' considered as?
 A: The financial goals and revenue targets of the organization.
-B: Internal attributes providing an advantage for solving problems or seizing opportunities.
-C: The organization's social media presence and marketing strategies.
+B: Internal attributes for problem-solving and opportunities.
+C: The organization's social media presence and marketing strategies on digital platforms.
 D: The layout and design of the company's office space.
 Answer: B
 Explanation: In SWOT Analysis, 'Strengths' are considered internal attributes that provide an advantage for the organization in solving a problem or seizing an opportunity.
 
 Question: What aspect does SWOT Analysis investigate within the external environment?
 A: The personal interests and hobbies of employees.
-B: Opportunities and threats in the market or external environment.
-C: The interior design trends in office environments.
+B: Market and external environment opportunities and threats.
+C: The interior design trends in office environments and workspaces.
 D: Employee satisfaction and workplace culture.
 Answer: B
 Explanation: Within the external environment, SWOT Analysis investigates potential opportunities to mitigate problems or seize opportunities, as well as threats that could impede success.
 
 Question: What role does SWOT Analysis play in the process of transitioning a project?
-A: It is used to determine the menu for the office cafeteria.
-B: Assists in preparing the product team by expressing expectations and concerns.
+A: It is used to determine the menu for the office cafeteria and canteen.
+B: Helps prepare the product team by sharing expectations and concerns.
 C: Focuses on planning corporate events and client meetings.
 D: It is used for managing the inventory of office supplies.
 Answer: B

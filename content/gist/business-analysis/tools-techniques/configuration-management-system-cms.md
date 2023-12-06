@@ -44,34 +44,34 @@ Answer: B
 Explanation: A Configuration Management System (CMS) is designed to manage and maintain changeable assets like documentation and code in an organization, ensuring that all approved versions of these assets are stored and protected systematically.
 
 Question: What is the primary purpose of the Configuration Identification process within a Configuration Management System (CMS)?
-A: To define the budget for configuration items
-B: To provide unique identifiers and a classification structure for configuration items
-C: To schedule timelines for configuration changes
-D: To allocate resources for managing configuration items
+A: To define the budget for configuration items and their change
+B: To assign unique identifiers and classify configuration items
+C: To schedule timelines for configuration changes and updates
+D: To allocate resources for managing configuration items and their changes
 Answer: B
 Explanation: The Configuration Identification process in a CMS helps in identifying configuration items for a project, providing them with unique identifiers and a classification structure, crucial for systematic management.
 
 Question: What role does Configuration Control play in a Configuration Management System (CMS)?
 A: It involves the evaluation, approval, and implementation of changes to configuration items
-B: It is responsible for the physical storage of configuration items
-C: It primarily deals with the training of staff on configuration management procedures
-D: It focuses on the sales and marketing aspects of configuration items
+B: It is responsible for the physical storage of configuration items and their documentation
+C: It primarily deals with the training of staff on configuration management procedures and processes
+D: It focuses on the sales and marketing aspects of configuration items and their changes
 Answer: A
 Explanation: Configuration Control within a CMS involves the evaluation, approval or disapproval, and implementation of changes to configuration items, ensuring that changes are made systematically and formally.
 
 Question: Why are Configuration Audits an essential component of a Configuration Management System (CMS)?
-A: To ensure the project's financial accounting is accurate
-B: To verify that the design and development outputs are consistent with documented requirements
-C: To conduct performance appraisals of the project team
-D: To assess the market viability of the project outputs
+A: To ensure the project's financial accounting is accurate and up-to-date
+B: To ensure design and development outputs align with documented requirements
+C: To conduct performance appraisals of the project team members and stakeholders
+D: To assess the market viability of the project outputs and deliverables
 Answer: B
 Explanation: Configuration Audits in a CMS are essential as they ensure that the current design and development outputs of a project are consistent with its documented requirements, maintaining the integrity of the project.
 
 Question: What is the significance of Baseline Management in the context of a Configuration Management System (CMS)?
-A: It is used to evaluate the team's performance against set benchmarks
+A: It is used to evaluate the team's performance against set benchmarks and targets
 B: It allows for the establishment of baselines, providing a stable foundation for development
-C: It focuses on managing the baseline budget of the project
-D: It deals with setting baseline sales targets for the project
+C: It focuses on managing the baseline budget of the project and its associated costs
+D: It deals with setting baseline sales targets for the project outputs and deliverables
 Answer: B
 Explanation: Baseline Management in a CMS allows for the establishment of baselines at various stages of the project. These baselines provide a stable foundation for further development and change management.
 ```

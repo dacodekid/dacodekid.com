@@ -35,14 +35,14 @@ From the vantage point of business analysis, story mapping offers a structured a
 Question: What is the primary purpose of employing Story Mapping in projects following an adaptive life cycle?
 A: To provide a budgeting and financial forecast for the project.
 B: To establish a clear hierarchy of team roles and responsibilities.
-C: To organize and sequence user stories for collective understanding and effective development.
+C: Organize and sequence user stories for clarity and development.
 D: To serve as a legal documentation for project deliverables.
 Answer: C
 Explanation: Story Mapping in adaptive life cycle projects is used to organize and sequence user stories, aiding in achieving a collective understanding within the team about what needs to be built, rather than focusing on budgeting, team hierarchy, or legal documentation.
 
 Question: In Story Mapping, what does the 'Backbone' represent?
 A: A detailed technical specification for each feature.
-B: Core capabilities required for the initial release, similar to the Minimum Viable Product (MVP).
+B: Core capabilities for the initial release, like the MVP.
 C: The project's marketing and sales strategies.
 D: A comprehensive risk assessment and mitigation plan.
 Answer: B
@@ -50,24 +50,24 @@ Explanation: The 'Backbone' in Story Mapping represents the core capabilities re
 
 Question: How is the 'Walking Skeleton' in Story Mapping defined?
 A: As a preliminary budget outline for the project.
-B: As the complete end-to-end functionalities necessary for the solution to be viable.
+B: Complete end-to-end functionalities for solution viability.
 C: As a comprehensive list of all stakeholders involved in the project.
 D: As the project's detailed schedule with exact timelines.
 Answer: B
 Explanation: The 'Walking Skeleton' comprises the complete end-to-end functionalities that are necessary for the solution to be viable or acceptable, often referred to as the Minimum Marketable Features (MMF). It is not related to budgeting, stakeholder listing, or detailed scheduling.
 
 Question: What role does Story Mapping play in release planning?
-A: It is used to assign individual tasks to team members.
-B: It represents releases as horizontal lines, grouping functionality based on team capacity and release dates.
-C: It is primarily employed for post-release customer support planning.
-D: It focuses on determining the pricing model for each release.
+A: It is used to assign individual tasks to team members for each release.
+B: It releases as horizontal lines, grouping functionality by capacity and dates.
+C: It is primarily employed for post-release customer support planning and execution.
+D: It focuses on determining the pricing model for each release phase.
 Answer: B
 Explanation: In release planning, Story Mapping represents releases as horizontal lines on the map, with each horizontal section representing a release and vertical groupings symbolizing functional clusters. It is not about task assignments, customer support, or pricing models.
 
 Question: How does Story Mapping assist in business analysis in adaptive environments?
-A: By providing a template for legal contracts between the organization and its clients.
+A: By providing a template for legal contracts between the organization and its clients, vendors, and partners.
 B: By offering a structured approach to identify gaps in user capabilities and inform rigorous analysis.
-C: It is used exclusively for external stakeholder communication.
+C: It is used exclusively for external stakeholder communication, such as marketing and sales teams.
 D: By detailing the technology stack to be used in product development.
 Answer: B
 Explanation: From a business analysis perspective, Story Mapping in adaptive environments offers a structured approach to identifying gaps in user capabilities and informs where more rigorous analysis might be necessary. It is not about legal contracts, external communication, or technology decisions.

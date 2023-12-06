@@ -49,7 +49,7 @@ Explanation: A CRUD (Create, Read, Update, Delete) Matrix is an analytical tool 
 Question: In a CRUD Matrix, what does the letter 'C' typically represent when placed under a data object column next to a functionality?
 A: The functionality Completes a task with the data object
 B: The functionality Creates a new instance of the data object
-C: The functionality Checks the data object
+C: The functionality Checks the data object for errors
 D: The functionality Connects to another data object
 Answer: B
 Explanation: In a CRUD Matrix, the letter 'C' stands for 'Create' and represents that the functionality creates a new instance of the data object.
@@ -57,24 +57,24 @@ Explanation: In a CRUD Matrix, the letter 'C' stands for 'Create' and represents
 Question: If a functionality is marked with a 'D' in the 'Order' column of a CRUD Matrix, what does it signify about the system's capability?
 A: It displays details of an Order
 B: It duplicates the Order information
-C: It deletes an Order
-D: It downloads Order data
+C: It deletes an Order from the system
+D: It downloads Order data to a local device
 Answer: C
 Explanation: A 'D' in the 'Order' column of a CRUD Matrix indicates that the functionality has the capability to delete an Order in the system.
 
 Question: When analyzing a CRUD Matrix, what does the presence of multiple 'R's in a row across different data objects suggest about a functionality?
 A: The functionality requires a high level of technical expertise
 B: The functionality reads from multiple data objects
-C: The functionality is resource-intensive
+C: The functionality is resource-intensive and requires a lot of time
 D: The functionality is redundant and can be optimized
 Answer: B
 Explanation: Multiple 'R's in a row across different data objects in a CRUD Matrix suggest that the functionality reads or retrieves data from multiple data objects.
 
 Question: In the context of system requirement specification, how is a CRUD Matrix particularly helpful?
-A: It provides a timeline for project completion
-B: It outlines the project's budget allocations
+A: It provides a timeline for project completion and delivery
+B: It outlines the project's budget allocations and constraints
 C: It helps to specify requirements based on data-object interactions
-D: It assigns roles and responsibilities to team members
+D: It assigns roles and responsibilities to team members and stakeholders
 Answer: C
 Explanation: A CRUD Matrix is particularly helpful in system requirement specification as it identifies the interactions between different functionalities and data objects, aiding in the specification of system requirements.
 ```

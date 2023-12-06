@@ -47,42 +47,42 @@ By meticulously maintaining a Risk Register, the business analyst and other proj
 
 ```quiz
 Question: What is the primary purpose of a Risk Register in project management and business analysis?
-A: To serve as a financial ledger for the project.
-B: To systematically track and manage identified risks associated with a project or product.
-C: It is used exclusively for tracking project timelines.
-D: To record the personal information of project team members.
+A: To serve as a financial ledger for the project or product, tracking all financial transactions.
+B: To methodically monitor and handle risks linked to a project or product.
+C: It is used exclusively for tracking project timelines and milestones.
+D: To record the personal information of project team members and stakeholders.
 Answer: B
 Explanation: The primary purpose of a Risk Register is to systematically track and manage identified risks associated with a project or product. It acts as a repository for all information related to risks, facilitating effective risk monitoring and management.
 
 Question: How does the "Impact Rating" component of a Risk Register assist in risk management?
-A: It indicates the financial cost required to mitigate the risk.
-B: The Impact Rating provides a numerical score of the risk's potential impact, aiding in prioritizing risks based on their severity.
-C: It is used to determine the duration of the project.
-D: Impact Rating is only relevant for environmental risks.
+A: It indicates the financial cost required to mitigate the risk if it occurs.
+B: The Impact Rating scores a risk's potential effect, helping prioritize based on severity.
+C: It is used to determine the duration of the project, based on the risk's impact.
+D: Impact Rating is only relevant for environmental risks and not for technical risks.
 Answer: B
 Explanation: The Impact Rating in a Risk Register is a numerical score that indicates the level of impact a risk will have if it occurs. This rating helps in prioritizing risks, allowing stakeholders to focus on risks with the highest impact.
 
 Question: Why is the "Risk Response" section important in a Risk Register?
-A: It is used for recording the technical details of the risk.
-B: Risk Response outlines planned actions to mitigate or capitalize on the risk, crucial for proactive risk management.
+A: It is used for recording the technical details of the risk, which is crucial for risk management.
+B: Risk Response details actions to lessen or exploit the risk, key for proactive management.
 C: This section is only for documenting external risks and not internal ones.
 D: Risk Response is irrelevant unless the risk has already occurred.
 Answer: B
 Explanation: The Risk Response section in a Risk Register is important as it details the planned actions to either mitigate or take advantage of the risk. This proactive planning is crucial for effective risk management.
 
 Question: What role does the "Risk Owner" play in the context of a Risk Register?
-A: The Risk Owner is responsible for financial budgeting for the risk.
-B: They are designated as accountable for monitoring and managing the specific risk, ensuring it is properly handled.
-C: Risk Owners are only symbolic and have no active role.
+A: The Risk Owner is responsible for financial budgeting for the risk, ensuring it is handled within the budget.
+B: They're accountable for overseeing and managing the risk, ensuring proper handling.
+C: Risk Owners are only symbolic and have no active role in risk management.
 D: Their role is limited to documenting the risk without managing it.
 Answer: B
 Explanation: The Risk Owner in a Risk Register is the individual or role designated as responsible for monitoring and managing the specific risk. This accountability ensures that each risk is properly handled.
 
 Question: How does the dynamic nature of a Risk Register benefit the project?
-A: By remaining static and unchangeable throughout the project.
-B: Its evolving nature allows for the continuous identification and updating of risks, aligning with the changing project environment.
-C: The dynamic nature is only beneficial for documentation purposes.
-D: It benefits the project by focusing only on past risks.
+A: By remaining static and unchangeable throughout the project, it provides a historical record of risks.
+B: Its evolving nature enables ongoing risk identification and updates, adapting to project changes.
+C: The dynamic nature is only beneficial for documentation purposes, not for risk management.
+D: It benefits the project by focusing only on past risks and not on future ones.
 Answer: B
 Explanation: The dynamic nature of a Risk Register is beneficial as it allows for the continuous identification, assessment, and updating of risks throughout the project. This adaptability aligns the risk management process with the changing circumstances and needs of the project.
 ```

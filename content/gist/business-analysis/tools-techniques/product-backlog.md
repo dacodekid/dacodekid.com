@@ -37,10 +37,10 @@ The product backlog is a central artifact in projects employing adaptive approac
 
 ```quiz
 Question: What is the primary function of the Product Backlog in adaptive project methodologies like Agile?
-A: To provide a financial overview of the project
-B: To act as a dynamic, ordered list of items needed for the solution, like user stories, requirements, or features
-C: To serve as a legal document for project deliverables
-D: To focus exclusively on the technical specifications of the project
+A: To provide a financial overview of the project deliverables
+B: To serve as a dynamic, ordered list of solution items, such as user stories or requirements
+C: To serve as a legal document for project deliverables and requirements
+D: To focus exclusively on the technical specifications of the project deliverables
 Answer: B
 Explanation: In adaptive project methodologies like Agile, the primary function of the Product Backlog is to serve as a dynamic, ordered list of items that are required for the solution. This list typically comprises user stories, requirements, or features, which are continually refined and prioritized based on their business value or importance to the customer.
 
@@ -53,23 +53,23 @@ Answer: A
 Explanation: DEEP is an acronym used to describe the characteristics of a well-refined Product Backlog. It stands for Detailed Appropriately (high-priority items have more detail), Estimated (all items should have an estimate for the amount of work required), Emergent (the backlog evolves over time), and Prioritized (items are ranked by their business value or importance).
 
 Question: How is the business analyst involved in Product Backlog Management?
-A: By providing a financial analysis of backlog items
+A: By providing a financial analysis of backlog items and their dependencies
 B: By assisting in refining the backlog, including adding, removing, and reprioritizing items
-C: By focusing on the legal aspects of backlog items
-D: By emphasizing the technical specifications of each backlog item
+C: By focusing on the legal aspects of backlog items and their dependencies
+D: By emphasizing the technical specifications of each backlog item and their dependencies
 Answer: B
 Explanation: In Product Backlog Management, the business analyst assists the Product Owner in refining the backlog. This involves adding or removing items, reprioritizing them based on changes in requirements or business conditions, and ensuring they are Detailed Appropriately and Estimated in accordance with the DEEP criteria.
 
 Question: Why is prioritization a critical aspect of managing the Product Backlog?
-A: To ensure financial efficiency in product development
-B: To guarantee that the development team focuses on delivering the highest value items first
-C: To comply with legal requirements in product development
-D: To focus on the technical complexity of the items
+A: To ensure financial efficiency in product development and delivery
+B: To ensure the development team prioritizes high-value items first
+C: To comply with legal requirements in product development and delivery
+D: To focus on the technical complexity of the items in the Product Backlog
 Answer: B
 Explanation: Prioritization is a critical aspect of managing the Product Backlog to ensure that the development team focuses on delivering the highest value items first. By rank-ordering items by their business value or importance to the customer, the team can efficiently address the most impactful items in upcoming iterations.
 
 Question: How are dependencies and constraints considered in Product Backlog management?
-A: By providing a financial assessment of dependencies
+A: By providing a financial assessment of dependencies and constraints
 B: By accounting for them when ranking items by their business value
 C: By focusing solely on the legal implications of dependencies
 D: By emphasizing the technical interdependencies of items

@@ -57,7 +57,7 @@ By performing a detailed Vendor Assessment, organizations can significantly miti
 ```quiz
 Question: What is the primary purpose of Vendor Assessment in business analysis?
 A: To create a detailed financial plan for the business.
-B: To comprehensively evaluate potential vendors against specific criteria, ensuring alignment with business and project needs.
+B: Comprehensively evaluate vendors against criteria for alignment with needs.
 C: It is used solely for the internal audit of the business.
 D: To manage the personal portfolios of the business executives.
 Answer: B
@@ -65,7 +65,7 @@ Explanation: The primary purpose of Vendor Assessment in business analysis is to
 
 Question: What types of criteria are considered in Vendor Assessment?
 A: Only the financial stability of the vendor.
-B: Both quantitative (measurable factors like cost and speed) and qualitative (subjective measures like reputation and customer service) criteria are considered.
+B: Consider both quantitative (cost, speed) and qualitative (reputation, customer service) criteria.
 C: Criteria are solely based on the vendor's location.
 D: Only the aesthetic aspects of the vendor's products are evaluated.
 Answer: B
@@ -73,7 +73,7 @@ Explanation: In Vendor Assessment, both quantitative and qualitative criteria ar
 
 Question: How is the evaluation of vendors typically conducted?
 A: By focusing solely on the lowest cost option.
-B: Through reviewing vendor proposals, product demonstrations, reference checks, and stakeholder feedback.
+B: Review vendor proposals, product demos, references, and stakeholder feedback.
 C: Evaluation is based on the personal preferences of the business analyst.
 D: Vendors are evaluated solely based on their marketing material.
 Answer: B
@@ -81,16 +81,16 @@ Explanation: The evaluation of vendors in a Vendor Assessment process typically 
 
 Question: Why is assessing the risks associated with vendor solutions important?
 A: Risk assessment is irrelevant in vendor evaluations.
-B: Assessing risks is crucial to understand potential challenges and mitigate them effectively, ensuring informed decision-making.
-C: Risks are assessed only to fulfill legal requirements.
+B: Assessing risks is crucial to understand challenges and make informed decisions.
+C: Risks are assessed only to fulfill legal requirements for the business.
 D: Risk assessment is only for the vendor's benefit, not the business.
 Answer: B
 Explanation: Assessing the risks associated with each vendor solution is a crucial part of Vendor Assessment. It helps in understanding the potential challenges and implications of selecting a particular vendor, allowing the business to mitigate these risks effectively and make well-informed decisions.
 
 Question: Can Vendor Assessment utilize business analysis artifacts?
 A: No, business analysis artifacts are unrelated to vendor assessments.
-B: Yes, Vendor Assessment can utilize business analysis artifacts like requirements documents, user stories, and features lists to derive evaluation criteria.
-C: Business analysis artifacts are only used for internal team assessments.
+B: Vendor Assessment uses requirements and user stories for evaluation criteria.
+C: Business analysis artifacts are only used for internal team assessments and not for vendor evaluations.
 D: These artifacts are solely for legal documentation purposes.
 Answer: B
 Explanation: Vendor Assessment can effectively utilize various business analysis artifacts such as requirements documents, user stories, and features lists. These artifacts help in deriving the criteria for evaluating potential vendors, ensuring that the evaluation aligns with the specific needs and expectations outlined in these documents.

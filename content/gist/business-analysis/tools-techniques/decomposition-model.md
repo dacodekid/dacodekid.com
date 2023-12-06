@@ -45,42 +45,42 @@ Understanding the nuances and potential applications of a decomposition model ca
 
 ```quiz
 Question: What is the primary function of a Decomposition Model in business analysis?
-A: To provide a financial breakdown of project components
+A: To provide a financial breakdown of project components and tasks
 B: To break down complex objects or concepts into smaller, manageable parts
-C: To outline the legal structure of business analysis tasks
-D: To focus exclusively on the technical aspects of a project
+C: To outline the legal structure of business analysis tasks and activities
+D: To focus exclusively on the technical aspects of a project and its components
 Answer: B
 Explanation: The primary function of a Decomposition Model in business analysis is to break down high-level information, complex objects, or concepts into a structured hierarchy of smaller, more manageable parts. This approach simplifies complex elements, making them easier to produce, understand, and manage.
 
 Question: How does a Decomposition Model assist in Business Analysis Planning?
-A: By providing a budgetary breakdown for business analysis tasks
+A: By providing a budgetary breakdown for business analysis tasks and activities in a project
 B: By detailing out business analysis tasks, activities, and deliverables into manageable components
-C: By outlining the technical specifications for business analysis tools
-D: By serving as a legal guideline for business analysis activities
+C: By outlining the technical specifications for business analysis tools and techniques
+D: By serving as a legal guideline for business analysis activities and tasks in a project
 Answer: B
 Explanation: A Decomposition Model assists in Business Analysis Planning by breaking down business analysis tasks, activities, and deliverables into smaller, manageable components. This makes it easier to sequence them into a business analysis work plan and ensures a comprehensive approach to planning.
 
 Question: In what way does a Decomposition Model aid Stakeholder Analysis?
-A: By focusing on the financial status of stakeholders
+A: By focusing on the financial status of stakeholders in a project
 B: By dissecting an organization to identify various stakeholder groups
-C: By providing a technical analysis of stakeholder needs
-D: By acting as a legal document for stakeholder management
+C: By providing a technical analysis of stakeholder needs and requirements
+D: By acting as a legal document for stakeholder management in a project
 Answer: B
 Explanation: A Decomposition Model aids Stakeholder Analysis by dissecting an organization into various segments or units, thereby helping to identify different stakeholder groups. This segmentation assists in understanding how these groups function and their potential impact or requirements in a project.
 
 Question: What is a limitation of using a Decomposition Model?
-A: It cannot provide a financial analysis of project components.
+A: It cannot provide a financial analysis of project components and tasks.
 B: It does not provide information about the sequence or interrelation of tasks and processes.
-C: It cannot be used in technical aspects of a project.
-D: It serves no purpose in legal documentation of tasks.
+C: It cannot be used in technical aspects of a project or solution development process.
+D: It serves no purpose in legal documentation of tasks and activities.
 Answer: B
 Explanation: A limitation of using a Decomposition Model is that it does not provide information about the sequence in which tasks should be performed or how processes are interrelated. While it breaks down complexity into manageable elements, it does not dictate the order or relationship of these elements.
 
 Question: Why is a Decomposition Model advantageous for clarity and understanding in complex projects?
-A: Because it provides a detailed financial overview
+A: Because it provides a detailed financial overview of project components and tasks
 B: Because it breaks down complex objects into simpler, easier-to-understand elements
-C: Because it focuses solely on the technical complexity
-D: Because it acts as a legal simplification tool
+C: Because it focuses solely on the technical complexity of a project or solution
+D: Because it acts as a legal simplification tool for complex projects
 Answer: B
 Explanation: A Decomposition Model is advantageous for clarity and understanding in complex projects because it breaks down complex objects or concepts into simpler, smaller parts. This segmentation makes complex information more manageable and easier for stakeholders to grasp.
 

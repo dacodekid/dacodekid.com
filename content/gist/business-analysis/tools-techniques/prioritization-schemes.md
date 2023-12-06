@@ -39,41 +39,41 @@ Prioritization schemes are indispensable in business analysis for effectively ma
 
 ```quiz
 Question: What is the purpose of the "Buy a Feature" prioritization scheme in Business Analysis?
-A: To determine the most technologically advanced features
+A: To determine the most technologically advanced features of a solution
 B: To enable stakeholders to agree on prioritization by 'buying' features with pretend money
-C: To prioritize features based on their alignment with global market trends
+C: To prioritize features based on their alignment with global market trends and demands
 D: To focus solely on features that reduce operational costs
 Answer: B
 Explanation: The "Buy a Feature" scheme is a collaborative game where stakeholders use pretend money to buy their choice of features. The features that receive the most money are considered most valuable and are prioritized accordingly.
 
 Question: How does the Delphi method aid in prioritization?
-A: By using a consensus-building technique involving anonymous input from subject matter experts
-B: By focusing on the personal preferences of the project manager
-C: By prioritizing based on the latest technological trends
-D: By determining priorities based on financial investments alone
+A: By using an anonymous input consensus-building technique with subject matter experts
+B: By focusing on the personal preferences of the project manager and team members
+C: By prioritizing based on the latest technological trends and developments in the industry
+D: By determining priorities based on financial investments alone and not on other factors
 Answer: A
 Explanation: The Delphi method is a consensus-building technique that uses anonymous input from subject matter experts and multiple rounds of discussion to reach agreement on prioritization, aiming to reduce peer pressure and groupthink.
 
 Question: What is the key focus of the Minimum Viable Product (MVP) prioritization mechanism?
-A: To define the scope of the first release by identifying the minimum number of features for customer value
-B: To prioritize features solely based on their financial returns
-C: To focus on the most complex features of the solution
+A: To define the first release scope by identifying the minimum features for customer value
+B: To prioritize features solely based on their financial returns and profitability
+C: To focus on the most complex features of the solution first and then move to simpler ones
 D: To prioritize features based on the ease of implementation
 Answer: A
 Explanation: The MVP prioritization mechanism is used to define the scope of the first release of a solution by identifying the fewest number of features that would constitute a solution from which the customer would obtain value.
 
 Question: What does the MoSCoW technique involve in prioritization?
 A: Categorizing each requirement into groups like Must have, Should have, Could have, or Won’t have
-B: Prioritizing based solely on the highest financial return
-C: Focusing on requirements that align with the personal goals of the stakeholders
-D: Considering only the technical aspects of the requirements
+B: Prioritizing based solely on the highest financial return and profitability of the requirements
+C: Focusing on requirements that align with the personal goals of the stakeholders involved
+D: Considering only the technical aspects of the requirements and not the business value
 Answer: A
 Explanation: The MoSCoW technique categorizes each requirement into one of the following groups: Must have, Should have, Could have, or Won’t have, aiding in prioritization based on the level of necessity and impact.
 
 Question: What is the principle behind the Weighted Shortest Job First (WSJF) method?
-A: To prioritize user stories based on dimensions like business value, time criticality, risk reduction, and effort
-B: To focus on prioritizing the longest and most complex jobs
-C: To prioritize jobs based on their alignment with the CEO's vision
+A: Prioritizing user stories based on business value, time, risk, and effort
+B: To focus on prioritizing the longest and most complex jobs first
+C: To prioritize jobs based on their alignment with the CEO's vision for the company
 D: To rank jobs solely based on their operational impact
 Answer: A
 Explanation: Weighted Shortest Job First (WSJF) is a method used to rank user stories based on multiple dimensions including business value, time criticality, risk reduction or opportunity enablement, and effort, using a formula to calculate a weighted value for each story.

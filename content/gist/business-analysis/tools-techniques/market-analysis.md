@@ -76,50 +76,50 @@ Given its comprehensive nature, a well-executed market analysis not only influen
 
 ```quiz
 Question: What is the primary purpose of conducting a Market Analysis in business analysis?
-A: To organize company events
-B: To evaluate external market forces and factors impacting the organization
-C: To recruit new employees
-D: To train staff on new technologies
+A: To organize company events and activities for employees
+B: To assess external market forces and factors affecting the organization
+C: To recruit new employees for the organization based on market trends
+D: To train staff on new technologies and processes
 Answer: B
 Explanation: The primary purpose of Market Analysis is to evaluate external market forces and factors, such as market trends, competitor strategies, and consumer behavior, which impact the organization and assist in making data-driven decisions.
 
 Question: What is an initial step in Market Analysis and its significance?
-A: Establishing company policies for employee conduct
+A: Establishing company policies for employee conduct and behavior in the workplace to ensure a safe and healthy work environment
 B: Segmenting the market based on criteria like demographics and behavior to identify target customer groups
-C: Creating a new product without market research
-D: Focusing only on current sales figures
+C: Creating a new product without market research to test its viability in the market and its potential for success
+D: Focusing only on current sales figures and not considering future market trends
 Answer: B
 Explanation: An initial step in Market Analysis involves segmenting the market into categories based on various criteria, such as demographics and behavioral patterns, to identify target customer groups and understand their specific needs and wants.
 
 Question: Which analysis tool is commonly used in Competitive Analysis during Market Analysis?
 A: SWOT (Strengths, Weaknesses, Opportunities, Threats) analysis
-B: ROI (Return on Investment) calculation
-C: Employee performance review
-D: IT systems analysis
+B: ROI (Return on Investment) calculation analysis for financial auditing
+C: Employee performance review analysis and assessment
+D: IT systems analysis and assessment
 Answer: A
 Explanation: SWOT analysis is a common tool used in Competitive Analysis during Market Analysis. It helps in scrutinizing competitors and the external market environment by analyzing strengths, weaknesses, opportunities, and threats.
 
 Question: What does Demand and Supply Analysis in Market Analysis primarily focus on?
-A: Employee satisfaction levels
-B: Study of market demand for a product and the supply capabilities of the organization
-C: Analysis of company infrastructure
-D: Assessment of internal IT resources
+A: Employee satisfaction levels and performance reviews
+B: Evaluating product market demand and organizational supply capabilities
+C: Analysis of company infrastructure and facilities for employees
+D: Assessment of internal IT resources and systems for the organization
 Answer: B
 Explanation: Demand and Supply Analysis in Market Analysis primarily involves studying the market demand for a product or service and the supply capabilities of the organization, including demand elasticity and pricing strategies.
 
 Question: How does Market Analysis contribute to organizational decision-making?
-A: It only focuses on internal organizational policies
+A: It only focuses on internal organizational policies and procedures
 B: By providing insights for product development, marketing strategies, and business expansion
-C: It is unrelated to business strategies and decisions
-D: It is solely used for financial auditing purposes
+C: It is unrelated to business strategies and decisions and is only used for employee training
+D: It is solely used for financial auditing purposes and budget allocation
 Answer: B
 Explanation: Market Analysis significantly contributes to organizational decision-making by offering insights that inform product development, marketing strategies, and decisions related to business expansion or diversification.
 
 Question: In the context of Market Analysis, what does Risk and Constraints Assessment typically identify?
-A: Internal employee conflicts
+A: Internal employee conflicts and issues
 B: Areas of risk such as shifting consumer preferences and new competitors
-C: Irrelevant market data
-D: Outdated technology systems within the organization
+C: Irrelevant market data and information
+D: Outdated technology systems within the organization that need to be replaced
 Answer: B
 Explanation: Risk and Constraints Assessment in Market Analysis identifies areas of risk and constraint impacting the business, such as changes in consumer preferences, entry of new competitors, and regulatory changes.
 ```

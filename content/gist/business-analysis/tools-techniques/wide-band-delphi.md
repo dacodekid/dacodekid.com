@@ -49,15 +49,15 @@ Wide-Band Delphi combines the structured, anonymous input of the Delphi techniqu
 
 ```quiz
 Question: What distinguishes Wide-Band Delphi from the traditional Delphi technique?
-A: Wide-Band Delphi involves direct discussion among experts, while traditional Delphi mainly uses written, anonymous feedback.
+A: Wide-Band Delphi involves direct expert discussion; traditional Delphi uses anonymous written feedback.
 B: Wide-Band Delphi focuses on financial estimates only.
-C: Traditional Delphi involves more direct communication, whereas Wide-Band Delphi does not.
+C: Traditional Delphi involves more direct communication, whereas Wide-Band Delphi does not allow for direct discussion.
 D: Traditional Delphi is used exclusively in legal contexts, unlike Wide-Band Delphi.
 Answer: A
 Explanation: The main distinction between Wide-Band Delphi and traditional Delphi is the form of communication. Wide-Band Delphi allows for direct discussion among experts, which can be in face-to-face meetings or virtual conferences, whereas traditional Delphi typically involves anonymous, written feedback without direct communication.
 
 Question: What is a key advantage of using Wide-Band Delphi in estimation processes?
-A: It ensures financial accuracy in estimates.
+A: It ensures financial accuracy in estimates by focusing on the cost of the project.
 B: It improves accuracy and enhances team collaboration through open discussions.
 C: It focuses solely on the legal aspects of estimation.
 D: It emphasizes the technical precision of estimates.
@@ -65,26 +65,26 @@ Answer: B
 Explanation: A key advantage of using Wide-Band Delphi is that it improves the accuracy of estimates through increased bandwidth of communication. The open discussions among team members enhance team collaboration, allowing for a more comprehensive understanding of the task at hand and reducing the likelihood of overlooking key factors.
 
 Question: How does Wide-Band Delphi achieve convergence in estimates?
-A: By focusing on the financial aspects of estimates
+A: By focusing on the financial aspects of estimates and ensuring accuracy
 B: Through an iterative process of summarization, discussion, and re-estimation
-C: By using legal benchmarks for estimation
-D: By emphasizing technical details in estimation
+C: By using legal benchmarks for estimation and ensuring compliance
+D: By emphasizing technical details in estimation and ensuring precision
 Answer: B
 Explanation: Wide-Band Delphi achieves convergence in estimates through an iterative process that involves summarizing the initial estimates, followed by group discussions and sharing of rationale. This process is repeated with re-estimation until the estimates converge, ensuring a collective agreement among experts.
 
 Question: What is a potential disadvantage of Wide-Band Delphi compared to traditional Delphi?
 A: It can be more time-consuming due to the inclusion of direct discussions.
-B: It provides less accurate financial estimates.
+B: It provides less accurate financial estimates compared to traditional Delphi.
 C: It compromises the legal integrity of the estimation process.
 D: It does not consider technical aspects of the task.
 Answer: A
 Explanation: A potential disadvantage of Wide-Band Delphi compared to traditional Delphi is that it can be more time-consuming. This is because Wide-Band Delphi includes direct discussions among experts, which, while beneficial for understanding and accuracy, require additional time to conduct.
 
 Question: In what scenario is Wide-Band Delphi particularly useful?
-A: In projects where financial estimation is the only concern
+A: In projects where financial estimation is the only concern and accuracy is crucial
 B: In complex projects where initial estimates can vary widely and collective expert wisdom is valued
-C: In scenarios where legal assessments are crucial
-D: In situations focusing exclusively on technical evaluations
+C: In scenarios where legal assessments are crucial for the project, and compliance is a priority
+D: In situations focusing exclusively on technical evaluations and precision
 Answer: B
 Explanation: Wide-Band Delphi is particularly useful in complex projects where initial estimates can vary widely. It is best suited for environments where a variety of experts contribute to the project, and their collective wisdom and insights are crucial for arriving at accurate and agreed-upon estimates.
 ```

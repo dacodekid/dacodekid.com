@@ -53,17 +53,17 @@ This user story and its acceptance criteria aim to be Independent, Negotiable, V
 
 ```quiz
 Question: Why is the "actor" component crucial in a user story?
-A: It specifies the technology used in the solution.
+A: It specifies the technology used in the solution architecture.
 B: It indicates the role or type of user interacting with the system.
-C: It defines the financial budget for the project.
+C: It defines the financial budget for the project team.
 D: It outlines the long-term business strategy.
 Answer: B
 Explanation: The "actor" in a user story refers to a role or type of user who will interact with the system, and is crucial for understanding who the story is about and whose needs are being addressed.
 
 Question: What is the purpose of incorporating Acceptance Criteria in a user story?
-A: To create a rigid, unchangeable plan for the development team
+A: To create a rigid, unchangeable plan for the development team to follow
 B: To define the 'Definition of Done' and help understand when a user story is fully implemented
-C: To outline the organization's marketing strategies
+C: To outline the organization's marketing strategies, ensuring the story is aligned with them
 D: To establish new hiring criteria for the project team
 Answer: B
 Explanation: Acceptance Criteria in a user story flesh out the user's needs in greater detail and serve to define the 'Definition of Done,' helping the development team understand when the user story is fully implemented.
@@ -78,16 +78,16 @@ Explanation: The 'Small' aspect of the INVEST criteria emphasizes that a user st
 
 Question: How does the 'Valuable' aspect of the INVEST criteria affect the formulation of a user story?
 A: It ensures the story is focused on technological complexity.
-B: It guarantees the story is long and detailed.
+B: It guarantees the story is long and detailed enough to be valuable.
 C: It ensures each story provides clear value to end-users and addresses a business problem.
-D: It emphasizes the story’s alignment with external market trends.
+D: It emphasizes the story’s alignment with external market trends and conditions.
 Answer: C
 Explanation: The 'Valuable' aspect of the INVEST criteria ensures that every user story must provide value to the end-users and contribute to solving the business problem at hand.
 
 Question: What role does the 'Testable' criterion play in evaluating a user story?
 A: It assesses the story's potential for financial growth.
 B: It ensures the story can be verified for functionality and business objectives.
-C: It determines the story's impact on organizational hierarchy.
+C: It determines the story's impact on organizational hierarchy and structure.
 D: It evaluates the story's alignment with global economic conditions.
 Answer: B
 Explanation: The 'Testable' criterion in evaluating a user story ensures that there are clear acceptance criteria allowing for verification once the story is implemented, confirming the functionality and alignment with business objectives.

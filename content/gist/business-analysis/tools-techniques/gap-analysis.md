@@ -43,15 +43,15 @@ By providing a clear depiction of where an organization stands and where it need
 
 ```quiz
 Question: What is the primary purpose of Gap Analysis in business analysis?
-A: To set up the organization's IT infrastructure
+A: To set up the organization's IT infrastructure and systems
 B: To identify the difference between the current and desired future states
-C: To manage the organization's social media strategy
-D: To create a detailed employee training program
+C: To manage the organization's social media strategy and presence
+D: To create a detailed employee training program for the organization
 Answer: B
 Explanation: The primary purpose of Gap Analysis in business analysis is to identify the difference between the current state ('as-is') and the desired future state ('to-be') of an organization or a specific business function.
 
 Question: In Gap Analysis, what is the first step in the process?
-A: Evaluating the desired future state
+A: Evaluating the desired future state of the organization
 B: Identifying the gap between current and future states
 C: Evaluating the current state of the organization
 D: Implementing the solutions to bridge the gap
@@ -59,26 +59,26 @@ Answer: C
 Explanation: The first step in Gap Analysis is evaluating the current state of the organization, including aspects like processes, systems, and personnel, to understand how the organization or system currently operates.
 
 Question: How does Gap Analysis contribute to project planning and implementation?
-A: By providing a clear plan for social events in the organization
+A: By providing a clear plan for social events in the organization and team-building exercises
 B: By forming the basis for defining the scope of work and setting project objectives
 C: By focusing solely on the financial aspects of the organization
-D: By dictating the exact marketing strategy to be used
+D: By dictating the exact marketing strategy to be used by the organization
 Answer: B
 Explanation: Gap Analysis contributes to project planning and implementation by helping in the identification of what needs to be done to transition from the current to the future state. It forms the basis for defining the scope of work, setting project objectives, and planning out the steps needed for implementation.
 
 Question: What is the result of a Gap Analysis typically presented in?
-A: A social media post
-B: A Gap Analysis Report detailing findings and actionable steps
-C: A detailed financial ledger
-D: A new employee handbook
+A: A social media post on the organization's official page
+B: A Gap Analysis Report outlining findings and action steps
+C: A detailed financial ledger and budget forecast
+D: A new employee handbook for the organization
 Answer: B
 Explanation: The results of a Gap Analysis are typically presented in a Gap Analysis Report, which details the findings and suggests actionable steps to bridge the gap between the current and future states.
 
 Question: Can Gap Analysis be applied beyond organizational assessment?
-A: No, it is only applicable to organizational assessment
+A: No, it is only applicable to organizational assessment and not other areas
 B: Yes, it can be applied to software, business processes, and other operational areas
-C: It is only used for financial gap assessments
-D: It is exclusively used for evaluating IT systems
+C: It is only used for financial gap assessments and not other areas of the organization
+D: It is exclusively used for evaluating IT systems and infrastructure
 Answer: B
 Explanation: Gap Analysis is not limited to just organizational assessment; it can be applied to a range of areas including software, business processes, and various other operational aspects of an organization.
 

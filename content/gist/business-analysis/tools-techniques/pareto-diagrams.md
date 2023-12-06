@@ -32,15 +32,15 @@ xychart-beta
 Question: What is the primary purpose of a Pareto Diagram in problem-solving?
 A: To create detailed financial forecasts for future projects.
 B: To prioritize and focus efforts by identifying significant factors.
-C: For organizing and scheduling team meetings and activities.
+C: For organizing and scheduling team meetings and activities in a project.
 D: To track employee performance metrics and evaluations.
 Answer: B
 Explanation: A Pareto Diagram is used primarily for prioritizing and focusing efforts by identifying the most significant factors in a dataset.
 
 Question: In a Pareto Diagram, what does the vertical axis typically represent?
-A: The individual performance ratings of team members.
+A: The individual performance ratings of team members in a project.
 B: Categories like frequency, cost, time, or other significant units.
-C: The geographic distribution of project resources.
+C: The geographic distribution of project resources and stakeholders.
 D: The chronological timeline of the project development.
 Answer: B
 Explanation: The vertical axis of a Pareto Diagram typically depicts categories such as frequency, cost, time, or other units significant to the project.
@@ -48,21 +48,21 @@ Explanation: The vertical axis of a Pareto Diagram typically depicts categories 
 Question: How are data points arranged in a Pareto Diagram and why?
 A: Alphabetically, to enhance readability and organization.
 B: Randomly, to encourage diverse viewpoints and analysis.
-C: In descending order, to highlight the most pressing issues.
+C: In descending order, to highlight the most pressing issues or significant causes.
 D: Chronologically, to show the progression of project activities.
 Answer: C
 Explanation: Data points in a Pareto Diagram are arranged in descending order on the vertical axis to draw attention to the most pressing issues or significant causes.
 
 Question: What principle underlies the Pareto Diagram and its effectiveness?
 A: The principle of maximum resource allocation.
-B: The Pareto Principle or 80/20 rule.
+B: The Pareto Principle or 80/20 rule of cause and effect.
 C: The principle of equitable distribution.
 D: The principle of chronological sequencing.
 Answer: B
 Explanation: The Pareto Diagram is based on the Pareto Principle or the 80/20 rule, which states that approximately 80% of the problems come from 20% of the causes.
 
 Question: What aspect of project information can be tailored in a Pareto Diagram?
-A: The color scheme and design aesthetics of the diagram.
+A: The color scheme and design aesthetics of the diagram for better readability.
 B: The type of information depicted, like software bugs or project delays.
 C: The personal preferences of team members regarding data presentation.
 D: The choice of language and terminology used in the diagram.

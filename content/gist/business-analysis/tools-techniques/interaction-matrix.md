@@ -48,32 +48,32 @@ Explanation: An Interaction Matrix is a tool used for analyzing relationships be
 Question: In an Interaction Matrix, how is the relationship between a requirement and a data entity typically indicated?
 A: By assigning a numerical value
 B: By placing an 'X' at their intersection
-C: By coloring the cell
+C: By coloring the cell in a specific color
 D: By writing a detailed description
 Answer: B
 Explanation: In an Interaction Matrix, the relationship between a requirement and a data entity is typically indicated by placing an 'X' at the intersection of the corresponding row and column.
 
 Question: What is the primary purpose of using an Interaction Matrix in business analysis?
-A: To schedule project activities
-B: To allocate budget for different requirements
-C: To evaluate whether requirements are adequately detailed and identify missing entities
-D: To assign roles and responsibilities for requirements
+A: To schedule project activities and tasks
+B: To allocate budget for different requirements and entities
+C: To assess requirement detail adequacy and identify missing entities
+D: To assign roles and responsibilities for requirements implementation
 Answer: C
 Explanation: The primary purpose of using an Interaction Matrix in business analysis is to evaluate whether requirements are adequately detailed and to identify any missing entities. It helps in understanding the coverage and completeness of the requirements.
 
 Question: How does an Interaction Matrix differ from a Traceability Matrix in terms of maintenance?
 A: An Interaction Matrix is maintained and updated throughout the project lifecycle
 B: An Interaction Matrix is a snapshot tool and is not maintained over time
-C: A Traceability Matrix is not used for tracking changes
+C: A Traceability Matrix is not used for tracking changes in requirements
 D: A Traceability Matrix is a one-time analysis tool
 Answer: B
 Explanation: Unlike a Traceability Matrix, which is a living document maintained over the course of a project, an Interaction Matrix is a snapshot tool used for analyzing relationships at a specific point in time and is not maintained over time.
 
 Question: What type of information is typically represented in the rows and columns of an Interaction Matrix?
-A: Rows represent project timelines, and columns represent team members
+A: Rows represent project timelines, and columns represent team members assigned to the project
 B: Rows represent one category of product information, and columns represent another category
-C: Rows represent financial data, and columns represent budget categories
-D: Rows represent team members, and columns represent their tasks
+C: Rows represent financial data, and columns represent budget categories for the project
+D: Rows represent team members, and columns represent their tasks and responsibilities
 Answer: B
 Explanation: In an Interaction Matrix, rows represent one category of product information (like use cases, user stories, or process flows), and columns represent another category of product information (like data entities, business rules, or user interfaces).
 ```

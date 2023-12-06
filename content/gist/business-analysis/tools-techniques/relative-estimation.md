@@ -53,7 +53,7 @@ In summary, Relative Estimation is an effective technique for quickly estimating
 
 ```quiz
 Question: What is the primary purpose of Relative Estimation in project management?
-A: To provide a detailed financial breakdown of tasks
+A: To provide a detailed financial breakdown of tasks, including their dependencies
 B: To estimate the complexity or effort of tasks by comparing them to benchmark items
 C: To serve as a legal assessment tool for project tasks
 D: To focus solely on the technical aspects of tasks
@@ -61,15 +61,15 @@ Answer: B
 Explanation: The primary purpose of Relative Estimation in project management is to estimate the complexity, effort, or size of new tasks or items by comparing them to existing tasks or benchmark items. This approach relies on comparing tasks to each other, rather than assigning specific units of time or cost.
 
 Question: How does Relative Estimation differ from Analogous Estimation?
-A: Relative Estimation requires detailed historical data, while Analogous Estimation does not.
+A: Relative Estimation requires detailed historical data, while Analogous Estimation does not necessarily require it.
 B: Relative Estimation is typically a bottom-up technique using arbitrary units for comparison, unlike Analogous Estimation.
-C: Relative Estimation focuses solely on the financial aspects, whereas Analogous Estimation does not.
-D: Relative Estimation is a legal estimation method, while Analogous Estimation is technical.
+C: Relative Estimation focuses solely on the financial aspects, whereas Analogous Estimation does not consider financial factors.
+D: Relative Estimation is a legal estimation method, while Analogous Estimation is technical in nature.
 Answer: B
 Explanation: Relative Estimation differs from Analogous Estimation in that it does not necessarily require historical data and is typically a bottom-up estimation technique. It uses arbitrary units like story points or t-shirt sizes and relies more on team consensus, as opposed to Analogous Estimation which often uses absolute units and historical data from similar past projects.
 
 Question: What are the benefits of using Relative Estimation?
-A: It ensures financial accuracy and legal compliance.
+A: It ensures financial accuracy and legal compliance in project tasks.
 B: It is fast, flexible, collaborative, and less error-prone.
 C: It focuses on the technical precision of estimates.
 D: It provides detailed historical data analysis.
@@ -77,18 +77,18 @@ Answer: B
 Explanation: The benefits of using Relative Estimation include its speed, as it doesn't require detailed analysis or decomposition of tasks. It is flexible, accommodating changes easily, and encourages team collaboration, leading to a better understanding of each item. Also, by avoiding absolute values, it is often less susceptible to major inaccuracies.
 
 Question: What is a limitation of Relative Estimation?
-A: It provides detailed financial estimates.
-B: It requires time for a team to become proficient in estimating relatively.
-C: It is used for legal assessment of tasks.
-D: It focuses on technical details of the project.
+A: It provides detailed financial estimates for project tasks and items.
+B: Relative estimation proficiency in a team takes time to develop.
+C: It is used for legal assessment of tasks and items.
+D: It focuses on technical details of the project
 Answer: B
 Explanation: A limitation of Relative Estimation is that it might take time for a team to become proficient in estimating tasks relatively. As the process is based on comparison and team consensus, achieving a level of proficiency and calibration in the estimates can require practice and experience.
 
 Question: In what context is Relative Estimation commonly used?
-A: In detailed financial planning
-B: In Agile methodologies, such as Scrum and Kanban, for product backlog refinement
-C: In legal assessments of project tasks
-D: In technical evaluations of project components
+A: In detailed financial planning, such as budgeting and cost estimation
+B: In Agile, like Scrum and Kanban, for refining product backlogs.
+C: In legal assessments of project tasks and items
+D: In technical evaluations of project components, such as infrastructure
 Answer: B
 Explanation: Relative Estimation is most commonly used in Agile methodologies, such as Scrum and Kanban. It is particularly useful for product backlog refinement in these frameworks, where tasks or items are estimated based on their complexity relative to known benchmarks.
 ```

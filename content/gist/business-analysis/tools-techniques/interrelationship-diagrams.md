@@ -43,23 +43,23 @@ By effectively employing an interrelationship diagram, business analysts and sta
 
 ```quiz
 Question: What is the primary objective of an Interrelationship Diagram in business analysis?
-A: To plan and schedule project timelines.
+A: To plan and schedule project timelines and milestones.
 B: Identifying and analyzing complex, interrelated causes and effects of a problem.
-C: Focusing on employee performance and productivity enhancement.
-D: Managing financial budgets and investment strategies.
+C: Focusing on employee performance and productivity enhancement strategies.
+D: Managing financial budgets and investment strategies for the project.
 Answer: B
 Explanation: The primary objective of an Interrelationship Diagram is to identify and analyze the complex, interrelated causes and effects that contribute to a particular problem.
 
 Question: In the methodology of Interrelationship Diagrams, what signifies a key outcome (effect) of a problem?
-A: A factor with a high number of social media mentions.
+A: A factor with a high number of social media mentions and likes.
 B: Factors with a large number of incoming arrows in the diagram.
 C: The total financial cost associated with the factor.
-D: The number of employees involved in managing the factor.
+D: The number of employees involved in managing the factor in question.
 Answer: B
 Explanation: In Interrelationship Diagrams, factors with a large number of incoming arrows represent key outcomes or effects of a problem.
 
 Question: When is an Interrelationship Diagram most effective in the evaluation of business problems?
-A: For organizing and managing corporate events.
+A: For organizing and managing corporate events and conferences.
 B: In dealing with complex problems having multiple, interrelated variables.
 C: While deciding on product pricing and market positioning.
 D: In the recruitment and hiring process.
@@ -69,13 +69,13 @@ Explanation: An Interrelationship Diagram is most effective when dealing with co
 Question: What is a crucial step in creating an Interrelationship Diagram?
 A: Determining the annual budget allocations for departments.
 B: Listing all potential causes and effects related to the problem.
-C: Planning marketing strategies and advertising campaigns.
+C: Planning marketing strategies and advertising campaigns for the project.
 D: Organizing team-building and employee training programs.
 Answer: B
 Explanation: A crucial step in creating an Interrelationship Diagram is to list all potential causes and effects related to the problem.
 
 Question: What limitation should be acknowledged when using Interrelationship Diagrams?
-A: They are only effective for small-scale, local projects.
+A: They are only effective for small-scale, local projects and not for large-scale, international projects.
 B: They are not exhaustive in identifying all root causes of a problem.
 C: Suitable exclusively for the technology and software sectors.
 D: Can only be used for customer service and relationship management.

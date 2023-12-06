@@ -41,33 +41,33 @@ In the context of evaluating the performance of a solution, cost-benefit analysi
 
 ```quiz
 Question: What is the primary purpose of a cost-benefit analysis in business analysis?
-A: To manage the organization's social media strategy
+A: To manage the organization's social media strategy and engagement
 B: To compare the benefits of a project against its costs
-C: To schedule employee vacations
-D: To set up the organization's IT infrastructure
+C: To schedule employee vacations and time off
+D: To set up the organization's IT infrastructure and network
 Answer: B
 Explanation: The primary purpose of a cost-benefit analysis in business analysis is to compare the benefits provided by a project against its costs, aiming to identify the most viable option from a set of alternatives.
 
 Question: How is cost-benefit analysis used in evaluating the performance of a solution?
-A: To determine the project's impact on social media engagement
-B: To assess whether the benefits of the solution match or exceed expected benefits relative to costs
-C: To measure the effectiveness of the project team
-D: To assess the project's legal compliance
+A: To determine the project's impact on social media engagement and marketing
+B: To evaluate if solution benefits match or exceed expected benefits versus costs
+C: To measure the effectiveness of the project team in meeting their targets
+D: To assess the project's legal compliance and adherence to regulatory requirements
 Answer: B
 Explanation: In evaluating the performance of a solution, cost-benefit analysis is used to assess whether the actual benefits match or exceed the expected benefits in relation to the costs incurred. This helps in determining the cost-effectiveness of the solution.
 
 Question: What are some potential disadvantages of a cost-benefit analysis?
-A: It focuses on aesthetic aspects and is quick to perform
+A: It focuses on aesthetic aspects and is quick to perform and interpret
 B: It may overlook qualitative factors and can be time-consuming and assumption-based
-C: It is solely used for financial decision-making
-D: It only considers the personal preferences of stakeholders
+C: It is solely used for financial decision-making and is not influenced by external factors
+D: It only considers the personal preferences of stakeholders and is not complex
 Answer: B
 Explanation: Potential disadvantages of a cost-benefit analysis include its limitation in quantifying all benefits, being time-consuming, reliance on assumptions, focus on immediate costs and benefits, risk of subjectivity, emphasis on financial valuation, resource constraints, and complexity.
 
 Question: Is collaboration with financial analysts often required in performing a cost-benefit analysis?
-A: No, it is exclusively done by business analysts
+A: No, it is exclusively done by business analysts and does not require collaboration
 B: Yes, to ensure the analysis is grounded in sound financial principles
-C: It is only done by IT professionals
+C: It is only done by IT professionals and does not require collaboration
 D: It is exclusively managed by external consultants
 Answer: B
 Explanation: In performing a cost-benefit analysis, business analysis professionals often collaborate with financial analysts within their organization. This collaboration ensures that the analysis is grounded in sound financial principles.
@@ -75,7 +75,7 @@ Explanation: In performing a cost-benefit analysis, business analysis profession
 Question: Can cost-benefit analysis be influenced by organizational standards and policies?
 A: No, it is entirely independent of organizational standards
 B: Yes, organizational standards may dictate when and how to perform it
-C: It is only influenced by external market conditions
+C: It is only influenced by external market conditions and trends
 D: It is solely based on the personal preferences of the business analyst
 Answer: B
 Explanation: Organizational standards and policies can influence when and how to perform a cost-benefit analysis. These standards might include specific financial valuation methods that should be employed, as defined in business analysis guides or organizational policy documents.

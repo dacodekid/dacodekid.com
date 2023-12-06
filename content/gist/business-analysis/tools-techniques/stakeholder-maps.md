@@ -72,7 +72,7 @@ Each of these techniques serves a unique purpose in stakeholder analysis. The ch
 
 ```quiz
 Question: What is the primary purpose of using the Stakeholder Matrix in Stakeholder Analysis?
-A: To create a detailed project budget
+A: To create a detailed project budget including budgeting and forecasting
 B: To identify stakeholders based on their level of technical expertise
 C: To categorize stakeholders based on their Influence and Impact on the project
 D: To determine the exact communication frequency with each stakeholder
@@ -80,9 +80,9 @@ Answer: C
 Explanation: The Stakeholder Matrix is used to categorize stakeholders based on two key variables: Influence (the ability to affect project requirements or outcomes) and Impact (how significantly the stakeholder is affected by the project).
 
 Question: In the context of the Onion Diagram, who would typically be included in the outer layers?
-A: Project team members
-B: Immediate clients of the project
-C: Stakeholders with a distant but relevant connection, like regulatory bodies
+A: Project team members and immediate clients of the project
+B: Immediate clients of the project and department heads
+C: Stakeholders with a distant but relevant connection
 D: Department heads involved in the project
 Answer: C
 Explanation: In the Onion Diagram, the outer layers encompass stakeholders with a more distant, yet still relevant, connection to the project, such as regulatory bodies or the general public.

@@ -40,7 +40,7 @@ Observation offers a real-world view of processes and behaviors, providing a ric
 ```quiz
 Question: Why is observation considered a valuable elicitation technique in business analysis?
 A: It relies solely on theoretical data and assumptions about stakeholder behavior.
-B: Observation allows for gathering direct information about processes in their natural environment, often revealing details stakeholders might overlook.
+B: Observation gathers process details in a natural environment, uncovering overlooked aspects.
 C: It is only used for formal presentations and not for understanding real-world processes.
 D: Observation is beneficial because it always guarantees accurate and unbiased data.
 Answer: B
@@ -49,32 +49,32 @@ Explanation: Observation is a valuable technique because it involves watching st
 Question: What is the "observer effect" and how does it impact the observation process in business analysis?
 A: It refers to stakeholders providing more accurate data when observed, enhancing the observation's effectiveness.
 B: The observer effect denotes changes in stakeholder behavior due to being observed, which can skew the data.
-C: It implies that observations are more effective when stakeholders are unaware of being observed.
+C: It implies that observations are more effective when stakeholders are unaware of being observed by the analyst.
 D: This effect states that observation is less effective than other elicitation techniques.
 Answer: B
 Explanation: The "observer effect" refers to the phenomenon where stakeholders may alter their behavior because they know they are being observed, potentially skewing the data collected during the observation process.
 
 Question: In what way does observation contribute to formulating product requirements?
-A: By solely relying on the observer's assumptions about the product.
-B: Through direct viewing of stakeholder interactions with the product, providing insights for specific requirements.
-C: Observation is irrelevant for formulating product requirements.
-D: It contributes by avoiding any real-world interaction with the product or process.
+A: By solely relying on the observer's assumptions about the product or process being observed.
+B: By directly viewing stakeholder interactions, it provides insights for specific requirements.
+C: Observation is irrelevant for formulating product requirements as it only focuses on processes.
+D: It contributes by avoiding any real-world interaction with the product or process being observed.
 Answer: B
 Explanation: Observation aids in formulating product requirements by allowing the observer to directly see how stakeholders interact with a product or process, thereby yielding valuable insights that can be translated into specific requirements.
 
 Question: How can observation be used effectively for process analysis?
-A: By only observing processes from a distance without engaging with the stakeholders.
+A: By only observing processes from a distance without engaging with the stakeholders involved.
 B: It captures detailed steps in complex processes, often revealing inefficiencies or bottlenecks.
-C: Observation is not suitable for process analysis.
+C: Observation is not suitable for process analysis as it only focuses on product requirements.
 D: It is effective as it completely avoids the natural setting of the process.
 Answer: B
 Explanation: Observation is effective for process analysis as it can capture the detailed steps involved in complex processes within their natural environment, often uncovering inefficiencies or bottlenecks that might not be apparent otherwise.
 
 Question: What role does observation play in conjunction with other elicitation techniques?
-A: It replaces the need for any other elicitation techniques.
-B: Observation is used to cross-verify and complement information obtained through other methods like interviews or surveys.
-C: It is generally disregarded when used with other elicitation techniques.
-D: Observation is less effective when combined with other methods.
+A: It replaces the need for any other elicitation techniques as it is the most effective.
+B: Observation cross-verifies and complements data from methods like interviews or surveys.
+C: It is generally disregarded when used with other elicitation techniques as it is less effective.
+D: Observation is less effective when combined with other methods as it can skew the data.
 Answer: B
 Explanation: Observation plays a complementary role when used alongside other elicitation techniques like interviews or surveys. It serves to validate or refine the information obtained through these methods, adding a layer of real-world context.
 ```

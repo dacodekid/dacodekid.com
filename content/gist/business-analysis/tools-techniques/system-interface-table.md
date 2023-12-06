@@ -64,15 +64,15 @@ System Interface Tables are an invaluable asset in business analysis for detaili
 ```quiz
 Question: What is the primary function of a System Interface Table in business analysis?
 A: To serve as a financial ledger for the project.
-B: To detail the requirements for a single system interface, including data exchange and rules between interfacing systems.
-C: It is used solely for scheduling project timelines.
-D: To record the personal information of project team members.
+B: Detail requirements for a single system interface, including data and rules.
+C: It is used solely for scheduling project timelines and milestones.
+D: To record the personal information of project team members, such as their names and contact details.
 Answer: B
 Explanation: The primary function of a System Interface Table in business analysis is to capture detailed-level requirements for a single system interface. This includes documenting the exchange of data and the rules governing the interface between different systems within a solution ecosystem.
 
 Question: How does the System Interface Table relate to the overall requirements documentation?
 A: It is generally unrelated to the requirements documentation.
-B: The table itself is detailed enough to represent actual interface requirements, often eliminating the need for additional requirements documentation.
+B: The table details interface requirements, reducing the need for extra documentation.
 C: System Interface Tables are only used for documenting non-functional requirements.
 D: It is solely used for project scheduling, not for requirements.
 Answer: B
@@ -80,15 +80,15 @@ Explanation: System Interface Tables are unique in that they are often comprehen
 
 Question: What type of information is typically included in the 'Data Fields' component of a System Interface Table?
 A: General project goals and objectives.
-B: Details about the type of data that will be transferred from the source system to the target system.
-C: Only financial data related to the project.
+B: DDetails on data transferred from source to target system.
+C: Only financial data related to the project
 D: Personal data of the project stakeholders.
 Answer: B
 Explanation: The 'Data Fields' component of a System Interface Table includes detailed information about the type of data that will be transferred from the source system to the target system, outlining the nature of the data exchange.
 
 Question: In what scenario would a System Interface Table be particularly useful?
 A: Only in financial planning for the project.
-B: When detailing the requirements for data exchange between two systems in a solution's ecosystem, like a grocery store system interfacing with a customer's mobile device.
+B: Detail requirements for data exchange, e.g., grocery store to mobile device.
 C: It is exclusively used in the final stages of project deployment.
 D: System Interface Tables are primarily used for social media marketing strategies.
 Answer: B
@@ -96,7 +96,7 @@ Explanation: A System Interface Table is particularly useful in scenarios where 
 
 Question: Why are System Interface Tables considered a critical tool in business analysis?
 A: They are only critical for aesthetic purposes in project documentation.
-B: They provide a structured and comprehensive model for documenting interface-related requirements, ensuring all critical aspects are covered.
+B: Structured model for comprehensive interface requirement documentation.
 C: These tables are mainly for legal documentation and have little practical use.
 D: They are critical because they focus only on the project timeline.
 Answer: B

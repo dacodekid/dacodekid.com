@@ -55,17 +55,17 @@ Answer: B
 Explanation: The Speedboat game is a collaborative elicitation technique used specifically to identify obstacles and challenges impeding progress. It involves stakeholders and team members identifying "anchors" that are holding back the project, making it ideal for this scenario.
 
 Question: In the Speedboat game, what does the "speedboat" metaphorically represent?
-A: The competitors in the market
+A: The competitors in the market that are affecting the project
 B: The project, product, or process under discussion
-C: The team's goals and aspirations
+C: The team's goals and aspirations including the vision statement
 D: The budget allocated for the project
 Answer: B
 Explanation: In the Speedboat game, the "speedboat" represents the project, product, or process that stakeholders and team members wish to improve. It's a metaphor for the subject under discussion.
 
 Question: During a Speedboat session, participants are using sticky notes to write down various issues. What is the primary purpose of these sticky notes in the context of the exercise?
-A: To document action items for future reference
+A: To document action items for future reference and follow-up
 B: To represent problems or challenges as "anchors"
-C: To vote on the most important topics
+C: To vote on the most important topics for discussion
 D: To schedule follow-up meetings
 Answer: B
 Explanation: In the Speedboat exercise, sticky notes are used by participants to write down and visually represent issues or challenges as "anchors." These anchors symbolize the problems holding back the "speedboat."

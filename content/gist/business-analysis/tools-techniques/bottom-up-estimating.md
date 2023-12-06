@@ -47,26 +47,26 @@ Bottom-Up Estimating aligns well with the Business Analysis core concept model, 
 
 ```quiz
 Question: What is the primary purpose of Bottom-Up Estimating in project management and business analysis?
-A: To provide a detailed financial analysis of the project
+A: To provide a detailed financial analysis of the project scope and objectives to stakeholders and sponsors of the project
 B: To estimate the duration or cost of a project by breaking it down into smaller tasks and aggregating these estimates
-C: To serve as a legal document outlining the project's scope
-D: To focus exclusively on the technical details of a project
+C: To serve as a legal document outlining the project's scope and objectives to sponsors, investors, and other stakeholders
+D: To focus exclusively on the technical details of a project and its requirements
 Answer: B
 Explanation: The primary purpose of Bottom-Up Estimating in project management and business analysis is to estimate the duration or cost of a project by first breaking it down into smaller, constituent tasks or components. Each of these tasks is estimated individually in terms of duration, resources, or cost, and then these estimates are aggregated to provide a total estimate for the project or larger work package.
 
 Question: How does Decomposition play a role in Bottom-Up Estimating?
-A: It provides a financial breakdown of the project.
-B: It involves breaking down the project into smaller, individual tasks or components for detailed estimation.
-C: It focuses on the legal aspects of project tasks.
-D: It outlines the technical specifications for each task.
+A: It provides a financial breakdown of the project scope and objectives to stakeholders.
+B: It involves breaking down the project into smaller, individual tasks or components.
+C: It focuses on the legal aspects of project tasks and requirements.
+D: It outlines the technical specifications for each task in the project.
 Answer: B
 Explanation: In Bottom-Up Estimating, Decomposition is a crucial step that involves breaking down the larger work package or project scope into smaller, individual tasks or components. This is often done using decomposition models like Work Breakdown Structures (WBS). The decomposition allows for a more detailed and accurate estimation of each component.
 
 Question: What is a key benefit of the Bottom-Up Estimating technique?
-A: It provides a detailed financial plan for the project.
+A: It provides a detailed financial plan for the project scope and objectives.
 B: It offers high accuracy due to individual estimation of each task.
-C: It serves as a legal validation of project tasks.
-D: It focuses on the technical evaluation of project tasks.
+C: It serves as a legal validation of project tasks and requirements.
+D: It focuses on the technical evaluation of project tasks and requirements.
 Answer: B
 Explanation: A key benefit of the Bottom-Up Estimating technique is its high accuracy. This accuracy is achieved because each lower-level task is estimated individually, considering all the specific factors such as time, resources, and cost involved. This detailed approach minimizes the chances of overlooking any task-specific considerations.
 
@@ -79,10 +79,10 @@ Answer: B
 Explanation: A limitation of Bottom-Up Estimating is that it can be time-consuming. Given its detailed nature, where each lower-level task is estimated individually, this approach often requires more time and effort compared to other estimating techniques.
 
 Question: In what scenarios is Bottom-Up Estimating particularly useful in Business Analysis?
-A: In projects requiring high financial analysis
-B: In complex projects with various task dependencies, or where high accuracy in estimating is required
-C: In projects with a primary focus on legal compliance
-D: In projects where only technical evaluation is necessary
+A: In projects requiring high financial analysis and reporting to stakeholders
+B: In complex projects with various task dependencies or high accuracy is required
+C: In projects with a primary focus on legal compliance and risk management activities
+D: In projects where only technical evaluation is necessary for the project scope
 Answer: B
 Explanation: In the realm of Business Analysis, Bottom-Up Estimating is particularly useful for complex projects with various dependencies among tasks or in scenarios where a high degree of accuracy is required. This technique is applicable for estimating the effort required for business analysis activities, developing business requirements, or evaluating the total cost of implementing a solution.
 

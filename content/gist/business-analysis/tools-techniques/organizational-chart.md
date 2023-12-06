@@ -42,42 +42,42 @@ graph TB
 
 ```quiz
 Question: As a Business Analyst, you are using an organizational chart to identify stakeholders for a new IT project. What should you primarily focus on in this chart?
-A: The specific technical skills of individuals in the IT department.
+A: The specific technical skills of individuals in the IT department who will be impacted by the project.
 B: The hierarchy and reporting structure, particularly within departments related to the project.
 C: The personal preferences and interests of the CEO and other top executives.
-D: The financial and budgetary responsibilities of the CFO and the finance department.
+D: The financial and budgetary responsibilities of the CFO and the finance department in general.
 Answer: B
 Explanation: When using an organizational chart for stakeholder identification in an IT project, the primary focus should be on the hierarchy and reporting structure, especially within departments that are related to the project.
 
 Question: In a scenario where the existing organizational chart is outdated, what approach should a Business Analyst take?
-A: Rely solely on the outdated chart for simplicity.
+A: Rely solely on the outdated chart for simplicity and ease of use.
 B: Build a new organizational chart through discussions with department managers.
-C: Focus only on the top management level to save time.
+C: Focus only on the top management level to save time and effort.
 D: Avoid using organizational charts altogether and rely on informal networks.
 Answer: B
 Explanation: If existing organizational charts are outdated, the Business Analyst should build new ones through discussions with department managers or representatives to ensure accurate stakeholder identification.
 
 Question: Why is it important for Business Analysts to continually refine organizational charts during the stakeholder analysis phase?
-A: To accommodate changes in the organization's financial status.
+A: To accommodate changes in the organization's financial status and budget.
 B: To reflect the evolving understanding and identification of stakeholder roles and groups.
-C: To focus on the technological advancements within the organization.
-D: To prioritize stakeholders based on their authority in the organization.
+C: To focus on the technological advancements within the organization and their impact.
+D: To prioritize stakeholders based on their authority in the organization hierarchy.
 Answer: B
 Explanation: Continual refinement of organizational charts is important to reflect the evolving understanding and identification of stakeholder roles and groups, ensuring comprehensive stakeholder identification.
 
 Question: When considering the scope and size of an organization, how does this factor influence the level of detail in an organizational chart used for business analysis?
-A: Larger organizations require simpler charts with fewer details.
+A: Larger organizations require simpler charts with fewer details to avoid confusion.
 B: The scope and size of the organization have no impact on the level of detail in the chart.
 C: Larger organizations may necessitate more complex charts with layers of hierarchy.
-D: All organizations should use a standard template regardless of their size.
+D: All organizations should use a standard template regardless of their size or scope.
 Answer: C
 Explanation: In larger organizations, the organizational chart may need to be more complex with layers of hierarchy to accurately represent the structure and aid in stakeholder identification.
 
 Question: If a Business Analyst's goal is to identify groups impacted by a proposed solution, what type of organizational chart would be most appropriate?
 A: A detailed chart with information on individual stakeholders' personal interests.
-B: A role-based chart that does not drill down to individual stakeholders.
-C: A chart focused only on the top management hierarchy.
-D: A chart that includes external stakeholders like customers and suppliers.
+B: A role-based chart that does not drill down to individual stakeholders but focuses on groups.
+C: A chart focused only on the top management hierarchy and reporting structure.
+D: A chart that includes external stakeholders like customers and suppliers but excludes internal stakeholders.
 Answer: B
 Explanation: If the goal is to identify groups impacted by the solution, a role-based organizational chart that does not drill down to individual stakeholders may suffice.
 

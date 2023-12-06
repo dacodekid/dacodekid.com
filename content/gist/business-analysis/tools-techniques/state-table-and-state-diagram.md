@@ -59,7 +59,7 @@ By employing state tables and state diagrams meticulously, business analysts can
 ```quiz
 Question: What is the primary purpose of using State Tables and State Diagrams in business analysis?
 A: To create a financial budget for the project.
-B: To illustrate the valid states an object can assume and the transitions between those states.
+B: To depict valid object states and transitions between them.
 C: They are used exclusively for technical coding in software development.
 D: To record the meeting minutes of project discussions.
 Answer: B
@@ -67,7 +67,7 @@ Explanation: The primary purpose of State Tables and State Diagrams in business 
 
 Question: How do State Tables ensure completeness in representing state transitions?
 A: By only showing the final state of an object.
-B: State Tables systematically evaluate every potential transition between states, including those that are not allowed.
+B: State Tables systematically assess all state transitions, including prohibited ones.
 C: They focus solely on the visual representation of states without detailing transitions.
 D: State Tables are used to document stakeholder information.
 Answer: B
@@ -75,7 +75,7 @@ Explanation: State Tables ensure completeness in representing state transitions 
 
 Question: What advantage do State Diagrams have over State Tables?
 A: State Diagrams provide a more exhaustive representation of transitions.
-B: They offer a visual representation, making it easier for stakeholders to understand the flow of state transitions.
+B: They visually represent state transitions, aiding stakeholder comprehension.
 C: State Diagrams are used exclusively for documenting non-functional requirements.
 D: They are less detailed and thus quicker to create.
 Answer: B
@@ -83,15 +83,15 @@ Explanation: State Diagrams have the advantage of offering a more visual and int
 
 Question: In what scenario might State Tables and State Diagrams be particularly useful?
 A: For designing the physical layout of office spaces.
-B: In scenarios involving workflows, like an approval process, where understanding state transitions is crucial.
+B: In workflow scenarios, such as approval processes, where grasping state transitions is vital.
 C: They are only useful in the final stages of project deployment.
 D: State Tables and State Diagrams are primarily used for social media marketing strategies.
 Answer: B
 Explanation: State Tables and State Diagrams are particularly useful in solutions involving workflows, such as approval processes, where it's crucial to understand and document the transitions between different states of an object.
 
 Question: How should State Tables and State Diagrams be used in relation to requirements?
-A: They should be ignored in the requirements gathering process.
-B: These models confirm or identify gaps in data and processes, often used to model business rules, and can stand alone without additional requirements statements.
+A: They should be ignored in the requirements gathering process as they are not relevant.
+B: These models identify data and process gaps, used for business rules, often standalone.
 C: They are used exclusively for capturing stakeholder contact details.
 D: State Tables and State Diagrams are only relevant for legal documentation purposes.
 Answer: B

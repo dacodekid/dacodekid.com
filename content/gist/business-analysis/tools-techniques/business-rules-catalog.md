@@ -87,42 +87,42 @@ Business Rules Catalog serves as a vital tool for capturing, organizing, and man
 
 ```quiz
 Question: What is the primary purpose of a Business Rules Catalog in business analysis?
-A: To define the financial budget and resource allocation of the project
+A: To define the financial budget and resource allocation of the project scope
 B: To detail business rules and their attributes for informing solution development
-C: To establish the project's legal and compliance framework
-D: To outline the project's communication and marketing strategy
+C: To establish the project's legal and compliance framework and guidelines
+D: To outline the project's communication and marketing strategy and activities
 Answer: B
 Explanation: A Business Rules Catalog serves as a repository that details business rules and their associated attributes, informing the development and implementation of solutions and acting as a guide for behavior within business operations.
 
 Question: How do business rules within the catalog impact solution design and implementation?
-A: They dictate the financial aspects of the solution
+A: They dictate the financial aspects of the solution design and implementation
 B: They specify operational guidelines and constraints for the solution
-C: They focus solely on the aesthetic aspects of the solution
-D: They are irrelevant to solution design
+C: They focus solely on the aesthetic aspects of the solution design
+D: They are irrelevant to solution design and implementation
 Answer: B
 Explanation: Business rules specify the operational constraints and guidelines under which a business operates, influencing the design and implementation of solutions to ensure adherence to these rules.
 
 Question: What is the importance of designing highly configurable solutions in relation to business rules?
 A: Business rules often change, necessitating adaptable solutions
 B: Configurable solutions are only important for aesthetic reasons
-C: Business rules are static and never change
+C: Business rules are static and never change over time or with business needs
 D: Configurable solutions are less important than fixed solutions
 Answer: A
 Explanation: Due to the evolving nature of business rules, designing highly configurable solutions is important, as they allow for adaptability to changes in these rules.
 
 Question: How is stakeholder engagement related to the Business Rules Catalog?
-A: Stakeholders are not involved in business rules
+A: Stakeholders are not involved in business rules and their catalog at all
 B: Stakeholders may have a vested interest in business rules affecting operations
-C: Stakeholder engagement solely focuses on financial aspects
-D: Stakeholder engagement is only about legal compliance
+C: Stakeholder engagement solely focuses on financial aspects of the project
+D: Stakeholder engagement is only about legal compliance and risk management activities
 Answer: B
 Explanation: Business stakeholders often have a vested interest in business rules, particularly when these rules influence or are influenced by business operations, necessitating their engagement in the catalog.
 
 Question: What role does the Business Rules Catalog play in mapping business rules?
-A: It is irrelevant to business rule mapping
+A: It is irrelevant to business rule mapping and only focuses on financial aspects
 B: It maps rules to related processes or data models for operational context
 C: It only maps rules based on their financial implications
-D: It focuses on mapping the aesthetic aspects of rules
+D: It focuses on mapping the aesthetic aspects of rules to processes or data models
 Answer: B
 Explanation: The Business Rules Catalog can map each business rule to related processes that enforce it or to data models that apply the rules, establishing a clear linkage between the rules and their operational or data contexts.
 ```

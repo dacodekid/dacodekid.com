@@ -33,15 +33,15 @@ Answer: B
 Explanation: A Glossary acts as an alignment tool by enabling stakeholders to understand terms and acronyms in a uniform manner, reducing ambiguity.
 
 Question: What role does a business analyst play in relation to a Glossary?
-A: They are primarily responsible for financial auditing.
+A: They are primarily responsible for financial auditing and reporting.
 B: Ensuring terminology aligns with the definitions in the Glossary.
-C: Focusing on marketing strategies and client relations.
+C: Focusing on marketing strategies and client relations management.
 D: Managing IT infrastructure and cybersecurity.
 Answer: B
 Explanation: The business analyst is responsible for ensuring that the terminology used in business analysis aligns with the definitions established in the Glossary.
 
 Question: Why is a Glossary considered a 'living document'?
-A: Due to its role in managing dynamic project budgets.
+A: Due to its role in managing dynamic project budgets and financials.
 B: Because it is continually updated with new or evolving terms.
 C: It tracks changing employee roles and organizational structures.
 D: As it regularly features updates on market trends and analyses.

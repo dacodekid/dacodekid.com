@@ -25,42 +25,42 @@ By facilitating a structured approach to defining and understanding business goa
 
 ```quiz
 Question: What is the primary purpose of Goal Models and Business Objectives Models in business analysis?
-A: To manage the organization's social media strategy
+A: To manage the organization's social media strategy and presence
 B: To visually articulate how a solution aligns with business objectives
-C: To track the individual performance of team members
-D: To set up the organization's IT infrastructure
+C: To track the individual performance of team members in the project
+D: To set up the organization's IT infrastructure and systems
 Answer: B
 Explanation: The primary purpose of Goal Models and Business Objectives Models in business analysis is to visually articulate and organize how a particular solution aligns with and aims to achieve the overarching business objectives and goals.
 
 Question: How do Goal Models and Business Objectives Models assist in feature prioritization?
-A: By focusing on the aesthetic aspects of features
+A: By focusing on the aesthetic aspects of features and user interface design
 B: By laying out business objectives and goals to determine feature importance
-C: By determining the project's budget allocation
-D: By setting up team-building exercises
+C: By determining the project's budget allocation for each feature
+D: By setting up team-building exercises and social events
 Answer: B
 Explanation: Goal Models and Business Objectives Models assist in feature prioritization by laying out the business objectives and goals. This provides a basis for determining which features are of utmost importance and should be prioritized for development.
 
 Question: What role do these models play in ensuring alignment with business objectives?
 A: They act as a traceability matrix to map features back to specific business goals
-B: They are used to design the organization's website
+B: They are used to design the organization's website and social media presence
 C: They focus solely on the financial aspects of the project
-D: They are used for scheduling employee vacations
+D: They are used for scheduling employee vacations and leaves
 Answer: A
 Explanation: Goal Models and Business Objectives Models play a role in ensuring that the requirements or user stories are in sync with the business objectives. They can act as a traceability matrix to map features or requirements back to specific business goals, ensuring alignment.
 
 Question: Can these models be updated during the lifecycle of a project?
 A: No, they are fixed at the inception of the project
 B: Yes, they can be revisited and updated at any point
-C: They are only updated post-project completion
-D: They are not relevant once the project begins
+C: They are only updated post-project completion for documentation purposes
+D: They are not relevant once the project begins implementation
 Answer: B
 Explanation: Goal Models and Business Objectives Models can be revisited and updated at any point during the lifecycle of a project, especially for the purpose of prioritization within a portfolio.
 
 Question: How can project management contribute to these models?
 A: By providing information from cost-benefit analyses or business cases
-B: By managing the organization's social media accounts
-C: By designing the aesthetic aspects of the project
-D: By setting up corporate events
+B: By managing the organization's social media accounts and presence
+C: By designing the aesthetic aspects of the project or product
+D: By setting up corporate events and team-building exercises
 Answer: A
 Explanation: Project management can contribute to the completion of Goal Models and Business Objectives Models, especially if a cost-benefit analysis or business case has already been developed. Information from these analyses can feed into the models to provide a more comprehensive view.
 ```

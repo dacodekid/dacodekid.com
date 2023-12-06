@@ -25,49 +25,49 @@ Wireframes are low-fidelity, simplified outlines or schematics of what a softwar
 
 ```quiz
 Question: What is the primary advantage of using Prototyping as an elicitation technique in business analysis?
-A: To create a legal framework for the project
+A: To create a legal framework for the project development
 B: To provide early feedback on requirements through a tangible model or PoC
-C: To finalize the project budget
-D: To conduct performance appraisals of team members
+C: To finalize the project budget and allocate resources
+D: To conduct performance appraisals of team members involved in the project
 Answer: B
 Explanation: Prototyping allows stakeholders to interact with a tangible model or proof of concept (PoC) of the expected solution, offering early feedback on requirements and helping to identify potential gaps.
 
 Question: What characterizes Evolutionary Prototyping in business analysis?
-A: A model is built once and never changed
-B: A prototype is incrementally refined based on stakeholder feedback until it becomes the final product
-C: It involves creating a prototype without any stakeholder input
-D: It focuses solely on the financial aspects of a project
+A: A model is built once and never changed or refined
+B: A prototype, shaped by stakeholder feedback, incrementally becomes the final product
+C: It involves creating a prototype without any stakeholder input or feedback whatsoever
+D: It focuses solely on the financial aspects of a project and its deliverables
 Answer: B
 Explanation: Evolutionary Prototyping involves creating a model that is continuously refined through iterative cycles based on stakeholder feedback, eventually evolving into the final product.
 
 Question: What is the main objective of Storyboarding in prototyping?
-A: To provide a sequential visual guide representing the workflow or user path through a system
-B: To calculate the return on investment for the project
-C: To outline the project’s financial budget
-D: To design the organization's website
+A: To visually map a system's workflow or user path sequentially
+B: To calculate the return on investment for the project deliverables and stakeholders
+C: To outline the project’s financial budget and resource allocation plan
+D: To design the organization's website and mobile app
 Answer: A
 Explanation: Storyboarding aims to create a visual guide that represents the sequence of actions or steps a user will take, helping in understanding and planning system functionality and user interaction.
 
 Question: What is a primary use of Wireframes in the context of prototyping?
-A: To outline the skeletal framework of a digital product, focusing on layout and functional specifications
-B: To assess the market viability of a product
-C: To conduct a risk assessment for the project
-D: To draft legal contracts for the project
+A: To sketch a digital product's basic layout and functional details
+B: To assess the market viability of a product or service offering
+C: To conduct a risk assessment for the project deliverables and stakeholders
+D: To draft legal contracts for the project stakeholders and vendors
 Answer: A
 Explanation: Wireframes are used to establish the architecture and layout of a page or system, providing a visual guide on how elements are arranged and interact, focusing on layout design and functional specifications.
 
 Question: How does Evolutionary Prototyping contribute to risk mitigation in project development?
-A: By ensuring all legal requirements are met
-B: Through its incremental nature and constant feedback loops, allowing early identification of issues
-C: By focusing solely on the aesthetic design of the product
-D: By conducting financial audits of the project
+A: By ensuring all legal requirements are met for the project
+B: Its iterative approach and continuous feedback enable early issue detection
+C: By focusing solely on the aesthetic design of the product or service
+D: By conducting financial audits of the project deliverables and stakeholders
 Answer: B
 Explanation: The incremental nature and constant feedback loops in Evolutionary Prototyping make it easier to identify and address issues early in the project, reducing the risks of late failure.
 
 Question: In what way does Storyboarding aid in the requirements process?
-A: It mainly assists in hiring project team members
-B: By clarifying and refining requirements through a tangible representation of system interactions
-C: By focusing on the distribution of profits from the product
+A: It mainly assists in hiring project team members and allocating resources to the project
+B: By making system interactions tangible, it clarifies and refines requirements
+C: By focusing on the distribution of profits from the product or service offering
 D: By drafting legal agreements for stakeholders
 Answer: B
 Explanation: Storyboarding helps clarify and refine requirements by providing a visual representation of system behavior and user interactions, aiding in the identification of gaps and the elicitation of requirements.

@@ -27,40 +27,40 @@ By facilitating a collaborative and focused planning process, iteration planning
 Question: In an Agile project, the team is preparing for the next iteration. What is the primary goal of the Iteration Planning or Sprint Planning session?
 A: To review the completed work from the previous iteration
 B: To identify and select items from the product backlog for the upcoming iteration
-C: To evaluate the project's overall budget and resource allocation
-D: To finalize the project's deliverables and deadlines
+C: To evaluate the project's overall budget and resource allocation for the next iteration
+D: To finalize the project's deliverables and deadlines for the next iteration
 Answer: B
 Explanation: The primary goal of Iteration Planning or Sprint Planning in an Agile project is to identify and select a subset of items from the product backlog to form the iteration backlog, which defines the work planned for the upcoming iteration.
 
 Question: What does it mean for backlog items to be "ready" for development in the context of Iteration Planning?
-A: The items have been approved by the project sponsor
+A: The items have been approved by the project sponsor for development
 B: They are sufficiently defined and prioritized for clear development objectives
-C: They are the easiest tasks in the product backlog
+C: They are the easiest tasks in the product backlog and can be developed quickly
 D: They require minimal resources for development
 Answer: B
 Explanation: In the context of Iteration Planning, for backlog items to be "ready" for development means that they are sufficiently defined, clarified, and prioritized, ensuring that they provide clear development objectives for the team.
 
 Question: How does business analysis contribute to Iteration Planning in adaptive methodologies?
 A: By elaborating and prioritizing backlog items based on the business value they deliver
-B: By creating a detailed financial plan for the iteration
-C: By assigning specific tasks to development team members
-D: By scheduling the iteration's activities on a timeline
+B: By creating a detailed financial plan for the iteration and allocating resources
+C: By assigning specific tasks to development team members for the iteration backlog
+D: By scheduling the iteration's activities on a timeline and setting deadlines
 Answer: A
 Explanation: Business analysis contributes to Iteration Planning in adaptive methodologies by elaborating on backlog items and prioritizing them based on the business value they deliver. This helps align development efforts with business objectives.
 
 Question: What is the outcome of the Iteration Planning session in Agile methodologies?
-A: Finalization of the project's total duration
+A: Finalization of the project's total duration and budget
 B: Selection of items as "planned work" for the current or next iteration
-C: Approval of the project's final deliverables
-D: Allocation of resources to different departments
+C: Approval of the project's final deliverables and milestones
+D: Allocation of resources to different departments for the iteration
 Answer: B
 Explanation: The outcome of the Iteration Planning session in Agile methodologies is the selection of specific items from the product backlog as "planned work" for the current or next iteration. These selected items are approved for development during the iteration.
 
 Question: Why is aligning development efforts with organizational goals an important aspect of Iteration Planning?
-A: To ensure efficient use of resources
-B: To facilitate value-based delivery and alignment with business objectives
-C: To comply with regulatory standards
-D: To maintain the project schedule
+A: To ensure efficient use of resources and budget for the iteration
+B: To enable value-based delivery aligned with business objectives
+C: To comply with regulatory standards and requirements
+D: To maintain the project schedule and timeline
 Answer: B
 Explanation: Aligning development efforts with organizational goals during Iteration Planning is important to facilitate value-based delivery. This alignment ensures that the team's efforts are closely connected with the business objectives, maximizing the impact and relevance of the development work.
 ```

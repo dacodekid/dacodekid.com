@@ -75,42 +75,42 @@ Each of these disadvantages could impact the overall effectiveness of a business
 
 ```quiz
 Question: What is the primary aim of Benchmarking in Business Analysis?
-A: To determine the organization's financial performance
+A: To determine the organization's financial performance relative to competitors
 B: To identify gaps in performance and gain insights into areas for improvement
-C: To assess employee satisfaction and morale
-D: To evaluate the effectiveness of marketing strategies
+C: To assess employee satisfaction and morale within the organization
+D: To evaluate the effectiveness of marketing strategies and campaigns
 Answer: B
 Explanation: The primary aim of Benchmarking is to identify gaps in performance and gain insights into areas for improvement by comparing an organization's practices, processes, and performance metrics against those of industry leaders or established standards.
 
 Question: Which of the following is NOT a use of Benchmarking in Business Analysis?
 A: Evaluating the magnitude of a problem or opportunity
 B: Determining new capabilities for future state analysis
-C: Directly increasing sales and market share
-D: Generating ideas for solution options
+C: Directly increasing sales and market share for the organization
+D: Generating ideas for solution options to solve a problem
 Answer: C
 Explanation: Benchmarking is used for understanding the magnitude of problems or opportunities, aiding future state analysis, and idea generation for solution options. It does not directly increase sales and market share.
 
 Question: What is a crucial first step in the Benchmarking methodology?
-A: Implementing changes based on Benchmarking results
+A: Implementing changes based on Benchmarking results to improve performance
 B: Identifying the Benchmark subject, such as processes or performance metrics
-C: Sharing organizational data with Benchmarking partners
-D: Reviewing the effectiveness of changes periodically
+C: Sharing organizational data with Benchmarking partners to gain insights
+D: Reviewing the effectiveness of changes periodically to stay current
 Answer: B
 Explanation: The first crucial step in the Benchmarking methodology is to identify the Benchmark subject (e.g., processes, performance metrics, or practices) to be compared with others.
 
 Question: Which of the following represents a disadvantage of Benchmarking?
-A: Encouraging a continuous improvement culture
+A: Encouraging a continuous improvement culture within the organization
 B: The process being resource-intensive and time-consuming
 C: Enhancing the ability to measure the effectiveness of changes
-D: Increasing the reliability of internal data
+D: Increasing the reliability of internal data and metrics
 Answer: B
 Explanation: A significant disadvantage of Benchmarking is that it can be resource-intensive and time-consuming, requiring considerable effort to collect, analyze, and interpret data.
 
 Question: In Benchmarking, why might data from other organizations not always be reliable or comparable?
-A: Because of variations in corporate cultures and employee morale
+A: Because of variations in corporate cultures and employee morale between organizations
 B: Due to differences in accounting practices, technologies, or market conditions
-C: As a result of the organization's unique strategic goals and objectives
-D: Due to the competitive nature of the benchmarking process
+C: As a result of the organization's unique strategic goals and objectives not aligning with those of other organizations
+D: Due to the competitive nature of the benchmarking process itself
 Answer: B
 Explanation: The reliability and comparability of data in Benchmarking might be compromised due to variations in accounting practices, technologies, or market conditions between different organizations.
 ```

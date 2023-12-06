@@ -41,18 +41,18 @@ quadrantChart
 
 ```quiz
 Question: What is the primary function of the Purpose Alignment Model in business analysis?
-A: To track the individual performance of team members
+A: To track the individual performance of team members involved in the project
 B: To align product features with the organization's business purposes
-C: To create a detailed financial budget for the project
-D: To serve as a legal framework for stakeholder agreements
+C: To create a detailed financial budget for the project deliverables
+D: To serve as a legal framework for stakeholder agreements and contracts
 Answer: B
 Explanation: The Purpose Alignment Model is used in business analysis to align product features or business options with the organization's overarching business purposes, facilitating informed decision-making and prioritization.
 
 Question: In the Purpose Alignment Model, what does the "Criticality" dimension assess?
-A: The financial cost of each feature
+A: The financial cost of each feature or option
 B: How mission-critical a feature or option is for the organization
-C: The personal preferences of the project manager
-D: The legal implications of each feature
+C: The personal preferences of the project manager or product owner
+D: The legal implications of each feature or option
 Answer: B
 Explanation: The "Criticality" dimension in the Purpose Alignment Model assesses how mission-critical a feature or option is for the organization, such as its importance for regulatory compliance or basic operations.
 
@@ -65,15 +65,15 @@ Answer: A
 Explanation: The "Differentiating" category in the Purpose Alignment Model includes features that are both mission-critical and offer high market differentiation. These features are imperative for maintaining a competitive edge.
 
 Question: How does the Purpose Alignment Model contribute to effective prioritization in product development?
-A: By providing a detailed technical specification for each feature
+A: By providing a detailed technical specification for each feature or option
 B: By aligning product strategy with business strategy and clarifying feature value
-C: By setting up a rigid, inflexible decision-making process
-D: By focusing solely on the aesthetic aspects of product features
+C: By setting up a rigid, inflexible decision-making process for the product team
+D: By focusing solely on the aesthetic aspects of product features and options
 Answer: B
 Explanation: The Purpose Alignment Model contributes to effective prioritization by aligning the product strategy with the business strategy and clarifying the value and importance of each feature, leading to more effective decision-making processes.
 
 Question: What is the recommended approach for features categorized as "Who Cares" in the Purpose Alignment Model?
-A: Invest heavily in these features
+A: Invest heavily in these features to gain a competitive advantage
 B: Typically, these features do not warrant investment
 C: Use them as the primary selling point of the product
 D: Allocate most resources to their development

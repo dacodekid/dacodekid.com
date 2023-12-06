@@ -63,34 +63,34 @@ In this example, each option is evaluated based on four criteria, each with its 
 
 ```quiz
 Question: What is the main purpose of using Weighted Ranking in business analysis?
-A: To manage team vacation schedules
+A: To manage team vacation schedules and time off
 B: To provide an objective evaluation of options based on multiple criteria
-C: To set up the organization's IT infrastructure
-D: To design marketing strategies for the organization
+C: To set up the organization's IT infrastructure and network
+D: To design marketing strategies for the organization and its products
 Answer: B
 Explanation: Weighted Ranking is used in business analysis to provide an objective evaluation of various options based on multiple criteria, aligning choices with business goals and objectives.
 
 Question: How are weights used in the Weighted Ranking method?
-A: To measure the aesthetic appeal of each option
+A: To measure the aesthetic appeal of each option under consideration
 B: To quantify the significance of each criterion in the decision-making process
-C: To track the financial expenditure of the project
+C: To track the financial expenditure of the project and business
 D: To determine the social media impact of each option
 Answer: B
 Explanation: In Weighted Ranking, weights are assigned to each criterion based on their importance relative to the overall objective. They quantify the significance of each criterion in the decision-making process.
 
 Question: What does a higher total score in Weighted Ranking indicate?
-A: That the option is more expensive
+A: That the option is more expensive to implement
 B: That the option is better aligned with the criteria and weights
-C: That the option requires more time to implement
-D: That the option is less favorable
+C: That the option requires more time to implement and deploy
+D: That the option is less favorable than other options
 Answer: B
 Explanation: A higher total score in Weighted Ranking indicates that the option is better aligned with the criteria and respective weights, suggesting it may be a more suitable choice based on the evaluated factors.
 
 Question: Can Weighted Ranking be useful in scenarios with diverse stakeholder viewpoints?
-A: No, it is only useful for financial decisions
+A: No, it is only useful for financial decisions and budgeting
 B: Yes, it supports objectivity in decision-making with diverse viewpoints
-C: It is only used for IT-related decisions
-D: It is exclusively for marketing decisions
+C: It is only used for IT-related decisions and projects, not for other business decisions
+D: It is exclusively for marketing decisions and strategies
 Answer: B
 Explanation: Weighted Ranking can be particularly effective in scenarios where stakeholders have diverse viewpoints. It supports objectivity in the decision-making process and helps in aligning decisions with business goals.
 

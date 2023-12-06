@@ -44,7 +44,7 @@ classDef nodeclass stroke:#333,stroke-width:2px;
 ```quiz
 Question: What is the primary purpose of a User Interface Flow in business analysis?
 A: To create a detailed budget for the project.
-B: To visually represent the navigation and interactions between different user interface screens in a system.
+B: Visually depict navigation and interactions between UI screens.
 C: It is used solely for documenting the technical architecture of the system.
 D: To record the personal information of system users.
 Answer: B
@@ -52,15 +52,15 @@ Explanation: The primary purpose of a User Interface Flow in business analysis i
 
 Question: At what stage in the solution development process are User Interface Flows typically created?
 A: After the project has been completed.
-B: During the solution definition stage, to map out screens requiring detail and aid in elicitation sessions.
-C: They are only created at the start of the project.
+B: In the solution definition stage, map screens for detail and aid elicitation sessions.
+C: They are only created at the start of the project before any other documentation.
 D: User Interface Flows are never created; they are assumed.
 Answer: B
 Explanation: User Interface Flows are generally crafted during the solution definition stage of the project. They are used to map out and provide detail for all the screens in a system and are particularly useful in elicitation sessions, facilitating discussions around user-system interactions.
 
 Question: How do User Interface Flows relate to other requirements models?
 A: They replace the need for other requirements models.
-B: User Interface Flows complement other requirements models, providing a cohesive view of how requirements manifest in the user interface.
+B: UI Flows complement requirements models, showing how requirements appear in the UI.
 C: There is no relation between User Interface Flows and other requirements models.
 D: User Interface Flows only focus on financial requirements.
 Answer: B
@@ -68,7 +68,7 @@ Explanation: User Interface Flows do not stand alone but complement other requir
 
 Question: What aspect of a solution does a User Interface Flow model primarily focus on?
 A: The financial aspects of the solution.
-B: It focuses on the user interface of the system, particularly the navigation and interactions between different screens.
+B: Focuses on the UI, especially screen navigation and interactions.
 C: User Interface Flows focus exclusively on the backend processing of the system.
 D: They are primarily concerned with the physical hardware of the system.
 Answer: B
@@ -76,7 +76,7 @@ Explanation: A User Interface Flow model focuses primarily on the user interface
 
 Question: Why is the User Interface Flow crucial for overall user experience and system usability?
 A: It is irrelevant for user experience and system usability.
-B: Because it ensures that the design of the user interface is sensible and effective, directly impacting the user's interaction with the system.
+B: Ensures sensible and effective UI design, impacting user interaction.
 C: User Interface Flows are only used for aesthetic purposes.
 D: They are crucial because they focus only on the technical specifications of the user interface.
 Answer: B

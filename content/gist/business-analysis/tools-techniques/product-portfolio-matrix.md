@@ -84,41 +84,41 @@ graph TD
 ```quiz
 Question: What is the primary purpose of using a Product Portfolio Matrix in business analysis?
 A: To provide a detailed financial analysis of each product.
-B: To qualitatively assess the range of products in terms of market growth and market share.
-C: It is exclusively used for human resource allocation.
-D: To develop technical specifications for new products.
+B: To evaluate the product spectrum's market growth and share.
+C: It is exclusively used for human resource allocation and management.
+D: To develop technical specifications for new products and services.
 Answer: B
 Explanation: The primary purpose of the Product Portfolio Matrix is to qualitatively assess an organization's range of products or product lines based on market growth and market share, aiding in strategic decision-making.
 
 Question: How does the 'Upper Left Quadrant' in the Product Portfolio Matrix signify a product's market position?
-A: It indicates products with low market share in a rapidly declining market.
-B: Products in this quadrant have high market share in a high growth market, indicating they are 'stars' with significant benefits.
-C: The quadrant represents products with high market share in a low growth market.
+A: It indicates products with low market share in a rapidly declining market that are candidates for divestment.
+B: This quadrant's products are 'stars' with high market share in a growing market, offering substantial benefits.
+C: The quadrant represents products with high market share in a low growth market that are dependable sources of income.
 D: It signifies products that are new to the market with untested potential.
 Answer: B
 Explanation: The 'Upper Left Quadrant' of the Product Portfolio Matrix represents products that have a high market share in a rapidly growing market. These products are considered 'stars' and are crucial for the organization’s growth and profit.
 
 Question: What strategy might be recommended for a product in the 'Lower Right Quadrant' of the matrix?
-A: Significant investment for market expansion.
-B: Maintaining the status quo with minimal changes.
+A: Significant investment for market expansion and growth.
+B: Maintaining the status quo with minimal changes or investment.
 C: Consideration for divestment or repositioning due to low performance.
-D: Aggressive marketing and development as they are 'stars.'
+D: Aggressive marketing and development as they are 'stars' with high potential.
 Answer: C
 Explanation: Products in the 'Lower Right Quadrant' (low market share, low growth) are often termed 'dogs.' They are low performers and the matrix suggests they might be candidates for divestment or repositioning.
 
 Question: Why are products in the 'Lower Left Quadrant' referred to as 'cash cows'?
-A: They require high investment for market growth.
-B: These are new products with untested market potential.
-C: They are dependable sources of income with low growth but high market share, requiring minimal investment.
-D: They have low market share and are considered non-essential to the business.
+A: They require high investment for market growth and expansion.
+B: These are new products with untested market potential and require significant investment.
+C: They are reliable income sources with low growth, high market share, and need little investment.
+D: They have low market share and are considered non-essential to the business and its growth.
 Answer: C
 Explanation: Products in the 'Lower Left Quadrant' are termed 'cash cows' because they have a high market share in a low growth market, making them dependable sources of steady income with typically low investment needs.
 
 Question: In the context of the Product Portfolio Matrix, what are 'question marks' or 'problem children'?
-A: Products with high market share and high market growth.
-B: Products in a low growth market with high market share.
-C: Products with low market share in a high growth market, indicating potential but requiring strategic investment.
-D: Products with both low market share and low growth rates.
+A: Products with high market share and high market growth rates.
+B: Products in a low growth market with high market share and low investment needs to maintain their position.
+C: Products in this category have low market share yet high growth potential, needing strategic investment.
+D: Products with both low market share and low growth rates that are candidates for divestment.
 Answer: C
 Explanation: 'Question marks' or 'problem children' refer to products that have a low market share in a high growth market. They show potential but require strategic investments to increase their market share.
 ```

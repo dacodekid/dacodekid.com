@@ -29,23 +29,23 @@ In essence, Persona Analysis is an invaluable tool in business analysis. It prov
 
 ```quiz
 Question: What is the fundamental distinction between a Persona in Persona Analysis and a Stakeholder in a project?
-A: A Persona is a real individual with specific project interests, while a Stakeholder is a fictional representation.
+A: A Persona is a real individual with specific project interests, while a Stakeholder is a fictional representation of a group.
 B: A Persona is a fictional representation of a group, while a Stakeholder is an actual individual involved in the project.
-C: Personas and Stakeholders are essentially the same in a project context.
+C: Personas and Stakeholders are essentially the same in a project context and can be used interchangeably.
 D: A Persona is used exclusively in IT projects, while Stakeholders are involved in all types of projects.
 Answer: B
 Explanation: A Persona is a fictional character representing a larger group of stakeholders or user classes, whereas a Stakeholder is an actual individual with varying degrees of interest and influence in a project. Personas encapsulate detailed behavioral characteristics of the group they represent, unlike stakeholders.
 
 Question: Which aspect is NOT typically included in the construction of a Persona?
-A: Goals and motivations of the user class
+A: Goals and motivations of the user class being represented
 B: The specific financial status of each individual in the user class
-C: Preferred methods for performing tasks
-D: Device literacy and interaction with systems
+C: Preferred methods for performing tasks and actions by the user class
+D: Device literacy and interaction with systems or products
 Answer: B
 Explanation: While creating a Persona involves detailing goals, behaviors, motivations, environment, and skills, it does not typically include the specific financial status of each individual in the user class. Personas are broader representations and do not delve into such specific personal details.
 
 Question: How does Persona Analysis specifically benefit User Experience Design in IT and product development?
-A: By providing detailed financial analysis of user classes
+A: By providing detailed financial analysis of user classes to inform design decisions
 B: By outlining the legal implications of user interactions with the system
 C: By offering insights into user behaviors and needs to inform design decisions
 D: By determining the project budget based on user preferences
@@ -54,16 +54,16 @@ Explanation: In IT and product development, Persona Analysis aids User Experienc
 
 Question: What is the primary objective of Persona Analysis in the context of Business Analysis?
 A: To create a detailed budget plan for the project
-B: To understand the behavioral characteristics of stakeholder groups and inform various aspects of project planning
-C: To provide legal advice regarding stakeholder engagement
-D: To solely focus on the technological aspects of a project
+B: To comprehend stakeholder groups' behavioral traits for project planning
+C: To provide legal advice regarding stakeholder engagement and communication
+D: To solely focus on the technological aspects of a project and not on stakeholder needs
 Answer: B
 Explanation: The primary objective of Persona Analysis in Business Analysis is to understand the behavioral characteristics of stakeholder groups or user classes. This understanding aids in aspects like stakeholder requirements definition, business analysis approach structuring, user experience design, and effective communication and engagement strategies.
 
 Question: In what form are Personas often written to represent the user class?
-A: As a series of technical specifications
+A: As a series of technical specifications outlining user requirements
 B: In a narrative form, telling a story about the user class
-C: As legal documents outlining user rights
+C: As legal documents outlining user rights and responsibilities
 D: As financial statements reflecting user investments
 Answer: B
 Explanation: Personas are often written in a narrative form, which tells a story about the user class they represent. This narrative approach helps to encapsulate the characteristics like goals, behaviors, motivations, environment, and skills of the user class in a relatable and understandable way.

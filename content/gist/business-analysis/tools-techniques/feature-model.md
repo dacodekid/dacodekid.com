@@ -55,41 +55,41 @@ By providing a high-level view that can be easily digested, feature models serve
 
 ```quiz
 Question: What is the primary purpose of a Feature Model in business analysis and product development?
-A: To track financial expenditure throughout the project
-B: To manage team assignments and human resource allocation
+A: To track financial expenditure throughout the project lifecycle
+B: To manage team assignments and human resource allocation for the project
 C: To visually depict all features of a solution in a structured format
-D: To create a detailed schedule for project implementation
+D: To create a detailed schedule for project implementation and delivery
 Answer: C
 Explanation: The primary purpose of a Feature Model is to visually depict all the features of a solution in a structured, hierarchical format, showcasing how features are grouped and the relationships between them.
 
 Question: In a Feature Model, what does Level 1 (L1) represent?
 A: Specific technical specifications of the smallest features
-B: Detailed cost analysis for each feature
+B: Detailed cost analysis for each feature in the model
 C: The most general functionalities or categories of the solution
-D: The individual tasks assigned to team members
+D: The individual tasks assigned to team members for each feature
 Answer: C
 Explanation: Level 1 (L1) features in a Feature Model represent the most general functionalities or categories of the solution, forming the highest level of the feature hierarchy.
 
 Question: How is a Feature Model typically updated in an adaptive or agile project?
 A: By maintaining a fixed set of features throughout the project
 B: By tagging features for inclusion in specific iterations or sprints
-C: By conducting annual reviews of the project's progress
-D: By solely focusing on the financial aspects of features
+C: By conducting annual reviews of the project's progress and status
+D: By solely focusing on the financial aspects of features and requirements
 Answer: B
 Explanation: In adaptive or agile methodologies, Feature Models are dynamic tools where features can be tagged or labeled for inclusion in specific iterations or sprints, facilitating agile adjustments and release planning.
 
 Question: What advantage does a Feature Model provide in terms of stakeholder communication?
-A: It offers a detailed legal contract for all stakeholders
-B: It provides a comprehensive employee performance review
+A: It offers a detailed legal contract for all stakeholders to sign
+B: It provides a comprehensive employee performance review for each stakeholder
 C: It serves as a consolidated view of the entire feature set on a single page
 D: It acts as a primary source for marketing content
 Answer: C
 Explanation: A Feature Model offers the advantage of serving as a consolidated view, allowing stakeholders to comprehend the entire feature set of a solution on a single page, enhancing communication and understanding.
 
 Question: What is the relationship between features in a Feature Model and requirements in business analysis?
-A: Features in the model represent unrelated, standalone elements
+A: Features in the model represent unrelated, standalone elements of the solution
 B: Features are groups of related requirements, aiding in organization and traceability
-C: Features are purely hypothetical and not related to actual requirements
+C: Features are purely hypothetical and not related to actual requirements of the solution
 D: Each feature corresponds to a single, isolated requirement
 Answer: B
 Explanation: In a Feature Model, features are groups of related requirements. This grouping helps in the organization and tracing of these underlying requirements, ensuring comprehensive coverage in the business analysis process.

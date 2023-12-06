@@ -41,15 +41,15 @@ Valuation techniques are essential tools in the arsenal of business analysts. By
 
 ```quiz
 Question: Why are valuation techniques important in business analysis?
-A: To design the organization's website
+A: To design the organization's website and mobile app
 B: To quantify the potential return or value of solutions
-C: To set up team-building activities
+C: To set up team-building activities for the project team
 D: To manage the organization's social media accounts
 Answer: B
 Explanation: Valuation techniques are important in business analysis because they help quantify the potential return or value of various solutions, enabling analysts to make more objective and informed decisions about the feasibility and success of investments or projects.
 
 Question: What does the Internal Rate of Return (IRR) indicate in business analysis?
-A: The aesthetic value of a project
+A: The aesthetic value of a project or solution
 B: The projected annual yield of an investment
 C: The time needed to train employees
 D: The effectiveness of marketing strategies
@@ -58,8 +58,8 @@ Explanation: The Internal Rate of Return (IRR) in business analysis is focused o
 
 Question: How is the Net Present Value (NPV) used in evaluating investment options?
 A: It projects the future value of expected benefits in current terms
-B: It determines the project's impact on social media engagement
-C: It measures the effectiveness of the project team
+B: It determines the project's impact on social media engagement metrics
+C: It measures the effectiveness of the project team in meeting deadlines
 D: It assesses the project's legal compliance
 Answer: A
 Explanation: Net Present Value (NPV) is used to project the future value of expected benefits in current terms, considering present and future benefits, inflation, and potential yields from alternative investments. A higher NPV suggests that an investment will be more valuable.
@@ -75,8 +75,8 @@ Explanation: A limitation of focusing solely on financial metrics in valuation t
 Question: How do organizational policies influence the choice of valuation techniques?
 A: They dictate the social media strategy for the organization
 B: Specific factors like minimum NPV or ROI might be mandated by policy
-C: They have no influence on the choice of valuation techniques
-D: They solely focus on the aesthetic aspects of the project
+C: They have no influence on the choice of valuation techniques in business analysis
+D: They solely focus on the aesthetic aspects of the project or solution
 Answer: B
 Explanation: Organizational policies can significantly influence the choice of valuation techniques, as specific factors like a minimum Net Present Value (NPV) or Return on Investment (ROI) might be mandated by policy, necessitating an understanding of these techniques and their implications.
 

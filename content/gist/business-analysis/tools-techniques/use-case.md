@@ -56,16 +56,16 @@ Use Cases offer a structured framework to capture, represent, and analyze the dy
 
 ```quiz
 Question: What is the primary function of a use case in business analysis?
-A: To serve as a financial ledger for the project.
-B: To provide detailed narratives of system-user interactions for achieving specific goals, identifying and elaborating on requirements.
-C: It is used solely for scheduling project timelines.
-D: To record the personal information of project team members.
+A: To serve as a financial ledger for the project, tracking all financial transactions.
+B: Detailed narratives of system-user interactions to identify and elaborate on requirements.
+C: It is used solely for scheduling project timelines and milestones.
+D: To record the personal information of project team members, not requirements.
 Answer: B
 Explanation: The primary function of a use case in business analysis is to provide a structured, detailed narrative that elucidates the interactions between a system and its users aimed at achieving a specific goal. Use cases play a crucial role in identifying and elaborating on requirements, both functional and nonfunctional.
 
 Question: How does the 'normal flow' in a use case contribute to understanding system interactions?
 A: It only details the financial transactions within the system.
-B: The 'normal flow' outlines the most frequent pattern of interactions under typical conditions, providing insight into standard system-user dynamics.
+B: The 'normal flow' details typical interactions, revealing standard system-user dynamics.
 C: Normal flow is irrelevant in use cases.
 D: It exclusively focuses on the technical architecture of the system.
 Answer: B
@@ -73,23 +73,23 @@ Explanation: In a use case, the 'normal flow' is critical as it describes the mo
 
 Question: What types of requirements are primarily addressed by use cases?
 A: Only financial requirements.
-B: Use cases are predominantly used to identify functional requirements but can also specify nonfunctional requirements or acceptance criteria.
-C: They exclusively address legal requirements.
-D: Use cases are only for aesthetic design requirements.
+B: Use cases identify functional and nonfunctional requirements, including acceptance criteria.
+C: They exclusively address legal and regulatory requirements.
+D: Use cases are only for aesthetic design requirements, not functional ones, and are irrelevant to nonfunctional requirements.
 Answer: B
 Explanation: Use cases are primarily employed to capture and articulate functional requirements. However, they can also be used to specify nonfunctional requirements or acceptance criteria, though nonfunctional aspects are typically documented separately.
 
 Question: When are use cases typically formulated in the business analysis process?
-A: After the project has been completed.
-B: Use cases are often created after process flows have been developed, providing additional details for specific steps in the process.
-C: They are only formulated at the start of the project.
-D: Use cases are never formulated; they are assumed.
+A: After the project has been completed and the system is operational.
+B: Use cases are created after process flows, adding details to specific steps.
+C: They are only formulated at the start of the project before any other documentation.
+D: Use cases are never formulated; they are assumed to be self-evident.
 Answer: B
 Explanation: Use cases are typically formulated after the development of process flows. This timing allows for the provision of detailed insights and supplementary information for specific steps within those process flows, enhancing the understanding of complex system-user interactions.
 
 Question: In what format can textual use cases be represented?
 A: Exclusively in a pictorial format.
-B: Textual use cases can be represented through a standardized document template or in a tabular form with standardized columns.
+B: Textual use cases follow a standardized document template or tabular format.
 C: They are only represented in a video format.
 D: Use cases are represented in a purely verbal format without documentation.
 Answer: B

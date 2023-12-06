@@ -90,25 +90,25 @@ Answer: B
 Explanation: In a Context Diagram, the central circle usually represents the system under development, around which the context of interactions with interfacing systems and human actors is defined.
 
 Question: Why are Context Diagrams particularly useful in the early stages of a project?
-A: They provide a detailed schedule of project activities
+A: They provide a detailed schedule of project activities and milestones
 B: They offer a high-level view of system interactions, aiding in scope definition
-C: They allocate resources to different project tasks
-D: They assess the financial viability of the project
+C: They allocate resources to different project tasks and activities based on priority
+D: They assess the financial viability of the project and its deliverables
 Answer: B
 Explanation: Context Diagrams are valuable in the early stages of a project because they provide a clear, high-level view of system interactions, which is essential for defining the project scope and understanding external touchpoints.
 
 Question: When employing a Context Diagram for gap analysis, what is the purpose of modeling both the current ("as-is") and future ("to-be") states of a system?
 A: To understand what changes are needed for transition
 B: To allocate budget between current and future phases
-C: To evaluate team performance in both states
+C: To evaluate team performance in both states of the system
 D: To determine the project completion date
 Answer: A
 Explanation: Modeling both "as-is" and "to-be" states in a Context Diagram is leveraged in gap analysis to understand the changes or developments needed to transition from the current state to the desired future state.
 
 Question: What is a key advantage of using Context Diagrams in a project?
-A: They provide a detailed financial analysis
+A: They provide a detailed financial analysis of the project
 B: They offer clarity with a high-level view of system interactions
-C: They outline the detailed steps for implementation
+C: They outline the detailed steps for implementation of the project
 D: They assign specific tasks to project team members
 Answer: B
 Explanation: A key advantage of using Context Diagrams is the clarity they provide with a high-level view of system interactions, which is especially useful for stakeholders not involved in the detailed aspects of the project.

@@ -42,34 +42,34 @@ Answer: C
 Explanation: The Display-Action-Response (DAR) Model is a tool used to describe the interactions between a user and a system, focusing on what the user sees, does, and how the system responds. It is ideal for analyzing and documenting user interface interactions.
 
 Question: In the context of the DAR model, what does the 'Display' component refer to?
-A: The project timeline displayed to the management
-B: The cost display for the project budget
+A: The project timeline displayed to the management team
+B: The cost display for the project budget and expenses
 C: What the user sees on the screen, including text and interactive elements
-D: The data display in project status reports
+D: The data display in project status reports and dashboards to stakeholders
 Answer: C
 Explanation: In the DAR model, the 'Display' component refers to what the user sees on the screen, such as text, graphics, buttons, and other interactive elements that provide context and options for interaction.
 
 Question: How does the DAR model assist in user experience testing?
-A: By creating financial reports for the user interface
-B: By planning the project schedule for user testing
+A: By creating financial reports for the user interface design team
+B: By planning the project schedule for user testing activities to be conducted
 C: By creating test scenarios to evaluate the system's intuitiveness and responsiveness
-D: By assigning roles for user testing
+D: By assigning roles for user testing activities to be conducted
 Answer: C
 Explanation: The DAR model is useful in user experience testing as it helps create test scenarios that evaluate how intuitive and responsive a system is from the user's perspective, focusing on the display, action, and response.
 
 Question: What aspect of business analysis is directly supported by the use of the DAR model?
-A: Budgeting and financial analysis
+A: Budgeting and financial analysis of the project
 B: Requirements elicitation and analysis
-C: Staffing and resource allocation
+C: Staffing and resource allocation for the project
 D: Marketing and sales strategy
 Answer: B
 Explanation: The DAR model directly supports requirements elicitation and analysis in business analysis. Understanding the user-system interactions through the DAR model helps in eliciting more precise functional and non-functional requirements.
 
 Question: In the Display-Action-Response model, what is the 'Response' component primarily concerned with?
-A: How the user feels about the system
+A: How the user feels about the system interaction
 B: The system's reaction to the user's action
 C: The response time of the project team
-D: The feedback from stakeholders
+D: The feedback from stakeholders about the system
 Answer: B
 Explanation: In the DAR model, the 'Response' component is concerned with how the system reacts to the user's action, which can involve changes to the display, computations, or triggering other actions, providing feedback about the user's interaction.
 ```

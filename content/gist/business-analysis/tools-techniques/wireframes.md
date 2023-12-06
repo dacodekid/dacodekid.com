@@ -63,18 +63,18 @@ Answer: B
 Explanation: Wireframes are used primarily for outlining the skeletal framework of a digital product, focusing on the placement of elements and layout design, particularly in the context of UI/UX design.
 
 Question: During a project meeting, a stakeholder expresses concern that the Wireframes might be the final design of the product. As a Business Analyst, how do you address this misconception?
-A: Explain that Wireframes are actually high-fidelity, interactive prototypes
-B: Clarify that Wireframes focus on functionality and layout, not on design aesthetics like color and font
-C: Confirm that Wireframes are the final design and no further changes will be made
+A: Explain that Wireframes are actually high-fidelity, interactive prototypes of the product
+B: Wireframes focus on functionality and layout, excluding design aesthetics like color and font
+C: Confirm that Wireframes are the final design and no further changes will be made to the product
 D: Suggest that Wireframes are only used for coding and not for design purposes
 Answer: B
 Explanation: Wireframes are not concerned with design aesthetics like color, font, or actual images. They focus more on the functionality and layout of the system, serving as a preliminary step in the design process.
 
 Question: If you are using Wireframes for "Requirements Validation", what aspect of Wireframing are you primarily leveraging?
 A: The ability to determine the final color and style of the user interface
-B: The use of Wireframes to guide front-end developers in coding
-C: Providing a tangible or visible representation to validate functional and UI requirements
-D: The creation of high-fidelity, interactive prototypes for user testing
+B: The use of Wireframes to guide front-end developers in coding the system
+C: Tangible representation validates functional and UI requirements.
+D: The creation of high-fidelity, interactive prototypes for user testing and feedback
 Answer: C
 Explanation: In "Requirements Validation", Wireframes are used to provide stakeholders with a tangible or visible representation, allowing them to validate functional and UI requirements.
 
@@ -88,7 +88,7 @@ Explanation: Wireframes are an agile tool suitable for iterative development pro
 
 Question: As a Business Analyst, you are explaining the importance of Wireframes in the context of "User Flow". What is a key aspect of Wireframes that supports this use?
 A: They are primarily used to choose the final design elements like icons and images
-B: Wireframes facilitate the visualization of how the user will navigate through different features
+B: Wireframes visualize user navigation through features.
 C: They are only used for finalizing the content like text and media on the system
 D: Wireframes are mainly for backend development to understand data flow
 Answer: B
