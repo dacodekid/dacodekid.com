@@ -58,7 +58,7 @@ Explanation: During a Walkthrough session, the flow of information should ideall
 
 Question: What is the importance of Requirements Walkthroughs in the validation process?
 A: They are important for entertaining stakeholders.
-B:Requirements Walkthroughs confirm requirements' accuracy and completeness.
+B: Requirements Walkthroughs confirm requirements' accuracy and completeness.
 C: Their importance is limited to documenting stakeholder attendance.
 D: These walkthroughs are mainly for the business analyst's benefit.
 Answer: B
